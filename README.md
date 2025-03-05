@@ -1,0 +1,1 @@
+Designed a custom 62nm CMOS standard cell library and synthesized a Matrix Vector Multiplier using it. Created schematics, layouts, and verified cells with DRC/LVS/PEX. Generated liberty files, performed Place & Route, and conducted STA for optimal clock timing using industry-standard EDA tools.
