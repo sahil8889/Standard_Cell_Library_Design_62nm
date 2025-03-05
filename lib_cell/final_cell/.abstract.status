@@ -1,0 +1,6 @@
+cUiSetViewStatus {final_cell} {layout} {1}
+cUiSetViewStatus {final_cell} {logical} {0}
+cUiSetViewStatus {final_cell} {abstract.pin} {17}
+cUiSetViewStatus {final_cell} {abstract.ext} {17}
+cUiSetViewStatus {final_cell} {abstract} {19}
+cUiSetViewStatus {final_cell} {abstract.ver} {0}

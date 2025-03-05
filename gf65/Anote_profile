@@ -1,0 +1,23 @@
+# 01jun16 
+
+# . /proj/cad/startup/profile.ic-6.15
+# . /proj/cad/startup/profile.ic-6.17
+. /proj/cad/startup/profile.ic-6.18
+
+. /proj/cad/startup/profile.mentor_2018
+
+# following envirnment vars are for Calibre DRC/LVS:
+export TECHDIR=/proj/cad/library/mosis/GF65_LPe/Calibre
+export LEGACY_MIMCAP=NO
+export BEOL_STACK=6_00_01_00_LB
+export IOTYPE=INLINE
+export DESIGN_TYPE=CHIP
+
+export RECOMMENDED_RULES=NO
+
+# addded 21jul16 to match MOSIS environment, in email from Amna
+export FCPBGAE=NO
+export LAYOUT_TYPE=GDSII
+
+virtuoso&
+

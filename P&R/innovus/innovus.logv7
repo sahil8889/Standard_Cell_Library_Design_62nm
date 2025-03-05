@@ -1,0 +1,864 @@
+[12/04 23:47:51      0s] 
+[12/04 23:47:51      0s] Cadence Innovus(TM) Implementation System.
+[12/04 23:47:51      0s] Copyright 2017 Cadence Design Systems, Inc. All rights reserved worldwide.
+[12/04 23:47:51      0s] 
+[12/04 23:47:51      0s] Version:	v17.10-p006_1, built Wed May 31 11:06:15 PDT 2017
+[12/04 23:47:51      0s] Options:	
+[12/04 23:47:51      0s] Date:		Wed Dec  4 23:47:51 2024
+[12/04 23:47:51      0s] Host:		engnx03a.utdallas.edu (x86_64 w/Linux 3.10.0-1160.119.1.el7.x86_64) (8cores*32cpus*AMD EPYC 7F32 8-Core Processor 512KB)
+[12/04 23:47:51      0s] OS:		Red Hat Enterprise Linux Server release 7.9 (Maipo)
+[12/04 23:47:51      0s] 
+[12/04 23:47:51      0s] License:
+[12/04 23:47:51      0s] 		invs	Innovus Implementation System	17.1	checkout succeeded
+[12/04 23:47:51      0s] 		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+[12/04 23:47:58      7s] @(#)CDS: Innovus v17.10-p006_1 (64bit) 05/31/2017 11:06 (Linux 2.6.18-194.el5)
+[12/04 23:47:58      7s] @(#)CDS: NanoRoute 17.10-p006_1 NR170516-1601/17_10-UB (database version 2.30, 378.7.1) {superthreading v1.44}
+[12/04 23:47:58      7s] @(#)CDS: AAE 17.10-p003 (64bit) 05/31/2017 (Linux 2.6.18-194.el5)
+[12/04 23:47:58      7s] @(#)CDS: CTE 17.10-p002_1 () May 18 2017 07:46:32 ( )
+[12/04 23:47:58      7s] @(#)CDS: SYNTECH 17.10-p001_1 () May 17 2017 01:24:45 ( )
+[12/04 23:47:58      7s] @(#)CDS: CPE v17.10-p003
+[12/04 23:47:58      7s] @(#)CDS: IQRC/TQRC 16.1.1-s140 (64bit) Fri Mar 17 16:46:12 PDT 2017 (Linux 2.6.18-194.el5)
+[12/04 23:47:58      7s] @(#)CDS: OA 22.50-p063 Fri Feb  3 19:45:13 2017
+[12/04 23:47:58      7s] @(#)CDS: SGN 10.10-p124 (19-Aug-2014) (64 bit executable)
+[12/04 23:47:58      7s] @(#)CDS: RCDB 11.10
+[12/04 23:47:58      7s] --- Running on engnx03a.utdallas.edu (x86_64 w/Linux 3.10.0-1160.119.1.el7.x86_64) (8cores*32cpus*AMD EPYC 7F32 8-Core Processor 512KB) ---
+[12/04 23:47:58      7s] Create and set the environment variable TMPDIR to /usr/tmp/innovus_temp_29100_engnx03a.utdallas.edu_sxv240035_D95QIA.
+
+[12/04 23:47:58      7s] Change the soft stacksize limit to 0.2%RAM (514 mbytes). Set global soft_stack_size_limit to change the value.
+[12/04 23:47:58      7s] 
+[12/04 23:47:58      7s] **INFO:  MMMC transition support version v31-84 
+[12/04 23:47:58      7s] 
+[12/04 23:47:58      7s] <CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+[12/04 23:47:58      7s] <CMD> suppressMessage ENCEXT-2799
+[12/04 23:47:58      7s] <CMD> getDrawView
+[12/04 23:47:58      7s] <CMD> loadWorkspace -name Physical
+[12/04 23:47:58      7s] <CMD> win
+[12/04 23:48:51      9s] <CMD> set init_gnd_net GND!
+[12/04 23:48:51      9s] <CMD> set init_lef_file ../gf69.lef
+[12/04 23:48:51      9s] <CMD> set init_design_settop 0
+[12/04 23:48:51      9s] <CMD> set init_verilog synthesis.v
+[12/04 23:48:51      9s] <CMD> set init_pwr_net VDD!
+[12/04 23:48:51      9s] <CMD> init_design
+[12/04 23:48:51      9s] 
+[12/04 23:48:51      9s] Loading LEF file ../gf69.lef ...
+[12/04 23:48:51      9s] WARNING (LEFPARS-2007): NAMESCASESENSITIVE statement is obsolete in version 5.6 and later.
+[12/04 23:48:51      9s] The LEF parser will ignore this statement.
+[12/04 23:48:51      9s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf69.lef at line 1.
+[12/04 23:48:51      9s] WARNING (LEFPARS-2077): A SPACING SAMENET section is defined but it is not legal in a LEF 5.7 version file.
+[12/04 23:48:51      9s] It will be ignored which will probably cause real DRC violations to be ignored, and may
+[12/04 23:48:51      9s] cause false DRC violations to occur.
+[12/04 23:48:51      9s] 
+[12/04 23:48:51      9s] To avoid this warning, and correctly handle these DRC rules, you should modify your
+[12/04 23:48:51      9s] LEF to use the appropriate SAMENET keywords as described in the LEF/DEF 5.7
+[12/04 23:48:51      9s] manual under the SPACING statements in the LAYER (Routing) and LAYER (Cut)
+[12/04 23:48:51      9s] sections listed in the LEF Table of Contents. See file ../gf69.lef at line 114.
+[12/04 23:48:51      9s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[12/04 23:48:51      9s] The LEF parser will ignore this statement.
+[12/04 23:48:51      9s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf69.lef at line 187.
+[12/04 23:48:51      9s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file ../gf69.lef at line 188.
+[12/04 23:48:51      9s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[12/04 23:48:51      9s] The LEF parser will ignore this statement.
+[12/04 23:48:51      9s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf69.lef at line 189.
+[12/04 23:48:51      9s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[12/04 23:48:51      9s] The LEF parser will ignore this statement.
+[12/04 23:48:51      9s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf69.lef at line 191.
+[12/04 23:48:51      9s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file ../gf69.lef at line 192.
+[12/04 23:48:51      9s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[12/04 23:48:51      9s] The LEF parser will ignore this statement.
+[12/04 23:48:51      9s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf69.lef at line 193.
+[12/04 23:48:51      9s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[12/04 23:48:51      9s] The LEF parser will ignore this statement.
+[12/04 23:48:51      9s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf69.lef at line 202.
+[12/04 23:48:51      9s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file ../gf69.lef at line 203.
+[12/04 23:48:51      9s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[12/04 23:48:51      9s] The LEF parser will ignore this statement.
+[12/04 23:48:51      9s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf69.lef at line 204.
+[12/04 23:48:51      9s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[12/04 23:48:51      9s] The LEF parser will ignore this statement.
+[12/04 23:48:51      9s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf69.lef at line 206.
+[12/04 23:48:51      9s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file ../gf69.lef at line 207.
+[12/04 23:48:51      9s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[12/04 23:48:51      9s] The LEF parser will ignore this statement.
+[12/04 23:48:51      9s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf69.lef at line 208.
+[12/04 23:48:51      9s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[12/04 23:48:51      9s] The LEF parser will ignore this statement.
+[12/04 23:48:51      9s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf69.lef at line 217.
+[12/04 23:48:51      9s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file ../gf69.lef at line 218.
+[12/04 23:48:51      9s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[12/04 23:48:51      9s] The LEF parser will ignore this statement.
+[12/04 23:48:51      9s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf69.lef at line 219.
+[12/04 23:48:51      9s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[12/04 23:48:51      9s] The LEF parser will ignore this statement.
+[12/04 23:48:51      9s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf69.lef at line 221.
+[12/04 23:48:51      9s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file ../gf69.lef at line 222.
+[12/04 23:48:51      9s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[12/04 23:48:51      9s] The LEF parser will ignore this statement.
+[12/04 23:48:51      9s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf69.lef at line 223.
+[12/04 23:48:51      9s] Set DBUPerIGU to M2 pitch 260.
+[12/04 23:48:51      9s] 
+[12/04 23:48:51      9s] viaInitial starts at Wed Dec  4 23:48:51 2024
+viaInitial ends at Wed Dec  4 23:48:51 2024
+*** End library_loading (cpu=0.00min, real=0.00min, mem=0.0M, fe_cpu=0.16min, fe_real=1.00min, fe_mem=515.8M) ***
+[12/04 23:48:51      9s] #% Begin Load netlist data ... (date=12/04 23:48:51, mem=480.1M)
+[12/04 23:48:51      9s] *** Begin netlist parsing (mem=515.8M) ***
+[12/04 23:48:51      9s] Created 0 new cells from 0 timing libraries.
+[12/04 23:48:51      9s] Reading netlist ...
+[12/04 23:48:51      9s] Backslashed names will retain backslash and a trailing blank character.
+[12/04 23:48:51      9s] Reading verilog netlist 'synthesis.v'
+[12/04 23:48:51      9s] 
+[12/04 23:48:51      9s] *** Memory Usage v#1 (Current mem = 518.762M, initial mem = 179.605M) ***
+[12/04 23:48:51      9s] *** End netlist parsing (cpu=0:00:00.0, real=0:00:00.0, mem=518.8M) ***
+[12/04 23:48:51      9s] #% End Load netlist data ... (date=12/04 23:48:51, total cpu=0:00:00.1, real=0:00:00.0, peak res=483.2M, current mem=483.2M)
+[12/04 23:48:51      9s] Top level cell is matrix_vector_mult.
+[12/04 23:48:51      9s] Hooked 0 DB cells to tlib cells.
+[12/04 23:48:51      9s] 2 empty module found.
+[12/04 23:48:51      9s] Starting recursive module instantiation check.
+[12/04 23:48:51      9s] No recursion found.
+[12/04 23:48:51      9s] Building hierarchical netlist for Cell matrix_vector_mult ...
+[12/04 23:48:51      9s] *** Netlist is unique.
+[12/04 23:48:51      9s] ** info: there are 18 modules.
+[12/04 23:48:51      9s] ** info: there are 4779 stdCell insts.
+[12/04 23:48:51      9s] 
+[12/04 23:48:51      9s] *** Memory Usage v#1 (Current mem = 544.434M, initial mem = 179.605M) ***
+[12/04 23:48:51      9s] **WARN: (IMPFP-3961):	The techSite 'Core' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+[12/04 23:48:51      9s] Type 'man IMPFP-3961' for more detail.
+[12/04 23:48:51      9s] **WARN: (IMPFP-3961):	The techSite 'PortCellSite' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+[12/04 23:48:51      9s] Type 'man IMPFP-3961' for more detail.
+[12/04 23:48:51      9s] **WARN: (IMPFP-3961):	The techSite 'SBlockSite' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+[12/04 23:48:51      9s] Type 'man IMPFP-3961' for more detail.
+[12/04 23:48:51      9s] **WARN: (IMPFP-3961):	The techSite 'TDCoverSite' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+[12/04 23:48:51      9s] Type 'man IMPFP-3961' for more detail.
+[12/04 23:48:51      9s] Horizontal Layer M1 offset = 130 (guessed)
+[12/04 23:48:51      9s] Vertical Layer M2 offset = 130 (derived)
+[12/04 23:48:51      9s] Suggestion: specify LAYER OFFSET in LEF file
+[12/04 23:48:51      9s] Reason: hard to extract LAYER OFFSET from standard cells
+[12/04 23:48:51      9s] Set Default Net Delay as 1000 ps.
+[12/04 23:48:51      9s] Set Default Net Load as 0.5 pF. 
+[12/04 23:48:51      9s] Set Default Input Pin Transition as 0.1 ps.
+[12/04 23:48:51     10s] **WARN: (IMPSYT-7328):	The design has been initialized in physical-only mode because the init_mmmc_file global variable was not defined. Timing analysis will not be possible within this session. You can only use commands that do not depend on timing data. If you need to use timing, you need to restart with an init_mmmc_file to define the timing setup, or you can save this design and use restoreDesign -mmmc_file <viewDef.tcl> to add the timing setup information.
+[12/04 23:48:51     10s] Patterns Extraction called explicitly through PreRoutePatternsIfNeeded call 
+[12/04 23:48:51     10s] Extraction setup Started 
+[12/04 23:48:51     10s] 
+[12/04 23:48:51     10s] *** Summary of all messages that are not suppressed in this session:
+[12/04 23:48:51     10s] Severity  ID               Count  Summary                                  
+[12/04 23:48:51     10s] WARNING   IMPFP-3961           4  The techSite '%s' has no related standar...
+[12/04 23:48:51     10s] WARNING   IMPSYT-7328          1  The design has been initialized in physi...
+[12/04 23:48:51     10s] *** Message Summary: 5 warning(s), 0 error(s)
+[12/04 23:48:51     10s] 
+[12/04 23:48:56     10s] <CMD> getIoFlowFlag
+[12/04 23:49:30     11s] <CMD> setFPlanRowSpacingAndType 4.5 1
+[12/04 23:49:30     11s] Row spacing should be a multiple of the first horizontal routing layer pitch.
+[12/04 23:49:30     11s] Adjusting row spacing to 4.68.
+[12/04 23:49:30     11s] <CMD> setIoFlowFlag 0
+[12/04 23:49:30     11s] <CMD> floorPlan -flip n -site CoreSite -r 1 0.7 5 5 5 5
+[12/04 23:49:30     11s] Horizontal Layer M1 offset = 130 (guessed)
+[12/04 23:49:30     11s] Vertical Layer M2 offset = 130 (derived)
+[12/04 23:49:30     11s] Suggestion: specify LAYER OFFSET in LEF file
+[12/04 23:49:30     11s] Reason: hard to extract LAYER OFFSET from standard cells
+[12/04 23:49:30     11s] **WARN: (IMPFP-325):	Floorplan of the design is resized. All current floorplan objects are automatically derived based on specified new floorplan. This may change blocks, fixed standard cells, existing routes and blockages.
+[12/04 23:49:30     11s] <CMD> uiSetTool select
+[12/04 23:49:30     11s] <CMD> getIoFlowFlag
+[12/04 23:49:30     11s] <CMD> fit
+[12/04 23:49:58     12s] <CMD> clearGlobalNets
+[12/04 23:49:58     12s] <CMD> globalNetConnect VDD! -type tiehi -inst *
+[12/04 23:49:58     12s] <CMD> globalNetConnect GND! -type tielo -inst *
+[12/04 23:50:14     13s] <CMD> set sprCreateIeRingOffset 1.0
+[12/04 23:50:14     13s] <CMD> set sprCreateIeRingThreshold 1.0
+[12/04 23:50:14     13s] <CMD> set sprCreateIeRingJogDistance 1.0
+[12/04 23:50:14     13s] <CMD> set sprCreateIeRingLayers {}
+[12/04 23:50:14     13s] <CMD> set sprCreateIeRingOffset 1.0
+[12/04 23:50:14     13s] <CMD> set sprCreateIeRingThreshold 1.0
+[12/04 23:50:14     13s] <CMD> set sprCreateIeRingJogDistance 1.0
+[12/04 23:50:14     13s] <CMD> set sprCreateIeRingLayers {}
+[12/04 23:50:14     13s] <CMD> set sprCreateIeStripeWidth 10.0
+[12/04 23:50:14     13s] <CMD> set sprCreateIeStripeThreshold 1.0
+[12/04 23:50:14     13s] <CMD> set sprCreateIeStripeWidth 10.0
+[12/04 23:50:14     13s] <CMD> set sprCreateIeStripeThreshold 1.0
+[12/04 23:50:14     13s] <CMD> set sprCreateIeRingOffset 1.0
+[12/04 23:50:14     13s] <CMD> set sprCreateIeRingThreshold 1.0
+[12/04 23:50:14     13s] <CMD> set sprCreateIeRingJogDistance 1.0
+[12/04 23:50:14     13s] <CMD> set sprCreateIeRingLayers {}
+[12/04 23:50:14     13s] <CMD> set sprCreateIeStripeWidth 10.0
+[12/04 23:50:14     13s] <CMD> set sprCreateIeStripeThreshold 1.0
+[12/04 23:50:56     15s] <CMD> setAddRingMode -ring_target default -extend_over_row 0 -ignore_rows 0 -avoid_short 0 -skip_crossing_trunks none -stacked_via_top_layer M6 -stacked_via_bottom_layer M1 -via_using_exact_crossover_size 1 -orthogonal_only true -skip_via_on_pin {  standardcell } -skip_via_on_wire_shape {  noshape }
+[12/04 23:50:56     15s] The ring targets are set to core/block ring wires.
+[12/04 23:50:56     15s] addRing command will consider rows while creating rings.
+[12/04 23:50:56     15s] addRing command will disallow rings to go over rows.
+[12/04 23:50:56     15s] addRing command will ignore shorts while creating rings.
+[12/04 23:50:56     15s] <CMD> addRing -nets {GND! VDD!} -type core_rings -follow core -layer {top M1 bottom M1 left M2 right M2} -width {top 0.2 bottom 0.2 left 0.2 right 0.2} -spacing {top 0.2 bottom 0.2 left 0.2 right 0.2} -offset {top 0.78 bottom 0.78 left 0.78 right 0.78} -center 0 -extend_corner {} -threshold 0 -jog_distance 0 -snap_wire_center_to_grid None
+[12/04 23:50:56     15s] 
+[12/04 23:50:56     15s] Ring generation is complete.
+[12/04 23:50:56     15s] vias are now being generated.
+[12/04 23:50:56     15s] addRing created 8 wires.
+[12/04 23:50:56     15s] ViaGen created 8 vias, deleted 0 via to avoid violation.
+[12/04 23:50:56     15s] +--------+----------------+----------------+
+[12/04 23:50:56     15s] |  Layer |     Created    |     Deleted    |
+[12/04 23:50:56     15s] +--------+----------------+----------------+
+[12/04 23:50:56     15s] |   M1   |        4       |       NA       |
+[12/04 23:50:56     15s] |   V1   |        8       |        0       |
+[12/04 23:50:56     15s] |   M2   |        4       |       NA       |
+[12/04 23:50:56     15s] +--------+----------------+----------------+
+[12/04 23:51:10     15s] <CMD> fit
+[12/04 23:51:26     16s] **WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[12/04 23:51:26     16s] **WARN: (IMPTCM-77):	Option "-modulePlan" for command getPlaceMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[12/04 23:51:26     16s] **WARN: (IMPTCM-125):	Option "-checkPinLayerForAccess" for command getPlaceMode is obsolete and will be ignored. It no longer has any effect and should be removed from your script.
+[12/04 23:51:35     16s] <CMD> setRouteMode -earlyGlobalHonorMsvRouteConstraint false -earlyGlobalRoutePartitionPinGuide true
+[12/04 23:51:35     16s] <CMD> setEndCapMode -reset
+[12/04 23:51:35     16s] <CMD> setEndCapMode -boundary_tap false
+[12/04 23:51:35     16s] <CMD> setNanoRouteMode -quiet -droutePostRouteSpreadWire 1
+[12/04 23:51:35     16s] **WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[12/04 23:51:35     16s] **WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[12/04 23:51:35     16s] **WARN: (IMPTCM-77):	Option "-envDontUseLicsForThreadings" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[12/04 23:51:35     16s] **WARN: (IMPTCM-77):	Option "-routeAllowPowerGroundPin" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[12/04 23:51:35     16s] **WARN: (IMPTCM-77):	Option "-routeAllowPowerGroundPin" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[12/04 23:51:35     16s] **WARN: (IMPTCM-77):	Option "-routeEcoOnlyInLayers" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[12/04 23:51:35     16s] <CMD> setUsefulSkewMode -maxSkew false -noBoundary false -useCells {} -maxAllowedDelay 1
+[12/04 23:51:35     16s] **WARN: (IMPOPT-6036):	-useCells list is empty.
+[12/04 23:51:35     16s] <CMD> setPlaceMode -reset
+[12/04 23:51:35     16s] <CMD> setPlaceMode -congEffort medium -timingDriven 0 -modulePlan 0 -clkGateAware 0 -powerDriven 0 -ignoreScan 0 -reorderScan 0 -ignoreSpare 0 -placeIOPins 1 -moduleAwareSpare 0 -preserveRouting 0 -rmAffectedRouting 0 -checkRoute 0 -swapEEQ 0
+[12/04 23:51:35     16s] **WARN: (IMPTCM-77):	Option "-modulePlan" for command setPlaceMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[12/04 23:51:38     16s] <CMD> setPlaceMode -fp false
+[12/04 23:51:38     16s] <CMD> placeDesign
+[12/04 23:51:38     16s] *** Starting placeDesign default flow ***
+[12/04 23:51:38     16s] Deleted 0 physical inst  (cell - / prefix -).
+[12/04 23:51:38     16s] Extracting standard cell pins and blockage ...... 
+[12/04 23:51:38     16s] Pin and blockage extraction finished
+[12/04 23:51:38     16s] Extracting macro/IO cell pins and blockage ...... 
+[12/04 23:51:38     16s] Pin and blockage extraction finished
+[12/04 23:51:38     16s] *** Starting "NanoPlace(TM) placement v#1 (mem=972.1M)" ...
+[12/04 23:51:38     16s] No user setting net weight.
+[12/04 23:51:38     16s] Options: pinGuide congEffort=medium gpeffort=medium 
+[12/04 23:51:38     16s] #std cell=4779 (0 fixed + 4779 movable) #block=0 (0 floating + 0 preplaced)
+[12/04 23:51:38     16s] #ioInst=0 #net=4877 #term=13811 #term/net=2.83, #fixedIo=0, #floatIo=0, #fixedPin=0, #floatPin=146
+[12/04 23:51:38     16s] stdCell: 4779 single + 0 double + 0 multi
+[12/04 23:51:38     16s] Total standard cell length = 9.0184 (mm), area = 0.0406 (mm^2)
+[12/04 23:51:38     16s] Core basic site is CoreSite
+[12/04 23:51:38     16s] Estimated cell power/ground rail width = 0.562 um
+[12/04 23:51:38     16s] Layer info - lib-1st H=1, V=2.  Cell-FPin=1. Top-pin=2
+[12/04 23:51:38     16s] Apply auto density screen in pre-place stage.
+[12/04 23:51:38     16s] Auto density screen increases utilization from 0.690 to 0.727
+[12/04 23:51:38     16s] Auto density screen runtime: cpu = 0:00:00.0 real = 0:00:00.0 mem = 974.1M
+[12/04 23:51:38     16s] Average module density = 0.727.
+[12/04 23:51:38     16s] Density for the design = 0.727.
+[12/04 23:51:38     16s]        = stdcell_area 34686 sites (40583 um^2) / alloc_area 47703 sites (55813 um^2).
+[12/04 23:51:38     16s] Pin Density = 0.2749.
+[12/04 23:51:38     16s]             = total # of pins 13811 / total area 50246.
+[12/04 23:51:38     16s] Initial padding increases density from 0.727 to 0.727 for top
+[12/04 23:51:38     16s] *Internal placement parameters: 0.050 | 12 | 0x000555
+[12/04 23:51:38     16s] [adp] 0:1:0:1
+[12/04 23:51:38     17s] Iteration  1: Total net bbox = 3.536e+04 (3.50e+04 3.41e+02)
+[12/04 23:51:38     17s]               Est.  stn bbox = 3.915e+04 (3.88e+04 3.75e+02)
+[12/04 23:51:38     17s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 977.1M
+[12/04 23:51:38     17s] Iteration  2: Total net bbox = 5.864e+04 (2.15e+04 3.71e+04)
+[12/04 23:51:38     17s]               Est.  stn bbox = 6.617e+04 (2.51e+04 4.11e+04)
+[12/04 23:51:38     17s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 977.1M
+[12/04 23:51:38     17s] Iteration  3: Total net bbox = 5.721e+04 (3.35e+04 2.37e+04)
+[12/04 23:51:38     17s]               Est.  stn bbox = 6.344e+04 (3.70e+04 2.65e+04)
+[12/04 23:51:38     17s]               cpu = 0:00:00.1 real = 0:00:00.0 mem = 977.1M
+[12/04 23:51:38     17s] Iteration  4: Total net bbox = 6.438e+04 (2.68e+04 3.76e+04)
+[12/04 23:51:38     17s]               Est.  stn bbox = 7.146e+04 (2.94e+04 4.21e+04)
+[12/04 23:51:38     17s]               cpu = 0:00:00.1 real = 0:00:00.0 mem = 977.1M
+[12/04 23:51:39     17s] Iteration  5: Total net bbox = 7.390e+04 (3.65e+04 3.74e+04)
+[12/04 23:51:39     17s]               Est.  stn bbox = 8.192e+04 (4.01e+04 4.18e+04)
+[12/04 23:51:39     17s]               cpu = 0:00:00.2 real = 0:00:01.0 mem = 977.1M
+[12/04 23:51:39     17s] Iteration  6: Total net bbox = 7.961e+04 (3.72e+04 4.24e+04)
+[12/04 23:51:39     17s]               Est.  stn bbox = 8.820e+04 (4.07e+04 4.75e+04)
+[12/04 23:51:39     17s]               cpu = 0:00:00.1 real = 0:00:00.0 mem = 977.1M
+[12/04 23:51:39     17s] Iteration  7: Total net bbox = 8.566e+04 (4.30e+04 4.26e+04)
+[12/04 23:51:39     17s]               Est.  stn bbox = 9.481e+04 (4.71e+04 4.77e+04)
+[12/04 23:51:39     17s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 977.1M
+[12/04 23:51:39     17s] Initialize trialRoute multiThread mode= 16383 (=0x3fff) and nrThread= 0.
+[12/04 23:51:39     17s] enableMT= 3
+[12/04 23:51:39     17s] useHNameCompare= 3 (lazy mode)
+[12/04 23:51:39     17s] doMTMainInit= 1
+[12/04 23:51:39     17s] doMTFlushLazyWireDelete= 1
+[12/04 23:51:39     17s] useFastLRoute= 0
+[12/04 23:51:39     17s] useFastCRoute= 1
+[12/04 23:51:39     17s] doMTNetInitAdjWires= 1
+[12/04 23:51:39     17s] wireMPoolNoThreadCheck= 1
+[12/04 23:51:39     17s] allMPoolNoThreadCheck= 1
+[12/04 23:51:39     17s] doNotUseMPoolInCRoute= 1
+[12/04 23:51:39     17s] doMTSprFixZeroViaCodes= 1
+[12/04 23:51:39     17s] doMTDtrRoute1CleanupA= 1
+[12/04 23:51:39     17s] doMTDtrRoute1CleanupB= 1
+[12/04 23:51:39     17s] doMTWireLenCalc= 0
+[12/04 23:51:39     17s] doSkipQALenRecalc= 1
+[12/04 23:51:39     17s] doMTMainCleanup= 1
+[12/04 23:51:39     17s] doMTMoveCellTermsToMSLayer= 1
+[12/04 23:51:39     17s] doMTConvertWiresToNewViaCode= 1
+[12/04 23:51:39     17s] doMTRemoveAntenna= 1
+[12/04 23:51:39     17s] doMTCheckConnectivity= 1
+[12/04 23:51:39     17s] enableRuntimeLog= 0
+[12/04 23:51:39     17s] Initialize trialRoute multiThread mode= 16383 (=0x3fff) and nrThread= 0.
+[12/04 23:51:39     17s] Iteration  8: Total net bbox = 9.161e+04 (4.30e+04 4.86e+04)
+[12/04 23:51:39     17s]               Est.  stn bbox = 1.012e+05 (4.71e+04 5.41e+04)
+[12/04 23:51:39     17s]               cpu = 0:00:00.1 real = 0:00:00.0 mem = 981.1M
+[12/04 23:51:39     17s] Initialize trialRoute multiThread mode= 16383 (=0x3fff) and nrThread= 0.
+[12/04 23:51:39     17s] Initialize trialRoute multiThread mode= 16383 (=0x3fff) and nrThread= 0.
+[12/04 23:51:39     17s] Iteration  9: Total net bbox = 9.667e+04 (4.81e+04 4.86e+04)
+[12/04 23:51:39     17s]               Est.  stn bbox = 1.066e+05 (5.24e+04 5.41e+04)
+[12/04 23:51:39     17s]               cpu = 0:00:00.1 real = 0:00:00.0 mem = 982.1M
+[12/04 23:51:39     17s] Initialize trialRoute multiThread mode= 16383 (=0x3fff) and nrThread= 0.
+[12/04 23:51:39     17s] Initialize trialRoute multiThread mode= 16383 (=0x3fff) and nrThread= 0.
+[12/04 23:51:39     17s] Iteration 10: Total net bbox = 1.103e+05 (4.79e+04 6.24e+04)
+[12/04 23:51:39     17s]               Est.  stn bbox = 1.207e+05 (5.23e+04 6.84e+04)
+[12/04 23:51:39     17s]               cpu = 0:00:00.1 real = 0:00:00.0 mem = 982.1M
+[12/04 23:51:39     18s] Initialize trialRoute multiThread mode= 16383 (=0x3fff) and nrThread= 0.
+[12/04 23:51:39     18s] Initialize trialRoute multiThread mode= 16383 (=0x3fff) and nrThread= 0.
+[12/04 23:51:39     18s] Iteration 11: Total net bbox = 1.164e+05 (5.41e+04 6.23e+04)
+[12/04 23:51:39     18s]               Est.  stn bbox = 1.269e+05 (5.85e+04 6.84e+04)
+[12/04 23:51:39     18s]               cpu = 0:00:00.1 real = 0:00:00.0 mem = 982.1M
+[12/04 23:51:39     18s] Iteration 12: Total net bbox = 1.178e+05 (5.41e+04 6.37e+04)
+[12/04 23:51:39     18s]               Est.  stn bbox = 1.283e+05 (5.85e+04 6.98e+04)
+[12/04 23:51:39     18s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 982.1M
+[12/04 23:51:39     18s] Iteration 13: Total net bbox = 1.193e+05 (5.57e+04 6.37e+04)
+[12/04 23:51:39     18s]               Est.  stn bbox = 1.299e+05 (6.02e+04 6.97e+04)
+[12/04 23:51:39     18s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 982.1M
+[12/04 23:51:39     18s] *** cost = 1.193e+05 (5.57e+04 6.37e+04) (cpu for global=0:00:01.1) real=0:00:01.0***
+[12/04 23:51:39     18s] #spOpts: mergeVia=F 
+[12/04 23:51:39     18s] Core basic site is CoreSite
+[12/04 23:51:39     18s] Layer info - lib-1st H=1, V=2.  Cell-FPin=1. Top-pin=2
+[12/04 23:51:39     18s] *** Starting refinePlace (0:00:18.1 mem=982.1M) ***
+[12/04 23:51:39     18s] Total net bbox length = 1.195e+05 (5.573e+04 6.380e+04) (ext = 2.516e+03)
+[12/04 23:51:39     18s] Move report: placeLevelShifters moves 0 insts, mean move: 0.00 um, max move: 0.00 um
+[12/04 23:51:39     18s] Starting refinePlace ...
+[12/04 23:51:39     18s] default core: bins with density >  0.75 = 3.12 % ( 1 / 32 )
+[12/04 23:51:39     18s] Density distribution unevenness ratio = 3.053%
+[12/04 23:51:39     18s]   Spread Effort: high, standalone mode, useDDP on.
+[12/04 23:51:39     18s] [CPU] RefinePlace/preRPlace (cpu=0:00:00.1, real=0:00:00.0, mem=983.1MB) @(0:00:18.1 - 0:00:18.2).
+[12/04 23:51:39     18s] Move report: preRPlace moves 4256 insts, mean move: 0.80 um, max move: 7.80 um
+[12/04 23:51:39     18s] 	Max move on inst (result_1_reg[13]): (355.16, 142.90) --> (347.36, 142.90)
+[12/04 23:51:39     18s] 	Length: 21 sites, height: 1 rows, site name: CoreSite, cell type: DFF
+[12/04 23:51:39     18s] 	Violation at original loc: Region/Fence Violation
+[12/04 23:51:39     18s] wireLenOptFixPriorityInst 0 inst fixed
+[12/04 23:51:39     18s] Placement tweakage begins.
+[12/04 23:51:39     18s] wire length = 1.291e+05
+[12/04 23:51:40     18s] wire length = 1.189e+05
+[12/04 23:51:40     18s] Placement tweakage ends.
+[12/04 23:51:40     18s] Move report: tweak moves 3188 insts, mean move: 5.23 um, max move: 68.44 um
+[12/04 23:51:40     18s] 	Max move on inst (mult_21_3/AN1_4_0): (243.62, 216.34) --> (211.90, 179.62)
+[12/04 23:51:40     18s] [CPU] RefinePlace/TweakPlacement (cpu=0:00:00.3, real=0:00:01.0, mem=983.1MB) @(0:00:18.2 - 0:00:18.5).
+[12/04 23:51:40     18s] Move report: legalization moves 0 insts, mean move: 0.00 um, max move: 0.00 um
+[12/04 23:51:40     18s] [CPU] RefinePlace/Legalization (cpu=0:00:00.0, real=0:00:00.0, mem=983.1MB) @(0:00:18.5 - 0:00:18.5).
+[12/04 23:51:40     18s] Move report: Detail placement moves 4448 insts, mean move: 3.74 um, max move: 69.22 um
+[12/04 23:51:40     18s] 	Max move on inst (mult_21_3/AN1_4_0): (244.40, 216.34) --> (211.90, 179.62)
+[12/04 23:51:40     18s] 	Runtime: CPU: 0:00:00.4 REAL: 0:00:01.0 MEM: 983.1MB
+[12/04 23:51:40     18s] Statistics of distance of Instance movement in refine placement:
+[12/04 23:51:40     18s]   maximum (X+Y) =        69.22 um
+[12/04 23:51:40     18s]   inst (mult_21_3/AN1_4_0) with max move: (244.4, 216.34) -> (211.9, 179.62)
+[12/04 23:51:40     18s]   mean    (X+Y) =         3.74 um
+[12/04 23:51:40     18s] Total instances flipped for WireLenOpt: 179
+[12/04 23:51:40     18s] Total instances flipped, including legalization: 144
+[12/04 23:51:40     18s] Summary Report:
+[12/04 23:51:40     18s] Instances move: 4448 (out of 4779 movable)
+[12/04 23:51:40     18s] Instances flipped: 144
+[12/04 23:51:40     18s] Mean displacement: 3.74 um
+[12/04 23:51:40     18s] Max displacement: 69.22 um (Instance: mult_21_3/AN1_4_0) (244.4, 216.34) -> (211.9, 179.62)
+[12/04 23:51:40     18s] 	Length: 4 sites, height: 1 rows, site name: CoreSite, cell type: INVERTER
+[12/04 23:51:40     18s] Total instances moved : 4448
+[12/04 23:51:40     18s] Total net bbox length = 1.129e+05 (5.154e+04 6.134e+04) (ext = 2.847e+03)
+[12/04 23:51:40     18s] Runtime: CPU: 0:00:00.4 REAL: 0:00:01.0 MEM: 983.1MB
+[12/04 23:51:40     18s] [CPU] RefinePlace/total (cpu=0:00:00.4, real=0:00:01.0, mem=983.1MB) @(0:00:18.1 - 0:00:18.5).
+[12/04 23:51:40     18s] *** Finished refinePlace (0:00:18.5 mem=983.1M) ***
+[12/04 23:51:40     18s] *** End of Placement (cpu=0:00:01.5, real=0:00:02.0, mem=983.1M) ***
+[12/04 23:51:40     18s] #spOpts: mergeVia=F 
+[12/04 23:51:40     18s] Core basic site is CoreSite
+[12/04 23:51:40     18s] Layer info - lib-1st H=1, V=2.  Cell-FPin=1. Top-pin=2
+[12/04 23:51:40     18s] default core: bins with density >  0.75 = 9.38 % ( 3 / 32 )
+[12/04 23:51:40     18s] Density distribution unevenness ratio = 3.232%
+[12/04 23:51:40     18s] Starting IO pin assignment...
+[12/04 23:51:40     18s] The design is not routed. Using flight-line based method for pin assignment.
+[12/04 23:51:40     18s] Completed IO pin assignment.
+[12/04 23:51:40     18s] *** Finishing placeDesign default flow ***
+[12/04 23:51:40     18s] **placeDesign ... cpu = 0: 0: 2, real = 0: 0: 2, mem = 994.1M **
+[12/04 23:51:40     18s] *** Message Summary: 0 warning(s), 0 error(s)
+[12/04 23:51:40     18s] 
+[12/04 23:51:42     18s] <CMD> fit
+[12/04 23:51:56     19s] <CMD> fit
+[12/04 23:52:13     19s] <CMD> getFillerMode -quiet
+[12/04 23:52:22     20s] <CMD> addFiller -cell filler -prefix FILLER
+[12/04 23:52:22     20s] Core basic site is CoreSite
+[12/04 23:52:22     20s] Layer info - lib-1st H=1, V=2.  Cell-FPin=1. Top-pin=2
+[12/04 23:52:22     20s]   Signal wire search tree: 0 elements. (cpu=0:00:00.0, mem=0.0M)
+[12/04 23:52:22     20s] *INFO: Adding fillers to top-module.
+[12/04 23:52:22     20s] *INFO:   Added 15560 filler insts (cell filler / prefix FILLER).
+[12/04 23:52:22     20s] *INFO: Total 15560 filler insts added - prefix FILLER (CPU: 0:00:00.1).
+[12/04 23:52:22     20s] For 15560 new insts, *** Applied 0 GNC rules (cpu = 0:00:00.0)
+[12/04 23:53:00     21s] <CMD> fit
+[12/04 23:53:19     22s] **WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[12/04 23:53:22     22s] <CMD> setNanoRouteMode -quiet -timingEngine {}
+[12/04 23:53:22     22s] <CMD> setNanoRouteMode -quiet -routeWithSiPostRouteFix 0
+[12/04 23:53:22     22s] **WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[12/04 23:53:22     22s] <CMD> setNanoRouteMode -quiet -drouteStartIteration default
+[12/04 23:53:22     22s] **WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command setNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[12/04 23:53:22     22s] <CMD> setNanoRouteMode -quiet -routeTopRoutingLayer default
+[12/04 23:53:22     22s] <CMD> setNanoRouteMode -quiet -routeBottomRoutingLayer default
+[12/04 23:53:22     22s] <CMD> setNanoRouteMode -quiet -drouteEndIteration default
+[12/04 23:53:22     22s] **WARN: (IMPTCM-77):	Option "-routeEcoOnlyInLayers" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[12/04 23:53:22     22s] <CMD> setNanoRouteMode -quiet -routeWithTimingDriven false
+[12/04 23:53:22     22s] <CMD> setNanoRouteMode -quiet -routeWithSiDriven false
+[12/04 23:53:22     22s] Running Native NanoRoute ...
+[12/04 23:53:22     22s] <CMD> routeDesign -globalDetail
+[12/04 23:53:22     22s] #routeDesign: cpu time = 00:00:00, elapsed time = 00:00:00, memory = 896.42 (MB), peak = 896.42 (MB)
+[12/04 23:53:22     22s] #WARNING (NRIG-96) Selected single pass global detail route "-globalDetail". Clock eco and post optimizations will not be run. See "man NRIG-96" for more details.
+[12/04 23:53:22     22s] #**INFO: setDesignMode -flowEffort standard
+[12/04 23:53:22     22s] #**INFO: mulit-cut via swapping is disabled by user.
+[12/04 23:53:22     22s] #**INFO: All auto set options tuned by routeDesign will be restored to their original settings on command completion.
+[12/04 23:53:22     22s] #**INFO: auto set of routeReserveSpaceForMultiCut to true
+[12/04 23:53:22     22s] #**INFO: auto set of routeConcurrentMinimizeViaCountEffort to high
+[12/04 23:53:22     22s] Core basic site is CoreSite
+[12/04 23:53:22     22s] Layer info - lib-1st H=1, V=2.  Cell-FPin=1. Top-pin=2
+[12/04 23:53:22     22s] Initialize ViaPillar Halo for 20339 instances.
+[12/04 23:53:22     22s] Begin checking placement ... (start mem=1005.1M, init mem=1005.1M)
+[12/04 23:53:22     22s] *info: Placed = 20339         
+[12/04 23:53:22     22s] *info: Unplaced = 0           
+[12/04 23:53:22     22s] Placement Density:100.00%(58788/58788)
+[12/04 23:53:22     22s] Placement Density (including fixed std cells):100.00%(58788/58788)
+[12/04 23:53:22     22s] Finished checkPlace (cpu: total=0:00:00.1, vio checks=0:00:00.0; mem=1005.1M)
+[12/04 23:53:22     22s] #**INFO: honoring user setting for routeWithTimingDriven set to false
+[12/04 23:53:22     22s] #**INFO: honoring user setting for routeWithSiDriven set to false
+[12/04 23:53:22     22s] **WARN: (IMPCK-8086):	The command changeUseClockNetStatus is obsolete and will be removed in the next release. This command still works in this release, but by the next release you must transition to the CCOpt-based CTS flow.
+[12/04 23:53:22     22s] 
+[12/04 23:53:22     22s] changeUseClockNetStatus Option :  -noFixedNetWires 
+[12/04 23:53:22     22s] *** Changed status on (0) nets in Clock.
+[12/04 23:53:22     22s] *** End changeUseClockNetStatus (cpu=0:00:00.0, real=0:00:00.0, mem=1005.1M) ***
+[12/04 23:53:22     22s] 
+[12/04 23:53:22     22s] globalDetailRoute
+[12/04 23:53:22     22s] 
+[12/04 23:53:22     22s] #setNanoRouteMode -droutePostRouteSpreadWire "1"
+[12/04 23:53:22     22s] #setNanoRouteMode -routeConcurrentMinimizeViaCountEffort "high"
+[12/04 23:53:22     22s] #setNanoRouteMode -routeReserveSpaceForMultiCut true
+[12/04 23:53:22     22s] #setNanoRouteMode -routeWithSiDriven false
+[12/04 23:53:22     22s] #setNanoRouteMode -routeWithTimingDriven false
+[12/04 23:53:22     22s] #Start globalDetailRoute on Wed Dec  4 23:53:22 2024
+[12/04 23:53:22     22s] #
+[12/04 23:53:22     22s] ### Net info: total nets: 4879
+[12/04 23:53:22     22s] ### Net info: dirty nets: 0
+[12/04 23:53:22     22s] ### Net info: marked as disconnected nets: 0
+[12/04 23:53:22     22s] ### Net info: fully routed nets: 0
+[12/04 23:53:22     22s] ### Net info: trivial (single pin) nets: 0
+[12/04 23:53:22     22s] ### Net info: unrouted nets: 4879
+[12/04 23:53:22     22s] ### Net info: re-extraction nets: 0
+[12/04 23:53:22     22s] ### Net info: ignored nets: 0
+[12/04 23:53:22     22s] ### Net info: skip routing nets: 0
+[12/04 23:53:22     22s] ### import route signature (0) = 1205129466
+[12/04 23:53:22     22s] #WARNING (NRDB-2005) SPECIAL_NET VDD! has special wires but no definitions for instance pins or top level pins. This will cause routability problems later.
+[12/04 23:53:22     22s] #WARNING (NRDB-2005) SPECIAL_NET GND! has special wires but no definitions for instance pins or top level pins. This will cause routability problems later.
+[12/04 23:53:22     22s] #NanoRoute Version 17.10-p006_1 NR170516-1601/17_10-UB
+[12/04 23:53:22     22s] #RTESIG:78da8dce310bc230100560677fc59176a860f58ea449ba0aae2a455d8b426c03a59524fd
+[12/04 23:53:22     22s] #       ff065c6beb7aefe3bd4bd2fbb102466a4798bf11654d70aa486141322789b42755c7e876
+[12/04 23:53:22     22s] #       60eb243d5fae1c4b40c86c1f4c63dc16466f1c781382ed9bcd9708a1632383cc0717af93
+[12/04 23:53:22     22s] #       464a84d7a3f306b2e73074938610f53222e4c05adbb4f383c47509c18db35d42f3e541a1
+[12/04 23:53:22     22s] #       8b7f905c460595c07ebebdfa004e577a4c
+[12/04 23:53:22     22s] #
+[12/04 23:53:22     22s] #RTESIG:78da8dce310bc230100560677fc59176a860f58ea449ba0aae2a455d8b426c03a59524fd
+[12/04 23:53:22     22s] #       ff065c6beb7aefe3bd4bd2fbb102466a4798bf11654d70aa486141322789b42755c7e876
+[12/04 23:53:22     22s] #       60eb243d5fae1c4b40c86c1f4c63dc16466f1c781382ed9bcd9708a1632383cc0717af93
+[12/04 23:53:22     22s] #       464a84d7a3f306b2e73074938610f53222e4c05adbb4f383c47509c18db35d42f3e541a1
+[12/04 23:53:22     22s] #       8b7f905c460595c07ebebdfa004e577a4c
+[12/04 23:53:22     22s] #
+[12/04 23:53:22     22s] #Start routing data preparation on Wed Dec  4 23:53:22 2024
+[12/04 23:53:22     22s] #
+[12/04 23:53:22     22s] #WARNING (NRDB-2077) The below via enclosure for LAYER M1 is not specified for width 0.1400.
+[12/04 23:53:22     22s] #WARNING (NRDB-2078) The above via enclosure for LAYER M2 is not specified for width 0.1400.
+[12/04 23:53:22     22s] #WARNING (NRDB-2077) The below via enclosure for LAYER M1 is not specified for width 0.1400.
+[12/04 23:53:22     22s] #WARNING (NRDB-2078) The above via enclosure for LAYER M2 is not specified for width 0.1400.
+[12/04 23:53:22     22s] #WARNING (NRDB-2077) The below via enclosure for LAYER M2 is not specified for width 0.1400.
+[12/04 23:53:22     22s] #WARNING (NRDB-2078) The above via enclosure for LAYER M3 is not specified for width 0.1400.
+[12/04 23:53:22     22s] #WARNING (NRDB-2077) The below via enclosure for LAYER M2 is not specified for width 0.1400.
+[12/04 23:53:22     22s] #WARNING (NRDB-2078) The above via enclosure for LAYER M3 is not specified for width 0.1400.
+[12/04 23:53:22     22s] #WARNING (NRDB-2077) The below via enclosure for LAYER M3 is not specified for width 0.1400.
+[12/04 23:53:22     22s] #WARNING (NRDB-2078) The above via enclosure for LAYER M4 is not specified for width 0.1400.
+[12/04 23:53:22     22s] #WARNING (NRDB-2077) The below via enclosure for LAYER M3 is not specified for width 0.1400.
+[12/04 23:53:22     22s] #WARNING (NRDB-2078) The above via enclosure for LAYER M4 is not specified for width 0.1400.
+[12/04 23:53:22     22s] #WARNING (NRDB-2077) The below via enclosure for LAYER M4 is not specified for width 0.1400.
+[12/04 23:53:22     22s] #WARNING (NRDB-2078) The above via enclosure for LAYER M5 is not specified for width 0.1400.
+[12/04 23:53:22     22s] #WARNING (NRDB-2077) The below via enclosure for LAYER M4 is not specified for width 0.1400.
+[12/04 23:53:22     22s] #WARNING (NRDB-2078) The above via enclosure for LAYER M5 is not specified for width 0.1400.
+[12/04 23:53:22     22s] #WARNING (NRDB-2077) The below via enclosure for LAYER M5 is not specified for width 0.1400.
+[12/04 23:53:22     22s] #WARNING (NRDB-2078) The above via enclosure for LAYER M6 is not specified for width 0.1400.
+[12/04 23:53:22     22s] #WARNING (NRDB-2077) The below via enclosure for LAYER M5 is not specified for width 0.1400.
+[12/04 23:53:22     22s] #WARNING (NRDB-2078) The above via enclosure for LAYER M6 is not specified for width 0.1400.
+[12/04 23:53:22     22s] #WARNING (NRDB-2040) Rule LEF_DEFAULT doesn't specify any vias that satisfy all of the area rules for layer M2 M3 M4 M5 
+[12/04 23:53:22     22s] # M1           H   Track-Pitch = 0.2600    Line-2-Via Pitch = 0.2300
+[12/04 23:53:22     22s] # M2           V   Track-Pitch = 0.2600    Line-2-Via Pitch = 0.2400
+[12/04 23:53:22     22s] # M3           H   Track-Pitch = 0.2600    Line-2-Via Pitch = 0.2400
+[12/04 23:53:22     22s] # M4           V   Track-Pitch = 0.2600    Line-2-Via Pitch = 0.2400
+[12/04 23:53:22     22s] # M5           H   Track-Pitch = 0.2600    Line-2-Via Pitch = 0.2400
+[12/04 23:53:22     22s] # M6           V   Track-Pitch = 0.2600    Line-2-Via Pitch = 0.2400
+[12/04 23:53:22     22s] #Regenerating Ggrids automatically.
+[12/04 23:53:22     22s] #Auto generating G-grids with size=15 tracks, using layer M3's pitch = 0.2600.
+[12/04 23:53:22     22s] #Using automatically generated G-grids.
+[12/04 23:53:22     22s] #Done routing data preparation.
+[12/04 23:53:22     22s] #cpu time = 00:00:00, elapsed time = 00:00:00, memory = 905.70 (MB), peak = 938.97 (MB)
+[12/04 23:53:22     22s] #Merging special wires...
+[12/04 23:53:22     22s] #
+[12/04 23:53:22     22s] #Finished routing data preparation on Wed Dec  4 23:53:22 2024
+[12/04 23:53:22     22s] #
+[12/04 23:53:22     22s] #Cpu time = 00:00:00
+[12/04 23:53:22     22s] #Elapsed time = 00:00:00
+[12/04 23:53:22     22s] #Increased memory = 3.40 (MB)
+[12/04 23:53:22     22s] #Total memory = 905.80 (MB)
+[12/04 23:53:22     22s] #Peak memory = 938.97 (MB)
+[12/04 23:53:22     22s] #
+[12/04 23:53:22     22s] #
+[12/04 23:53:22     22s] #Start global routing on Wed Dec  4 23:53:22 2024
+[12/04 23:53:22     22s] #
+[12/04 23:53:22     22s] #Number of eco nets is 0
+[12/04 23:53:22     22s] #
+[12/04 23:53:22     22s] #Start global routing data preparation on Wed Dec  4 23:53:22 2024
+[12/04 23:53:22     22s] #
+[12/04 23:53:22     22s] #Start routing resource analysis on Wed Dec  4 23:53:22 2024
+[12/04 23:53:22     22s] #
+[12/04 23:53:22     23s] #Routing resource analysis is done on Wed Dec  4 23:53:22 2024
+[12/04 23:53:22     23s] #
+[12/04 23:53:22     23s] #  Resource Analysis:
+[12/04 23:53:22     23s] #
+[12/04 23:53:22     23s] #               Routing  #Avail      #Track     #Total     %Gcell
+[12/04 23:53:22     23s] #  Layer      Direction   Track     Blocked      Gcell    Blocked
+[12/04 23:53:22     23s] #  --------------------------------------------------------------
+[12/04 23:53:22     23s] #  M1             H        1329           0        8277    11.28%
+[12/04 23:53:22     23s] #  M2             V        1398           0        8277     0.00%
+[12/04 23:53:22     23s] #  M3             H        1329           0        8277     0.00%
+[12/04 23:53:22     23s] #  M4             V        1398           0        8277     0.00%
+[12/04 23:53:22     23s] #  M5             H        1329           0        8277     0.00%
+[12/04 23:53:22     23s] #  M6             V        1398           0        8277     0.00%
+[12/04 23:53:22     23s] #  --------------------------------------------------------------
+[12/04 23:53:22     23s] #  Total                   8181       0.00%       49662     1.88%
+[12/04 23:53:22     23s] #
+[12/04 23:53:22     23s] #
+[12/04 23:53:22     23s] #
+[12/04 23:53:22     23s] #
+[12/04 23:53:22     23s] #Global routing data preparation is done on Wed Dec  4 23:53:22 2024
+[12/04 23:53:22     23s] #
+[12/04 23:53:22     23s] #cpu time = 00:00:00, elapsed time = 00:00:00, memory = 906.68 (MB), peak = 938.97 (MB)
+[12/04 23:53:22     23s] #
+[12/04 23:53:22     23s] #cpu time = 00:00:00, elapsed time = 00:00:00, memory = 906.70 (MB), peak = 938.97 (MB)
+[12/04 23:53:22     23s] #
+[12/04 23:53:22     23s] #start global routing iteration 1...
+[12/04 23:53:23     23s] #cpu time = 00:00:00, elapsed time = 00:00:00, memory = 924.59 (MB), peak = 938.97 (MB)
+[12/04 23:53:23     23s] #
+[12/04 23:53:23     23s] #start global routing iteration 2...
+[12/04 23:53:23     23s] #cpu time = 00:00:00, elapsed time = 00:00:00, memory = 928.61 (MB), peak = 938.97 (MB)
+[12/04 23:53:23     23s] #
+[12/04 23:53:23     23s] #
+[12/04 23:53:23     23s] #Total number of trivial nets (e.g. < 2 pins) = 2 (skipped).
+[12/04 23:53:23     23s] #Total number of routable nets = 4877.
+[12/04 23:53:23     23s] #Total number of nets in the design = 4879.
+[12/04 23:53:23     23s] #
+[12/04 23:53:23     23s] #4877 routable nets have only global wires.
+[12/04 23:53:23     23s] #
+[12/04 23:53:23     23s] #Routed nets constraints summary:
+[12/04 23:53:23     23s] #-----------------------------
+[12/04 23:53:23     23s] #        Rules   Unconstrained  
+[12/04 23:53:23     23s] #-----------------------------
+[12/04 23:53:23     23s] #      Default            4877  
+[12/04 23:53:23     23s] #-----------------------------
+[12/04 23:53:23     23s] #        Total            4877  
+[12/04 23:53:23     23s] #-----------------------------
+[12/04 23:53:23     23s] #
+[12/04 23:53:23     23s] #Routing constraints summary of the whole design:
+[12/04 23:53:23     23s] #-----------------------------
+[12/04 23:53:23     23s] #        Rules   Unconstrained  
+[12/04 23:53:23     23s] #-----------------------------
+[12/04 23:53:23     23s] #      Default            4877  
+[12/04 23:53:23     23s] #-----------------------------
+[12/04 23:53:23     23s] #        Total            4877  
+[12/04 23:53:23     23s] #-----------------------------
+[12/04 23:53:23     23s] #
+[12/04 23:53:23     23s] #
+[12/04 23:53:23     23s] #  Congestion Analysis: (blocked Gcells are excluded)
+[12/04 23:53:23     23s] #
+[12/04 23:53:23     23s] #                 OverCon          
+[12/04 23:53:23     23s] #                  #Gcell    %Gcell
+[12/04 23:53:23     23s] #     Layer           (1)   OverCon
+[12/04 23:53:23     23s] #  --------------------------------
+[12/04 23:53:23     23s] #  M1            0(0.00%)   (0.00%)
+[12/04 23:53:23     23s] #  M2            0(0.00%)   (0.00%)
+[12/04 23:53:23     23s] #  M3            0(0.00%)   (0.00%)
+[12/04 23:53:23     23s] #  M4            0(0.00%)   (0.00%)
+[12/04 23:53:23     23s] #  M5            0(0.00%)   (0.00%)
+[12/04 23:53:23     23s] #  M6            0(0.00%)   (0.00%)
+[12/04 23:53:23     23s] #  --------------------------------
+[12/04 23:53:23     23s] #     Total      0(0.00%)   (0.00%)
+[12/04 23:53:23     23s] #
+[12/04 23:53:23     23s] #  The worst congested Gcell overcon (routing demand over resource in number of tracks) = 1
+[12/04 23:53:23     23s] #  Overflow after GR: 0.00% H + 0.00% V
+[12/04 23:53:23     23s] #
+[12/04 23:53:23     23s] Global router needs be called before using this command...
+[12/04 23:53:23     23s] #Complete Global Routing.
+[12/04 23:53:23     23s] #Total wire length = 114631 um.
+[12/04 23:53:23     23s] #Total half perimeter of net bounding box = 125593 um.
+[12/04 23:53:23     23s] #Total wire length on LAYER M1 = 13685 um.
+[12/04 23:53:23     23s] #Total wire length on LAYER M2 = 55533 um.
+[12/04 23:53:23     23s] #Total wire length on LAYER M3 = 39891 um.
+[12/04 23:53:23     23s] #Total wire length on LAYER M4 = 5214 um.
+[12/04 23:53:23     23s] #Total wire length on LAYER M5 = 308 um.
+[12/04 23:53:23     23s] #Total wire length on LAYER M6 = 0 um.
+[12/04 23:53:23     23s] #Total number of vias = 11619
+[12/04 23:53:23     23s] #Up-Via Summary (total 11619):
+[12/04 23:53:23     23s] #           
+[12/04 23:53:23     23s] #-----------------------
+[12/04 23:53:23     23s] # M1               2422
+[12/04 23:53:23     23s] # M2               9048
+[12/04 23:53:23     23s] # M3                122
+[12/04 23:53:23     23s] # M4                 27
+[12/04 23:53:23     23s] #-----------------------
+[12/04 23:53:23     23s] #                 11619 
+[12/04 23:53:23     23s] #
+[12/04 23:53:23     23s] #Max overcon = 0 track.
+[12/04 23:53:23     23s] #Total overcon = 0.00%.
+[12/04 23:53:23     23s] #Worst layer Gcell overcon rate = 0.00%.
+[12/04 23:53:23     23s] #
+[12/04 23:53:23     23s] #Global routing statistics:
+[12/04 23:53:23     23s] #Cpu time = 00:00:00
+[12/04 23:53:23     23s] #Elapsed time = 00:00:00
+[12/04 23:53:23     23s] #Increased memory = 23.17 (MB)
+[12/04 23:53:23     23s] #Total memory = 929.03 (MB)
+[12/04 23:53:23     23s] #Peak memory = 938.97 (MB)
+[12/04 23:53:23     23s] #
+[12/04 23:53:23     23s] #Finished global routing on Wed Dec  4 23:53:23 2024
+[12/04 23:53:23     23s] #
+[12/04 23:53:23     23s] #
+[12/04 23:53:23     23s] ### route signature (4) = 1765101778
+[12/04 23:53:23     23s] ### violation signature (2) = 1905142130
+[12/04 23:53:23     23s] #cpu time = 00:00:00, elapsed time = 00:00:00, memory = 917.94 (MB), peak = 938.97 (MB)
+[12/04 23:53:23     23s] #Start Track Assignment.
+[12/04 23:53:23     23s] #Done with 6004 horizontal wires in 1 hboxes and 5523 vertical wires in 1 hboxes.
+[12/04 23:53:23     23s] #Done with 1515 horizontal wires in 1 hboxes and 768 vertical wires in 1 hboxes.
+[12/04 23:53:23     23s] #Done with 1 horizontal wires in 1 hboxes and 1 vertical wires in 1 hboxes.
+[12/04 23:53:23     23s] #
+[12/04 23:53:23     23s] #Track assignment summary:
+[12/04 23:53:23     23s] # layer   (wire length)   (overlap)     (long ovlp)	(with obs/pg/clk)  
+[12/04 23:53:23     23s] #------------------------------------------------------------------------
+[12/04 23:53:23     23s] # M1         13484.38 	  0.00%  	  0.00% 	  0.00%
+[12/04 23:53:23     23s] # M2         55119.58 	  0.02%  	  0.00% 	  0.00%
+[12/04 23:53:23     23s] # M3         39349.55 	  0.17%  	  0.00% 	  0.00%
+[12/04 23:53:23     23s] # M4          5233.40 	  0.00%  	  0.00% 	  0.00%
+[12/04 23:53:23     23s] # M5           311.85 	  0.00%  	  0.00% 	  0.00%
+[12/04 23:53:23     23s] # M6             0.00 	  0.00%  	  0.00% 	  0.00%
+[12/04 23:53:23     23s] #------------------------------------------------------------------------
+[12/04 23:53:23     23s] # All      113498.77  	  0.07% 	  0.00% 	  0.00%
+[12/04 23:53:23     23s] #Complete Track Assignment.
+[12/04 23:53:23     23s] #Total wire length = 118140 um.
+[12/04 23:53:23     23s] #Total half perimeter of net bounding box = 125593 um.
+[12/04 23:53:23     23s] #Total wire length on LAYER M1 = 13352 um.
+[12/04 23:53:23     23s] #Total wire length on LAYER M2 = 58010 um.
+[12/04 23:53:23     23s] #Total wire length on LAYER M3 = 41206 um.
+[12/04 23:53:23     23s] #Total wire length on LAYER M4 = 5246 um.
+[12/04 23:53:23     23s] #Total wire length on LAYER M5 = 326 um.
+[12/04 23:53:23     23s] #Total wire length on LAYER M6 = 0 um.
+[12/04 23:53:23     23s] #Total number of vias = 11619
+[12/04 23:53:23     23s] #Up-Via Summary (total 11619):
+[12/04 23:53:23     23s] #           
+[12/04 23:53:23     23s] #-----------------------
+[12/04 23:53:23     23s] # M1               2422
+[12/04 23:53:23     23s] # M2               9048
+[12/04 23:53:23     23s] # M3                122
+[12/04 23:53:23     23s] # M4                 27
+[12/04 23:53:23     23s] #-----------------------
+[12/04 23:53:23     23s] #                 11619 
+[12/04 23:53:23     23s] #
+[12/04 23:53:23     23s] ### route signature (8) = 1764644901
+[12/04 23:53:23     23s] ### violation signature (6) = 1905142130
+[12/04 23:53:23     23s] #cpu time = 00:00:01, elapsed time = 00:00:01, memory = 926.39 (MB), peak = 938.97 (MB)
+[12/04 23:53:23     23s] #
+[12/04 23:53:23     23s] #Routing data preparation, pin analysis, global routing and track assignment statistics:
+[12/04 23:53:23     23s] #Cpu time = 00:00:01
+[12/04 23:53:23     23s] #Elapsed time = 00:00:01
+[12/04 23:53:23     23s] #Increased memory = 24.09 (MB)
+[12/04 23:53:23     23s] #Total memory = 926.46 (MB)
+[12/04 23:53:23     23s] #Peak memory = 938.97 (MB)
+[12/04 23:53:23     24s] ### max drc and si pitch = 3980 (  1.9900 um) MT-safe pitch = 1408 (  0.7040 um) patch pitch = 8720 (  4.3600 um)
+[12/04 23:53:23     24s] #
+[12/04 23:53:23     24s] #Start Detail Routing..
+[12/04 23:53:23     24s] #start initial detail routing ...
+[12/04 23:53:30     30s] #   number of violations = 5
+[12/04 23:53:30     30s] #
+[12/04 23:53:30     30s] #    By Layer and Type :
+[12/04 23:53:30     30s] #	         MetSpc    NSMet    Short   Totals
+[12/04 23:53:30     30s] #	M1            0        1        0        1
+[12/04 23:53:30     30s] #	M2            2        0        2        4
+[12/04 23:53:30     30s] #	Totals        2        1        2        5
+[12/04 23:53:30     30s] #cpu time = 00:00:06, elapsed time = 00:00:06, memory = 954.93 (MB), peak = 960.48 (MB)
+[12/04 23:53:30     30s] #start 1st optimization iteration ...
+[12/04 23:53:30     30s] #   number of violations = 0
+[12/04 23:53:30     30s] #cpu time = 00:00:00, elapsed time = 00:00:00, memory = 955.17 (MB), peak = 960.48 (MB)
+[12/04 23:53:30     30s] #Complete Detail Routing.
+[12/04 23:53:30     30s] #Total wire length = 121469 um.
+[12/04 23:53:30     30s] #Total half perimeter of net bounding box = 125593 um.
+[12/04 23:53:30     30s] #Total wire length on LAYER M1 = 11521 um.
+[12/04 23:53:30     30s] #Total wire length on LAYER M2 = 59950 um.
+[12/04 23:53:30     30s] #Total wire length on LAYER M3 = 42378 um.
+[12/04 23:53:30     30s] #Total wire length on LAYER M4 = 7226 um.
+[12/04 23:53:30     30s] #Total wire length on LAYER M5 = 396 um.
+[12/04 23:53:30     30s] #Total wire length on LAYER M6 = 0 um.
+[12/04 23:53:30     30s] #Total number of vias = 14078
+[12/04 23:53:30     30s] #Up-Via Summary (total 14078):
+[12/04 23:53:30     30s] #           
+[12/04 23:53:30     30s] #-----------------------
+[12/04 23:53:30     30s] # M1               1748
+[12/04 23:53:30     30s] # M2              11648
+[12/04 23:53:30     30s] # M3                655
+[12/04 23:53:30     30s] # M4                 27
+[12/04 23:53:30     30s] #-----------------------
+[12/04 23:53:30     30s] #                 14078 
+[12/04 23:53:30     30s] #
+[12/04 23:53:30     30s] #Total number of DRC violations = 0
+[12/04 23:53:30     30s] ### route signature (15) =  959393641
+[12/04 23:53:30     30s] ### violation signature (13) = 1905142130
+[12/04 23:53:30     30s] #Cpu time = 00:00:06
+[12/04 23:53:30     30s] #Elapsed time = 00:00:06
+[12/04 23:53:30     30s] #Increased memory = -5.51 (MB)
+[12/04 23:53:30     30s] #Total memory = 920.95 (MB)
+[12/04 23:53:30     30s] #Peak memory = 960.48 (MB)
+[12/04 23:53:30     30s] ### max drc and si pitch = 3980 (  1.9900 um) MT-safe pitch = 1408 (  0.7040 um) patch pitch = 8720 (  4.3600 um)
+[12/04 23:53:30     30s] #
+[12/04 23:53:30     30s] #Start Post Route wire spreading..
+[12/04 23:53:30     30s] ### max drc and si pitch = 3980 (  1.9900 um) MT-safe pitch = 1408 (  0.7040 um) patch pitch = 8720 (  4.3600 um)
+[12/04 23:53:30     30s] #
+[12/04 23:53:30     30s] #Start DRC checking..
+[12/04 23:53:31     31s] #   number of violations = 0
+[12/04 23:53:31     31s] #cpu time = 00:00:01, elapsed time = 00:00:01, memory = 953.70 (MB), peak = 960.48 (MB)
+[12/04 23:53:31     31s] #CELL_VIEW matrix_vector_mult,init has no DRC violation.
+[12/04 23:53:31     31s] #Total number of DRC violations = 0
+[12/04 23:53:31     31s] ### route signature (21) =  554657703
+[12/04 23:53:31     31s] ### violation signature (19) = 1905142130
+[12/04 23:53:31     31s] #
+[12/04 23:53:31     31s] #Start data preparation for wire spreading...
+[12/04 23:53:31     31s] #
+[12/04 23:53:31     31s] #Data preparation is done on Wed Dec  4 23:53:31 2024
+[12/04 23:53:31     31s] #
+[12/04 23:53:31     31s] #
+[12/04 23:53:31     31s] #Start Post Route Wire Spread.
+[12/04 23:53:31     31s] #Done with 2379 horizontal wires in 2 hboxes and 1587 vertical wires in 2 hboxes.
+[12/04 23:53:31     31s] #Complete Post Route Wire Spread.
+[12/04 23:53:31     31s] #
+[12/04 23:53:31     31s] #Total wire length = 123752 um.
+[12/04 23:53:31     31s] #Total half perimeter of net bounding box = 125593 um.
+[12/04 23:53:31     31s] #Total wire length on LAYER M1 = 11641 um.
+[12/04 23:53:31     31s] #Total wire length on LAYER M2 = 60876 um.
+[12/04 23:53:31     31s] #Total wire length on LAYER M3 = 43590 um.
+[12/04 23:53:31     31s] #Total wire length on LAYER M4 = 7244 um.
+[12/04 23:53:31     31s] #Total wire length on LAYER M5 = 401 um.
+[12/04 23:53:31     31s] #Total wire length on LAYER M6 = 0 um.
+[12/04 23:53:31     31s] #Total number of vias = 14078
+[12/04 23:53:31     31s] #Up-Via Summary (total 14078):
+[12/04 23:53:31     31s] #           
+[12/04 23:53:31     31s] #-----------------------
+[12/04 23:53:31     31s] # M1               1748
+[12/04 23:53:31     31s] # M2              11648
+[12/04 23:53:31     31s] # M3                655
+[12/04 23:53:31     31s] # M4                 27
+[12/04 23:53:31     31s] #-----------------------
+[12/04 23:53:31     31s] #                 14078 
+[12/04 23:53:31     31s] #
+[12/04 23:53:31     31s] ### route signature (24) =  969927085
+[12/04 23:53:31     31s] ### violation signature (22) = 1905142130
+[12/04 23:53:31     31s] ### max drc and si pitch = 3980 (  1.9900 um) MT-safe pitch = 1408 (  0.7040 um) patch pitch = 8720 (  4.3600 um)
+[12/04 23:53:31     31s] #
+[12/04 23:53:31     31s] #Start DRC checking..
+[12/04 23:53:32     32s] #   number of violations = 0
+[12/04 23:53:32     32s] #cpu time = 00:00:01, elapsed time = 00:00:01, memory = 952.89 (MB), peak = 960.48 (MB)
+[12/04 23:53:32     32s] #CELL_VIEW matrix_vector_mult,init has no DRC violation.
+[12/04 23:53:32     32s] #Total number of DRC violations = 0
+[12/04 23:53:32     32s] ### route signature (29) = 1007629122
+[12/04 23:53:32     32s] ### violation signature (27) = 1905142130
+[12/04 23:53:32     32s] #   number of violations = 0
+[12/04 23:53:32     32s] #cpu time = 00:00:01, elapsed time = 00:00:01, memory = 923.23 (MB), peak = 960.48 (MB)
+[12/04 23:53:32     32s] #CELL_VIEW matrix_vector_mult,init has no DRC violation.
+[12/04 23:53:32     32s] #Total number of DRC violations = 0
+[12/04 23:53:32     32s] #Post Route wire spread is done.
+[12/04 23:53:32     32s] #Total wire length = 123752 um.
+[12/04 23:53:32     32s] #Total half perimeter of net bounding box = 125593 um.
+[12/04 23:53:32     32s] #Total wire length on LAYER M1 = 11641 um.
+[12/04 23:53:32     32s] #Total wire length on LAYER M2 = 60876 um.
+[12/04 23:53:32     32s] #Total wire length on LAYER M3 = 43590 um.
+[12/04 23:53:32     32s] #Total wire length on LAYER M4 = 7244 um.
+[12/04 23:53:32     32s] #Total wire length on LAYER M5 = 401 um.
+[12/04 23:53:32     32s] #Total wire length on LAYER M6 = 0 um.
+[12/04 23:53:32     32s] #Total number of vias = 14078
+[12/04 23:53:32     32s] #Up-Via Summary (total 14078):
+[12/04 23:53:32     32s] #           
+[12/04 23:53:32     32s] #-----------------------
+[12/04 23:53:32     32s] # M1               1748
+[12/04 23:53:32     32s] # M2              11648
+[12/04 23:53:32     32s] # M3                655
+[12/04 23:53:32     32s] # M4                 27
+[12/04 23:53:32     32s] #-----------------------
+[12/04 23:53:32     32s] #                 14078 
+[12/04 23:53:32     32s] #
+[12/04 23:53:32     32s] ### route signature (31) = 1007629122
+[12/04 23:53:32     32s] ### violation signature (29) = 1905142130
+[12/04 23:53:32     32s] #detailRoute Statistics:
+[12/04 23:53:32     32s] #Cpu time = 00:00:08
+[12/04 23:53:32     32s] #Elapsed time = 00:00:08
+[12/04 23:53:32     32s] #Increased memory = -4.58 (MB)
+[12/04 23:53:32     32s] #Total memory = 921.88 (MB)
+[12/04 23:53:32     32s] #Peak memory = 960.48 (MB)
+[12/04 23:53:32     32s] ### export route signature (32) = 1007629122
+[12/04 23:53:32     32s] ### export violation signature (30) = 1905142130
+[12/04 23:53:32     32s] #
+[12/04 23:53:32     32s] #globalDetailRoute statistics:
+[12/04 23:53:32     32s] #Cpu time = 00:00:10
+[12/04 23:53:32     32s] #Elapsed time = 00:00:10
+[12/04 23:53:32     32s] #Increased memory = 26.17 (MB)
+[12/04 23:53:32     32s] #Total memory = 922.80 (MB)
+[12/04 23:53:32     32s] #Peak memory = 960.48 (MB)
+[12/04 23:53:32     32s] #Number of warnings = 23
+[12/04 23:53:32     32s] #Total number of warnings = 24
+[12/04 23:53:32     32s] #Number of fails = 0
+[12/04 23:53:32     32s] #Total number of fails = 0
+[12/04 23:53:32     32s] #Complete globalDetailRoute on Wed Dec  4 23:53:32 2024
+[12/04 23:53:32     32s] #
+[12/04 23:53:32     32s] #routeDesign: cpu time = 00:00:10, elapsed time = 00:00:10, memory = 923.07 (MB), peak = 960.48 (MB)
+[12/04 23:53:32     32s] 
+[12/04 23:53:32     32s] *** Summary of all messages that are not suppressed in this session:
+[12/04 23:53:32     32s] Severity  ID               Count  Summary                                  
+[12/04 23:53:32     32s] WARNING   IMPCK-8086           1  The command %s is obsolete and will be r...
+[12/04 23:53:32     32s] *** Message Summary: 1 warning(s), 0 error(s)
+[12/04 23:53:32     32s] 
+[12/04 23:53:32     32s] ### 
+[12/04 23:53:32     32s] ###   Scalability Statistics
+[12/04 23:53:32     32s] ### 
+[12/04 23:53:32     32s] ### ------------------------+----------------+----------------+----------------+
+[12/04 23:53:32     32s] ###   routeDesign           |        cpu time|    elapsed time|     scalability|
+[12/04 23:53:32     32s] ### ------------------------+----------------+----------------+----------------+
+[12/04 23:53:32     32s] ###   Data Preparation      |        00:00:00|        00:00:00|             1.0|
+[12/04 23:53:32     32s] ###   Global Routing        |        00:00:00|        00:00:00|             1.0|
+[12/04 23:53:32     32s] ###   Track Assignment      |        00:00:01|        00:00:01|             1.0|
+[12/04 23:53:32     32s] ###   Detail Routing        |        00:00:06|        00:00:06|             1.0|
+[12/04 23:53:32     32s] ###   Total                 |        00:00:10|        00:00:10|             1.0|
+[12/04 23:53:32     32s] ### ------------------------+----------------+----------------+----------------+
+[12/04 23:53:32     32s] ### 
+[12/04 23:54:40     37s] <CMD> saveNetlist maxtrix_pnr.v
+[12/04 23:54:40     37s] Writing Netlist "maxtrix_pnr.v" ...
+[12/04 23:55:54     41s] <CMD> set dbgLefDefOutVersion 5.6
+[12/04 23:55:54     41s] <CMD> global dbgLefDefOutVersion
+[12/04 23:55:54     41s] <CMD> set dbgLefDefOutVersion 5.6
+[12/04 23:55:54     41s] <CMD> defOut -floorplan -netlist -routing matrix_vector_mult.def
+[12/04 23:55:54     41s] Writing DEF file 'matrix_vector_mult.def', current time is Wed Dec  4 23:55:54 2024 ...
+[12/04 23:55:54     41s] unitPerMicron=1000, dbgMicronPerDBU=0.001000, unitPerDBU=1.000000
+[12/04 23:55:55     41s] **WARN: (IMPDF-1008):	The routing has wire-patches (that requires DEF 5.8 NETS RECT statements) in the signal routing that cannot be represented correctly in DEF 5.6 or 5.7. They will be converted to SPECIALNETS routing RECT shapes instead. This output is suitable for RC extraction tools, but this DEF should not be read back into Innovus as the routing data will not be correct. You should use DEF 5.8 to represent this routing data correctly by using "set dbgLefDefOutVersion 5.8".
+[12/04 23:55:55     41s] Type 'man IMPDF-1008' for more detail.
+[12/04 23:55:55     41s] DEF file 'matrix_vector_mult.def' is written, current time is Wed Dec  4 23:55:55 2024 ...
+[12/04 23:55:55     41s] <CMD> set dbgLefDefOutVersion 5.8
+[12/04 23:55:55     41s] <CMD> set dbgLefDefOutVersion 5.8
+[12/04 23:56:21     44s] <CMD> saveNetlist matrix_vector_mult.v
+[12/04 23:56:21     44s] Writing Netlist "matrix_vector_mult.v" ...
+[12/05 01:08:45    207s] 
+[12/05 01:08:45    207s] *** Memory Usage v#1 (Current mem = 1064.539M, initial mem = 179.605M) ***
+[12/05 01:08:45    207s] 
+[12/05 01:08:45    207s] *** Summary of all messages that are not suppressed in this session:
+[12/05 01:08:45    207s] Severity  ID               Count  Summary                                  
+[12/05 01:08:45    207s] WARNING   IMPDF-1008           1  The routing has wire-patches (that requi...
+[12/05 01:08:45    207s] WARNING   IMPFP-325            1  Floorplan of the design is resized. All ...
+[12/05 01:08:45    207s] WARNING   IMPFP-3961           4  The techSite '%s' has no related standar...
+[12/05 01:08:45    207s] WARNING   IMPSYT-7328          1  The design has been initialized in physi...
+[12/05 01:08:45    207s] WARNING   IMPCK-8086           1  The command %s is obsolete and will be r...
+[12/05 01:08:45    207s] WARNING   IMPOPT-6036          1  -useCells list is empty.                 
+[12/05 01:08:45    207s] WARNING   IMPTCM-77           13  Option "%s" for command %s is obsolete a...
+[12/05 01:08:45    207s] WARNING   IMPTCM-125           1  Option "%s" for command %s is obsolete a...
+[12/05 01:08:45    207s] *** Message Summary: 23 warning(s), 0 error(s)
+[12/05 01:08:45    207s] 
+[12/05 01:08:45    207s] --- Ending "Innovus" (totcpu=0:03:28, real=1:20:54, mem=1064.5M) ---

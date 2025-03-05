@@ -1,0 +1,548 @@
+m255
+K4
+z2
+!s11f vlog 2022.1 2022.01, Jan 29 2022
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/eng/s/sxv240035/cad/gf65/innovus
+vAOI12
+Z1 !s110 1733467820
+!i10b 1
+!s100 <[6Lbbc7h2HO`:a`<PEY53
+IRDg2X_EA0V_^g@m7C]RmL2
+R0
+Z2 w1733464582
+Z3 8/home/eng/s/sxv240035/cad/gf65/innovus/matrix_syn.v
+Z4 F/home/eng/s/sxv240035/cad/gf65/innovus/matrix_syn.v
+!i122 1
+L0 48 5
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 OP;L;2022.1;75
+r1
+!s85 0
+31
+Z7 !s108 1733467820.000000
+Z8 !s107 /home/eng/s/sxv240035/cad/gf65/innovus/matrix_syn.v|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|/home/eng/s/sxv240035/cad/gf65/innovus/matrix_syn.v|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+n@a@o@i12
+vaoi12
+Z12 !s110 1733468255
+!i10b 1
+!s100 C05m;h91e[ldX^YlQA?613
+IANfZH_CNjBlmO]hh_;f]L1
+R0
+Z13 w1733337908
+Z14 8/home/eng/s/sxv240035/cad/matrix_mul/synthesis.v
+Z15 F/home/eng/s/sxv240035/cad/matrix_mul/synthesis.v
+!i122 7
+L0 49 5
+R5
+R6
+r1
+!s85 0
+31
+Z16 !s108 1733468255.000000
+Z17 !s107 /home/eng/s/sxv240035/cad/matrix_mul/synthesis.v|
+Z18 !s90 -reportprogress|300|-work|work|-stats=none|/home/eng/s/sxv240035/cad/matrix_mul/synthesis.v|
+!i113 1
+R10
+R11
+vAOI22
+R1
+!i10b 1
+!s100 z8?`;OhUlHVK2o@jYXSia1
+IfZ=`C6nZK]eND:i>@eEA`3
+R0
+R2
+R3
+R4
+!i122 1
+L0 54 5
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@a@o@i22
+vaoi22
+R12
+!i10b 1
+!s100 7j]`<9RGOXd1zZ]^VMjN90
+IBmO[J0oz8GjgV4fQfn6S=0
+R0
+R13
+R14
+R15
+!i122 7
+L0 55 5
+R5
+R6
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 1
+R10
+R11
+vdff
+R12
+!i10b 1
+!s100 9Z2QB5<NfWNPC`iFaFm_Y0
+If?8]D?aL5Hh6f7jHTQk6R1
+R0
+R13
+R14
+R15
+!i122 7
+L0 73 10
+R5
+R6
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 1
+R10
+R11
+vinv
+R12
+!i10b 1
+!s100 5=L?<[kmmi`eG1:G5<o2G3
+InhE?]0IBKCYkVJ=Li?7>W2
+R0
+R13
+R14
+R15
+!i122 7
+L0 7 5
+R5
+R6
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 1
+R10
+R11
+vinverter
+R1
+!i10b 1
+!s100 zFQUk;Fz@1K@=URZXR@]H0
+IA1TdEj:RVIalYT0T?Ek131
+R0
+R2
+R3
+R4
+!i122 1
+L0 6 5
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vmatrix_vector_mult
+R12
+!i10b 1
+!s100 BPfz1ge7^nJnA77_lbR4D2
+I?j33Q=9@3KIMHi:10H=F00
+R0
+R13
+R14
+R15
+!i122 7
+L0 85 6870
+R5
+R6
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 1
+R10
+R11
+vNAND2
+R1
+!i10b 1
+!s100 z=8_[SdzMVXg5?bOzj9A42
+Io[D_S_kP9>]P_hKn>c3]R0
+R0
+R2
+R3
+R4
+!i122 1
+L0 12 5
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@n@a@n@d2
+vnand2
+R12
+!i10b 1
+!s100 lFI^kd6L_B>IeJd<Z?Y=11
+ILlfCojhi7H0AOaZ5Hamn01
+R0
+R13
+R14
+R15
+!i122 7
+L0 13 5
+R5
+R6
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 1
+R10
+R11
+vNAND3
+R1
+!i10b 1
+!s100 3CRz^Z49=KPgb`d6:OYgL2
+I62[W2fcO4d@61c>CVm@So0
+R0
+R2
+R3
+R4
+!i122 1
+L0 18 5
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@n@a@n@d3
+vnand3
+R12
+!i10b 1
+!s100 @7D7]Ug9zf4Hgi]6D@PZ<0
+IkkCESiXic^Q32VPHWj5`N3
+R0
+R13
+R14
+R15
+!i122 7
+L0 19 5
+R5
+R6
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 1
+R10
+R11
+vNAND4
+R1
+!i10b 1
+!s100 aH2]V7S6ZV;D0SO02<6DT2
+ID>mWPSiPX_Cb0AUY4R<B92
+R0
+R2
+R3
+R4
+!i122 1
+L0 24 5
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@n@a@n@d4
+vnand4
+R12
+!i10b 1
+!s100 Z0zAiWVllAV<l4[KXP6Ya3
+IKnFd<llGC;ezYaQh6<R;o0
+R0
+R13
+R14
+R15
+!i122 7
+L0 25 5
+R5
+R6
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 1
+R10
+R11
+vNOR2
+R1
+!i10b 1
+!s100 aNn<_6ZAC:j<NI`iDaI:K1
+I?P`TcVIfLLI@5UWR2]=5Y3
+R0
+R2
+R3
+R4
+!i122 1
+L0 30 5
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@n@o@r2
+vnor2
+R12
+!i10b 1
+!s100 E_e2PJ1Yh6fn4IXF<dG4a2
+In]F2D>Ck;[6d^2A[j68P>2
+R0
+R13
+R14
+R15
+!i122 7
+L0 31 5
+R5
+R6
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 1
+R10
+R11
+vNOR3
+R1
+!i10b 1
+!s100 7@PdGPlJf;m<=L?C<TdLo0
+IC9:>L[?AKQYhaHzm7ik1Q0
+R0
+R2
+R3
+R4
+!i122 1
+L0 36 5
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@n@o@r3
+vnor3
+R12
+!i10b 1
+!s100 42E=SAJ@Ln]RWg^BK>DAA0
+IY0K@E96f2FRVF:RgoTmDi1
+R0
+R13
+R14
+R15
+!i122 7
+L0 37 5
+R5
+R6
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 1
+R10
+R11
+vOAI12
+R1
+!i10b 1
+!s100 QZZFnW46oT9oFHhAWKK6<2
+I0jVhmZ_>f;zlN_b@9P[=Q1
+R0
+R2
+R3
+R4
+!i122 1
+L0 60 5
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@o@a@i12
+voai12
+R12
+!i10b 1
+!s100 `FHK2e=7]zKzXKcb<o:DL3
+I[dJH^eRg0fIEFQ=X7o;:I3
+R0
+R13
+R14
+R15
+!i122 7
+L0 61 5
+R5
+R6
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 1
+R10
+R11
+voai22
+R12
+!i10b 1
+!s100 j[><ib]0PnNR0;9l@zBC:0
+I?08ZZFVOWbG01ZEnY7NOj1
+R0
+R13
+R14
+R15
+!i122 7
+L0 67 5
+R5
+R6
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 1
+R10
+R11
+vtb_matrix_vector_mult
+R12
+!i10b 1
+!s100 8kcOIkkUFHUNJPbE1glnP3
+IVRCDBXJkT<Ii_IRbncHEh1
+R0
+w1728790491
+8/home/eng/s/sxv240035/cad/matrix_mul/tb_matrix_mul.v
+F/home/eng/s/sxv240035/cad/matrix_mul/tb_matrix_mul.v
+!i122 8
+L0 3 77
+R5
+R6
+r1
+!s85 0
+31
+R16
+!s107 /home/eng/s/sxv240035/cad/matrix_mul/tb_matrix_mul.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/eng/s/sxv240035/cad/matrix_mul/tb_matrix_mul.v|
+!i113 1
+R10
+R11
+vXOR2
+R1
+!i10b 1
+!s100 zF9e1;R]^bE?XS`CXnHZ53
+IBB37_V3mPm2Z4[jkXU3D43
+R0
+R2
+R3
+R4
+!i122 1
+L0 42 5
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@x@o@r2
+vxor2
+R12
+!i10b 1
+!s100 GHgi`0kX8W]_?4=zJdHgM3
+I[E1S=4M3J^bY[SoSA<2]63
+R0
+R13
+R14
+R15
+!i122 7
+L0 43 5
+R5
+R6
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 1
+R10
+R11

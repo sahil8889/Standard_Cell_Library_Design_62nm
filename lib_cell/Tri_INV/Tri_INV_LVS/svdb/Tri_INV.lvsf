@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_LvsOutFile RUNDIR /home/eng/s/sxv240035/cad/gf65/lib_cell/Tri_INV/Tri_INV_LVS
+lvs_LvsfVersion 2
+lvs_LvsInputSummary {0 0 0}
+lvs_LvsComparisonSummary {3 0 0 0}
+lvs_LvsOutFile LVS_REPORT Tri_INV.lvs.report
+lvs_LvsOutFile SOURCE_NETLIST /home/eng/s/sxv240035/cad/gf65/lib_cell/Tri_INV/Tri_INV_LVS/Tri_INV.src.net
+lvs_LvsOutFile RULES_FILE /home/eng/s/sxv240035/cad/gf65/lib_cell/Tri_INV/Tri_INV_LVS/_Calibre_LVS_rules_
+lvs_LvsRunTimes 1730424839 1730424839

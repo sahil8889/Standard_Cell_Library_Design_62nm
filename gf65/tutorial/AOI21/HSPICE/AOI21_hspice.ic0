@@ -1,0 +1,20 @@
+* "simulator" "HSPICE" 
+* "version" "O-2018.09-2 linux64"
+* "format" "HSP"
+* "rundate" "17:21:18 12/01/2024 "
+* "netlist" "AOI21_hspice.sp "
+* "runtitle" "$example hspice setup file"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ a =   1.2000        
++ b =   1.2000        
++ c =   1.2000        
++ out =   7.8850n       
++ vdd! =   1.2000        
++ xi.net09 =   1.1275        
++ xi.net18 =   6.3790n       
+***   END: Saved Operating Point ***                     

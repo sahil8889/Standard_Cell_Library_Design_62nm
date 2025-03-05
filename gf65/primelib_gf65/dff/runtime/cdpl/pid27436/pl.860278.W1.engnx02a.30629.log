@@ -1,0 +1,269 @@
+----------------------------------------------------------------------
+PrimeLib version T-2022.03-SP1 (Malibu 2)
+Build date: Apr 12, 2022 13:01:04
+Path: /proj/cad/synopsys/synopsys_2021/primelib/T-2022.03-SP1/linux64/bin/primelib
+Host: engnx02a.utdallas.edu, User: sxv240035, PID: 30629 (PPID: 30623)
+CPU: 32 x 3693 MHz, AMD EPYC 7F32 8-Core Processor (2 socket, 16 core)
+Memory: 257 GB RAM (180.4 GB free), 4 GB Swap (4.1 GB free)
+System load average: 1.60, 2.40, 2.42 (19596 processes)
+Directory: /home/eng/s/sxv240035/cad/gf65/primelib_gf65
+Command-line: /proj/cad/synopsys/synopsys_2021/primelib/T-2022.03-SP1/linux64/bin/primelib -server /home/eng/s/sxv240035/cad/gf65/primelib_gf65/dff/runtime/cdpl/pid27436/driver_27436.tcl
+The char directory is /home/eng/s/sxv240035/cad/gf65/primelib_gf65/dff
+Warning: Setting of obsolete parameter 'model_ecsm_cin' is ignored. (PAR-27)
+Warning: 2003.12 is no longer supported as a valid value for liberty_flavor. Setting it to 2007.03.
+Loading /home/eng/s/sxv240035/cad/gf65/primelib_gf65/dff/etc/cell.stat.gz
+Wed Nov 13 14:46:39 CST 2024: Sourcing environment settings
+Warning: Operating condition 'op_cond' already exists, skipped.
+Wed Nov 13 14:46:39 CST 2024: Environment set up done (0 seconds)
+Create and link tmpdir /var/tmp/pl.engnx02a.860278.30623 -> /var/tmp/primelib.engnx02a.utdallas.edu.860278.30629 
+[CDPL] Loading settings for stage: characterization.0
+The char directory is /home/eng/s/sxv240035/cad/gf65/primelib_gf65/dff
+Warning: 2003.12 is no longer supported as a valid value for liberty_flavor. Setting it to 2007.03.
+Wed Nov 13 14:46:39 CST 2024: Sourcing environment settings
+Warning: Operating condition 'op_cond' already exists, skipped.
+Wed Nov 13 14:46:39 CST 2024: Environment set up done (0 seconds)
+[CDPL] Done loading settings for stage: characterization.0
+Loading information for cell dff
+work dir: '/var/tmp/primelib.engnx02a.860278.30629/dff/initialization__ACQ_7.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Host engnx02a.utdallas.edu load average 1.66 (1min) 2.38 (5min) 2.42 (15min)
+Error:   Simulation initialization__ACQ_7.sif for cell dff failed: deck.lis: **error** (deck.cir:77) Number of nodes mismatch between instance "xdff_inst" and subcircuit "dff". Subcircuit definition has    6 node(s) whereas subckt instance has    7 node(s). Please specify same number of nodes. . (SC-59) (SMSC-95)
+----------------------
+__recordTaskStats__ dff initialization__ACQ_7 0.14 0.01 5.71 0.64 1 7.50460410118 engnx02a.utdallas.edu 1731530799.57 1731530807.08 1
+Loading information for cell dff
+work dir: '/var/tmp/primelib.engnx02a.860278.30629/dff/initialization__ACQ_6.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Host engnx02a.utdallas.edu load average 1.76 (1min) 2.39 (5min) 2.42 (15min)
+Error:   Simulation initialization__ACQ_6.sif for cell dff failed: deck.lis: **error** (deck.cir:77) Number of nodes mismatch between instance "xdff_inst" and subcircuit "dff". Subcircuit definition has    6 node(s) whereas subckt instance has    7 node(s). Please specify same number of nodes. . (SC-59) (SMSC-95)
+----------------------
+__recordTaskStats__ dff initialization__ACQ_6 0.08 0.01 5.65 0.56 1 6.29521608353 engnx02a.utdallas.edu 1731530807.08 1731530813.37 1
+Loading information for cell dff
+work dir: '/var/tmp/primelib.engnx02a.860278.30629/dff/initialization__ACQ_4.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Host engnx02a.utdallas.edu load average 1.7 (1min) 2.37 (5min) 2.41 (15min)
+Error:   Simulation initialization__ACQ_4.sif for cell dff failed: deck.lis: **error** (deck.cir:77) Number of nodes mismatch between instance "xdff_inst" and subcircuit "dff". Subcircuit definition has    6 node(s) whereas subckt instance has    7 node(s). Please specify same number of nodes. . (SC-59) (SMSC-95)
+----------------------
+__recordTaskStats__ dff initialization__ACQ_4 0.08 0.01 5.7 0.61 1 6.3987839222 engnx02a.utdallas.edu 1731530813.37 1731530819.77 1
+Loading information for cell dff
+work dir: '/var/tmp/primelib.engnx02a.860278.30629/dff/initialization__ACQ_5.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Host engnx02a.utdallas.edu load average 1.74 (1min) 2.36 (5min) 2.41 (15min)
+Error:   Simulation initialization__ACQ_5.sif for cell dff failed: deck.lis: **error** (deck.cir:77) Number of nodes mismatch between instance "xdff_inst" and subcircuit "dff". Subcircuit definition has    6 node(s) whereas subckt instance has    7 node(s). Please specify same number of nodes. . (SC-59) (SMSC-95)
+----------------------
+__recordTaskStats__ dff initialization__ACQ_5 0.09 0.03 5.77 0.6 1 6.48149013519 engnx02a.utdallas.edu 1731530819.77 1731530826.25 1
+Loading information for cell dff
+work dir: '/var/tmp/primelib.engnx02a.860278.30629/dff/removal_hbm__R__hl__CLK__hl__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Host engnx02a.utdallas.edu load average 1.84 (1min) 2.37 (5min) 2.41 (15min)
+Error:   Simulation removal_hbm__R__hl__CLK__hl__ACQ_1.sif for cell dff failed: deck.lis: **error** (deck.cir:94) Number of nodes mismatch between instance "xdff_inst" and subcircuit "dff". Subcircuit definition has    6 node(s) whereas subckt instance has    7 node(s). Please specify same number of nodes. . (SC-59) (SMSC-95)
+----------------------
+__recordTaskStats__ dff removal_hbm__R__hl__CLK__hl__ACQ_1 0.09 0.01 5.84 0.61 1 6.55587983131 engnx02a.utdallas.edu 1731530826.25 1731530832.81 1
+Loading information for cell dff
+work dir: '/var/tmp/primelib.engnx02a.860278.30629/dff/recover_hbm__R__hl__CLK__hl__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Host engnx02a.utdallas.edu load average 1.93 (1min) 2.38 (5min) 2.41 (15min)
+Error:   Simulation recover_hbm__R__hl__CLK__hl__ACQ_1.sif for cell dff failed: deck.lis: **error** (deck.cir:92) Number of nodes mismatch between instance "xdff_inst" and subcircuit "dff". Subcircuit definition has    6 node(s) whereas subckt instance has    7 node(s). Please specify same number of nodes. . (SC-59) (SMSC-95)
+----------------------
+__recordTaskStats__ dff recover_hbm__R__hl__CLK__hl__ACQ_1 0.1 0.01 5.68 0.6 1 6.3883869648 engnx02a.utdallas.edu 1731530832.81 1731530839.2 1
+Loading information for cell dff
+work dir: '/var/tmp/primelib.engnx02a.860278.30629/dff/initialization__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Host engnx02a.utdallas.edu load average 1.86 (1min) 2.35 (5min) 2.4 (15min)
+Error:   Simulation initialization__ACQ_1.sif for cell dff failed: deck.lis: **error** (deck.cir:77) Number of nodes mismatch between instance "xdff_inst" and subcircuit "dff". Subcircuit definition has    6 node(s) whereas subckt instance has    7 node(s). Please specify same number of nodes. . (SC-59) (SMSC-95)
+----------------------
+__recordTaskStats__ dff initialization__ACQ_1 0.08 0.0 5.63 0.64 1 6.35565400124 engnx02a.utdallas.edu 1731530839.2 1731530845.56 1
+Loading information for cell dff
+work dir: '/var/tmp/primelib.engnx02a.860278.30629/dff/initialization__ACQ_2.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Host engnx02a.utdallas.edu load average 1.87 (1min) 2.34 (5min) 2.4 (15min)
+Error:   Simulation initialization__ACQ_2.sif for cell dff failed: deck.lis: **error** (deck.cir:76) Number of nodes mismatch between instance "xdff_inst" and subcircuit "dff". Subcircuit definition has    6 node(s) whereas subckt instance has    7 node(s). Please specify same number of nodes. . (SC-59) (SMSC-95)
+----------------------
+__recordTaskStats__ dff initialization__ACQ_2 0.08 0.01 5.67 0.61 1 6.3630001545 engnx02a.utdallas.edu 1731530845.56 1731530851.92 1
+Loading information for cell dff
+work dir: '/var/tmp/primelib.engnx02a.860278.30629/dff/initialization__ACQ_3.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Host engnx02a.utdallas.edu load average 1.88 (1min) 2.34 (5min) 2.4 (15min)
+Error:   Simulation initialization__ACQ_3.sif for cell dff failed: deck.lis: **error** (deck.cir:76) Number of nodes mismatch between instance "xdff_inst" and subcircuit "dff". Subcircuit definition has    6 node(s) whereas subckt instance has    7 node(s). Please specify same number of nodes. . (SC-59) (SMSC-95)
+----------------------
+__recordTaskStats__ dff initialization__ACQ_3 0.08 0.02 5.66 0.63 1 6.37669086456 engnx02a.utdallas.edu 1731530851.92 1731530858.3 1
+Loading information for cell dff
+work dir: '/var/tmp/primelib.engnx02a.860278.30629/dff/initialization__ACQ_7.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Host engnx02a.utdallas.edu load average 1.89 (1min) 2.33 (5min) 2.4 (15min)
+Error:   Simulation initialization__ACQ_7.sif for cell dff failed: deck.lis: **error** (deck.cir:77) Number of nodes mismatch between instance "xdff_inst" and subcircuit "dff". Subcircuit definition has    6 node(s) whereas subckt instance has    7 node(s). Please specify same number of nodes. . (SC-59) (SMSC-95)
+----------------------
+__recordTaskStats__ dff initialization__ACQ_7 0.09 0.01 5.75 0.61 1 6.47678899765 engnx02a.utdallas.edu 1731530858.3 1731530864.77 1
+Loading information for cell dff
+work dir: '/var/tmp/primelib.engnx02a.860278.30629/dff/initialization__ACQ_6.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Host engnx02a.utdallas.edu load average 1.99 (1min) 2.34 (5min) 2.4 (15min)
+Error:   Simulation initialization__ACQ_6.sif for cell dff failed: deck.lis: **error** (deck.cir:77) Number of nodes mismatch between instance "xdff_inst" and subcircuit "dff". Subcircuit definition has    6 node(s) whereas subckt instance has    7 node(s). Please specify same number of nodes. . (SC-59) (SMSC-95)
+----------------------
+__recordTaskStats__ dff initialization__ACQ_6 0.07 0.01 5.74 0.61 1 6.45033407211 engnx02a.utdallas.edu 1731530864.77 1731530871.22 1
+Loading information for cell dff
+work dir: '/var/tmp/primelib.engnx02a.860278.30629/dff/initialization__ACQ_4.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Host engnx02a.utdallas.edu load average 1.99 (1min) 2.33 (5min) 2.4 (15min)
+Error:   Simulation initialization__ACQ_4.sif for cell dff failed: deck.lis: **error** (deck.cir:77) Number of nodes mismatch between instance "xdff_inst" and subcircuit "dff". Subcircuit definition has    6 node(s) whereas subckt instance has    7 node(s). Please specify same number of nodes. . (SC-59) (SMSC-95)
+----------------------
+__recordTaskStats__ dff initialization__ACQ_4 0.08 0.01 5.8 0.65 1 6.53550195694 engnx02a.utdallas.edu 1731530871.23 1731530877.76 1
+Loading information for cell dff
+work dir: '/var/tmp/primelib.engnx02a.860278.30629/dff/initialization__ACQ_5.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Host engnx02a.utdallas.edu load average 2.15 (1min) 2.36 (5min) 2.41 (15min)
+Error:   Simulation initialization__ACQ_5.sif for cell dff failed: deck.lis: **error** (deck.cir:77) Number of nodes mismatch between instance "xdff_inst" and subcircuit "dff". Subcircuit definition has    6 node(s) whereas subckt instance has    7 node(s). Please specify same number of nodes. . (SC-59) (SMSC-95)
+----------------------
+__recordTaskStats__ dff initialization__ACQ_5 0.08 0.01 5.85 0.63 1 6.57022285461 engnx02a.utdallas.edu 1731530877.76 1731530884.33 1
+Loading information for cell dff
+work dir: '/var/tmp/primelib.engnx02a.860278.30629/dff/removal_hbm__R__hl__CLK__hl__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Host engnx02a.utdallas.edu load average 2.13 (1min) 2.35 (5min) 2.4 (15min)
+Error:   Simulation removal_hbm__R__hl__CLK__hl__ACQ_1.sif for cell dff failed: deck.lis: **error** (deck.cir:94) Number of nodes mismatch between instance "xdff_inst" and subcircuit "dff". Subcircuit definition has    6 node(s) whereas subckt instance has    7 node(s). Please specify same number of nodes. . (SC-59) (SMSC-95)
+----------------------
+__recordTaskStats__ dff removal_hbm__R__hl__CLK__hl__ACQ_1 0.1 0.01 5.74 0.61 1 6.44793796539 engnx02a.utdallas.edu 1731530884.33 1731530890.78 1
+Loading information for cell dff
+work dir: '/var/tmp/primelib.engnx02a.860278.30629/dff/recover_hbm__R__hl__CLK__hl__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Host engnx02a.utdallas.edu load average 2.28 (1min) 2.38 (5min) 2.41 (15min)
+Error:   Simulation recover_hbm__R__hl__CLK__hl__ACQ_1.sif for cell dff failed: deck.lis: **error** (deck.cir:92) Number of nodes mismatch between instance "xdff_inst" and subcircuit "dff". Subcircuit definition has    6 node(s) whereas subckt instance has    7 node(s). Please specify same number of nodes. . (SC-59) (SMSC-95)
+----------------------
+__recordTaskStats__ dff recover_hbm__R__hl__CLK__hl__ACQ_1 0.1 0.01 5.72 0.61 1 6.43975806236 engnx02a.utdallas.edu 1731530890.78 1731530897.22 1
+Loading information for cell dff
+work dir: '/var/tmp/primelib.engnx02a.860278.30629/dff/initialization__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Host engnx02a.utdallas.edu load average 2.33 (1min) 2.39 (5min) 2.41 (15min)
+Error:   Simulation initialization__ACQ_1.sif for cell dff failed: deck.lis: **error** (deck.cir:77) Number of nodes mismatch between instance "xdff_inst" and subcircuit "dff". Subcircuit definition has    6 node(s) whereas subckt instance has    7 node(s). Please specify same number of nodes. . (SC-59) (SMSC-95)
+----------------------
+__recordTaskStats__ dff initialization__ACQ_1 0.08 0.0 5.94 0.62 1 6.66807699203 engnx02a.utdallas.edu 1731530897.22 1731530903.89 1
+Loading information for cell dff
+work dir: '/var/tmp/primelib.engnx02a.860278.30629/dff/initialization__ACQ_2.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Host engnx02a.utdallas.edu load average 2.36 (1min) 2.39 (5min) 2.41 (15min)
+Error:   Simulation initialization__ACQ_2.sif for cell dff failed: deck.lis: **error** (deck.cir:76) Number of nodes mismatch between instance "xdff_inst" and subcircuit "dff". Subcircuit definition has    6 node(s) whereas subckt instance has    7 node(s). Please specify same number of nodes. . (SC-59) (SMSC-95)
+----------------------
+__recordTaskStats__ dff initialization__ACQ_2 0.09 0.01 6.06 0.66 1 6.80869698524 engnx02a.utdallas.edu 1731530903.89 1731530910.7 1
+Loading information for cell dff
+work dir: '/var/tmp/primelib.engnx02a.860278.30629/dff/initialization__ACQ_3.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Host engnx02a.utdallas.edu load average 2.33 (1min) 2.38 (5min) 2.41 (15min)
+Error:   Simulation initialization__ACQ_3.sif for cell dff failed: deck.lis: **error** (deck.cir:76) Number of nodes mismatch between instance "xdff_inst" and subcircuit "dff". Subcircuit definition has    6 node(s) whereas subckt instance has    7 node(s). Please specify same number of nodes. . (SC-59) (SMSC-95)
+----------------------
+__recordTaskStats__ dff initialization__ACQ_3 0.08 0.01 5.86 0.65 1 6.60068702698 engnx02a.utdallas.edu 1731530910.7 1731530917.3 1
+Loading information for cell dff
+work dir: '/var/tmp/primelib.engnx02a.860278.30629/dff/Cin__D__hl__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Host engnx02a.utdallas.edu load average 2.47 (1min) 2.41 (5min) 2.42 (15min)
+Error:   Simulation Cin__D__hl__ACQ_1.sif for cell dff failed: deck.lis: **error** (deck.cir:80) Number of nodes mismatch between instance "xdff_inst" and subcircuit "dff". Subcircuit definition has    6 node(s) whereas subckt instance has    7 node(s). Please specify same number of nodes. . (SC-59) (SMSC-95)
+----------------------
+__recordTaskStats__ dff Cin__D__hl__ACQ_1 0.09 0.01 5.67 0.64 1 6.39911603928 engnx02a.utdallas.edu 1731530917.3 1731530923.7 1
+Loading information for cell dff
+work dir: '/var/tmp/primelib.engnx02a.860278.30629/dff/Cin__D__lh__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Host engnx02a.utdallas.edu load average 2.43 (1min) 2.4 (5min) 2.42 (15min)
+Error:   Simulation Cin__D__lh__ACQ_1.sif for cell dff failed: deck.lis: **error** (deck.cir:80) Number of nodes mismatch between instance "xdff_inst" and subcircuit "dff". Subcircuit definition has    6 node(s) whereas subckt instance has    7 node(s). Please specify same number of nodes. . (SC-59) (SMSC-95)
+----------------------
+__recordTaskStats__ dff Cin__D__lh__ACQ_1 0.08 0.01 5.82 0.62 1 6.52291584015 engnx02a.utdallas.edu 1731530923.7 1731530930.22 1
+Loading information for cell dff
+work dir: '/var/tmp/primelib.engnx02a.860278.30629/dff/Cin__VSS__hl__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Host engnx02a.utdallas.edu load average 2.68 (1min) 2.46 (5min) 2.43 (15min)
+Error:   Simulation Cin__VSS__hl__ACQ_1.sif for cell dff failed: deck.lis: **error** (deck.cir:81) Number of nodes mismatch between instance "xdff_inst" and subcircuit "dff". Subcircuit definition has    6 node(s) whereas subckt instance has    7 node(s). Please specify same number of nodes. . (SC-59) (SMSC-95)
+----------------------
+__recordTaskStats__ dff Cin__VSS__hl__ACQ_1 0.08 0.01 5.82 0.62 1 6.53532409668 engnx02a.utdallas.edu 1731530930.22 1731530936.76 1
+Loading information for cell dff
+work dir: '/var/tmp/primelib.engnx02a.860278.30629/dff/Cin__VSS__lh__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Host engnx02a.utdallas.edu load average 2.7 (1min) 2.46 (5min) 2.44 (15min)
+Error:   Simulation Cin__VSS__lh__ACQ_1.sif for cell dff failed: deck.lis: **error** (deck.cir:81) Number of nodes mismatch between instance "xdff_inst" and subcircuit "dff". Subcircuit definition has    6 node(s) whereas subckt instance has    7 node(s). Please specify same number of nodes. . (SC-59) (SMSC-95)
+----------------------
+__recordTaskStats__ dff Cin__VSS__lh__ACQ_1 0.08 0.01 5.88 0.61 1 6.57567191124 engnx02a.utdallas.edu 1731530936.76 1731530943.34 1
+Loading information for cell dff
+work dir: '/var/tmp/primelib.engnx02a.860278.30629/dff/Cin__CLK__lh__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Host engnx02a.utdallas.edu load average 2.65 (1min) 2.46 (5min) 2.43 (15min)
+Error:   Simulation Cin__CLK__lh__ACQ_1.sif for cell dff failed: deck.lis: **error** (deck.cir:80) Number of nodes mismatch between instance "xdff_inst" and subcircuit "dff". Subcircuit definition has    6 node(s) whereas subckt instance has    7 node(s). Please specify same number of nodes. . (SC-59) (SMSC-95)
+----------------------
+__recordTaskStats__ dff Cin__CLK__lh__ACQ_1 0.08 0.01 5.96 0.63 1 6.67674994469 engnx02a.utdallas.edu 1731530943.34 1731530950.01 1
+Loading information for cell dff
+work dir: '/var/tmp/primelib.engnx02a.860278.30629/dff/Cin__VDD__hl__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Host engnx02a.utdallas.edu load average 2.77 (1min) 2.49 (5min) 2.45 (15min)
+Error:   Simulation Cin__VDD__hl__ACQ_1.sif for cell dff failed: deck.lis: **error** (deck.cir:81) Number of nodes mismatch between instance "xdff_inst" and subcircuit "dff". Subcircuit definition has    6 node(s) whereas subckt instance has    7 node(s). Please specify same number of nodes. . (SC-59) (SMSC-95)
+----------------------
+__recordTaskStats__ dff Cin__VDD__hl__ACQ_1 0.08 0.01 5.85 0.64 1 6.58214902878 engnx02a.utdallas.edu 1731530950.01 1731530956.6 1
+Loading information for cell dff
+work dir: '/var/tmp/primelib.engnx02a.860278.30629/dff/Cin__VDD__lh__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Host engnx02a.utdallas.edu load average 2.77 (1min) 2.49 (5min) 2.45 (15min)
+Error:   Simulation Cin__VDD__lh__ACQ_1.sif for cell dff failed: deck.lis: **error** (/home/eng/s/sxv240035/cad/gf65/primelib_gf65/dff/netlists/dff.pex.sp:6) unable to open file "/home/eng/s/sxv240035/cad/gf65/lib_cell/dff/HSPICE/dff.pex.sp.pex" .Either file doesn't exists or path is wrong. Please enter the correct file location.  . (SC-59) (SMSC-95)
+----------------------
+__recordTaskStats__ dff Cin__VDD__lh__ACQ_1 0.08 0.03 0.05 0.04 1 3.20167088509 engnx02a.utdallas.edu 1731530956.6 1731530959.8 1
+Loading information for cell dff
+work dir: '/var/tmp/primelib.engnx02a.860278.30629/dff/Cin__R__hl__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Host engnx02a.utdallas.edu load average 2.65 (1min) 2.47 (5min) 2.44 (15min)
+Error:   Simulation Cin__R__hl__ACQ_1.sif for cell dff failed: deck.lis: **error** (deck.cir:80) Number of nodes mismatch between instance "xdff_inst" and subcircuit "dff". Subcircuit definition has    6 node(s) whereas subckt instance has    7 node(s). Please specify same number of nodes. . (SC-59) (SMSC-95)
+----------------------
+__recordTaskStats__ dff Cin__R__hl__ACQ_1 0.08 0.0 5.7 0.65 1 7.43882703781 engnx02a.utdallas.edu 1731530959.8 1731530967.24 1
+Loading information for cell dff
+work dir: '/var/tmp/primelib.engnx02a.860278.30629/dff/Cin__D__hl__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Host engnx02a.utdallas.edu load average 2.52 (1min) 2.45 (5min) 2.43 (15min)
+Error:   Simulation Cin__D__hl__ACQ_1.sif for cell dff failed: deck.lis: **error** (deck.cir:80) Number of nodes mismatch between instance "xdff_inst" and subcircuit "dff". Subcircuit definition has    6 node(s) whereas subckt instance has    7 node(s). Please specify same number of nodes. . (SC-59) (SMSC-95)
+----------------------
+__recordTaskStats__ dff Cin__D__hl__ACQ_1 0.08 0.02 5.8 0.61 1 6.51182603836 engnx02a.utdallas.edu 1731530967.24 1731530973.75 1
+Loading information for cell dff
+work dir: '/var/tmp/primelib.engnx02a.860278.30629/dff/Cin__D__lh__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Host engnx02a.utdallas.edu load average 2.48 (1min) 2.44 (5min) 2.43 (15min)
+Error:   Simulation Cin__D__lh__ACQ_1.sif for cell dff failed: deck.lis: **error** (deck.cir:80) Number of nodes mismatch between instance "xdff_inst" and subcircuit "dff". Subcircuit definition has    6 node(s) whereas subckt instance has    7 node(s). Please specify same number of nodes. . (SC-59) (SMSC-95)
+----------------------
+__recordTaskStats__ dff Cin__D__lh__ACQ_1 0.08 0.0 5.8 0.62 1 6.5232758522 engnx02a.utdallas.edu 1731530973.75 1731530980.27 1
+Loading information for cell dff
+work dir: '/var/tmp/primelib.engnx02a.860278.30629/dff/Cin__VSS__hl__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Host engnx02a.utdallas.edu load average 2.48 (1min) 2.44 (5min) 2.43 (15min)
+Error:   Simulation Cin__VSS__hl__ACQ_1.sif for cell dff failed: deck.lis: **error** (deck.cir:81) Number of nodes mismatch between instance "xdff_inst" and subcircuit "dff". Subcircuit definition has    6 node(s) whereas subckt instance has    7 node(s). Please specify same number of nodes. . (SC-59) (SMSC-95)
+----------------------
+__recordTaskStats__ dff Cin__VSS__hl__ACQ_1 0.08 0.02 5.77 0.59 1 6.44979596138 engnx02a.utdallas.edu 1731530980.27 1731530986.72 1
+Loading information for cell dff
+work dir: '/var/tmp/primelib.engnx02a.860278.30629/dff/Cin__VSS__lh__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Host engnx02a.utdallas.edu load average 2.52 (1min) 2.45 (5min) 2.43 (15min)
+Error:   Simulation Cin__VSS__lh__ACQ_1.sif for cell dff failed: deck.lis: **error** (deck.cir:81) Number of nodes mismatch between instance "xdff_inst" and subcircuit "dff". Subcircuit definition has    6 node(s) whereas subckt instance has    7 node(s). Please specify same number of nodes. . (SC-59) (SMSC-95)
+----------------------
+__recordTaskStats__ dff Cin__VSS__lh__ACQ_1 0.08 0.0 5.78 0.62 1 6.50220298767 engnx02a.utdallas.edu 1731530986.73 1731530993.23 1
+Loading information for cell dff
+work dir: '/var/tmp/primelib.engnx02a.860278.30629/dff/Cin__CLK__lh__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Host engnx02a.utdallas.edu load average 2.64 (1min) 2.48 (5min) 2.44 (15min)
+Error:   Simulation Cin__CLK__lh__ACQ_1.sif for cell dff failed: deck.lis: **error** (deck.cir:80) Number of nodes mismatch between instance "xdff_inst" and subcircuit "dff". Subcircuit definition has    6 node(s) whereas subckt instance has    7 node(s). Please specify same number of nodes. . (SC-59) (SMSC-95)
+----------------------
+__recordTaskStats__ dff Cin__CLK__lh__ACQ_1 0.08 0.01 5.64 0.62 1 6.3624420166 engnx02a.utdallas.edu 1731530993.23 1731530999.59 1
+Loading information for cell dff
+work dir: '/var/tmp/primelib.engnx02a.860278.30629/dff/Cin__VDD__hl__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Host engnx02a.utdallas.edu load average 2.46 (1min) 2.45 (5min) 2.43 (15min)
+Error:   Simulation Cin__VDD__hl__ACQ_1.sif for cell dff failed: deck.lis: **error** (deck.cir:81) Number of nodes mismatch between instance "xdff_inst" and subcircuit "dff". Subcircuit definition has    6 node(s) whereas subckt instance has    7 node(s). Please specify same number of nodes. . (SC-59) (SMSC-95)
+----------------------
+__recordTaskStats__ dff Cin__VDD__hl__ACQ_1 0.09 0.01 5.67 0.63 1 6.41916584969 engnx02a.utdallas.edu 1731530999.59 1731531006.01 1
+Loading information for cell dff
+work dir: '/var/tmp/primelib.engnx02a.860278.30629/dff/Cin__VDD__lh__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Host engnx02a.utdallas.edu load average 2.42 (1min) 2.44 (5min) 2.43 (15min)
+Error:   Simulation Cin__VDD__lh__ACQ_1.sif for cell dff failed: deck.lis: **error** (deck.cir:81) Number of nodes mismatch between instance "xdff_inst" and subcircuit "dff". Subcircuit definition has    6 node(s) whereas subckt instance has    7 node(s). Please specify same number of nodes. . (SC-59) (SMSC-95)
+----------------------
+__recordTaskStats__ dff Cin__VDD__lh__ACQ_1 0.08 0.01 5.87 0.66 1 6.61561799049 engnx02a.utdallas.edu 1731531006.01 1731531012.63 1
+Loading information for cell dff
+work dir: '/var/tmp/primelib.engnx02a.860278.30629/dff/Cin__R__hl__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Host engnx02a.utdallas.edu load average 2.39 (1min) 2.43 (5min) 2.43 (15min)
+Error:   Simulation Cin__R__hl__ACQ_1.sif for cell dff failed: deck.lis: **error** (deck.cir:80) Number of nodes mismatch between instance "xdff_inst" and subcircuit "dff". Subcircuit definition has    6 node(s) whereas subckt instance has    7 node(s). Please specify same number of nodes. . (SC-59) (SMSC-95)
+----------------------
+__recordTaskStats__ dff Cin__R__hl__ACQ_1 0.09 0.01 5.75 0.64 1 6.48583889008 engnx02a.utdallas.edu 1731531012.63 1731531019.11 1
+Warning: /var/tmp/worker.860278.W1.engnx02a.utdallas.edu.30629.log: No such file or directory
+   [CDPL] Shutting down worker
+Wed Nov 13 14:55:51 2024: Program time: 552.00 seconds | 9.20 minutes | 0.15 hours
+CDPL worker exited normally.
+Reset log file
+Maximum virtual memory size: 979.215 MB

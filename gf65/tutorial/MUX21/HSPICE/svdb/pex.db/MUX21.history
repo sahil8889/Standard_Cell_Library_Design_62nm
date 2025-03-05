@@ -1,0 +1,8 @@
+//OK 
+//NUMBER_OF_HEADER_LINES: 6
+//VERSION: 1
+//TOKEN_DELIMITER: "
+//TOKEN_SEPARATOR: " "
+//FORMAT: "time" "calibre version" "command line"
+"Tue Dec  3 11:00:55 2024 " "v2013.2_18.13" "-xrc -pdb -rcc -turbo 1 /home/eng/s/sxv240035/cad/gf65/tutorial/MUX21/HSPICE/_Calibre_PEX_nom_rules_"
+"Tue Dec  3 11:01:01 2024 " "v2013.2_18.13" "-xrc -fmt -all /home/eng/s/sxv240035/cad/gf65/tutorial/MUX21/HSPICE/_Calibre_PEX_nom_rules_"

@@ -1,0 +1,10 @@
+CADENCE IHNL11140
+$model
+tutorial/NAND3/schematic NAND3
+$endmodel
+$net
+gnd! gnd!
+vdd! vdd!
+$endnet
+$param
+$endparam

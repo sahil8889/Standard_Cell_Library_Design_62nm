@@ -1,0 +1,121 @@
+* SPICE NETLIST
+***************************************
+
+.SUBCKT efuse in out
+.ENDS
+***************************************
+.SUBCKT subc SUBCON sub
+.ENDS
+***************************************
+.SUBCKT sblkndres IN OUT SUB
+.ENDS
+***************************************
+.SUBCKT sblkpdres IN OUT SUB
+.ENDS
+***************************************
+.SUBCKT esdscr_dw pd nw sx nd tds1 tds2
+.ENDS
+***************************************
+.SUBCKT esdscr_tw pd nw pw nd tds1 tds2
+.ENDS
+***************************************
+.SUBCKT esdscr_dw_rf pd nw sx nd tds1 tds2
+.ENDS
+***************************************
+.SUBCKT esdscr_tw_rf pd nw pw nd tds1 tds2
+.ENDS
+***************************************
+.SUBCKT npolyf_s PLUS MINUS SUB
+.ENDS
+***************************************
+.SUBCKT npolyf_u PLUS MINUS SUB
+.ENDS
+***************************************
+.SUBCKT ppolyf_s PLUS MINUS SUB
+.ENDS
+***************************************
+.SUBCKT nplus_s PLUS MINUS SUB
+.ENDS
+***************************************
+.SUBCKT pplus_s PLUS MINUS SUB
+.ENDS
+***************************************
+.SUBCKT pplus_u PLUS MINUS SUB
+.ENDS
+***************************************
+.SUBCKT nwella PLUS MINUS SUB
+.ENDS
+***************************************
+.SUBCKT indp out in gnd
+.ENDS
+***************************************
+.SUBCKT symindp outpr outse ct BULK
+.ENDS
+***************************************
+.SUBCKT nfettw G S D B tw sx
+.ENDS
+***************************************
+.SUBCKT lvtnfettw G S D B tw sx
+.ENDS
+***************************************
+.SUBCKT hvtnfettw G S D B tw sx
+.ENDS
+***************************************
+.SUBCKT dgvnfettw G S D B tw sx
+.ENDS
+***************************************
+.SUBCKT dgnfettw G S D B tw sx
+.ENDS
+***************************************
+.SUBCKT dgxnfettw G S D B tw sx
+.ENDS
+***************************************
+.SUBCKT nfettw_rf G S D B tw sx
+.ENDS
+***************************************
+.SUBCKT lvtnfettw_rf G S D B tw sx
+.ENDS
+***************************************
+.SUBCKT hvtnfettw_rf G S D B tw sx
+.ENDS
+***************************************
+.SUBCKT dgvnfettw_rf G S D B tw sx
+.ENDS
+***************************************
+.SUBCKT dgnfettw_rf G S D B tw sx
+.ENDS
+***************************************
+.SUBCKT bondpad in gp sub
+.ENDS
+***************************************
+.SUBCKT singlecpw va vb vshield
+.ENDS
+***************************************
+.SUBCKT coupledcpw va1 va2 vb1 vb2 vshield
+.ENDS
+***************************************
+.SUBCKT singlewire va vb vshield
+.ENDS
+***************************************
+.SUBCKT coupledwires va1 va2 vb1 vb2 vshield
+.ENDS
+***************************************
+.SUBCKT rfline in out gnd
+.ENDS
+***************************************
+.SUBCKT MUX21 S A B GND! VDD! OUT
+** N=12 EP=6 IP=0 FDC=12
+M0 GND! S 1 GND! nfet L=6.2e-08 W=5.2e-07 m=1 nf=1 mpl=1 par=1 ptwell=0 cnr_switch=0 pccrit=0 $X=522 $Y=-1158 $D=168
+M1 9 A GND! GND! nfet L=6.2e-08 W=5.2e-07 m=1 nf=1 mpl=1 par=1 ptwell=0 cnr_switch=0 pccrit=0 $X=1034 $Y=-1158 $D=168
+M2 4 1 9 GND! nfet L=6.2e-08 W=5.2e-07 m=1 nf=1 mpl=1 par=1 ptwell=0 cnr_switch=0 pccrit=0 $X=1455 $Y=-1158 $D=168
+M3 10 S 4 GND! nfet L=6.2e-08 W=5.2e-07 m=1 nf=1 mpl=1 par=1 ptwell=0 cnr_switch=0 pccrit=0 $X=1854 $Y=-1158 $D=168
+M4 GND! B 10 GND! nfet L=6.2e-08 W=5.2e-07 m=1 nf=1 mpl=1 par=1 ptwell=0 cnr_switch=0 pccrit=0 $X=2057 $Y=-1158 $D=168
+M5 OUT 4 GND! GND! nfet L=6.2e-08 W=5.2e-07 m=1 nf=1 mpl=1 par=1 ptwell=0 cnr_switch=0 pccrit=0 $X=2535 $Y=-1158 $D=168
+M6 VDD! S 1 VDD! pfet L=6.2e-08 W=7.96e-07 m=1 nf=1 mpl=1 par=1 ptwell=1 cnr_switch=0 pccrit=0 $X=522 $Y=406 $D=181
+M7 11 A VDD! VDD! pfet L=6.2e-08 W=7.96e-07 m=1 nf=1 mpl=1 par=1 ptwell=1 cnr_switch=0 pccrit=0 $X=1034 $Y=406 $D=181
+M8 4 S 11 VDD! pfet L=6.2e-08 W=7.96e-07 m=1 nf=1 mpl=1 par=1 ptwell=1 cnr_switch=0 pccrit=0 $X=1455 $Y=406 $D=181
+M9 12 1 4 VDD! pfet L=6.2e-08 W=7.96e-07 m=1 nf=1 mpl=1 par=1 ptwell=1 cnr_switch=0 pccrit=0 $X=1854 $Y=406 $D=181
+M10 VDD! B 12 VDD! pfet L=6.2e-08 W=7.96e-07 m=1 nf=1 mpl=1 par=1 ptwell=1 cnr_switch=0 pccrit=0 $X=2057 $Y=406 $D=181
+M11 OUT 4 VDD! VDD! pfet L=6.2e-08 W=7.96e-07 m=1 nf=1 mpl=1 par=1 ptwell=1 cnr_switch=0 pccrit=0 $X=2535 $Y=406 $D=181
+.ENDS
+***************************************

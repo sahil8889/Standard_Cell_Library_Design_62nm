@@ -1,0 +1,12 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1733394501 1733394503
+lvs_ExtOutFile RUNDIR /home/eng/s/sxv240035/cad/gf65/tutorial/MUX21/MUX21_LVS
+lvs_ExtOutFile RULES_FILE /home/eng/s/sxv240035/cad/gf65/tutorial/MUX21/MUX21_LVS/_Calibre_LVS_rules_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoErcSummary {11 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST /home/eng/s/sxv240035/cad/gf65/tutorial/MUX21/MUX21_LVS/MUX21.sp
+lvs_ExtOutFile EXTRACTION_REPORT MUX21.lvs.report.ext
+lvs_ExtOutFile ERC_DATABASE MUX21.erc.results
+lvs_ExtOutFile ERC_SUMMARY MUX21.erc.summary

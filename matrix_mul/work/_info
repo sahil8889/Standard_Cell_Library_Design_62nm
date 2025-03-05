@@ -1,0 +1,319 @@
+m255
+K4
+z2
+!s11f vlog 2022.1 2022.01, Jan 29 2022
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/011/n/ns/nss230004/VLSI/Booth_Mul
+vaoi12
+Z0 !s110 1727232017
+!i10b 1
+!s100 lXNK:KG=fOK<NWT]Q[ZR:2
+I6AMd><74aX`8YK@FY?0cY0
+Z1 d/home/011/n/ns/nss230004/VLSI/Matrix_Mul
+Z2 w1726454833
+Z3 8header.v
+Z4 Fheader.v
+!i122 2
+L0 43 5
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 OP;L;2022.1;75
+r1
+!s85 0
+31
+Z7 !s108 1727232017.000000
+Z8 !s107 header.v|/home/011/n/ns/nss230004/VLSI/Matrix_Mul/matrix_mul_syn.v|
+Z9 !s90 -reportprogress|300|-work|work|/home/011/n/ns/nss230004/VLSI/Matrix_Mul/matrix_mul_syn.v|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vaoi22
+R0
+!i10b 1
+!s100 cBI=iQ?Ge@dhjn^>>mY_g0
+ITL]FJVjdRk3fb:U=XZOak2
+R1
+R2
+R3
+R4
+!i122 2
+L0 49 5
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vdff
+R0
+!i10b 1
+!s100 gimY>TV^j0e8:`VZ`AAA_1
+II69XebkWGDKBJhCJkS@z60
+R1
+R2
+R3
+R4
+!i122 2
+L0 67 10
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vinv
+R0
+!i10b 1
+!s100 RGD_^XbCBMa?3;dJ`6;aS2
+IOUh8GK@9;?DAE^:^;_C]_2
+R1
+R2
+R3
+R4
+!i122 2
+L0 1 5
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vmatrix_vector_mult
+R0
+!i10b 1
+!s100 Yd`z4:DUjLzlfQB?@7Ae:1
+IC4;DB4NEP^NQB`kLW5Wae1
+R1
+w1726455054
+8/home/011/n/ns/nss230004/VLSI/Matrix_Mul/matrix_mul_syn.v
+F/home/011/n/ns/nss230004/VLSI/Matrix_Mul/matrix_mul_syn.v
+!i122 2
+L0 9 6928
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vnand2
+R0
+!i10b 1
+!s100 @KENFn2@L0M2BQM;[DnMW1
+Im?IXM4Ro0L?JgzTANNVW_1
+R1
+R2
+R3
+R4
+!i122 2
+L0 7 5
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vnand3
+R0
+!i10b 1
+!s100 3ek1`iAYM[OW6`gVO1DVN3
+IW7Wa;_BN1K;^c87Qh58m>0
+R1
+R2
+R3
+R4
+!i122 2
+L0 13 5
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vnand4
+R0
+!i10b 1
+!s100 4OXYaBz9IjLa4_QEmj6]g1
+IaeeOL7[mojRV[[Ykaa1c@1
+R1
+R2
+R3
+R4
+!i122 2
+L0 19 5
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vnor2
+R0
+!i10b 1
+!s100 O6SX=2XMX]Vjk49BBPc4H3
+Ihai]O2^ja7kGXiXUS^nAR3
+R1
+R2
+R3
+R4
+!i122 2
+L0 25 5
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vnor3
+R0
+!i10b 1
+!s100 5chL5gAXV508DfA8>RK:O0
+I3766lLOK0fKj5AKAT8i552
+R1
+R2
+R3
+R4
+!i122 2
+L0 31 5
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+voai12
+R0
+!i10b 1
+!s100 nkl=`c^QF1]<VNN^=jT202
+I;Rji9mnEG64nGL9;OVD9`1
+R1
+R2
+R3
+R4
+!i122 2
+L0 55 5
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+voai22
+R0
+!i10b 1
+!s100 9XKiNZg;>3O2E?5NfWM=41
+IXFX[]V__PCk4T@8]DjQ>X2
+R1
+R2
+R3
+R4
+!i122 2
+L0 61 5
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vtb_matrix_vector_mult
+!s110 1727232018
+!i10b 1
+!s100 8kcOIkkUFHUNJPbE1glnP3
+I^IM1azN@RLn<V:;A4>R:m2
+R1
+w1726461359
+8/home/011/n/ns/nss230004/VLSI/Matrix_Mul/tb_matrix_mul.v
+F/home/011/n/ns/nss230004/VLSI/Matrix_Mul/tb_matrix_mul.v
+!i122 3
+L0 3 77
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 /home/011/n/ns/nss230004/VLSI/Matrix_Mul/tb_matrix_mul.v|
+!s90 -reportprogress|300|-work|work|/home/011/n/ns/nss230004/VLSI/Matrix_Mul/tb_matrix_mul.v|
+!i113 1
+R10
+R11
+vxor2
+R0
+!i10b 1
+!s100 ?[giUI5=?7zdSC<lWRdVK2
+Io^ONdSN;l3;_Gm?O:Y84f3
+R1
+R2
+R3
+R4
+!i122 2
+L0 37 5
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11

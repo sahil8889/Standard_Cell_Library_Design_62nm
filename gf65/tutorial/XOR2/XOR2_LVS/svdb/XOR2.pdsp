@@ -1,0 +1,100 @@
+* Calibre pushdown separate-properties (back-annotation) data
+***************************************
+*
+* These lvs-actionable properties, indexed by DEVICE element(model) will be kept in the netlist:
+*
+* KEEP_PROP_BEGIN
+* KEEP_PROP C(apmom) w l botlev toplev
+* KEEP_PROP C(apmom_rf) w l botlev toplev
+* KEEP_PROP C(dgncap) l nf nrep w m composite mSwitch
+* KEEP_PROP C(dgpcap) l nf nrep w m composite mSwitch
+* KEEP_PROP C(mimcap) botviasides l w
+* KEEP_PROP C(ncap) l nf nrep w m composite mSwitch
+* KEEP_PROP C(pcap) l nf nrep w m composite mSwitch
+* KEEP_PROP C(vncap) w l botlev toplev
+* KEEP_PROP D(esdndsx) A nf perim
+* KEEP_PROP D(esdndsx_rf) A nf perim
+* KEEP_PROP M(bisoednfet) L W nf m
+* KEEP_PROP M(bisoednfet_rf) L W ngcon nf m
+* KEEP_PROP M(fisoednfet) L W nf m
+* KEEP_PROP M(fisoednfet_rf) L W ngcon nf m
+* KEEP_PROP M(hvtnfet) L W nf m
+* KEEP_PROP M(hvtnfet_rf) l w ngcon gateca pcext ring nf
+* KEEP_PROP M(hvtpfet) L W nf m
+* KEEP_PROP M(hvtpfet_rf) l w ngcon gateca pcext ring nf
+* KEEP_PROP M(lvtnfet) L W nf m
+* KEEP_PROP M(lvtnfet_rf) l w ngcon gateca pcext ring nf
+* KEEP_PROP M(lvtpfet) L W nf m
+* KEEP_PROP M(lvtpfet_rf) l w ngcon gateca pcext ring nf
+* KEEP_PROP M(srpdanfet) L W nf m
+* KEEP_PROP M(srpdbnfet) L W nf m
+* KEEP_PROP M(srpdcnfet) L W nf m
+* KEEP_PROP M(srpddnfet) L W nf m
+* KEEP_PROP M(srpganfet) L W nf m
+* KEEP_PROP M(srpgbnfet) L W nf m
+* KEEP_PROP M(srpgcnfet) L W nf m
+* KEEP_PROP M(srpgdnfet) L W nf m
+* KEEP_PROP M(srpuapfet) L W nf m
+* KEEP_PROP M(srpubpfet) L W nf m
+* KEEP_PROP M(srpucpfet) L W nf m
+* KEEP_PROP M(srpudpfet) L W nf m
+* KEEP_PROP MD(dgnfet) L W nf m
+* KEEP_PROP MD(dgnfet_rf) l w ngcon gateca pcext ring nf
+* KEEP_PROP MD(dgpfet) L W nf m
+* KEEP_PROP MD(dgpfet_rf) l w ngcon gateca pcext ring nf
+* KEEP_PROP MD(dgvnfet) L W nf m
+* KEEP_PROP MD(dgvnfet_rf) l w ngcon gateca pcext ring nf
+* KEEP_PROP MD(dgvpfet) L W nf m
+* KEEP_PROP MD(dgvpfet_rf) l w ngcon gateca pcext ring nf
+* KEEP_PROP MD(dgxnfet) L W nf m
+* KEEP_PROP MD(dgxpfet) L W nf m
+* KEEP_PROP ME(ednfet) L W nf m
+* KEEP_PROP ME(ednfet_rf) L W ngcon nf m
+* KEEP_PROP ME(edpfet) L W nf m
+* KEEP_PROP ME(edpfet_rf) L W ngcon nf m
+* KEEP_PROP MN(natdgnfet) L W nf m
+* KEEP_PROP MN(natnfet) L W nf m
+* KEEP_PROP MN(nfet) L W nf m
+* KEEP_PROP MN(nfet_rf) l w ngcon gateca pcext ring nf
+* KEEP_PROP MN(nmos_5p0_asym) L W nf m
+* KEEP_PROP MP(pfet) L W nf m
+* KEEP_PROP MP(pfet_rf) l w ngcon gateca pcext ring nf
+* KEEP_PROP MP(pmos_5p0_asym) L W nf m
+* KEEP_PROP Q(esdvnpn) A nf
+* KEEP_PROP Q(esdvnpn_rf) A nf
+* KEEP_PROP Q(esdvpnp) A nf
+* KEEP_PROP Q(esdvpnp_rf) A nf
+* KEEP_PROP Q(ngrvpnp) w l nf nrep m
+* KEEP_PROP Q(vnpn) w l nf nrep m
+* KEEP_PROP Q(vpnp) w l nf nrep m
+* KEEP_PROP R(nwres) l w s pbar
+* KEEP_PROP R(opndres) l w s pbar
+* KEEP_PROP R(opppcres) l w s pbar
+* KEEP_PROP R(oprppres) l w s pbar
+* KEEP_PROP bondpad l w bp rect
+* KEEP_PROP coupledcpw l w s d layer_sig
+* KEEP_PROP coupledwires l w s d layerads overads shieldsads
+* KEEP_PROP esdscr_dw nf ntds areapd perimpd areanw perimnw areand perimnd
+* KEEP_PROP esdscr_dw_rf nf ntds areapd perimpd areanw perimnw areand perimnd
+* KEEP_PROP esdscr_tw nf ntds areapd perimpd areanw perimnw areand perimnd areapw perimpw
+* KEEP_PROP esdscr_tw_rf nf ntds areapd perimpd areanw perimnw areand perimnd areapw perimpw
+* KEEP_PROP indp n x s w bp wu tleval
+* KEEP_PROP nplus_s l w m s pbar
+* KEEP_PROP npolyf_s l w m s pbar
+* KEEP_PROP npolyf_u l w m s pbar
+* KEEP_PROP nwella l w m s pbar
+* KEEP_PROP pplus_s l w m s pbar
+* KEEP_PROP pplus_u l w m s pbar
+* KEEP_PROP ppolyf_s l w m s pbar
+* KEEP_PROP rfline l w bp
+* KEEP_PROP sblkndres l w
+* KEEP_PROP sblkpdres l w
+* KEEP_PROP singlecpw l w s layer_sig
+* KEEP_PROP singlewire l w s layerads overads shieldsads
+* KEEP_PROP symindp x s wu w n bp tleval
+* KEEP_PROP_END
+*
+.SUBCKT XOR2
+* nothing transcripted
+.ENDS
+***************************************

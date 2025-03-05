@@ -1,0 +1,45 @@
+* File: /home/eng/s/sxv240035/cad/gf65/lib_cell/inverter/inverter_LVS/inverter.pex.sp.pex
+* Created: Sat Oct 19 14:16:23 2024
+* Program "Calibre xRC"
+* Version "v2013.2_18.13"
+* Nominal Temperature: 27C
+* Circuit Temperature: 27C
+* 
+.subckt PM_INVERTER%GND! 1 6 12 18
+r18 6 18 10
+r19 4 12 0.00816527
+r20 4 6 0.836474
+r21 1 12 30
+.ends
+
+.subckt PM_INVERTER%OUT 2 12 14 15
+r26 14 15 10
+r27 11 12 10
+r28 9 11 0.382378
+r29 9 12 30
+r30 5 11 2.03521
+r31 5 14 1.43487
+r32 2 5 1.7
+.ends
+
+.subckt PM_INVERTER%VDD! 1 6 15 20
+r19 10 20 30
+r20 6 10 0.367355
+r21 6 20 10
+r22 4 15 0.00426319
+r23 4 10 0.2847
+r24 1 15 30
+.ends
+
+.subckt PM_INVERTER%IN 4 6 10 12 14 17 23
+r29 20 23 4.21922
+r30 17 20 25
+r31 14 17 1.7
+r32 6 12 66.6116
+r33 5 23 3.83544
+r34 5 6 126.255
+r35 4 23 3.83544
+r36 3 10 35.8678
+r37 3 4 113.65
+.ends
+

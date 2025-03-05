@@ -1,0 +1,619 @@
+
+Cadence Innovus(TM) Implementation System.
+Copyright 2017 Cadence Design Systems, Inc. All rights reserved worldwide.
+
+Version:	v17.10-p006_1, built Wed May 31 11:06:15 PDT 2017
+Options:	
+Date:		Tue Dec  3 23:45:57 2024
+Host:		engnx03a.utdallas.edu (x86_64 w/Linux 3.10.0-1160.119.1.el7.x86_64) (8cores*32cpus*AMD EPYC 7F32 8-Core Processor 512KB)
+OS:		Red Hat Enterprise Linux Server release 7.9 (Maipo)
+
+License:
+		invs	Innovus Implementation System	17.1	checkout succeeded
+		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+Change the soft stacksize limit to 0.2%RAM (514 mbytes). Set global soft_stack_size_limit to change the value.
+
+**INFO:  MMMC transition support version v31-84 
+
+<CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+<CMD> suppressMessage ENCEXT-2799
+<CMD> getDrawView
+<CMD> loadWorkspace -name Physical
+<CMD> win
+<CMD> set init_gnd_net GND!
+<CMD> set init_lef_file gf62.lef
+<CMD> set init_design_settop 0
+<CMD> set init_verilog matrix_mul_syn.v
+<CMD> set init_pwr_net VDD!
+<CMD> init_design
+
+Loading LEF file gf62.lef ...
+WARNING (LEFPARS-2007): NAMESCASESENSITIVE statement is obsolete in version 5.6 and later.
+The LEF parser will ignore this statement.
+To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file gf62.lef at line 1.
+WARNING (LEFPARS-2077): A SPACING SAMENET section is defined but it is not legal in a LEF 5.7 version file.
+It will be ignored which will probably cause real DRC violations to be ignored, and may
+cause false DRC violations to occur.
+
+To avoid this warning, and correctly handle these DRC rules, you should modify your
+LEF to use the appropriate SAMENET keywords as described in the LEF/DEF 5.7
+manual under the SPACING statements in the LAYER (Routing) and LAYER (Cut)
+sections listed in the LEF Table of Contents. See file gf62.lef at line 114.
+WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+The LEF parser will ignore this statement.
+To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file gf62.lef at line 187.
+WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file gf62.lef at line 188.
+WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+The LEF parser will ignore this statement.
+To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file gf62.lef at line 189.
+WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+The LEF parser will ignore this statement.
+To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file gf62.lef at line 191.
+WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file gf62.lef at line 192.
+WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+The LEF parser will ignore this statement.
+To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file gf62.lef at line 193.
+WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+The LEF parser will ignore this statement.
+To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file gf62.lef at line 202.
+WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file gf62.lef at line 203.
+WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+The LEF parser will ignore this statement.
+To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file gf62.lef at line 204.
+WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+The LEF parser will ignore this statement.
+To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file gf62.lef at line 206.
+WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file gf62.lef at line 207.
+WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+The LEF parser will ignore this statement.
+To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file gf62.lef at line 208.
+WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+The LEF parser will ignore this statement.
+To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file gf62.lef at line 217.
+WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file gf62.lef at line 218.
+WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+The LEF parser will ignore this statement.
+To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file gf62.lef at line 219.
+WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+The LEF parser will ignore this statement.
+To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file gf62.lef at line 221.
+WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file gf62.lef at line 222.
+WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+The LEF parser will ignore this statement.
+To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file gf62.lef at line 223.
+Set DBUPerIGU to M2 pitch 260.
+
+viaInitial starts at Tue Dec  3 23:46:47 2024
+viaInitial ends at Tue Dec  3 23:46:47 2024
+*** End library_loading (cpu=0.00min, real=0.00min, mem=0.0M, fe_cpu=0.16min, fe_real=0.83min, fe_mem=506.1M) ***
+#% Begin Load netlist data ... (date=12/03 23:46:47, mem=464.8M)
+*** Begin netlist parsing (mem=506.1M) ***
+Created 0 new cells from 0 timing libraries.
+Reading netlist ...
+Backslashed names will retain backslash and a trailing blank character.
+Warning: fterm d of cell dff is not defined in lef file,
+         but D is defined in lef file and is used in this
+         case.  Please check lef file to make it consistent.
+**WARN: (IMPDB-2079):	fterm gclk of cell dff is not defined in LEF.
+**WARN: (IMPDB-2079):	fterm rnot of cell dff is not defined in LEF.
+Warning: fterm q of cell dff is not defined in lef file,
+         but Q is defined in lef file and is used in this
+         case.  Please check lef file to make it consistent.
+Reading verilog netlist 'matrix_mul_syn.v'
+
+*** Memory Usage v#1 (Current mem = 509.051M, initial mem = 179.605M) ***
+*** End netlist parsing (cpu=0:00:00.0, real=0:00:00.0, mem=509.1M) ***
+#% End Load netlist data ... (date=12/03 23:46:47, total cpu=0:00:00.0, real=0:00:00.0, peak res=468.3M, current mem=468.3M)
+Top level cell is matrix_vector_mult.
+Hooked 0 DB cells to tlib cells.
+11 empty module found.
+Starting recursive module instantiation check.
+No recursion found.
+Building hierarchical netlist for Cell matrix_vector_mult ...
+**WARN: (IMPECO-560):	The netlist is not unique, because the module 'inv' is instantiated multiple times. Make the netlist unique by running 'set init_design_uniquify 1' before loading the design to avoid the problem.
+**WARN: (IMPECO-560):	The netlist is not unique, because the module 'nand2' is instantiated multiple times. Make the netlist unique by running 'set init_design_uniquify 1' before loading the design to avoid the problem.
+**WARN: (IMPECO-560):	The netlist is not unique, because the module 'nor2' is instantiated multiple times. Make the netlist unique by running 'set init_design_uniquify 1' before loading the design to avoid the problem.
+**WARN: (IMPECO-560):	The netlist is not unique, because the module 'xor2' is instantiated multiple times. Make the netlist unique by running 'set init_design_uniquify 1' before loading the design to avoid the problem.
+**WARN: (IMPECO-560):	The netlist is not unique, because the module 'aoi22' is instantiated multiple times. Make the netlist unique by running 'set init_design_uniquify 1' before loading the design to avoid the problem.
+**WARN: (IMPECO-560):	The netlist is not unique, because the module 'oai12' is instantiated multiple times. Make the netlist unique by running 'set init_design_uniquify 1' before loading the design to avoid the problem.
+**WARN: (IMPECO-560):	The netlist is not unique, because the module 'oai22' is instantiated multiple times. Make the netlist unique by running 'set init_design_uniquify 1' before loading the design to avoid the problem.
+*** Netlist is NOT unique.
+** info: there are 28 modules.
+** info: there are 96 stdCell insts.
+
+*** Memory Usage v#1 (Current mem = 540.723M, initial mem = 179.605M) ***
+**WARN: (IMPFP-3961):	The techSite 'Core' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+Type 'man IMPFP-3961' for more detail.
+**WARN: (IMPFP-3961):	The techSite 'PortCellSite' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+Type 'man IMPFP-3961' for more detail.
+**WARN: (IMPFP-3961):	The techSite 'SBlockSite' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+Type 'man IMPFP-3961' for more detail.
+**WARN: (IMPFP-3961):	The techSite 'TDCoverSite' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+Type 'man IMPFP-3961' for more detail.
+Horizontal Layer M1 offset = 130 (guessed)
+Vertical Layer M2 offset = 130 (derived)
+Suggestion: specify LAYER OFFSET in LEF file
+Reason: hard to extract LAYER OFFSET from standard cells
+Set Default Net Delay as 1000 ps.
+Set Default Net Load as 0.5 pF. 
+Set Default Input Pin Transition as 0.1 ps.
+**WARN: (IMPSYT-7328):	The design has been initialized in physical-only mode because the init_mmmc_file global variable was not defined. Timing analysis will not be possible within this session. You can only use commands that do not depend on timing data. If you need to use timing, you need to restart with an init_mmmc_file to define the timing setup, or you can save this design and use restoreDesign -mmmc_file <viewDef.tcl> to add the timing setup information.
+Extraction setup Started 
+
+*** Summary of all messages that are not suppressed in this session:
+Severity  ID               Count  Summary                                  
+WARNING   IMPFP-3961           4  The techSite '%s' has no related standar...
+WARNING   IMPSYT-7328          1  The design has been initialized in physi...
+WARNING   IMPDB-2079           2  fterm %s of cell %s is not defined in LE...
+WARNING   IMPECO-560           7  The netlist is not unique, because the m...
+*** Message Summary: 14 warning(s), 0 error(s)
+
+<CMD> getIoFlowFlag
+<CMD> setIoFlowFlag 0
+<CMD> floorPlan -site CoreSite -r 1 0.7 5 5 5 5
+Horizontal Layer M1 offset = 130 (guessed)
+Vertical Layer M2 offset = 130 (derived)
+Suggestion: specify LAYER OFFSET in LEF file
+Reason: hard to extract LAYER OFFSET from standard cells
+<CMD> uiSetTool select
+<CMD> getIoFlowFlag
+<CMD> fit
+<CMD> getIoFlowFlag
+<CMD> setIoFlowFlag 0
+<CMD> floorPlan -site CoreSite -su 1 0.699899 5 5 5 5
+Horizontal Layer M1 offset = 130 (guessed)
+Vertical Layer M2 offset = 130 (derived)
+Suggestion: specify LAYER OFFSET in LEF file
+Reason: hard to extract LAYER OFFSET from standard cells
+<CMD> uiSetTool select
+<CMD> getIoFlowFlag
+<CMD> fit
+<CMD> setFPlanRowSpacingAndType 4.5 1
+Row spacing should be a multiple of the first horizontal routing layer pitch.
+Adjusting row spacing to 4.68.
+<CMD> setIoFlowFlag 0
+<CMD> floorPlan -flip n -site CoreSite -r 1 0.7 5 5 5 5
+Horizontal Layer M1 offset = 130 (guessed)
+Vertical Layer M2 offset = 130 (derived)
+Suggestion: specify LAYER OFFSET in LEF file
+Reason: hard to extract LAYER OFFSET from standard cells
+**WARN: (IMPFP-325):	Floorplan of the design is resized. All current floorplan objects are automatically derived based on specified new floorplan. This may change blocks, fixed standard cells, existing routes and blockages.
+<CMD> uiSetTool select
+<CMD> getIoFlowFlag
+<CMD> fit
+<CMD> getIoFlowFlag
+<CMD> setFPlanRowSpacingAndType 4.5 1
+Row spacing should be a multiple of the first horizontal routing layer pitch.
+Adjusting row spacing to 4.68.
+<CMD> setIoFlowFlag 0
+<CMD> floorPlan -site CoreSite -r 0.839689722043 0.358232 5.2 5.2 5.2 5.26
+Horizontal Layer M1 offset = 130 (guessed)
+Vertical Layer M2 offset = 130 (derived)
+Suggestion: specify LAYER OFFSET in LEF file
+Reason: hard to extract LAYER OFFSET from standard cells
+**WARN: (IMPFP-325):	Floorplan of the design is resized. All current floorplan objects are automatically derived based on specified new floorplan. This may change blocks, fixed standard cells, existing routes and blockages.
+<CMD> uiSetTool select
+<CMD> getIoFlowFlag
+<CMD> fit
+<CMD> setFPlanRowSpacingAndType 4.5 1
+Row spacing should be a multiple of the first horizontal routing layer pitch.
+Adjusting row spacing to 4.68.
+<CMD> setIoFlowFlag 0
+<CMD> floorPlan -site CoreSite -d 644.98 627.3 5 5 5 5
+**WARN: (IMPFP-4026):	Adjusting core to 'Left' to 4.940000 due to track/row misalignment. To force the value, specify the -noSnapToGrid option or use fpiSetSnapRule command to specify the die/core to different grid.
+**WARN: (IMPFP-4026):	Adjusting core to 'Bottom' to 4.940000 due to track/row misalignment. To force the value, specify the -noSnapToGrid option or use fpiSetSnapRule command to specify the die/core to different grid.
+**WARN: (IMPFP-4026):	Adjusting core to 'Right' to 4.940000 due to track/row misalignment. To force the value, specify the -noSnapToGrid option or use fpiSetSnapRule command to specify the die/core to different grid.
+**WARN: (IMPFP-4026):	Adjusting core to 'Top' to 4.940000 due to track/row misalignment. To force the value, specify the -noSnapToGrid option or use fpiSetSnapRule command to specify the die/core to different grid.
+Horizontal Layer M1 offset = 130 (guessed)
+Vertical Layer M2 offset = 130 (derived)
+Suggestion: specify LAYER OFFSET in LEF file
+Reason: hard to extract LAYER OFFSET from standard cells
+**WARN: (IMPFP-325):	Floorplan of the design is resized. All current floorplan objects are automatically derived based on specified new floorplan. This may change blocks, fixed standard cells, existing routes and blockages.
+<CMD> uiSetTool select
+<CMD> getIoFlowFlag
+<CMD> fit
+<CMD> clearGlobalNets
+<CMD> globalNetConnect VDD! -type tiehi -inst *
+<CMD> globalNetConnect GND! -type tielo -inst *
+<CMD> clearGlobalNets
+<CMD> globalNetConnect VDD! -type tiehi -inst *
+<CMD> globalNetConnect GND! -type tielo -inst *
+<CMD> set sprCreateIeRingOffset 1.0
+<CMD> set sprCreateIeRingThreshold 1.0
+<CMD> set sprCreateIeRingJogDistance 1.0
+<CMD> set sprCreateIeRingLayers {}
+<CMD> set sprCreateIeRingOffset 1.0
+<CMD> set sprCreateIeRingThreshold 1.0
+<CMD> set sprCreateIeRingJogDistance 1.0
+<CMD> set sprCreateIeRingLayers {}
+<CMD> set sprCreateIeStripeWidth 10.0
+<CMD> set sprCreateIeStripeThreshold 1.0
+<CMD> set sprCreateIeStripeWidth 10.0
+<CMD> set sprCreateIeStripeThreshold 1.0
+<CMD> set sprCreateIeRingOffset 1.0
+<CMD> set sprCreateIeRingThreshold 1.0
+<CMD> set sprCreateIeRingJogDistance 1.0
+<CMD> set sprCreateIeRingLayers {}
+<CMD> set sprCreateIeStripeWidth 10.0
+<CMD> set sprCreateIeStripeThreshold 1.0
+<CMD> setAddRingMode -ring_target default -extend_over_row 0 -ignore_rows 0 -avoid_short 0 -skip_crossing_trunks none -stacked_via_top_layer M6 -stacked_via_bottom_layer M1 -via_using_exact_crossover_size 1 -orthogonal_only true -skip_via_on_pin {  standardcell } -skip_via_on_wire_shape {  noshape }
+The ring targets are set to core/block ring wires.
+addRing command will consider rows while creating rings.
+addRing command will disallow rings to go over rows.
+addRing command will ignore shorts while creating rings.
+<CMD> addRing -nets {GND! VDD!} -type core_rings -follow core -layer {top M1 bottom M1 left M2 right M2} -width {top 0.2 bottom 0.2 left 0.2 right 0.2} -spacing {top 0.2 bottom 0.2 left 0.2 right 0.2} -offset {top 0.78 bottom 0.78 left 0.78 right 0.78} -center 0 -extend_corner {} -threshold 0 -jog_distance 0 -snap_wire_center_to_grid None
+
+Ring generation is complete.
+vias are now being generated.
+addRing created 8 wires.
+ViaGen created 8 vias, deleted 0 via to avoid violation.
++--------+----------------+----------------+
+|  Layer |     Created    |     Deleted    |
++--------+----------------+----------------+
+|   M1   |        4       |       NA       |
+|   V1   |        8       |        0       |
+|   M2   |        4       |       NA       |
++--------+----------------+----------------+
+**WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+**WARN: (IMPTCM-77):	Option "-modulePlan" for command getPlaceMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+**WARN: (IMPTCM-125):	Option "-checkPinLayerForAccess" for command getPlaceMode is obsolete and will be ignored. It no longer has any effect and should be removed from your script.
+<CMD> setRouteMode -earlyGlobalHonorMsvRouteConstraint false -earlyGlobalRoutePartitionPinGuide true
+<CMD> setEndCapMode -reset
+<CMD> setEndCapMode -boundary_tap false
+<CMD> setNanoRouteMode -quiet -droutePostRouteSpreadWire 1
+**WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+**WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+**WARN: (IMPTCM-77):	Option "-envDontUseLicsForThreadings" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+**WARN: (IMPTCM-77):	Option "-routeAllowPowerGroundPin" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+**WARN: (IMPTCM-77):	Option "-routeAllowPowerGroundPin" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+**WARN: (IMPTCM-77):	Option "-routeEcoOnlyInLayers" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+<CMD> setUsefulSkewMode -maxSkew false -noBoundary false -useCells {} -maxAllowedDelay 1
+**WARN: (IMPOPT-6036):	-useCells list is empty.
+<CMD> setPlaceMode -reset
+<CMD> setPlaceMode -congEffort medium -timingDriven 0 -modulePlan 0 -clkGateAware 0 -powerDriven 0 -ignoreScan 0 -reorderScan 0 -ignoreSpare 0 -placeIOPins 1 -moduleAwareSpare 0 -preserveRouting 0 -rmAffectedRouting 0 -checkRoute 0 -swapEEQ 0
+**WARN: (IMPTCM-77):	Option "-modulePlan" for command setPlaceMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+<CMD> setPlaceMode -fp false
+<CMD> placeDesign
+*** Starting placeDesign default flow ***
+Deleted 0 physical inst  (cell - / prefix -).
+Extracting standard cell pins and blockage ...... 
+Pin and blockage extraction finished
+Extracting macro/IO cell pins and blockage ...... 
+Pin and blockage extraction finished
+*** Starting "NanoPlace(TM) placement v#1 (mem=829.1M)" ...
+No user setting net weight.
+Options: pinGuide congEffort=medium gpeffort=medium 
+#std cell=96 (0 fixed + 96 movable) #block=0 (0 floating + 0 preplaced)
+#ioInst=0 #net=98 #term=338 #term/net=3.45, #fixedIo=0, #floatIo=0, #fixedPin=0, #floatPin=50
+stdCell: 0 single + 96 double + 0 multi
+Total standard cell length = 0.5515 (mm), area = 0.0026 (mm^2)
+**Info: (IMPSP-307): Design contains fractional 13 cells.
+**WARN: (IMPSP-263):	Cannot find access pin for fterm 'gclk' (cell 'dff').
+Type 'man IMPSP-263' for more detail.
+**WARN: (IMPSP-263):	Cannot find access pin for fterm 'rnot' (cell 'dff').
+Type 'man IMPSP-263' for more detail.
+Estimated cell power/ground rail width = 0.562 um
+Average module density = 0.014.
+Density for the design = 0.014.
+       = stdcell_area 2215 sites (2592 um^2) / alloc_area 163681 sites (191507 um^2).
+Pin Density = 0.002065.
+            = total # of pins 338 / total area 163681.
+*Internal placement parameters: * | 14 | 0x001555
+Iteration  1: Total net bbox = 8.190e+03 (8.19e+03 0.00e+00)
+              Est.  stn bbox = 8.645e+03 (8.65e+03 0.00e+00)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 831.1M
+Iteration  2: Total net bbox = 8.172e+03 (0.00e+00 8.17e+03)
+              Est.  stn bbox = 8.626e+03 (0.00e+00 8.63e+03)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 831.1M
+Iteration  3: Total net bbox = 4.225e+03 (4.22e+03 0.00e+00)
+              Est.  stn bbox = 4.460e+03 (4.46e+03 0.00e+00)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 831.1M
+Iteration  4: Total net bbox = 4.225e+03 (4.22e+03 0.00e+00)
+              Est.  stn bbox = 4.460e+03 (4.46e+03 0.00e+00)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 831.1M
+Iteration  5: Total net bbox = 2.249e+03 (2.25e+03 0.00e+00)
+              Est.  stn bbox = 2.374e+03 (2.37e+03 0.00e+00)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 831.1M
+Iteration  6: Total net bbox = 3.791e+03 (2.25e+03 1.54e+03)
+              Est.  stn bbox = 4.027e+03 (2.37e+03 1.65e+03)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 831.1M
+Iteration  7: Total net bbox = 1.985e+03 (8.79e+02 1.11e+03)
+              Est.  stn bbox = 2.370e+03 (1.06e+03 1.31e+03)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 831.1M
+Iteration  8: Total net bbox = 2.144e+03 (1.04e+03 1.11e+03)
+              Est.  stn bbox = 2.695e+03 (1.33e+03 1.37e+03)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 831.1M
+Iteration  9: Total net bbox = 2.525e+03 (1.42e+03 1.11e+03)
+              Est.  stn bbox = 3.078e+03 (1.71e+03 1.37e+03)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 836.1M
+Iteration 10: Total net bbox = 2.580e+03 (1.42e+03 1.16e+03)
+              Est.  stn bbox = 3.184e+03 (1.71e+03 1.47e+03)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 836.1M
+Iteration 11: Total net bbox = 2.470e+03 (1.31e+03 1.16e+03)
+              Est.  stn bbox = 3.088e+03 (1.62e+03 1.47e+03)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 836.1M
+Iteration 12: Total net bbox = 2.407e+03 (1.35e+03 1.06e+03)
+              Est.  stn bbox = 3.062e+03 (1.66e+03 1.41e+03)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 837.1M
+Iteration 13: Total net bbox = 2.211e+03 (1.15e+03 1.06e+03)
+              Est.  stn bbox = 2.858e+03 (1.45e+03 1.41e+03)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 839.1M
+Iteration 14: Total net bbox = 2.256e+03 (1.15e+03 1.10e+03)
+              Est.  stn bbox = 2.904e+03 (1.45e+03 1.45e+03)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 839.1M
+Iteration 15: Total net bbox = 2.017e+03 (9.77e+02 1.04e+03)
+              Est.  stn bbox = 2.665e+03 (1.28e+03 1.39e+03)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 839.1M
+*** cost = 2.017e+03 (9.77e+02 1.04e+03) (cpu for global=0:00:00.1) real=0:00:00.0***
+**Info: (IMPSP-307): Design contains fractional 13 cells.
+*** Starting refinePlace (0:00:48.6 mem=839.1M) ***
+Total net bbox length = 2.135e+03 (1.013e+03 1.122e+03) (ext = 7.787e+02)
+Density distribution unevenness ratio = 85.591%
+Move report: Detail placement moves 95 insts, mean move: 47.76 um, max move: 143.88 um
+	Max move on inst (result_0_reg[13]): (637.52, 610.82) --> (502.81, 601.64)
+	Runtime: CPU: 0:00:00.0 REAL: 0:00:00.0 MEM: 842.2MB
+Summary Report:
+Instances move: 95 (out of 96 movable)
+Instances flipped: 0
+Mean displacement: 47.76 um
+Max displacement: 143.88 um (Instance: result_0_reg[13]) (637.52, 610.82) -> (502.815, 601.64)
+	Length: 23 sites, height: 2 rows, site name: CoreSite, cell type: dff
+	Violation at original loc: Region/Fence Violation
+Total net bbox length = 5.049e+03 (3.409e+03 1.640e+03) (ext = 3.279e+03)
+Runtime: CPU: 0:00:00.0 REAL: 0:00:00.0 MEM: 842.2MB
+*** Finished refinePlace (0:00:48.6 mem=842.2M) ***
+*** End of Placement (cpu=0:00:00.1, real=0:00:00.0, mem=842.2M) ***
+**Info: (IMPSP-307): Design contains fractional 13 cells.
+default core: bins with density >  0.75 =    0 % ( 0 / 105 )
+Density distribution unevenness ratio = 90.852%
+Starting IO pin assignment...
+The design is not routed. Using flight-line based method for pin assignment.
+Completed IO pin assignment.
+*** Finishing placeDesign default flow ***
+**placeDesign ... cpu = 0: 0: 0, real = 0: 0: 0, mem = 846.4M **
+
+*** Summary of all messages that are not suppressed in this session:
+Severity  ID               Count  Summary                                  
+WARNING   IMPSP-263            2  Cannot find access pin for fterm '%s' (c...
+*** Message Summary: 2 warning(s), 0 error(s)
+
+<CMD> zoomBox -37.823 197.866 189.809 -54.023
+<CMD> zoomBox -14.776 50.275 60.004 -18.109
+<CMD> zoomBox -7.371 11.809 16.136 -10.496
+<CMD> fit
+<CMD> selectInst {temp_1_reg[5]}
+<CMD> deselectAll
+<CMD> selectInst {temp_1_reg[5]}
+<CMD> deselectAll
+<CMD> getFillerMode -quiet
+<CMD> addFiller -cell Filler -prefix FILLER
+**Info: (IMPSP-307): Design contains fractional 13 cells.
+*INFO: Adding fillers to top-module.
+*INFO:   Added 161473 filler insts (cell Filler / prefix FILLER).
+*INFO: Total 161473 filler insts added - prefix FILLER (CPU: 0:00:04.1).
+For 161473 new insts, *** Applied 0 GNC rules (cpu = 0:00:00.0)
+**WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+<CMD> setNanoRouteMode -quiet -timingEngine {}
+<CMD> setNanoRouteMode -quiet -routeWithSiPostRouteFix 0
+**WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+<CMD> setNanoRouteMode -quiet -drouteStartIteration default
+**WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command setNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+<CMD> setNanoRouteMode -quiet -routeTopRoutingLayer default
+<CMD> setNanoRouteMode -quiet -routeBottomRoutingLayer default
+<CMD> setNanoRouteMode -quiet -drouteEndIteration default
+**WARN: (IMPTCM-77):	Option "-routeEcoOnlyInLayers" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+<CMD> setNanoRouteMode -quiet -routeWithTimingDriven false
+<CMD> setNanoRouteMode -quiet -routeWithSiDriven false
+Running Native NanoRoute ...
+<CMD> routeDesign -globalDetail
+#routeDesign: cpu time = 00:00:00, elapsed time = 00:00:00, memory = 806.86 (MB), peak = 806.86 (MB)
+#WARNING (NRIG-96) Selected single pass global detail route "-globalDetail". Clock eco and post optimizations will not be run. See "man NRIG-96" for more details.
+#**INFO: setDesignMode -flowEffort standard
+#**INFO: mulit-cut via swapping is disabled by user.
+#**INFO: All auto set options tuned by routeDesign will be restored to their original settings on command completion.
+#**INFO: auto set of routeReserveSpaceForMultiCut to true
+#**INFO: auto set of routeConcurrentMinimizeViaCountEffort to high
+**Info: (IMPSP-307): Design contains fractional 13 cells.
+Begin checking placement ... (start mem=943.4M, init mem=943.4M)
+*info: Placed = 161569        
+*info: Unplaced = 0           
+Placement Density:100.00%(191515/191507)
+Placement Density (including fixed std cells):100.00%(191515/191507)
+Finished checkPlace (cpu: total=0:00:00.4, vio checks=0:00:00.3; mem=947.4M)
+#**INFO: honoring user setting for routeWithTimingDriven set to false
+#**INFO: honoring user setting for routeWithSiDriven set to false
+**WARN: (IMPCK-8086):	The command changeUseClockNetStatus is obsolete and will be removed in the next release. This command still works in this release, but by the next release you must transition to the CCOpt-based CTS flow.
+
+changeUseClockNetStatus Option :  -noFixedNetWires 
+*** Changed status on (0) nets in Clock.
+*** End changeUseClockNetStatus (cpu=0:00:00.0, real=0:00:00.0, mem=947.4M) ***
+
+globalDetailRoute
+
+#setNanoRouteMode -droutePostRouteSpreadWire "1"
+#setNanoRouteMode -routeConcurrentMinimizeViaCountEffort "high"
+#setNanoRouteMode -routeReserveSpaceForMultiCut true
+#setNanoRouteMode -routeWithSiDriven false
+#setNanoRouteMode -routeWithTimingDriven false
+#Start globalDetailRoute on Wed Dec  4 00:07:12 2024
+#
+#WARNING (NRDB-2005) SPECIAL_NET VDD! has special wires but no definitions for instance pins or top level pins. This will cause routability problems later.
+#WARNING (NRDB-2005) SPECIAL_NET GND! has special wires but no definitions for instance pins or top level pins. This will cause routability problems later.
+#WARNING (NRDB-629) NanoRoute cannot route PIN rnot of INST temp_0_reg[15] for NET VDD!. The PIN does not have physical geometries. NR will ignore the PIN as if it does not exist in the NET. To fix the problem, add physical geometries to the PIN in the library.
+#WARNING (NRDB-629) NanoRoute cannot route PIN rnot of INST temp_0_reg[14] for NET VDD!. The PIN does not have physical geometries. NR will ignore the PIN as if it does not exist in the NET. To fix the problem, add physical geometries to the PIN in the library.
+#WARNING (NRDB-629) NanoRoute cannot route PIN rnot of INST temp_0_reg[13] for NET VDD!. The PIN does not have physical geometries. NR will ignore the PIN as if it does not exist in the NET. To fix the problem, add physical geometries to the PIN in the library.
+#WARNING (NRDB-629) NanoRoute cannot route PIN rnot of INST temp_0_reg[12] for NET VDD!. The PIN does not have physical geometries. NR will ignore the PIN as if it does not exist in the NET. To fix the problem, add physical geometries to the PIN in the library.
+#WARNING (NRDB-629) NanoRoute cannot route PIN rnot of INST temp_0_reg[11] for NET VDD!. The PIN does not have physical geometries. NR will ignore the PIN as if it does not exist in the NET. To fix the problem, add physical geometries to the PIN in the library.
+#WARNING (NRDB-629) NanoRoute cannot route PIN rnot of INST temp_0_reg[10] for NET VDD!. The PIN does not have physical geometries. NR will ignore the PIN as if it does not exist in the NET. To fix the problem, add physical geometries to the PIN in the library.
+#WARNING (NRDB-629) NanoRoute cannot route PIN rnot of INST temp_0_reg[9] for NET VDD!. The PIN does not have physical geometries. NR will ignore the PIN as if it does not exist in the NET. To fix the problem, add physical geometries to the PIN in the library.
+#WARNING (NRDB-629) NanoRoute cannot route PIN rnot of INST temp_0_reg[8] for NET VDD!. The PIN does not have physical geometries. NR will ignore the PIN as if it does not exist in the NET. To fix the problem, add physical geometries to the PIN in the library.
+#WARNING (NRDB-629) NanoRoute cannot route PIN rnot of INST temp_0_reg[7] for NET VDD!. The PIN does not have physical geometries. NR will ignore the PIN as if it does not exist in the NET. To fix the problem, add physical geometries to the PIN in the library.
+#WARNING (NRDB-629) NanoRoute cannot route PIN rnot of INST temp_0_reg[6] for NET VDD!. The PIN does not have physical geometries. NR will ignore the PIN as if it does not exist in the NET. To fix the problem, add physical geometries to the PIN in the library.
+#WARNING (NRDB-629) NanoRoute cannot route PIN rnot of INST temp_0_reg[5] for NET VDD!. The PIN does not have physical geometries. NR will ignore the PIN as if it does not exist in the NET. To fix the problem, add physical geometries to the PIN in the library.
+#WARNING (NRDB-629) NanoRoute cannot route PIN rnot of INST temp_0_reg[4] for NET VDD!. The PIN does not have physical geometries. NR will ignore the PIN as if it does not exist in the NET. To fix the problem, add physical geometries to the PIN in the library.
+#WARNING (NRDB-629) NanoRoute cannot route PIN rnot of INST temp_0_reg[3] for NET VDD!. The PIN does not have physical geometries. NR will ignore the PIN as if it does not exist in the NET. To fix the problem, add physical geometries to the PIN in the library.
+#WARNING (NRDB-629) NanoRoute cannot route PIN rnot of INST temp_0_reg[2] for NET VDD!. The PIN does not have physical geometries. NR will ignore the PIN as if it does not exist in the NET. To fix the problem, add physical geometries to the PIN in the library.
+#WARNING (NRDB-629) NanoRoute cannot route PIN rnot of INST temp_0_reg[1] for NET VDD!. The PIN does not have physical geometries. NR will ignore the PIN as if it does not exist in the NET. To fix the problem, add physical geometries to the PIN in the library.
+#WARNING (NRDB-629) NanoRoute cannot route PIN rnot of INST temp_0_reg[0] for NET VDD!. The PIN does not have physical geometries. NR will ignore the PIN as if it does not exist in the NET. To fix the problem, add physical geometries to the PIN in the library.
+#WARNING (NRDB-629) NanoRoute cannot route PIN rnot of INST temp_1_reg[15] for NET VDD!. The PIN does not have physical geometries. NR will ignore the PIN as if it does not exist in the NET. To fix the problem, add physical geometries to the PIN in the library.
+#WARNING (NRDB-629) NanoRoute cannot route PIN rnot of INST temp_1_reg[14] for NET VDD!. The PIN does not have physical geometries. NR will ignore the PIN as if it does not exist in the NET. To fix the problem, add physical geometries to the PIN in the library.
+#WARNING (NRDB-629) NanoRoute cannot route PIN rnot of INST temp_1_reg[13] for NET VDD!. The PIN does not have physical geometries. NR will ignore the PIN as if it does not exist in the NET. To fix the problem, add physical geometries to the PIN in the library.
+#WARNING (NRDB-629) NanoRoute cannot route PIN rnot of INST temp_1_reg[12] for NET VDD!. The PIN does not have physical geometries. NR will ignore the PIN as if it does not exist in the NET. To fix the problem, add physical geometries to the PIN in the library.
+#WARNING (EMS-27) Message (NRDB-629) has exceeded the current message display limit of 20.
+#To increase the message display limit, refer to the product command reference manual.
+#NanoRoute Version 17.10-p006_1 NR170516-1601/17_10-UB
+#Start routing data preparation on Wed Dec  4 00:07:12 2024
+#
+#WARNING (NRDB-2077) The below via enclosure for LAYER M1 is not specified for width 0.1400.
+#WARNING (NRDB-2078) The above via enclosure for LAYER M2 is not specified for width 0.1400.
+#WARNING (NRDB-2077) The below via enclosure for LAYER M1 is not specified for width 0.1400.
+#WARNING (NRDB-2078) The above via enclosure for LAYER M2 is not specified for width 0.1400.
+#WARNING (NRDB-2077) The below via enclosure for LAYER M2 is not specified for width 0.1400.
+#WARNING (NRDB-2078) The above via enclosure for LAYER M3 is not specified for width 0.1400.
+#WARNING (NRDB-2077) The below via enclosure for LAYER M2 is not specified for width 0.1400.
+#WARNING (NRDB-2078) The above via enclosure for LAYER M3 is not specified for width 0.1400.
+#WARNING (NRDB-2077) The below via enclosure for LAYER M3 is not specified for width 0.1400.
+#WARNING (NRDB-2078) The above via enclosure for LAYER M4 is not specified for width 0.1400.
+#WARNING (NRDB-2077) The below via enclosure for LAYER M3 is not specified for width 0.1400.
+#WARNING (NRDB-2078) The above via enclosure for LAYER M4 is not specified for width 0.1400.
+#WARNING (NRDB-2077) The below via enclosure for LAYER M4 is not specified for width 0.1400.
+#WARNING (NRDB-2078) The above via enclosure for LAYER M5 is not specified for width 0.1400.
+#WARNING (NRDB-2077) The below via enclosure for LAYER M4 is not specified for width 0.1400.
+#WARNING (NRDB-2078) The above via enclosure for LAYER M5 is not specified for width 0.1400.
+#WARNING (NRDB-2077) The below via enclosure for LAYER M5 is not specified for width 0.1400.
+#WARNING (NRDB-2078) The above via enclosure for LAYER M6 is not specified for width 0.1400.
+#WARNING (NRDB-2077) The below via enclosure for LAYER M5 is not specified for width 0.1400.
+#WARNING (NRDB-2078) The above via enclosure for LAYER M6 is not specified for width 0.1400.
+#WARNING (NRDB-2040) Rule LEF_DEFAULT doesn't specify any vias that satisfy all of the area rules for layer M2 M3 M4 M5 
+#ERROR (NRDB-1025) There are cell views with overlapping pins. Follow the instruction in WARNING (NRDB-1024) to fix cells.
+#Cpu time = 00:00:00
+#Elapsed time = 00:00:00
+#Increased memory = 14.50 (MB)
+#Total memory = 825.13 (MB)
+#Peak memory = 881.99 (MB)
+#WARNING (NRIF-19) Failed to complete globalDetailRoute on Wed Dec  4 00:07:12 2024
+#
+#routeDesign: cpu time = 00:00:01, elapsed time = 00:00:01, memory = 825.16 (MB), peak = 881.99 (MB)
+
+*** Summary of all messages that are not suppressed in this session:
+Severity  ID               Count  Summary                                  
+WARNING   IMPCK-8086           1  The command %s is obsolete and will be r...
+*** Message Summary: 1 warning(s), 0 error(s)
+
+1
+**WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+**WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+<CMD> setNanoRouteMode -quiet -drouteStartIteration default
+**WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command setNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+<CMD> setNanoRouteMode -quiet -routeTopRoutingLayer default
+<CMD> setNanoRouteMode -quiet -routeBottomRoutingLayer default
+<CMD> setNanoRouteMode -quiet -drouteEndIteration default
+**WARN: (IMPTCM-77):	Option "-routeEcoOnlyInLayers" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+<CMD> setNanoRouteMode -quiet -routeWithTimingDriven false
+<CMD> setNanoRouteMode -quiet -routeWithSiDriven false
+Running Native NanoRoute ...
+<CMD> routeDesign -globalDetail
+#routeDesign: cpu time = 00:00:00, elapsed time = 00:00:00, memory = 825.29 (MB), peak = 881.99 (MB)
+#WARNING (NRIG-96) Selected single pass global detail route "-globalDetail". Clock eco and post optimizations will not be run. See "man NRIG-96" for more details.
+#**INFO: setDesignMode -flowEffort standard
+#**INFO: mulit-cut via swapping is disabled by user.
+#**INFO: All auto set options tuned by routeDesign will be restored to their original settings on command completion.
+#**INFO: auto set of routeReserveSpaceForMultiCut to true
+#**INFO: auto set of routeConcurrentMinimizeViaCountEffort to high
+**Info: (IMPSP-307): Design contains fractional 13 cells.
+Begin checking placement ... (start mem=990.4M, init mem=990.4M)
+*info: Placed = 161569        
+*info: Unplaced = 0           
+Placement Density:100.00%(191515/191507)
+Placement Density (including fixed std cells):100.00%(191515/191507)
+Finished checkPlace (cpu: total=0:00:00.4, vio checks=0:00:00.3; mem=990.4M)
+#**INFO: honoring user setting for routeWithTimingDriven set to false
+#**INFO: honoring user setting for routeWithSiDriven set to false
+**WARN: (IMPCK-8086):	The command changeUseClockNetStatus is obsolete and will be removed in the next release. This command still works in this release, but by the next release you must transition to the CCOpt-based CTS flow.
+
+changeUseClockNetStatus Option :  -noFixedNetWires 
+*** Changed status on (0) nets in Clock.
+*** End changeUseClockNetStatus (cpu=0:00:00.0, real=0:00:00.0, mem=990.4M) ***
+
+globalDetailRoute
+
+#setNanoRouteMode -droutePostRouteSpreadWire "1"
+#setNanoRouteMode -routeConcurrentMinimizeViaCountEffort "high"
+#setNanoRouteMode -routeReserveSpaceForMultiCut true
+#setNanoRouteMode -routeWithSiDriven false
+#setNanoRouteMode -routeWithTimingDriven false
+#Start globalDetailRoute on Wed Dec  4 00:08:10 2024
+#
+#WARNING (NRDB-1024) Shapes of PIN D (0.417 1.723 0.603 1.951) and PIN d (0.417 1.723 0.603 1.951) of CELL dff overlap on LAYER M1. The cell model is not supported in nanoRoute. Fix the cell by removing overlapping shapes.
+#WARNING (NRDB-1024) Shapes of PIN Q (3.374 0.878 3.491 2.987) and PIN q (3.374 0.878 3.491 2.987) of CELL dff overlap on LAYER M1. The cell model is not supported in nanoRoute. Fix the cell by removing overlapping shapes.
+#WARNING (NRDB-733) PIN gclk in CELL_VIEW dff does not have physical port.
+#WARNING (NRDB-733) PIN rnot in CELL_VIEW dff does not have physical port.
+#WARNING (NRDB-2005) SPECIAL_NET VDD! has special wires but no definitions for instance pins or top level pins. This will cause routability problems later.
+#WARNING (NRDB-2005) SPECIAL_NET GND! has special wires but no definitions for instance pins or top level pins. This will cause routability problems later.
+#WARNING (NRDB-629) NanoRoute cannot route PIN rnot of INST temp_0_reg[15] for NET VDD!. The PIN does not have physical geometries. NR will ignore the PIN as if it does not exist in the NET. To fix the problem, add physical geometries to the PIN in the library.
+#WARNING (NRDB-629) NanoRoute cannot route PIN rnot of INST temp_0_reg[14] for NET VDD!. The PIN does not have physical geometries. NR will ignore the PIN as if it does not exist in the NET. To fix the problem, add physical geometries to the PIN in the library.
+#WARNING (NRDB-629) NanoRoute cannot route PIN rnot of INST temp_0_reg[13] for NET VDD!. The PIN does not have physical geometries. NR will ignore the PIN as if it does not exist in the NET. To fix the problem, add physical geometries to the PIN in the library.
+#WARNING (NRDB-629) NanoRoute cannot route PIN rnot of INST temp_0_reg[12] for NET VDD!. The PIN does not have physical geometries. NR will ignore the PIN as if it does not exist in the NET. To fix the problem, add physical geometries to the PIN in the library.
+#WARNING (NRDB-629) NanoRoute cannot route PIN rnot of INST temp_0_reg[11] for NET VDD!. The PIN does not have physical geometries. NR will ignore the PIN as if it does not exist in the NET. To fix the problem, add physical geometries to the PIN in the library.
+#WARNING (NRDB-629) NanoRoute cannot route PIN rnot of INST temp_0_reg[10] for NET VDD!. The PIN does not have physical geometries. NR will ignore the PIN as if it does not exist in the NET. To fix the problem, add physical geometries to the PIN in the library.
+#WARNING (NRDB-629) NanoRoute cannot route PIN rnot of INST temp_0_reg[9] for NET VDD!. The PIN does not have physical geometries. NR will ignore the PIN as if it does not exist in the NET. To fix the problem, add physical geometries to the PIN in the library.
+#WARNING (NRDB-629) NanoRoute cannot route PIN rnot of INST temp_0_reg[8] for NET VDD!. The PIN does not have physical geometries. NR will ignore the PIN as if it does not exist in the NET. To fix the problem, add physical geometries to the PIN in the library.
+#WARNING (NRDB-629) NanoRoute cannot route PIN rnot of INST temp_0_reg[7] for NET VDD!. The PIN does not have physical geometries. NR will ignore the PIN as if it does not exist in the NET. To fix the problem, add physical geometries to the PIN in the library.
+#WARNING (NRDB-629) NanoRoute cannot route PIN rnot of INST temp_0_reg[6] for NET VDD!. The PIN does not have physical geometries. NR will ignore the PIN as if it does not exist in the NET. To fix the problem, add physical geometries to the PIN in the library.
+#WARNING (NRDB-629) NanoRoute cannot route PIN rnot of INST temp_0_reg[5] for NET VDD!. The PIN does not have physical geometries. NR will ignore the PIN as if it does not exist in the NET. To fix the problem, add physical geometries to the PIN in the library.
+#WARNING (NRDB-629) NanoRoute cannot route PIN rnot of INST temp_0_reg[4] for NET VDD!. The PIN does not have physical geometries. NR will ignore the PIN as if it does not exist in the NET. To fix the problem, add physical geometries to the PIN in the library.
+#WARNING (NRDB-629) NanoRoute cannot route PIN rnot of INST temp_0_reg[3] for NET VDD!. The PIN does not have physical geometries. NR will ignore the PIN as if it does not exist in the NET. To fix the problem, add physical geometries to the PIN in the library.
+#WARNING (NRDB-629) NanoRoute cannot route PIN rnot of INST temp_0_reg[2] for NET VDD!. The PIN does not have physical geometries. NR will ignore the PIN as if it does not exist in the NET. To fix the problem, add physical geometries to the PIN in the library.
+#WARNING (NRDB-629) NanoRoute cannot route PIN rnot of INST temp_0_reg[1] for NET VDD!. The PIN does not have physical geometries. NR will ignore the PIN as if it does not exist in the NET. To fix the problem, add physical geometries to the PIN in the library.
+#WARNING (NRDB-629) NanoRoute cannot route PIN rnot of INST temp_0_reg[0] for NET VDD!. The PIN does not have physical geometries. NR will ignore the PIN as if it does not exist in the NET. To fix the problem, add physical geometries to the PIN in the library.
+#WARNING (NRDB-629) NanoRoute cannot route PIN rnot of INST temp_1_reg[15] for NET VDD!. The PIN does not have physical geometries. NR will ignore the PIN as if it does not exist in the NET. To fix the problem, add physical geometries to the PIN in the library.
+#WARNING (NRDB-629) NanoRoute cannot route PIN rnot of INST temp_1_reg[14] for NET VDD!. The PIN does not have physical geometries. NR will ignore the PIN as if it does not exist in the NET. To fix the problem, add physical geometries to the PIN in the library.
+#WARNING (NRDB-629) NanoRoute cannot route PIN rnot of INST temp_1_reg[13] for NET VDD!. The PIN does not have physical geometries. NR will ignore the PIN as if it does not exist in the NET. To fix the problem, add physical geometries to the PIN in the library.
+#WARNING (NRDB-629) NanoRoute cannot route PIN rnot of INST temp_1_reg[12] for NET VDD!. The PIN does not have physical geometries. NR will ignore the PIN as if it does not exist in the NET. To fix the problem, add physical geometries to the PIN in the library.
+#WARNING (EMS-27) Message (NRDB-629) has exceeded the current message display limit of 20.
+#To increase the message display limit, refer to the product command reference manual.
+#NanoRoute Version 17.10-p006_1 NR170516-1601/17_10-UB
+#Start routing data preparation on Wed Dec  4 00:08:10 2024
+#
+#WARNING (NRDB-2077) The below via enclosure for LAYER M1 is not specified for width 0.1400.
+#WARNING (NRDB-2078) The above via enclosure for LAYER M2 is not specified for width 0.1400.
+#WARNING (NRDB-2077) The below via enclosure for LAYER M1 is not specified for width 0.1400.
+#WARNING (NRDB-2078) The above via enclosure for LAYER M2 is not specified for width 0.1400.
+#WARNING (NRDB-2077) The below via enclosure for LAYER M2 is not specified for width 0.1400.
+#WARNING (NRDB-2078) The above via enclosure for LAYER M3 is not specified for width 0.1400.
+#WARNING (NRDB-2077) The below via enclosure for LAYER M2 is not specified for width 0.1400.
+#WARNING (NRDB-2078) The above via enclosure for LAYER M3 is not specified for width 0.1400.
+#WARNING (NRDB-2077) The below via enclosure for LAYER M3 is not specified for width 0.1400.
+#WARNING (NRDB-2078) The above via enclosure for LAYER M4 is not specified for width 0.1400.
+#WARNING (NRDB-2077) The below via enclosure for LAYER M3 is not specified for width 0.1400.
+#WARNING (NRDB-2078) The above via enclosure for LAYER M4 is not specified for width 0.1400.
+#WARNING (NRDB-2077) The below via enclosure for LAYER M4 is not specified for width 0.1400.
+#WARNING (NRDB-2078) The above via enclosure for LAYER M5 is not specified for width 0.1400.
+#WARNING (NRDB-2077) The below via enclosure for LAYER M4 is not specified for width 0.1400.
+#WARNING (NRDB-2078) The above via enclosure for LAYER M5 is not specified for width 0.1400.
+#WARNING (NRDB-2077) The below via enclosure for LAYER M5 is not specified for width 0.1400.
+#WARNING (NRDB-2078) The above via enclosure for LAYER M6 is not specified for width 0.1400.
+#WARNING (NRDB-2077) The below via enclosure for LAYER M5 is not specified for width 0.1400.
+#WARNING (NRDB-2078) The above via enclosure for LAYER M6 is not specified for width 0.1400.
+#WARNING (NRDB-2040) Rule LEF_DEFAULT doesn't specify any vias that satisfy all of the area rules for layer M2 M3 M4 M5 
+#ERROR (NRDB-1025) There are cell views with overlapping pins. Follow the instruction in WARNING (NRDB-1024) to fix cells.
+#Cpu time = 00:00:00
+#Elapsed time = 00:00:00
+#Increased memory = -2.29 (MB)
+#Total memory = 827.31 (MB)
+#Peak memory = 883.01 (MB)
+#WARNING (NRIF-19) Failed to complete globalDetailRoute on Wed Dec  4 00:08:10 2024
+#
+#routeDesign: cpu time = 00:00:01, elapsed time = 00:00:01, memory = 827.31 (MB), peak = 883.01 (MB)
+
+*** Summary of all messages that are not suppressed in this session:
+Severity  ID               Count  Summary                                  
+WARNING   IMPCK-8086           1  The command %s is obsolete and will be r...
+*** Message Summary: 1 warning(s), 0 error(s)
+
+1
+
+*** Memory Usage v#1 (Current mem = 1007.281M, initial mem = 179.605M) ***
+*** Message Summary: 44 warning(s), 0 error(s)
+
+--- Ending "Innovus" (totcpu=0:01:14, real=0:22:53, mem=1007.3M) ---

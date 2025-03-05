@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_LvsOutFile RUNDIR /home/eng/s/sxv240035/cad/gf65/lib_cell/dff/HSPICE
+lvs_LvsfVersion 2
+lvs_LvsInputSummary {0 0 0}
+lvs_LvsComparisonSummary {3 0 0 0}
+lvs_LvsOutFile LVS_REPORT dff.lvs.report
+lvs_LvsOutFile SOURCE_NETLIST /home/eng/s/sxv240035/cad/gf65/lib_cell/dff/HSPICE/dff.src.net
+lvs_LvsOutFile RULES_FILE /home/eng/s/sxv240035/cad/gf65/lib_cell/dff/HSPICE/_Calibre_PEX_nom_rules_
+lvs_LvsRunTimes 1731477516 1731477516

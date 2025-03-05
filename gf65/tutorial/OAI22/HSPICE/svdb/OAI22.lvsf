@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_LvsOutFile RUNDIR /home/eng/s/sxv240035/cad/gf65/tutorial/OAI22/HSPICE
+lvs_LvsfVersion 2
+lvs_LvsInputSummary {0 0 0}
+lvs_LvsComparisonSummary {3 0 0 0}
+lvs_LvsOutFile LVS_REPORT OAI22.lvs.report
+lvs_LvsOutFile SOURCE_NETLIST /home/eng/s/sxv240035/cad/gf65/tutorial/OAI22/HSPICE/OAI22.src.net
+lvs_LvsOutFile RULES_FILE /home/eng/s/sxv240035/cad/gf65/tutorial/OAI22/HSPICE/_Calibre_PEX_nom_rules_
+lvs_LvsRunTimes 1733449954 1733449954

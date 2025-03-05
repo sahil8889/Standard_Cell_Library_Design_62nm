@@ -1,0 +1,16 @@
+license	VLSL_UseNextLicense	string	"always"
+license	VLSXL_UseNextLicense	string	"always"
+license	ADEL_UseNextLicense	string	"always"
+license	VSEL_UseNextLicense	string	"always"
+layout          instLibName     string  "cmos10lpe"
+layout          ySnapSpacing    float   0.001
+layout          xSnapSpacing    float   0.001
+
+layoutXL        sfactorNames    string  "sc SC"
+layoutXL        mfactorNames    string  "m M"
+
+asimenv.startup projectDir string "./simulation"
+
+; ~non-RF model files, don't need to load here. The RF-models are loaded automatically in the "libInit.il" file
+spectre.envOpts modelFiles string "/proj/cad/library/mosis/GF65_LPe/cmos10lpe_CDS_oa_dl064_11_20160415/models/YI-SM00030/Spectre/models/design.scs"
+

@@ -1,0 +1,12 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1733213620 1733213625
+lvs_ExtOutFile RUNDIR /home/011/n/ns/nss230004/cad/gf65/tutorial/inverter/inverter_DRC
+lvs_ExtOutFile RULES_FILE /home/011/n/ns/nss230004/cad/gf65/tutorial/inverter/inverter_DRC/_Calibre_PEX_nom_rules_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoErcSummary {11 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST /home/011/n/ns/nss230004/cad/gf65/tutorial/inverter/inverter_DRC/svdb/inverter.sp
+lvs_ExtOutFile EXTRACTION_REPORT inverter.lvs.report.ext
+lvs_ExtOutFile ERC_DATABASE ./ERC_results.asc
+lvs_ExtOutFile ERC_SUMMARY ./ERC_results.rep

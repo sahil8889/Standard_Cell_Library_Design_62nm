@@ -1,0 +1,10 @@
+CADENCE IHNL11140
+$model
+lib_cell/NAND3/schematic NAND3
+$endmodel
+$net
+gnd! gnd!
+vdd! vdd!
+$endnet
+$param
+$endparam

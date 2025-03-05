@@ -1,0 +1,12 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1733449308 1733449309
+lvs_ExtOutFile RUNDIR /home/eng/s/sxv240035/cad/gf65/tutorial/NAND4/NAND4_LVS
+lvs_ExtOutFile RULES_FILE /home/eng/s/sxv240035/cad/gf65/tutorial/NAND4/NAND4_LVS/_Calibre_LVS_rules_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoErcSummary {11 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST /home/eng/s/sxv240035/cad/gf65/tutorial/NAND4/NAND4_LVS/NAND4.sp
+lvs_ExtOutFile EXTRACTION_REPORT NAND4.lvs.report.ext
+lvs_ExtOutFile ERC_DATABASE NAND4.erc.results
+lvs_ExtOutFile ERC_SUMMARY NAND4.erc.summary

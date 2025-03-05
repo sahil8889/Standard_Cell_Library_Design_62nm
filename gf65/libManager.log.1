@@ -1,0 +1,97 @@
+\o Program:		@(#)$CDS: libManager version 6.1.7 - CAT35 04/25/2017 19:41 (sjfhw319) $
+\o Sub version:		sub-version  s040 
+\o Arguments:		-unmapped -mpssession virtuoso30788 -mpshost engnx01a.utdallas.edu 
+\o Working Directory:	engnx01a.utdallas.edu:/home/eng/s/sxv240035/cad/gf65
+\o 64-bit offsets
+\o Qt version: 		4.8.5
+\o changeWorkingDir("/home/eng/s/sxv240035/cad/gf65") unnecessary.
+\o ddSetForcedLib("") unnecessary.
+\o Log file is "/home/eng/s/sxv240035/cad/gf65/libManager.log.1".
+\o Opening libManager window.
+\a nrSetWindowVisibility(cdsLibManager "show")
+\o MPS service: map window
+\a nrSetCurrentWindow(cdsLibManager)
+\o Library Manager customization server connected.
+\a nrResizeWindow(cdsLibManager list(-10 19 602 491))
+\a cdsLibManager->libListBox->value = "tutorial"
+\a cdsLibManager->libLineEdit->value = "tutorial"
+\a cdsLibManager->cellListBox->value = "inv"
+\a cdsLibManager->cellLineEdit->value = "inv"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a nrListItemAction(cdsLibManager->libListBox "tutorial" 0)
+\o MPS request: edit design
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->FileNewCVButton->value = t
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a lmgrLogShowPopup("mainListPopup2" 27 10 2 "layout")
+\a cdsLibManager->editDeleteButton->value = t
+\a deleteForm->deleteBothRadioButton->value = t
+\a deleteForm->deleteFilterEdit->value = "*"
+\a deleteForm->notDeleteFilterEdit->value = "*"
+\a nrSetWindowVisibility(deleteForm "show")
+\a nrSetCurrentWindow(deleteForm)
+\a nrResizeWindow(deleteForm list(-10 49 627 425))
+\a deleteForm->OK->value = t
+\o QUESTION (CLM-199): The following 1 items are marked for deletion.  Are you sure?
+\a nrSetWindowVisibility(mcMBXDLG "show")
+\a nrSetCurrentWindow(mcMBXDLG)
+\a nrResizeWindow(mcMBXDLG list(136 146 334 245))
+\a mcMBXDLG->pushButton1->value = t
+\o Deleting view "layout" from cell "inv" in library "tutorial".
+\a nrSetWindowVisibility(workingDialogForm "show")
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(workingDialogForm)
+\o Deleted cellview 'tutorial/inv/layout'.
+\o Deletion of 1 view done.
+\a nrSetCurrentWindow(workingDialogForm)
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a nrResizeWindow(workingDialogForm list(167 183 268 133))
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->libListBox->value = "tutorial"
+\a cdsLibManager->libLineEdit->value = "tutorial"
+\a cdsLibManager->cellListBox->value = "inv"
+\a cdsLibManager->cellLineEdit->value = "inv"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "inv"
+\a cdsLibManager->cellLineEdit->value = "inv"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)

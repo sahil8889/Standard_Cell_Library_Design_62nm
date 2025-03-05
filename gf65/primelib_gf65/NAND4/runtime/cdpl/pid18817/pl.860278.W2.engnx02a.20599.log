@@ -1,0 +1,683 @@
+----------------------------------------------------------------------
+PrimeLib version T-2022.03-SP1 (Malibu 2)
+Build date: Apr 12, 2022 13:01:04
+Path: /proj/cad/synopsys/synopsys_2021/primelib/T-2022.03-SP1/linux64/bin/primelib
+Host: engnx02a.utdallas.edu, User: sxv240035, PID: 20599 (PPID: 20586)
+CPU: 32 x 3693 MHz, AMD EPYC 7F32 8-Core Processor (2 socket, 16 core)
+Memory: 257 GB RAM (0.6 GB free), 4 GB Swap (4.0 GB free)
+System load average: 6.03, 7.24, 7.96 (18635 processes)
+Directory: /home/eng/s/sxv240035/cad/gf65/primelib_gf65
+Command-line: /proj/cad/synopsys/synopsys_2021/primelib/T-2022.03-SP1/linux64/bin/primelib -server /home/eng/s/sxv240035/cad/gf65/primelib_gf65/NAND4/runtime/cdpl/pid18817/driver_18817.tcl
+The char directory is /home/eng/s/sxv240035/cad/gf65/primelib_gf65/NAND4
+Warning: Setting of obsolete parameter 'model_ecsm_cin' is ignored. (PAR-27)
+Warning: 2003.12 is no longer supported as a valid value for liberty_flavor. Setting it to 2007.03.
+Loading /home/eng/s/sxv240035/cad/gf65/primelib_gf65/NAND4/etc/cell.stat.gz
+Wed Oct 23 22:28:57 CDT 2024: Sourcing environment settings
+Warning: Operating condition 'op_cond' already exists, skipped.
+Wed Oct 23 22:28:57 CDT 2024: Environment set up done (0 seconds)
+Create and link tmpdir /var/tmp/pl.engnx02a.860278.20586 -> /var/tmp/primelib.engnx02a.utdallas.edu.860278.20599 
+[CDPL] Loading settings for stage: characterization.6
+The char directory is /home/eng/s/sxv240035/cad/gf65/primelib_gf65/OAI22
+Warning: 2003.12 is no longer supported as a valid value for liberty_flavor. Setting it to 2007.03.
+Loading /home/eng/s/sxv240035/cad/gf65/primelib_gf65/OAI22/etc/cell.stat.gz
+Wed Oct 23 22:28:57 CDT 2024: Sourcing environment settings
+Warning: Operating condition 'op_cond' already exists, skipped.
+Wed Oct 23 22:28:57 CDT 2024: Environment set up done (0 seconds)
+[CDPL] Done loading settings for stage: characterization.6
+Loading information for cell OAI22
+work dir: '/var/tmp/primelib.engnx02a.860278.20599/OAI22/delay__A__hl__OUT__lh__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Error:   There are failed measurements in Tout__OUT__lh : 25 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   There are failed measurements in delay__A__hl__OUT__lh : 25 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   Simulation delay__A__hl__OUT__lh__ACQ_1.sif for cell OAI22 failed: There are failed measures in ['Tout__OUT__lh', 'delay__A__hl__OUT__lh'] (SMSC-95)
+----------------------
+__recordTaskStats__ OAI22 delay__A__hl__OUT__lh__ACQ_1 0.17 0.01 5.99 0.71 1 20.0543749332 engnx02a.utdallas.edu 1729740537.57 1729740557.62 1
+Loading information for cell OAI22
+work dir: '/var/tmp/primelib.engnx02a.860278.20599/OAI22/delay__A__lh__OUT__hl__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Error:   There are failed measurements in Tout__OUT__hl : 25 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   There are failed measurements in delay__A__lh__OUT__hl : 25 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   Simulation delay__A__lh__OUT__hl__ACQ_1.sif for cell OAI22 failed: There are failed measures in ['Tout__OUT__hl', 'delay__A__lh__OUT__hl'] (SMSC-95)
+----------------------
+__recordTaskStats__ OAI22 delay__A__lh__OUT__hl__ACQ_1 0.11 0.01 5.84 0.64 1 6.87678599358 engnx02a.utdallas.edu 1729740557.62 1729740564.5 1
+Loading information for cell OAI22
+work dir: '/var/tmp/primelib.engnx02a.860278.20599/OAI22/delay__B__hl__OUT__lh__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Error:   There are failed measurements in Tout__OUT__lh : 25 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   There are failed measurements in delay__B__hl__OUT__lh : 25 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   Simulation delay__B__hl__OUT__lh__ACQ_1.sif for cell OAI22 failed: There are failed measures in ['Tout__OUT__lh', 'delay__B__hl__OUT__lh'] (SMSC-95)
+----------------------
+__recordTaskStats__ OAI22 delay__B__hl__OUT__lh__ACQ_1 0.12 0.02 5.96 0.67 1 6.80995297432 engnx02a.utdallas.edu 1729740564.5 1729740571.31 1
+Loading information for cell OAI22
+work dir: '/var/tmp/primelib.engnx02a.860278.20599/OAI22/delay__B__lh__OUT__hl__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Error:   There are failed measurements in Tout__OUT__hl : 25 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   There are failed measurements in delay__B__lh__OUT__hl : 25 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   Simulation delay__B__lh__OUT__hl__ACQ_1.sif for cell OAI22 failed: There are failed measures in ['Tout__OUT__hl', 'delay__B__lh__OUT__hl'] (SMSC-95)
+----------------------
+__recordTaskStats__ OAI22 delay__B__lh__OUT__hl__ACQ_1 0.11 0.01 6.31 0.72 1 7.17857909203 engnx02a.utdallas.edu 1729740571.31 1729740578.49 1
+Loading information for cell OAI22
+work dir: '/var/tmp/primelib.engnx02a.860278.20599/OAI22/delay__C__hl__OUT__lh__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Error:   There are failed measurements in Tout__OUT__lh : 25 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   There are failed measurements in delay__C__hl__OUT__lh : 25 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   Simulation delay__C__hl__OUT__lh__ACQ_1.sif for cell OAI22 failed: There are failed measures in ['Tout__OUT__lh', 'delay__C__hl__OUT__lh'] (SMSC-95)
+----------------------
+__recordTaskStats__ OAI22 delay__C__hl__OUT__lh__ACQ_1 0.11 0.01 6.19 0.71 1 7.03328108788 engnx02a.utdallas.edu 1729740578.49 1729740585.52 1
+Loading information for cell OAI22
+work dir: '/var/tmp/primelib.engnx02a.860278.20599/OAI22/delay__C__lh__OUT__hl__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Error:   There are failed measurements in Tout__OUT__hl : 25 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   There are failed measurements in delay__C__lh__OUT__hl : 25 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   Simulation delay__C__lh__OUT__hl__ACQ_1.sif for cell OAI22 failed: There are failed measures in ['Tout__OUT__hl', 'delay__C__lh__OUT__hl'] (SMSC-95)
+----------------------
+__recordTaskStats__ OAI22 delay__C__lh__OUT__hl__ACQ_1 0.1 0.02 6.29 0.75 1 13.1467030048 engnx02a.utdallas.edu 1729740585.52 1729740598.67 1
+Loading information for cell OAI22
+work dir: '/var/tmp/primelib.engnx02a.860278.20599/OAI22/delay__D__hl__OUT__lh__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Error:   There are failed measurements in Tout__OUT__lh : 25 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   There are failed measurements in delay__D__hl__OUT__lh : 25 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   Simulation delay__D__hl__OUT__lh__ACQ_1.sif for cell OAI22 failed: There are failed measures in ['Tout__OUT__lh', 'delay__D__hl__OUT__lh'] (SMSC-95)
+----------------------
+__recordTaskStats__ OAI22 delay__D__hl__OUT__lh__ACQ_1 0.12 0.01 6.18 0.77 1 13.3748950958 engnx02a.utdallas.edu 1729740598.67 1729740612.04 1
+Loading information for cell OAI22
+work dir: '/var/tmp/primelib.engnx02a.860278.20599/OAI22/delay__D__lh__OUT__hl__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Error:   There are failed measurements in Tout__OUT__hl : 25 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   There are failed measurements in delay__D__lh__OUT__hl : 25 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   Simulation delay__D__lh__OUT__hl__ACQ_1.sif for cell OAI22 failed: There are failed measures in ['Tout__OUT__hl', 'delay__D__lh__OUT__hl'] (SMSC-95)
+----------------------
+__recordTaskStats__ OAI22 delay__D__lh__OUT__hl__ACQ_1 0.11 0.01 6.06 0.68 1 6.86704683304 engnx02a.utdallas.edu 1729740612.05 1729740618.91 1
+Loading information for cell OAI22
+work dir: '/var/tmp/primelib.engnx02a.860278.20599/OAI22/delay__A__hl__OUT__lh__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Error:   There are failed measurements in Tout__OUT__lh : 25 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   There are failed measurements in delay__A__hl__OUT__lh : 25 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   Simulation delay__A__hl__OUT__lh__ACQ_1.sif for cell OAI22 failed: There are failed measures in ['Tout__OUT__lh', 'delay__A__hl__OUT__lh'] (SMSC-95)
+----------------------
+__recordTaskStats__ OAI22 delay__A__hl__OUT__lh__ACQ_1 0.1 0.01 6.06 0.67 1 6.86572098732 engnx02a.utdallas.edu 1729740618.91 1729740625.78 1
+Loading information for cell OAI22
+work dir: '/var/tmp/primelib.engnx02a.860278.20599/OAI22/delay__A__lh__OUT__hl__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Error:   There are failed measurements in Tout__OUT__hl : 25 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   There are failed measurements in delay__A__lh__OUT__hl : 25 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   Simulation delay__A__lh__OUT__hl__ACQ_1.sif for cell OAI22 failed: There are failed measures in ['Tout__OUT__hl', 'delay__A__lh__OUT__hl'] (SMSC-95)
+----------------------
+__recordTaskStats__ OAI22 delay__A__lh__OUT__hl__ACQ_1 0.11 0.01 6.34 0.66 1 7.13684415817 engnx02a.utdallas.edu 1729740625.78 1729740632.92 1
+Loading information for cell OAI22
+work dir: '/var/tmp/primelib.engnx02a.860278.20599/OAI22/delay__B__hl__OUT__lh__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Error:   There are failed measurements in Tout__OUT__lh : 25 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   There are failed measurements in delay__B__hl__OUT__lh : 25 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   Simulation delay__B__hl__OUT__lh__ACQ_1.sif for cell OAI22 failed: There are failed measures in ['Tout__OUT__lh', 'delay__B__hl__OUT__lh'] (SMSC-95)
+----------------------
+__recordTaskStats__ OAI22 delay__B__hl__OUT__lh__ACQ_1 0.11 0.01 6.07 0.69 1 6.91437697411 engnx02a.utdallas.edu 1729740632.92 1729740639.83 1
+Loading information for cell OAI22
+work dir: '/var/tmp/primelib.engnx02a.860278.20599/OAI22/delay__B__lh__OUT__hl__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Error:   There are failed measurements in Tout__OUT__hl : 25 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   There are failed measurements in delay__B__lh__OUT__hl : 25 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   Simulation delay__B__lh__OUT__hl__ACQ_1.sif for cell OAI22 failed: There are failed measures in ['Tout__OUT__hl', 'delay__B__lh__OUT__hl'] (SMSC-95)
+----------------------
+__recordTaskStats__ OAI22 delay__B__lh__OUT__hl__ACQ_1 0.1 0.01 6.15 0.68 1 15.0473878384 engnx02a.utdallas.edu 1729740639.83 1729740654.88 1
+Loading information for cell OAI22
+work dir: '/var/tmp/primelib.engnx02a.860278.20599/OAI22/delay__C__hl__OUT__lh__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Error:   There are failed measurements in Tout__OUT__lh : 25 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   There are failed measurements in delay__C__hl__OUT__lh : 25 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   Simulation delay__C__hl__OUT__lh__ACQ_1.sif for cell OAI22 failed: There are failed measures in ['Tout__OUT__lh', 'delay__C__hl__OUT__lh'] (SMSC-95)
+----------------------
+__recordTaskStats__ OAI22 delay__C__hl__OUT__lh__ACQ_1 0.1 0.01 6.15 0.75 1 7.96491384506 engnx02a.utdallas.edu 1729740654.88 1729740662.84 1
+Loading information for cell OAI22
+work dir: '/var/tmp/primelib.engnx02a.860278.20599/OAI22/delay__C__lh__OUT__hl__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Error:   There are failed measurements in Tout__OUT__hl : 25 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   There are failed measurements in delay__C__lh__OUT__hl : 25 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   Simulation delay__C__lh__OUT__hl__ACQ_1.sif for cell OAI22 failed: There are failed measures in ['Tout__OUT__hl', 'delay__C__lh__OUT__hl'] (SMSC-95)
+----------------------
+__recordTaskStats__ OAI22 delay__C__lh__OUT__hl__ACQ_1 0.11 0.02 6.27 0.71 1 7.13362193108 engnx02a.utdallas.edu 1729740662.85 1729740669.98 1
+Loading information for cell OAI22
+work dir: '/var/tmp/primelib.engnx02a.860278.20599/OAI22/delay__D__hl__OUT__lh__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Error:   There are failed measurements in Tout__OUT__lh : 25 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   There are failed measurements in delay__D__hl__OUT__lh : 25 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   Simulation delay__D__hl__OUT__lh__ACQ_1.sif for cell OAI22 failed: There are failed measures in ['Tout__OUT__lh', 'delay__D__hl__OUT__lh'] (SMSC-95)
+----------------------
+__recordTaskStats__ OAI22 delay__D__hl__OUT__lh__ACQ_1 0.1 0.01 5.93 0.68 1 7.15973806381 engnx02a.utdallas.edu 1729740669.98 1729740677.14 1
+Loading information for cell OAI22
+work dir: '/var/tmp/primelib.engnx02a.860278.20599/OAI22/delay__D__lh__OUT__hl__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Error:   There are failed measurements in Tout__OUT__hl : 25 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   There are failed measurements in delay__D__lh__OUT__hl : 25 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   Simulation delay__D__lh__OUT__hl__ACQ_1.sif for cell OAI22 failed: There are failed measures in ['Tout__OUT__hl', 'delay__D__lh__OUT__hl'] (SMSC-95)
+----------------------
+__recordTaskStats__ OAI22 delay__D__lh__OUT__hl__ACQ_1 0.1 0.01 6.28 0.67 1 7.31828689575 engnx02a.utdallas.edu 1729740677.14 1729740684.46 1
+Loading information for cell OAI22
+work dir: '/var/tmp/primelib.engnx02a.860278.20599/OAI22/leakage_power__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+moving /var/tmp/primelib.engnx02a.860278.20599/OAI22/leakage_power__ACQ_1.sof.gz to /home/eng/s/sxv240035/cad/gf65/primelib_gf65/OAI22/results/OAI22
+Simulation OAI22::leakage_power__ACQ_1.sif completed successfully.
+Warning: ground supply has not been properly defined
+----------------------
+__recordTaskStats__ OAI22 leakage_power__ACQ_1 0.05 0.01 6.04 0.69 1 9.18767380714 engnx02a.utdallas.edu 1729740684.46 1729740693.65 1
+Loading information for cell OAI22
+work dir: '/var/tmp/primelib.engnx02a.860278.20599/OAI22/Cin__VSS__hl__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+moving /var/tmp/primelib.engnx02a.860278.20599/OAI22/Cin__VSS__hl__ACQ_1.sof.gz to /home/eng/s/sxv240035/cad/gf65/primelib_gf65/OAI22/results/OAI22
+Simulation OAI22::Cin__VSS__hl__ACQ_1.sif completed successfully.
+----------------------
+__recordTaskStats__ OAI22 Cin__VSS__hl__ACQ_1 0.05 0.01 6.06 0.7 1 10.1632609367 engnx02a.utdallas.edu 1729740693.65 1729740703.81 1
+Loading information for cell OAI22
+work dir: '/var/tmp/primelib.engnx02a.860278.20599/OAI22/Cin__VSS__lh__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+moving /var/tmp/primelib.engnx02a.860278.20599/OAI22/Cin__VSS__lh__ACQ_1.sof.gz to /home/eng/s/sxv240035/cad/gf65/primelib_gf65/OAI22/results/OAI22
+Simulation OAI22::Cin__VSS__lh__ACQ_1.sif completed successfully.
+----------------------
+__recordTaskStats__ OAI22 Cin__VSS__lh__ACQ_1 0.05 0.0 5.93 0.69 1 7.08084511757 engnx02a.utdallas.edu 1729740703.81 1729740710.89 1
+Loading information for cell OAI22
+work dir: '/var/tmp/primelib.engnx02a.860278.20599/OAI22/Cin__VDD__hl__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+moving /var/tmp/primelib.engnx02a.860278.20599/OAI22/Cin__VDD__hl__ACQ_1.sof.gz to /home/eng/s/sxv240035/cad/gf65/primelib_gf65/OAI22/results/OAI22
+Simulation OAI22::Cin__VDD__hl__ACQ_1.sif completed successfully.
+----------------------
+__recordTaskStats__ OAI22 Cin__VDD__hl__ACQ_1 0.11 0.01 5.99 0.68 1 6.7470459938 engnx02a.utdallas.edu 1729740710.89 1729740717.64 1
+Loading information for cell OAI22
+work dir: '/var/tmp/primelib.engnx02a.860278.20599/OAI22/Cin__VDD__lh__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+moving /var/tmp/primelib.engnx02a.860278.20599/OAI22/Cin__VDD__lh__ACQ_1.sof.gz to /home/eng/s/sxv240035/cad/gf65/primelib_gf65/OAI22/results/OAI22
+Simulation OAI22::Cin__VDD__lh__ACQ_1.sif completed successfully.
+----------------------
+__recordTaskStats__ OAI22 Cin__VDD__lh__ACQ_1 0.05 0.01 5.87 0.68 1 6.56823611259 engnx02a.utdallas.edu 1729740717.64 1729740724.21 1
+[CDPL] Loading settings for stage: characterization.7
+The char directory is /home/eng/s/sxv240035/cad/gf65/primelib_gf65/XOR2
+Warning: 2003.12 is no longer supported as a valid value for liberty_flavor. Setting it to 2007.03.
+Loading /home/eng/s/sxv240035/cad/gf65/primelib_gf65/XOR2/etc/cell.stat.gz
+Wed Oct 23 22:36:38 CDT 2024: Sourcing environment settings
+Warning: Operating condition 'op_cond' already exists, skipped.
+Wed Oct 23 22:36:38 CDT 2024: Environment set up done (0 seconds)
+[CDPL] Done loading settings for stage: characterization.7
+Loading information for cell XOR2
+work dir: '/var/tmp/primelib.engnx02a.860278.20599/XOR2/leakage_power__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+moving /var/tmp/primelib.engnx02a.860278.20599/XOR2/leakage_power__ACQ_1.sof.gz to /home/eng/s/sxv240035/cad/gf65/primelib_gf65/XOR2/results/XOR2
+Simulation XOR2::leakage_power__ACQ_1.sif completed successfully.
+Warning: ground supply has not been properly defined
+Warning: SIS_SERVER_WARN_MSGXOR2: leakage_power__ACQ_1 state: none: leakage current does not sum to 0 (tolerance 1.0e-6)
+current gateLeakFactor for leakage_power__ACQ_1 : 1.0
+Loading information for cell XOR2
+Re-running leakage_power__ACQ_1 with gate_leakage_factor set to 501.0 ...
+work dir: '/var/tmp/primelib.engnx02a.860278.20599/XOR2/leakage_power__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+moving /var/tmp/primelib.engnx02a.860278.20599/XOR2/leakage_power__ACQ_1.sof.gz to /home/eng/s/sxv240035/cad/gf65/primelib_gf65/XOR2/results/XOR2
+Simulation XOR2::leakage_power__ACQ_1.sif completed successfully.
+Warning: ground supply has not been properly defined
+Warning: SIS_SERVER_WARN_MSGXOR2: leakage_power__ACQ_1 state: none: leakage current does not sum to 0 (tolerance 1.0e-6)
+current gateLeakFactor for leakage_power__ACQ_1 : 501.0
+Loading information for cell XOR2
+Re-running leakage_power__ACQ_1 with gate_leakage_factor set to 1001.0 ...
+work dir: '/var/tmp/primelib.engnx02a.860278.20599/XOR2/leakage_power__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+moving /var/tmp/primelib.engnx02a.860278.20599/XOR2/leakage_power__ACQ_1.sof.gz to /home/eng/s/sxv240035/cad/gf65/primelib_gf65/XOR2/results/XOR2
+Simulation XOR2::leakage_power__ACQ_1.sif completed successfully.
+Warning: ground supply has not been properly defined
+Warning: SIS_SERVER_WARN_MSGXOR2: leakage_power__ACQ_1 state: none: leakage current does not sum to 0 (tolerance 1.0e-6)
+current gateLeakFactor for leakage_power__ACQ_1 : 1001.0
+Loading information for cell XOR2
+Re-running leakage_power__ACQ_1 with gate_leakage_factor set to 1501.0 ...
+work dir: '/var/tmp/primelib.engnx02a.860278.20599/XOR2/leakage_power__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+moving /var/tmp/primelib.engnx02a.860278.20599/XOR2/leakage_power__ACQ_1.sof.gz to /home/eng/s/sxv240035/cad/gf65/primelib_gf65/XOR2/results/XOR2
+Simulation XOR2::leakage_power__ACQ_1.sif completed successfully.
+Warning: ground supply has not been properly defined
+Warning: SIS_SERVER_WARN_MSGXOR2: leakage_power__ACQ_1 state: none: leakage current does not sum to 0 (tolerance 1.0e-6)
+current gateLeakFactor for leakage_power__ACQ_1 : 1501.0
+Loading information for cell XOR2
+Re-running leakage_power__ACQ_1 with gate_leakage_factor set to 2001.0 ...
+work dir: '/var/tmp/primelib.engnx02a.860278.20599/XOR2/leakage_power__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+moving /var/tmp/primelib.engnx02a.860278.20599/XOR2/leakage_power__ACQ_1.sof.gz to /home/eng/s/sxv240035/cad/gf65/primelib_gf65/XOR2/results/XOR2
+Simulation XOR2::leakage_power__ACQ_1.sif completed successfully.
+Warning: ground supply has not been properly defined
+Warning: SIS_SERVER_WARN_MSGXOR2: leakage_power__ACQ_1 state: none: leakage current does not sum to 0 (tolerance 1.0e-6)
+current gateLeakFactor for leakage_power__ACQ_1 : 2001.0
+Loading information for cell XOR2
+Re-running leakage_power__ACQ_1 with gate_leakage_factor set to 2501.0 ...
+work dir: '/var/tmp/primelib.engnx02a.860278.20599/XOR2/leakage_power__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+moving /var/tmp/primelib.engnx02a.860278.20599/XOR2/leakage_power__ACQ_1.sof.gz to /home/eng/s/sxv240035/cad/gf65/primelib_gf65/XOR2/results/XOR2
+Simulation XOR2::leakage_power__ACQ_1.sif completed successfully.
+Warning: ground supply has not been properly defined
+Warning: SIS_SERVER_WARN_MSGXOR2: leakage_power__ACQ_1 state: none: leakage current does not sum to 0 (tolerance 1.0e-6)
+current gateLeakFactor for leakage_power__ACQ_1 : 2501.0
+Loading information for cell XOR2
+Re-running leakage_power__ACQ_1 with gate_leakage_factor set to 3001.0 ...
+work dir: '/var/tmp/primelib.engnx02a.860278.20599/XOR2/leakage_power__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+moving /var/tmp/primelib.engnx02a.860278.20599/XOR2/leakage_power__ACQ_1.sof.gz to /home/eng/s/sxv240035/cad/gf65/primelib_gf65/XOR2/results/XOR2
+Simulation XOR2::leakage_power__ACQ_1.sif completed successfully.
+Warning: ground supply has not been properly defined
+Warning: SIS_SERVER_WARN_MSGXOR2: leakage_power__ACQ_1 state: none: leakage current does not sum to 0 (tolerance 1.0e-6)
+current gateLeakFactor for leakage_power__ACQ_1 : 3001.0
+Loading information for cell XOR2
+Re-running leakage_power__ACQ_1 with gate_leakage_factor set to 3501.0 ...
+work dir: '/var/tmp/primelib.engnx02a.860278.20599/XOR2/leakage_power__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+moving /var/tmp/primelib.engnx02a.860278.20599/XOR2/leakage_power__ACQ_1.sof.gz to /home/eng/s/sxv240035/cad/gf65/primelib_gf65/XOR2/results/XOR2
+Simulation XOR2::leakage_power__ACQ_1.sif completed successfully.
+Warning: ground supply has not been properly defined
+Warning: SIS_SERVER_WARN_MSGXOR2: leakage_power__ACQ_1 state: none: leakage current does not sum to 0 (tolerance 1.0e-6)
+current gateLeakFactor for leakage_power__ACQ_1 : 3501.0
+Loading information for cell XOR2
+Re-running leakage_power__ACQ_1 with gate_leakage_factor set to 4001.0 ...
+work dir: '/var/tmp/primelib.engnx02a.860278.20599/XOR2/leakage_power__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+moving /var/tmp/primelib.engnx02a.860278.20599/XOR2/leakage_power__ACQ_1.sof.gz to /home/eng/s/sxv240035/cad/gf65/primelib_gf65/XOR2/results/XOR2
+Simulation XOR2::leakage_power__ACQ_1.sif completed successfully.
+Warning: ground supply has not been properly defined
+Warning: SIS_SERVER_WARN_MSGXOR2: leakage_power__ACQ_1 state: none: leakage current does not sum to 0 (tolerance 1.0e-6)
+current gateLeakFactor for leakage_power__ACQ_1 : 4001.0
+Loading information for cell XOR2
+Re-running leakage_power__ACQ_1 with gate_leakage_factor set to 4501.0 ...
+work dir: '/var/tmp/primelib.engnx02a.860278.20599/XOR2/leakage_power__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+moving /var/tmp/primelib.engnx02a.860278.20599/XOR2/leakage_power__ACQ_1.sof.gz to /home/eng/s/sxv240035/cad/gf65/primelib_gf65/XOR2/results/XOR2
+Simulation XOR2::leakage_power__ACQ_1.sif completed successfully.
+Warning: ground supply has not been properly defined
+Warning: SIS_SERVER_WARN_MSGXOR2: leakage_power__ACQ_1 state: none: leakage current does not sum to 0 (tolerance 1.0e-6)
+current gateLeakFactor for leakage_power__ACQ_1 : 4501.0
+----------------------
+__recordTaskStats__ XOR2 leakage_power__ACQ_1 0.44 0.08 64.11 7.1 1 89.620620966 engnx02a.utdallas.edu 1729740998.92 1729741088.54 1
+__recordTaskStats__ XOR2 leakage_power__ACQ_1 0.44 0.08 64.11 7.1 1 89.6211090088 engnx02a.utdallas.edu 1729740998.92 1729741088.55 1
+__recordTaskStats__ XOR2 leakage_power__ACQ_1 0.44 0.08 64.11 7.1 1 89.6215748787 engnx02a.utdallas.edu 1729740998.92 1729741088.55 1
+__recordTaskStats__ XOR2 leakage_power__ACQ_1 0.44 0.08 64.11 7.1 1 89.6220500469 engnx02a.utdallas.edu 1729740998.92 1729741088.55 1
+__recordTaskStats__ XOR2 leakage_power__ACQ_1 0.44 0.08 64.11 7.1 1 89.6225140095 engnx02a.utdallas.edu 1729740998.92 1729741088.55 1
+__recordTaskStats__ XOR2 leakage_power__ACQ_1 0.44 0.08 64.11 7.1 1 89.6229770184 engnx02a.utdallas.edu 1729740998.92 1729741088.55 1
+__recordTaskStats__ XOR2 leakage_power__ACQ_1 0.44 0.08 64.11 7.1 1 89.6234328747 engnx02a.utdallas.edu 1729740998.92 1729741088.55 1
+__recordTaskStats__ XOR2 leakage_power__ACQ_1 0.44 0.08 64.11 7.1 1 89.6238958836 engnx02a.utdallas.edu 1729740998.92 1729741088.55 1
+__recordTaskStats__ XOR2 leakage_power__ACQ_1 0.44 0.08 64.11 7.1 1 89.6243538857 engnx02a.utdallas.edu 1729740998.92 1729741088.55 1
+__recordTaskStats__ XOR2 leakage_power__ACQ_1 0.44 0.08 64.11 7.1 1 89.6248099804 engnx02a.utdallas.edu 1729740998.92 1729741088.55 1
+Loading information for cell XOR2
+work dir: '/var/tmp/primelib.engnx02a.860278.20599/XOR2/delay__A__hl__OUT__hl__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+moving /var/tmp/primelib.engnx02a.860278.20599/XOR2/delay__A__hl__OUT__hl__ACQ_1.sof.gz to /home/eng/s/sxv240035/cad/gf65/primelib_gf65/XOR2/results/XOR2
+Simulation XOR2::delay__A__hl__OUT__hl__ACQ_1.sif completed successfully.
+----------------------
+__recordTaskStats__ XOR2 delay__A__hl__OUT__hl__ACQ_1 0.06 0.01 6.14 0.69 1 7.49545097351 engnx02a.utdallas.edu 1729741088.55 1729741096.05 1
+Loading information for cell XOR2
+work dir: '/var/tmp/primelib.engnx02a.860278.20599/XOR2/delay__A__hl__OUT__lh__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+moving /var/tmp/primelib.engnx02a.860278.20599/XOR2/delay__A__hl__OUT__lh__ACQ_1.sof.gz to /home/eng/s/sxv240035/cad/gf65/primelib_gf65/XOR2/results/XOR2
+Simulation XOR2::delay__A__hl__OUT__lh__ACQ_1.sif completed successfully.
+----------------------
+__recordTaskStats__ XOR2 delay__A__hl__OUT__lh__ACQ_1 0.05 0.01 6.09 0.79 1 10.860118866 engnx02a.utdallas.edu 1729741096.05 1729741106.91 1
+Loading information for cell XOR2
+work dir: '/var/tmp/primelib.engnx02a.860278.20599/XOR2/delay__A__lh__OUT__hl__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+moving /var/tmp/primelib.engnx02a.860278.20599/XOR2/delay__A__lh__OUT__hl__ACQ_1.sof.gz to /home/eng/s/sxv240035/cad/gf65/primelib_gf65/XOR2/results/XOR2
+Simulation XOR2::delay__A__lh__OUT__hl__ACQ_1.sif completed successfully.
+----------------------
+__recordTaskStats__ XOR2 delay__A__lh__OUT__hl__ACQ_1 0.06 0.0 5.97 0.68 1 7.06186294556 engnx02a.utdallas.edu 1729741106.91 1729741113.97 1
+Loading information for cell XOR2
+work dir: '/var/tmp/primelib.engnx02a.860278.20599/XOR2/delay__A__lh__OUT__lh__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+moving /var/tmp/primelib.engnx02a.860278.20599/XOR2/delay__A__lh__OUT__lh__ACQ_1.sof.gz to /home/eng/s/sxv240035/cad/gf65/primelib_gf65/XOR2/results/XOR2
+Simulation XOR2::delay__A__lh__OUT__lh__ACQ_1.sif completed successfully.
+----------------------
+__recordTaskStats__ XOR2 delay__A__lh__OUT__lh__ACQ_1 0.06 0.01 6.15 0.71 1 6.88559913635 engnx02a.utdallas.edu 1729741113.97 1729741120.85 1
+Loading information for cell XOR2
+work dir: '/var/tmp/primelib.engnx02a.860278.20599/XOR2/delay__B__hl__OUT__hl__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+moving /var/tmp/primelib.engnx02a.860278.20599/XOR2/delay__B__hl__OUT__hl__ACQ_1.sof.gz to /home/eng/s/sxv240035/cad/gf65/primelib_gf65/XOR2/results/XOR2
+Simulation XOR2::delay__B__hl__OUT__hl__ACQ_1.sif completed successfully.
+----------------------
+__recordTaskStats__ XOR2 delay__B__hl__OUT__hl__ACQ_1 0.06 0.01 5.98 0.65 1 6.67517089844 engnx02a.utdallas.edu 1729741120.86 1729741127.53 1
+Loading information for cell XOR2
+work dir: '/var/tmp/primelib.engnx02a.860278.20599/XOR2/delay__B__hl__OUT__lh__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+moving /var/tmp/primelib.engnx02a.860278.20599/XOR2/delay__B__hl__OUT__lh__ACQ_1.sof.gz to /home/eng/s/sxv240035/cad/gf65/primelib_gf65/XOR2/results/XOR2
+Simulation XOR2::delay__B__hl__OUT__lh__ACQ_1.sif completed successfully.
+----------------------
+__recordTaskStats__ XOR2 delay__B__hl__OUT__lh__ACQ_1 0.05 0.01 5.95 0.69 1 6.65346193314 engnx02a.utdallas.edu 1729741127.53 1729741134.18 1
+Loading information for cell XOR2
+work dir: '/var/tmp/primelib.engnx02a.860278.20599/XOR2/delay__B__lh__OUT__hl__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+moving /var/tmp/primelib.engnx02a.860278.20599/XOR2/delay__B__lh__OUT__hl__ACQ_1.sof.gz to /home/eng/s/sxv240035/cad/gf65/primelib_gf65/XOR2/results/XOR2
+Simulation XOR2::delay__B__lh__OUT__hl__ACQ_1.sif completed successfully.
+----------------------
+__recordTaskStats__ XOR2 delay__B__lh__OUT__hl__ACQ_1 0.05 0.01 6.14 0.73 1 7.67069816589 engnx02a.utdallas.edu 1729741134.19 1729741141.86 1
+Loading information for cell XOR2
+work dir: '/var/tmp/primelib.engnx02a.860278.20599/XOR2/delay__B__lh__OUT__lh__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+moving /var/tmp/primelib.engnx02a.860278.20599/XOR2/delay__B__lh__OUT__lh__ACQ_1.sof.gz to /home/eng/s/sxv240035/cad/gf65/primelib_gf65/XOR2/results/XOR2
+Simulation XOR2::delay__B__lh__OUT__lh__ACQ_1.sif completed successfully.
+----------------------
+__recordTaskStats__ XOR2 delay__B__lh__OUT__lh__ACQ_1 0.06 0.01 6.23 0.73 1 8.6607568264 engnx02a.utdallas.edu 1729741141.86 1729741150.52 1
+Loading information for cell XOR2
+work dir: '/var/tmp/primelib.engnx02a.860278.20599/XOR2/Cin__VSS__hl__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+moving /var/tmp/primelib.engnx02a.860278.20599/XOR2/Cin__VSS__hl__ACQ_1.sof.gz to /home/eng/s/sxv240035/cad/gf65/primelib_gf65/XOR2/results/XOR2
+Simulation XOR2::Cin__VSS__hl__ACQ_1.sif completed successfully.
+----------------------
+__recordTaskStats__ XOR2 Cin__VSS__hl__ACQ_1 0.05 0.01 5.95 0.72 1 7.81421494484 engnx02a.utdallas.edu 1729741150.52 1729741158.33 1
+Loading information for cell XOR2
+work dir: '/var/tmp/primelib.engnx02a.860278.20599/XOR2/Cin__VSS__lh__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+moving /var/tmp/primelib.engnx02a.860278.20599/XOR2/Cin__VSS__lh__ACQ_1.sof.gz to /home/eng/s/sxv240035/cad/gf65/primelib_gf65/XOR2/results/XOR2
+Simulation XOR2::Cin__VSS__lh__ACQ_1.sif completed successfully.
+----------------------
+__recordTaskStats__ XOR2 Cin__VSS__lh__ACQ_1 0.04 0.0 5.97 0.7 1 6.70130705833 engnx02a.utdallas.edu 1729741158.33 1729741165.03 1
+Loading information for cell XOR2
+work dir: '/var/tmp/primelib.engnx02a.860278.20599/XOR2/Cin__VDD__hl__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+moving /var/tmp/primelib.engnx02a.860278.20599/XOR2/Cin__VDD__hl__ACQ_1.sof.gz to /home/eng/s/sxv240035/cad/gf65/primelib_gf65/XOR2/results/XOR2
+Simulation XOR2::Cin__VDD__hl__ACQ_1.sif completed successfully.
+----------------------
+__recordTaskStats__ XOR2 Cin__VDD__hl__ACQ_1 0.04 0.01 6.09 0.68 1 6.77162599564 engnx02a.utdallas.edu 1729741165.03 1729741171.81 1
+Loading information for cell XOR2
+work dir: '/var/tmp/primelib.engnx02a.860278.20599/XOR2/Cin__VDD__lh__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+moving /var/tmp/primelib.engnx02a.860278.20599/XOR2/Cin__VDD__lh__ACQ_1.sof.gz to /home/eng/s/sxv240035/cad/gf65/primelib_gf65/XOR2/results/XOR2
+Simulation XOR2::Cin__VDD__lh__ACQ_1.sif completed successfully.
+----------------------
+__recordTaskStats__ XOR2 Cin__VDD__lh__ACQ_1 0.04 0.0 6.07 0.69 1 6.78836679459 engnx02a.utdallas.edu 1729741171.81 1729741178.6 1
+[CDPL] Loading settings for stage: characterization.8
+The char directory is /home/eng/s/sxv240035/cad/gf65/primelib_gf65/Tri_INV
+Warning: 2003.12 is no longer supported as a valid value for liberty_flavor. Setting it to 2007.03.
+Loading /home/eng/s/sxv240035/cad/gf65/primelib_gf65/Tri_INV/etc/cell.stat.gz
+Wed Oct 23 22:42:46 CDT 2024: Sourcing environment settings
+Warning: Operating condition 'op_cond' already exists, skipped.
+Wed Oct 23 22:42:46 CDT 2024: Environment set up done (0 seconds)
+[CDPL] Done loading settings for stage: characterization.8
+Loading information for cell Tri_INV
+work dir: '/var/tmp/primelib.engnx02a.860278.20599/Tri_INV/leakage_power__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+moving /var/tmp/primelib.engnx02a.860278.20599/Tri_INV/leakage_power__ACQ_1.sof.gz to /home/eng/s/sxv240035/cad/gf65/primelib_gf65/Tri_INV/results/Tri_INV
+Simulation Tri_INV::leakage_power__ACQ_1.sif completed successfully.
+Warning: ground supply has not been properly defined
+Warning: SIS_SERVER_WARN_MSGTri_INV: leakage_power__ACQ_1 state: none: leakage current does not sum to 0 (tolerance 1.0e-6)
+current gateLeakFactor for leakage_power__ACQ_1 : 1.0
+Loading information for cell Tri_INV
+Re-running leakage_power__ACQ_1 with gate_leakage_factor set to 501.0 ...
+work dir: '/var/tmp/primelib.engnx02a.860278.20599/Tri_INV/leakage_power__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+moving /var/tmp/primelib.engnx02a.860278.20599/Tri_INV/leakage_power__ACQ_1.sof.gz to /home/eng/s/sxv240035/cad/gf65/primelib_gf65/Tri_INV/results/Tri_INV
+Simulation Tri_INV::leakage_power__ACQ_1.sif completed successfully.
+Warning: ground supply has not been properly defined
+Warning: SIS_SERVER_WARN_MSGTri_INV: leakage_power__ACQ_1 state: none: leakage current does not sum to 0 (tolerance 1.0e-6)
+current gateLeakFactor for leakage_power__ACQ_1 : 501.0
+Loading information for cell Tri_INV
+Re-running leakage_power__ACQ_1 with gate_leakage_factor set to 1001.0 ...
+work dir: '/var/tmp/primelib.engnx02a.860278.20599/Tri_INV/leakage_power__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+moving /var/tmp/primelib.engnx02a.860278.20599/Tri_INV/leakage_power__ACQ_1.sof.gz to /home/eng/s/sxv240035/cad/gf65/primelib_gf65/Tri_INV/results/Tri_INV
+Simulation Tri_INV::leakage_power__ACQ_1.sif completed successfully.
+Warning: ground supply has not been properly defined
+Warning: SIS_SERVER_WARN_MSGTri_INV: leakage_power__ACQ_1 state: none: leakage current does not sum to 0 (tolerance 1.0e-6)
+current gateLeakFactor for leakage_power__ACQ_1 : 1001.0
+Loading information for cell Tri_INV
+Re-running leakage_power__ACQ_1 with gate_leakage_factor set to 1501.0 ...
+work dir: '/var/tmp/primelib.engnx02a.860278.20599/Tri_INV/leakage_power__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+moving /var/tmp/primelib.engnx02a.860278.20599/Tri_INV/leakage_power__ACQ_1.sof.gz to /home/eng/s/sxv240035/cad/gf65/primelib_gf65/Tri_INV/results/Tri_INV
+Simulation Tri_INV::leakage_power__ACQ_1.sif completed successfully.
+Warning: ground supply has not been properly defined
+Warning: SIS_SERVER_WARN_MSGTri_INV: leakage_power__ACQ_1 state: none: leakage current does not sum to 0 (tolerance 1.0e-6)
+current gateLeakFactor for leakage_power__ACQ_1 : 1501.0
+Loading information for cell Tri_INV
+Re-running leakage_power__ACQ_1 with gate_leakage_factor set to 2001.0 ...
+work dir: '/var/tmp/primelib.engnx02a.860278.20599/Tri_INV/leakage_power__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+moving /var/tmp/primelib.engnx02a.860278.20599/Tri_INV/leakage_power__ACQ_1.sof.gz to /home/eng/s/sxv240035/cad/gf65/primelib_gf65/Tri_INV/results/Tri_INV
+Simulation Tri_INV::leakage_power__ACQ_1.sif completed successfully.
+Warning: ground supply has not been properly defined
+Warning: SIS_SERVER_WARN_MSGTri_INV: leakage_power__ACQ_1 state: none: leakage current does not sum to 0 (tolerance 1.0e-6)
+current gateLeakFactor for leakage_power__ACQ_1 : 2001.0
+Loading information for cell Tri_INV
+Re-running leakage_power__ACQ_1 with gate_leakage_factor set to 2501.0 ...
+work dir: '/var/tmp/primelib.engnx02a.860278.20599/Tri_INV/leakage_power__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+moving /var/tmp/primelib.engnx02a.860278.20599/Tri_INV/leakage_power__ACQ_1.sof.gz to /home/eng/s/sxv240035/cad/gf65/primelib_gf65/Tri_INV/results/Tri_INV
+Simulation Tri_INV::leakage_power__ACQ_1.sif completed successfully.
+Warning: ground supply has not been properly defined
+Warning: SIS_SERVER_WARN_MSGTri_INV: leakage_power__ACQ_1 state: none: leakage current does not sum to 0 (tolerance 1.0e-6)
+current gateLeakFactor for leakage_power__ACQ_1 : 2501.0
+Loading information for cell Tri_INV
+Re-running leakage_power__ACQ_1 with gate_leakage_factor set to 3001.0 ...
+work dir: '/var/tmp/primelib.engnx02a.860278.20599/Tri_INV/leakage_power__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+moving /var/tmp/primelib.engnx02a.860278.20599/Tri_INV/leakage_power__ACQ_1.sof.gz to /home/eng/s/sxv240035/cad/gf65/primelib_gf65/Tri_INV/results/Tri_INV
+Simulation Tri_INV::leakage_power__ACQ_1.sif completed successfully.
+Warning: ground supply has not been properly defined
+Warning: SIS_SERVER_WARN_MSGTri_INV: leakage_power__ACQ_1 state: none: leakage current does not sum to 0 (tolerance 1.0e-6)
+current gateLeakFactor for leakage_power__ACQ_1 : 3001.0
+Loading information for cell Tri_INV
+Re-running leakage_power__ACQ_1 with gate_leakage_factor set to 3501.0 ...
+work dir: '/var/tmp/primelib.engnx02a.860278.20599/Tri_INV/leakage_power__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+moving /var/tmp/primelib.engnx02a.860278.20599/Tri_INV/leakage_power__ACQ_1.sof.gz to /home/eng/s/sxv240035/cad/gf65/primelib_gf65/Tri_INV/results/Tri_INV
+Simulation Tri_INV::leakage_power__ACQ_1.sif completed successfully.
+Warning: ground supply has not been properly defined
+Warning: SIS_SERVER_WARN_MSGTri_INV: leakage_power__ACQ_1 state: none: leakage current does not sum to 0 (tolerance 1.0e-6)
+current gateLeakFactor for leakage_power__ACQ_1 : 3501.0
+Loading information for cell Tri_INV
+Re-running leakage_power__ACQ_1 with gate_leakage_factor set to 4001.0 ...
+work dir: '/var/tmp/primelib.engnx02a.860278.20599/Tri_INV/leakage_power__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+moving /var/tmp/primelib.engnx02a.860278.20599/Tri_INV/leakage_power__ACQ_1.sof.gz to /home/eng/s/sxv240035/cad/gf65/primelib_gf65/Tri_INV/results/Tri_INV
+Simulation Tri_INV::leakage_power__ACQ_1.sif completed successfully.
+Warning: ground supply has not been properly defined
+Warning: SIS_SERVER_WARN_MSGTri_INV: leakage_power__ACQ_1 state: none: leakage current does not sum to 0 (tolerance 1.0e-6)
+current gateLeakFactor for leakage_power__ACQ_1 : 4001.0
+Loading information for cell Tri_INV
+Re-running leakage_power__ACQ_1 with gate_leakage_factor set to 4501.0 ...
+work dir: '/var/tmp/primelib.engnx02a.860278.20599/Tri_INV/leakage_power__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+moving /var/tmp/primelib.engnx02a.860278.20599/Tri_INV/leakage_power__ACQ_1.sof.gz to /home/eng/s/sxv240035/cad/gf65/primelib_gf65/Tri_INV/results/Tri_INV
+Simulation Tri_INV::leakage_power__ACQ_1.sif completed successfully.
+Warning: ground supply has not been properly defined
+Warning: SIS_SERVER_WARN_MSGTri_INV: leakage_power__ACQ_1 state: none: leakage current does not sum to 0 (tolerance 1.0e-6)
+current gateLeakFactor for leakage_power__ACQ_1 : 4501.0
+----------------------
+__recordTaskStats__ Tri_INV leakage_power__ACQ_1 0.5 0.09 64.96 7.05 1 81.0227441788 engnx02a.utdallas.edu 1729741366.38 1729741447.4 1
+__recordTaskStats__ Tri_INV leakage_power__ACQ_1 0.5 0.09 64.96 7.05 1 81.0232441425 engnx02a.utdallas.edu 1729741366.38 1729741447.4 1
+__recordTaskStats__ Tri_INV leakage_power__ACQ_1 0.5 0.09 64.96 7.05 1 81.0237290859 engnx02a.utdallas.edu 1729741366.38 1729741447.41 1
+__recordTaskStats__ Tri_INV leakage_power__ACQ_1 0.5 0.09 64.96 7.05 1 81.0241971016 engnx02a.utdallas.edu 1729741366.38 1729741447.41 1
+__recordTaskStats__ Tri_INV leakage_power__ACQ_1 0.5 0.09 64.96 7.05 1 81.0246860981 engnx02a.utdallas.edu 1729741366.38 1729741447.41 1
+__recordTaskStats__ Tri_INV leakage_power__ACQ_1 0.5 0.09 64.96 7.05 1 81.0252351761 engnx02a.utdallas.edu 1729741366.38 1729741447.41 1
+__recordTaskStats__ Tri_INV leakage_power__ACQ_1 0.5 0.09 64.96 7.05 1 81.0257160664 engnx02a.utdallas.edu 1729741366.38 1729741447.41 1
+__recordTaskStats__ Tri_INV leakage_power__ACQ_1 0.5 0.09 64.96 7.05 1 81.0261771679 engnx02a.utdallas.edu 1729741366.38 1729741447.41 1
+__recordTaskStats__ Tri_INV leakage_power__ACQ_1 0.5 0.09 64.96 7.05 1 81.0266571045 engnx02a.utdallas.edu 1729741366.38 1729741447.41 1
+__recordTaskStats__ Tri_INV leakage_power__ACQ_1 0.5 0.09 64.96 7.05 1 81.0271131992 engnx02a.utdallas.edu 1729741366.38 1729741447.41 1
+Loading information for cell Tri_INV
+work dir: '/var/tmp/primelib.engnx02a.860278.20599/Tri_INV/delay__IN__lh__OUT__hl__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+moving /var/tmp/primelib.engnx02a.860278.20599/Tri_INV/delay__IN__lh__OUT__hl__ACQ_1.sof.gz to /home/eng/s/sxv240035/cad/gf65/primelib_gf65/Tri_INV/results/Tri_INV
+Simulation Tri_INV::delay__IN__lh__OUT__hl__ACQ_1.sif completed successfully.
+----------------------
+__recordTaskStats__ Tri_INV delay__IN__lh__OUT__hl__ACQ_1 0.06 0.0 6.15 0.65 1 6.8284509182 engnx02a.utdallas.edu 1729741447.41 1729741454.24 1
+Loading information for cell Tri_INV
+work dir: '/var/tmp/primelib.engnx02a.860278.20599/Tri_INV/delay__IN__hl__OUT__lh__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+moving /var/tmp/primelib.engnx02a.860278.20599/Tri_INV/delay__IN__hl__OUT__lh__ACQ_1.sof.gz to /home/eng/s/sxv240035/cad/gf65/primelib_gf65/Tri_INV/results/Tri_INV
+Simulation Tri_INV::delay__IN__hl__OUT__lh__ACQ_1.sif completed successfully.
+----------------------
+__recordTaskStats__ Tri_INV delay__IN__hl__OUT__lh__ACQ_1 0.05 0.01 6.29 0.72 1 7.02566194534 engnx02a.utdallas.edu 1729741454.24 1729741461.26 1
+Loading information for cell Tri_INV
+work dir: '/var/tmp/primelib.engnx02a.860278.20599/Tri_INV/delay__EN__lh__OUT__lh__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Error:   There are failed measurements in Tout__OUT__lh : 25 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   There are failed measurements in delay__EN__lh__OUT__lh : 25 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   Simulation delay__EN__lh__OUT__lh__ACQ_1.sif for cell Tri_INV failed: There are failed measures in ['Tout__OUT__lh', 'delay__EN__lh__OUT__lh'] (SMSC-95)
+----------------------
+__recordTaskStats__ Tri_INV delay__EN__lh__OUT__lh__ACQ_1 0.1 0.01 6.06 0.74 1 15.8052999973 engnx02a.utdallas.edu 1729741461.26 1729741477.07 1
+Loading information for cell Tri_INV
+work dir: '/var/tmp/primelib.engnx02a.860278.20599/Tri_INV/delay__EN__hl__OUT__hl__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Error:   There are failed measurements in Tout__OUT__hl : 25 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   There are failed measurements in delay__EN__hl__OUT__hl : 25 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   Simulation delay__EN__hl__OUT__hl__ACQ_1.sif for cell Tri_INV failed: There are failed measures in ['Tout__OUT__hl', 'delay__EN__hl__OUT__hl'] (SMSC-95)
+----------------------
+__recordTaskStats__ Tri_INV delay__EN__hl__OUT__hl__ACQ_1 0.09 0.02 6.09 0.71 1 8.66617488861 engnx02a.utdallas.edu 1729741477.07 1729741485.74 1
+Loading information for cell Tri_INV
+work dir: '/var/tmp/primelib.engnx02a.860278.20599/Tri_INV/Cin__VSS__lh__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+moving /var/tmp/primelib.engnx02a.860278.20599/Tri_INV/Cin__VSS__lh__ACQ_1.sof.gz to /home/eng/s/sxv240035/cad/gf65/primelib_gf65/Tri_INV/results/Tri_INV
+Simulation Tri_INV::Cin__VSS__lh__ACQ_1.sif completed successfully.
+----------------------
+__recordTaskStats__ Tri_INV Cin__VSS__lh__ACQ_1 0.05 0.0 5.85 0.68 1 6.53589916229 engnx02a.utdallas.edu 1729741485.74 1729741492.27 1
+Loading information for cell Tri_INV
+work dir: '/var/tmp/primelib.engnx02a.860278.20599/Tri_INV/delay__EN__lh__OUT__lh__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Error:   There are failed measurements in Tout__OUT__lh : 25 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   There are failed measurements in delay__EN__lh__OUT__lh : 25 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   Simulation delay__EN__lh__OUT__lh__ACQ_1.sif for cell Tri_INV failed: There are failed measures in ['Tout__OUT__lh', 'delay__EN__lh__OUT__lh'] (SMSC-95)
+----------------------
+__recordTaskStats__ Tri_INV delay__EN__lh__OUT__lh__ACQ_1 0.1 0.02 6.07 0.71 1 6.92754483223 engnx02a.utdallas.edu 1729741492.27 1729741499.2 1
+Loading information for cell Tri_INV
+work dir: '/var/tmp/primelib.engnx02a.860278.20599/Tri_INV/delay__EN__hl__OUT__hl__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Error:   There are failed measurements in Tout__OUT__hl : 25 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   There are failed measurements in delay__EN__hl__OUT__hl : 25 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   Simulation delay__EN__hl__OUT__hl__ACQ_1.sif for cell Tri_INV failed: There are failed measures in ['Tout__OUT__hl', 'delay__EN__hl__OUT__hl'] (SMSC-95)
+----------------------
+__recordTaskStats__ Tri_INV delay__EN__hl__OUT__hl__ACQ_1 0.09 0.01 6.08 0.71 1 6.94925189018 engnx02a.utdallas.edu 1729741499.2 1729741506.15 1
+Loading information for cell Tri_INV
+work dir: '/var/tmp/primelib.engnx02a.860278.20599/Tri_INV/Cin__VSS__hl__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+moving /var/tmp/primelib.engnx02a.860278.20599/Tri_INV/Cin__VSS__hl__ACQ_1.sof.gz to /home/eng/s/sxv240035/cad/gf65/primelib_gf65/Tri_INV/results/Tri_INV
+Simulation Tri_INV::Cin__VSS__hl__ACQ_1.sif completed successfully.
+----------------------
+__recordTaskStats__ Tri_INV Cin__VSS__hl__ACQ_1 0.04 0.01 6.17 0.71 1 8.05185389519 engnx02a.utdallas.edu 1729741506.15 1729741514.2 1
+Loading information for cell Tri_INV
+work dir: '/var/tmp/primelib.engnx02a.860278.20599/Tri_INV/Cin__VDD__lh__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+moving /var/tmp/primelib.engnx02a.860278.20599/Tri_INV/Cin__VDD__lh__ACQ_1.sof.gz to /home/eng/s/sxv240035/cad/gf65/primelib_gf65/Tri_INV/results/Tri_INV
+Simulation Tri_INV::Cin__VDD__lh__ACQ_1.sif completed successfully.
+----------------------
+__recordTaskStats__ Tri_INV Cin__VDD__lh__ACQ_1 0.04 0.01 5.91 0.69 1 11.8775060177 engnx02a.utdallas.edu 1729741514.2 1729741526.08 1
+Loading information for cell Tri_INV
+work dir: '/var/tmp/primelib.engnx02a.860278.20599/Tri_INV/Cin__VDD__hl__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+moving /var/tmp/primelib.engnx02a.860278.20599/Tri_INV/Cin__VDD__hl__ACQ_1.sof.gz to /home/eng/s/sxv240035/cad/gf65/primelib_gf65/Tri_INV/results/Tri_INV
+Simulation Tri_INV::Cin__VDD__hl__ACQ_1.sif completed successfully.
+----------------------
+__recordTaskStats__ Tri_INV Cin__VDD__hl__ACQ_1 0.05 0.0 6.02 0.66 1 7.33304190636 engnx02a.utdallas.edu 1729741526.08 1729741533.42 1
+[CDPL] Loading settings for stage: characterization.9
+The char directory is /home/eng/s/sxv240035/cad/gf65/primelib_gf65/OAI22
+Warning: 2003.12 is no longer supported as a valid value for liberty_flavor. Setting it to 2007.03.
+Loading /home/eng/s/sxv240035/cad/gf65/primelib_gf65/OAI22/etc/cell.stat.gz
+Wed Oct 23 22:47:15 CDT 2024: Sourcing environment settings
+Warning: Operating condition 'op_cond' already exists, skipped.
+Wed Oct 23 22:47:15 CDT 2024: Environment set up done (0 seconds)
+[CDPL] Done loading settings for stage: characterization.9
+Loading information for cell OAI22
+work dir: '/var/tmp/primelib.engnx02a.860278.20599/OAI22/leakage_power__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+moving /var/tmp/primelib.engnx02a.860278.20599/OAI22/leakage_power__ACQ_1.sof.gz to /home/eng/s/sxv240035/cad/gf65/primelib_gf65/OAI22/results/OAI22
+Simulation OAI22::leakage_power__ACQ_1.sif completed successfully.
+Warning: ground supply has not been properly defined
+----------------------
+__recordTaskStats__ OAI22 leakage_power__ACQ_1 0.09 0.01 5.98 0.72 1 6.78235387802 engnx02a.utdallas.edu 1729741635.19 1729741641.97 1
+Loading information for cell OAI22
+work dir: '/var/tmp/primelib.engnx02a.860278.20599/OAI22/delay__A__hl__OUT__lh__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Error:   There are failed measurements in Tout__OUT__lh : 25 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   There are failed measurements in delay__A__hl__OUT__lh : 25 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   Simulation delay__A__hl__OUT__lh__ACQ_1.sif for cell OAI22 failed: There are failed measures in ['Tout__OUT__lh', 'delay__A__hl__OUT__lh'] (SMSC-95)
+----------------------
+__recordTaskStats__ OAI22 delay__A__hl__OUT__lh__ACQ_1 0.12 0.01 6.12 0.69 1 17.7529911995 engnx02a.utdallas.edu 1729741641.97 1729741659.72 1
+Loading information for cell OAI22
+work dir: '/var/tmp/primelib.engnx02a.860278.20599/OAI22/delay__A__lh__OUT__hl__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Error:   There are failed measurements in Tout__OUT__hl : 25 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   There are failed measurements in delay__A__lh__OUT__hl : 25 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   Simulation delay__A__lh__OUT__hl__ACQ_1.sif for cell OAI22 failed: There are failed measures in ['Tout__OUT__hl', 'delay__A__lh__OUT__hl'] (SMSC-95)
+----------------------
+__recordTaskStats__ OAI22 delay__A__lh__OUT__hl__ACQ_1 0.11 0.01 6.19 0.72 1 8.02173089981 engnx02a.utdallas.edu 1729741659.72 1729741667.74 1
+Loading information for cell OAI22
+work dir: '/var/tmp/primelib.engnx02a.860278.20599/OAI22/delay__B__hl__OUT__lh__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Error:   There are failed measurements in Tout__OUT__lh : 25 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   There are failed measurements in delay__B__hl__OUT__lh : 25 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   Simulation delay__B__hl__OUT__lh__ACQ_1.sif for cell OAI22 failed: There are failed measures in ['Tout__OUT__lh', 'delay__B__hl__OUT__lh'] (SMSC-95)
+----------------------
+__recordTaskStats__ OAI22 delay__B__hl__OUT__lh__ACQ_1 0.1 0.02 6.32 0.73 1 7.23169803619 engnx02a.utdallas.edu 1729741667.75 1729741674.98 1
+Loading information for cell OAI22
+work dir: '/var/tmp/primelib.engnx02a.860278.20599/OAI22/delay__B__lh__OUT__hl__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Error:   There are failed measurements in Tout__OUT__hl : 25 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   There are failed measurements in delay__B__lh__OUT__hl : 25 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   Simulation delay__B__lh__OUT__hl__ACQ_1.sif for cell OAI22 failed: There are failed measures in ['Tout__OUT__hl', 'delay__B__lh__OUT__hl'] (SMSC-95)
+----------------------
+__recordTaskStats__ OAI22 delay__B__lh__OUT__hl__ACQ_1 0.11 0.01 6.11 0.72 1 6.97711396217 engnx02a.utdallas.edu 1729741674.98 1729741681.95 1
+Loading information for cell OAI22
+work dir: '/var/tmp/primelib.engnx02a.860278.20599/OAI22/delay__C__hl__OUT__lh__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Error:   There are failed measurements in Tout__OUT__lh : 25 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   There are failed measurements in delay__C__hl__OUT__lh : 25 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   Simulation delay__C__hl__OUT__lh__ACQ_1.sif for cell OAI22 failed: There are failed measures in ['Tout__OUT__lh', 'delay__C__hl__OUT__lh'] (SMSC-95)
+----------------------
+__recordTaskStats__ OAI22 delay__C__hl__OUT__lh__ACQ_1 0.1 0.01 6.19 0.71 1 7.05662989616 engnx02a.utdallas.edu 1729741681.96 1729741689.01 1
+Loading information for cell OAI22
+work dir: '/var/tmp/primelib.engnx02a.860278.20599/OAI22/delay__C__lh__OUT__hl__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Error:   There are failed measurements in Tout__OUT__hl : 25 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   There are failed measurements in delay__C__lh__OUT__hl : 25 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   Simulation delay__C__lh__OUT__hl__ACQ_1.sif for cell OAI22 failed: There are failed measures in ['Tout__OUT__hl', 'delay__C__lh__OUT__hl'] (SMSC-95)
+----------------------
+__recordTaskStats__ OAI22 delay__C__lh__OUT__hl__ACQ_1 0.24 0.03 6.22 0.72 1 7.24837398529 engnx02a.utdallas.edu 1729741689.01 1729741696.26 1
+Loading information for cell OAI22
+work dir: '/var/tmp/primelib.engnx02a.860278.20599/OAI22/delay__D__hl__OUT__lh__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Error:   There are failed measurements in Tout__OUT__lh : 25 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   There are failed measurements in delay__D__hl__OUT__lh : 25 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   Simulation delay__D__hl__OUT__lh__ACQ_1.sif for cell OAI22 failed: There are failed measures in ['Tout__OUT__lh', 'delay__D__hl__OUT__lh'] (SMSC-95)
+----------------------
+__recordTaskStats__ OAI22 delay__D__hl__OUT__lh__ACQ_1 0.12 0.02 6.13 0.81 1 17.4150621891 engnx02a.utdallas.edu 1729741696.26 1729741713.68 1
+Loading information for cell OAI22
+work dir: '/var/tmp/primelib.engnx02a.860278.20599/OAI22/delay__D__lh__OUT__hl__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Error:   There are failed measurements in Tout__OUT__hl : 25 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   There are failed measurements in delay__D__lh__OUT__hl : 25 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   Simulation delay__D__lh__OUT__hl__ACQ_1.sif for cell OAI22 failed: There are failed measures in ['Tout__OUT__hl', 'delay__D__lh__OUT__hl'] (SMSC-95)
+----------------------
+__recordTaskStats__ OAI22 delay__D__lh__OUT__hl__ACQ_1 0.1 0.02 6.21 0.74 1 8.74465107918 engnx02a.utdallas.edu 1729741713.68 1729741722.42 1
+Loading information for cell OAI22
+work dir: '/var/tmp/primelib.engnx02a.860278.20599/OAI22/delay__A__hl__OUT__lh__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Error:   There are failed measurements in Tout__OUT__lh : 25 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   There are failed measurements in delay__A__hl__OUT__lh : 25 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   Simulation delay__A__hl__OUT__lh__ACQ_1.sif for cell OAI22 failed: There are failed measures in ['Tout__OUT__lh', 'delay__A__hl__OUT__lh'] (SMSC-95)
+----------------------
+__recordTaskStats__ OAI22 delay__A__hl__OUT__lh__ACQ_1 0.12 0.01 6.33 0.7 1 7.16755604744 engnx02a.utdallas.edu 1729741722.43 1729741729.59 1
+Loading information for cell OAI22
+work dir: '/var/tmp/primelib.engnx02a.860278.20599/OAI22/delay__A__lh__OUT__hl__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Error:   There are failed measurements in Tout__OUT__hl : 25 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   There are failed measurements in delay__A__lh__OUT__hl : 25 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   Simulation delay__A__lh__OUT__hl__ACQ_1.sif for cell OAI22 failed: There are failed measures in ['Tout__OUT__hl', 'delay__A__lh__OUT__hl'] (SMSC-95)
+----------------------
+__recordTaskStats__ OAI22 delay__A__lh__OUT__hl__ACQ_1 0.11 0.02 6.18 0.7 1 7.2342479229 engnx02a.utdallas.edu 1729741729.59 1729741736.83 1
+Loading information for cell OAI22
+work dir: '/var/tmp/primelib.engnx02a.860278.20599/OAI22/delay__B__hl__OUT__lh__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Error:   There are failed measurements in Tout__OUT__lh : 25 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   There are failed measurements in delay__B__hl__OUT__lh : 25 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   Simulation delay__B__hl__OUT__lh__ACQ_1.sif for cell OAI22 failed: There are failed measures in ['Tout__OUT__lh', 'delay__B__hl__OUT__lh'] (SMSC-95)
+----------------------
+__recordTaskStats__ OAI22 delay__B__hl__OUT__lh__ACQ_1 0.1 0.02 6.22 0.71 1 7.24500703812 engnx02a.utdallas.edu 1729741736.83 1729741744.07 1
+Loading information for cell OAI22
+work dir: '/var/tmp/primelib.engnx02a.860278.20599/OAI22/delay__B__lh__OUT__hl__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Error:   There are failed measurements in Tout__OUT__hl : 25 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   There are failed measurements in delay__B__lh__OUT__hl : 25 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   Simulation delay__B__lh__OUT__hl__ACQ_1.sif for cell OAI22 failed: There are failed measures in ['Tout__OUT__hl', 'delay__B__lh__OUT__hl'] (SMSC-95)
+----------------------
+__recordTaskStats__ OAI22 delay__B__lh__OUT__hl__ACQ_1 0.12 0.01 6.27 0.77 1 15.7530660629 engnx02a.utdallas.edu 1729741744.07 1729741759.83 1
+Warning: Worker monitor thread not detected
+Warning: /var/tmp/worker.860278.W2.engnx02a.utdallas.edu.20599.log: No such file or directory
+   [CDPL] Shutting down worker
+Wed Oct 23 22:49:19 2024: Program time: 1222.00 seconds | 20.37 minutes | 0.34 hours
+CDPL worker exited normally.
+Reset log file
+Maximum virtual memory size: 1028.1 MB

@@ -1,0 +1,22 @@
+----------------------------------------------------------------------
+PrimeLib version T-2022.03-SP1 (Malibu 2)
+Build date: Apr 12, 2022 13:01:04
+Path: /proj/cad/synopsys/synopsys_2021/primelib/T-2022.03-SP1/linux64/bin/primelib
+Host: engnx02a.utdallas.edu, User: sxv240035, PID: 30081 (PPID: 17504)
+CPU: 32 x 3693 MHz, AMD EPYC 7F32 8-Core Processor (2 socket, 16 core)
+Memory: 257 GB RAM (182.6 GB free), 4 GB Swap (4.1 GB free)
+System load average: 1.32, 1.33, 1.40 (19123 processes)
+Directory: /home/eng/s/sxv240035/cad/gf65/primelib_gf65
+Error:   Task 28 (removal_hbm__R__hl__CLK__hl__ACQ_1 of dff) failed on W1 (engnx02a.utdallas.edu): Simulation removal_hbm__R__hl__CLK__hl__ACQ_1.sif for cell dff failed: Bad return code (rc=1) from 'hspice exited with code 1: >error          ***** hspice job aborted'. (SC-24) (SMSC-95) (CDPL-12)
+Error:   Task 29 (recover_hbm__R__hl__CLK__hl__ACQ_1 of dff) failed on W1 (engnx02a.utdallas.edu): Simulation recover_hbm__R__hl__CLK__hl__ACQ_1.sif for cell dff failed: deck.lis: **error** Fail to calculate goal . (SC-59) (SMSC-95) (CDPL-12)
+Error:   Task 30 (setup_hbm__D__lh__CLK__hl__ACQ_1 of dff) failed on W1 (engnx02a.utdallas.edu): Simulation setup_hbm__D__lh__CLK__hl__ACQ_1.sif for cell dff failed: deck.lis: **error** Fail to calculate goal . (SC-59) (SMSC-95) (CDPL-12)
+Error:   Task 31 (setup_hbm__D__hl__CLK__hl__ACQ_1 of dff) failed on W1 (engnx02a.utdallas.edu): Simulation setup_hbm__D__hl__CLK__hl__ACQ_1.sif for cell dff failed: deck.lis: **error** Fail to calculate goal . (SC-59) (SMSC-95) (CDPL-12)
+Error:   Task 32 (ncmpw_hbm__CLK__lh__CLK__hl__ACQ_1 of dff) failed on W1 (engnx02a.utdallas.edu): Simulation ncmpw_hbm__CLK__lh__CLK__hl__ACQ_1.sif for cell dff failed: deck.lis: **error** Both end of window has same sign. . (SC-59) (SMSC-95) (CDPL-12)
+Error:   Task 33 (cmpw_hbm__CLK__hl__CLK__lh__ACQ_1 of dff) failed on W1 (engnx02a.utdallas.edu): Simulation cmpw_hbm__CLK__hl__CLK__lh__ACQ_1.sif for cell dff failed: deck.lis: **error** Both end of window has same sign. . (SC-59) (SMSC-95) (CDPL-12)
+Error:   Task 34 (hold_hbm__D__hl__CLK__hl__ACQ_1 of dff) failed on W1 (engnx02a.utdallas.edu): Simulation hold_hbm__D__hl__CLK__hl__ACQ_1.sif for cell dff failed: deck.lis: **error** Fail to calculate goal . (SC-59) (SMSC-95) (CDPL-12)
+Error:   Task 35 (cmpw_hbm__R__lh__R__hl__ACQ_1 of dff) failed on W1 (engnx02a.utdallas.edu): Simulation cmpw_hbm__R__lh__R__hl__ACQ_1.sif for cell dff failed: deck.lis: **error** Both end of window has same sign. . (SC-59) (SMSC-95) (CDPL-12)
+Error:   Task 36 (hold_hbm__D__lh__CLK__hl__ACQ_1 of dff) failed on W1 (engnx02a.utdallas.edu): Simulation hold_hbm__D__lh__CLK__hl__ACQ_1.sif for cell dff failed: deck.lis: **error** Fail to calculate goal . (SC-59) (SMSC-95) (CDPL-12)
+Error:   Task 37 (delay__CLK__hl__Q__lh__ACQ_1 of dff) failed on W1 (engnx02a.utdallas.edu): Simulation delay__CLK__hl__Q__lh__ACQ_1.sif for cell dff failed: There are failed measures in ['Tout__Q__lh', 'delay__CLK__hl__Q__lh'] (SMSC-95) (CDPL-12)
+Error:   Task 38 (delay__R__lh__Q__hl__ACQ_1 of dff) failed on W1 (engnx02a.utdallas.edu): Simulation delay__R__lh__Q__hl__ACQ_1.sif for cell dff failed: There are failed measures in ['Tout__Q__hl', 'delay__R__lh__Q__hl'] (SMSC-95) (CDPL-12)
+Error:   Task 39 (delay__CLK__hl__Q__hl__ACQ_1 of dff) failed on W1 (engnx02a.utdallas.edu): Simulation delay__CLK__hl__Q__hl__ACQ_1.sif for cell dff failed: There are failed measures in ['Tout__Q__hl', 'delay__CLK__hl__Q__hl'] (SMSC-95) (CDPL-12)
+Error:   Task 68 (removal_hbm__R__hl__CLK__hl__ACQ_1 of dff) failed on W2 (engnx02a.utdallas.edu): Simulation removal_hbm__R__hl__CLK__hl__ACQ_1.sif for cell dff failed: Bad return code (rc=1) from 'hspice exited with code 1: >error          ***** hspice job aborted'. (SC-24) (SMSC-95) (CDPL-12)

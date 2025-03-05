@@ -1,0 +1,13 @@
+$DATA1 SOURCE='HSPICE' VERSION='O-2018.09-2 linux64' PARAM_COUNT=2
+$OPTION MEASFORM=1
+.TITLE '.title removal_hbm__r__hl__clk__hl__acq_1'
+index removal tin__clk__hl_trig tin__clk__hl_targ tin__r__hl_trig tin__r__hl_targ glitch_check_hbm__clk__hl__q__lh_check glitch_check_hbm__clk__hl__q__lh_value removal_applied removal_hbm__r__hl__clk__hl_trig removal_hbm__r__hl__clk__hl_targ removal_hbm__r__hl__clk__hl_value sis_faillist sis_faillist_check sis_passlist temper alter#
+1    failed    failed    failed    failed    failed    failed    failed    failed    failed    failed    failed    failed    failed    failed    0. 1
+2    failed    failed    failed    failed    failed    failed    failed    failed    failed    failed    failed    failed    failed    failed    0. 1
+3    failed    failed    failed    failed    failed    failed    failed    failed    failed    failed    failed    failed    failed    failed    0. 1
+4    failed    failed    failed    failed    failed    failed    failed    failed    failed    failed    failed    failed    failed    failed    0. 1
+5    failed    failed    failed    failed    failed    failed    failed    failed    failed    failed    failed    failed    failed    failed    0. 1
+6    failed    failed    failed    failed    failed    failed    failed    failed    failed    failed    failed    failed    failed    failed    0. 1
+7    failed    failed    failed    failed    failed    failed    failed    failed    failed    failed    failed    failed    failed    failed    0. 1
+8    failed    failed    failed    failed    failed    failed    failed    failed    failed    failed    failed    failed    failed    failed    0. 1
+9    failed    failed    failed    failed    failed    failed    failed    failed    failed    failed    failed    failed    failed    failed    0. 1

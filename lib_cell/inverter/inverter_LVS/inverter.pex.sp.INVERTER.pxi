@@ -1,0 +1,56 @@
+* File: /home/eng/s/sxv240035/cad/gf65/lib_cell/inverter/inverter_LVS/inverter.pex.sp.INVERTER.pxi
+* Created: Sat Oct 19 14:16:23 2024
+* 
+x_PM_INVERTER%GND! N_GND!_D0_noxref_pos N_GND!_c_3_p GND! N_GND!_MMN0_s
++ PM_INVERTER%GND!
+x_PM_INVERTER%OUT OUT N_OUT_MMP0_d N_OUT_c_20_n N_OUT_MMN0_d PM_INVERTER%OUT
+x_PM_INVERTER%VDD! N_VDD!_D0_noxref_neg N_VDD!_c_48_n VDD! N_VDD!_MMP0_s
++ PM_INVERTER%VDD!
+x_PM_INVERTER%IN N_IN_c_64_n N_IN_c_83_n N_IN_MMN0_g N_IN_MMP0_g IN N_IN_c_71_n
++ N_IN_c_73_n PM_INVERTER%IN
+cc_1 N_GND!_D0_noxref_pos OUT 0.00766283f
+cc_2 N_GND!_D0_noxref_pos N_OUT_c_20_n 0.0891399f
+cc_3 N_GND!_c_3_p N_OUT_c_20_n 0.0412598f
+cc_4 GND! N_OUT_c_20_n 0.00461217f
+cc_5 N_GND!_MMN0_s N_OUT_c_20_n 0.00371364f
+cc_6 N_GND!_D0_noxref_pos N_OUT_MMN0_d 0.00403441f
+cc_7 N_GND!_c_3_p N_OUT_MMN0_d 0.00347264f
+cc_8 N_GND!_MMN0_s N_OUT_MMN0_d 0.00307974f
+cc_9 N_GND!_D0_noxref_pos N_IN_c_64_n 0.0834142f
+cc_10 N_GND!_D0_noxref_pos N_IN_MMN0_g 0.0166104f
+cc_11 N_GND!_c_3_p N_IN_MMN0_g 0.0149496f
+cc_12 GND! N_IN_MMN0_g 0.00142229f
+cc_13 N_GND!_MMN0_s N_IN_MMN0_g 0.0292463f
+cc_14 N_GND!_D0_noxref_pos IN 0.0114666f
+cc_15 N_GND!_c_3_p IN 0.00133129f
+cc_16 N_GND!_D0_noxref_pos N_IN_c_71_n 0.00703539f
+cc_17 N_GND!_c_3_p N_IN_c_71_n 7.66482e-19
+cc_18 N_GND!_D0_noxref_pos N_IN_c_73_n 0.0139768f
+cc_19 OUT N_VDD!_D0_noxref_neg 0.00554392f
+cc_20 N_OUT_MMP0_d N_VDD!_D0_noxref_neg 0.0039798f
+cc_21 N_OUT_c_20_n N_VDD!_D0_noxref_neg 0.113175f
+cc_22 N_OUT_MMP0_d N_VDD!_c_48_n 0.00486857f
+cc_23 N_OUT_c_20_n N_VDD!_c_48_n 0.0811542f
+cc_24 N_OUT_MMP0_d VDD! 0.00607701f
+cc_25 N_OUT_c_20_n VDD! 0.00903268f
+cc_26 N_OUT_MMP0_d N_VDD!_MMP0_s 0.00481343f
+cc_27 N_OUT_c_20_n N_VDD!_MMP0_s 0.00491105f
+cc_28 N_OUT_c_20_n N_IN_c_64_n 0.0953844f
+cc_29 N_OUT_c_20_n N_IN_MMN0_g 0.00995206f
+cc_30 N_OUT_MMN0_d N_IN_MMN0_g 0.0275578f
+cc_31 N_OUT_MMP0_d N_IN_MMP0_g 0.0391846f
+cc_32 N_OUT_c_20_n N_IN_MMP0_g 0.0179913f
+cc_33 OUT IN 0.0342557f
+cc_34 N_OUT_c_20_n IN 0.00735456f
+cc_35 OUT N_IN_c_71_n 0.00338464f
+cc_36 N_OUT_c_20_n N_IN_c_71_n 0.0226359f
+cc_37 N_VDD!_D0_noxref_neg N_IN_c_83_n 0.0938742f
+cc_38 N_VDD!_D0_noxref_neg N_IN_MMP0_g 0.0204304f
+cc_39 N_VDD!_c_48_n N_IN_MMP0_g 0.0240494f
+cc_40 VDD! N_IN_MMP0_g 0.00220023f
+cc_41 N_VDD!_MMP0_s N_IN_MMP0_g 0.0374315f
+cc_42 N_VDD!_D0_noxref_neg IN 0.0101108f
+cc_43 N_VDD!_c_48_n IN 0.00130347f
+cc_44 N_VDD!_D0_noxref_neg N_IN_c_71_n 0.00453803f
+cc_45 N_VDD!_c_48_n N_IN_c_71_n 6.13324e-19
+cc_46 N_VDD!_D0_noxref_neg N_IN_c_73_n 0.014257f

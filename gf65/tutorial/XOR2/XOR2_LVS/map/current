@@ -1,0 +1,15 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "XOR2"
+  repList "auCdl schematic"
+  stopList "auCdl"
+  globalList "gnd! vdd!"
+  hierDelim "."
+  netlistDir "/home/eng/s/sxv240035/cad/gf65/tutorial/XOR2/XOR2_LVS"
+ )
+( model
+( "tutorial/XOR2/schematic" "XOR2" )
+ )
+( "XOR2" "ihnl/cds0/map" )
+ )

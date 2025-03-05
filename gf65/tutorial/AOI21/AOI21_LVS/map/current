@@ -1,0 +1,15 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "AOI21"
+  repList "auCdl schematic"
+  stopList "auCdl"
+  globalList "gnd! vdd!"
+  hierDelim "."
+  netlistDir "/home/eng/s/sxv240035/cad/gf65/tutorial/AOI21/AOI21_LVS"
+ )
+( model
+( "tutorial/AOI21/schematic" "AOI21" )
+ )
+( "AOI21" "ihnl/cds0/map" )
+ )

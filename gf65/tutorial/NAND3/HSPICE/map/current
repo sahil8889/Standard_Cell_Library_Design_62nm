@@ -1,0 +1,15 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "NAND3"
+  repList "auCdl schematic"
+  stopList "auCdl"
+  globalList "vdd! gnd!"
+  hierDelim "."
+  netlistDir "/home/eng/s/sxv240035/cad/gf65/tutorial/NAND3/HSPICE"
+ )
+( model
+( "tutorial/NAND3/schematic" "NAND3" )
+ )
+( "NAND3" "ihnl/cds0/map" )
+ )

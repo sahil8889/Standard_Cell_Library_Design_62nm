@@ -1,0 +1,18 @@
+* File: /home/eng/s/sxv240035/cad/gf65/lib_cell/NOR3/NOR3_LVS/NOR3.pex.sp.NOR3.pxi
+* Created: Sat Oct 19 23:51:38 2024
+* 
+cc_1 GND! OUT 0.25975f
+cc_2 GND! A 0.190298f
+cc_3 GND! B 0.127689f
+cc_4 GND! C 0.133856f
+cc_5 OUT VDD! 0.146178f
+cc_6 OUT A 0.0268853f
+cc_7 OUT B 0.066578f
+cc_8 OUT C 0.298352f
+cc_9 VDD! NET20 0.0134477f
+cc_10 VDD! NET21 0.0139243f
+cc_11 VDD! A 0.229038f
+cc_12 VDD! B 0.103968f
+cc_13 VDD! C 0.116687f
+cc_14 A B 0.109027f
+cc_15 B C 0.10833f

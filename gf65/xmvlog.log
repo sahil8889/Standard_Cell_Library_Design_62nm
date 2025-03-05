@@ -1,0 +1,42 @@
+xmvlog: *W,DLNOHV: Unable to find an 'hdl.var' file to load in.
+TOOL:	xmvlog(64)	18.09-s001: Started on Dec 06, 2024 at 00:30:42 CST
+xmvlog
+    -use5x
+    -work __nclib
+    -view module
+    -logfile xmvlog.log
+    -cdslib /tmp/ihdl_cdslibd6968_26968
+    -messages
+    -nostdout
+    -nocopyright
+    -ESCAPEDNAME
+    /home/eng/s/sxv240035/cad/gf65/innovus/matrix_vector_mult.v
+
+file: /home/eng/s/sxv240035/cad/gf65/innovus/matrix_vector_mult.v
+	module __nclib.NAND2:module
+		errors: 0, warnings: 0
+	module __nclib.NAND3:module
+		errors: 0, warnings: 0
+	module __nclib.NAND4:module
+		errors: 0, warnings: 0
+	module __nclib.NOR2:module
+		errors: 0, warnings: 0
+	module __nclib.NOR3:module
+		errors: 0, warnings: 0
+	module __nclib.XOR2:module
+		errors: 0, warnings: 0
+	module __nclib.AOI22:module
+		errors: 0, warnings: 0
+	module __nclib.inverter:module
+		errors: 0, warnings: 0
+	module __nclib.AOI12:module
+		errors: 0, warnings: 0
+	module __nclib.OAI12:module
+		errors: 0, warnings: 0
+	module __nclib.dff:module
+		errors: 0, warnings: 0
+	module __nclib.matrix_vector_mult:module
+		errors: 0, warnings: 0
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 1
+TOOL:	xmvlog(64)	18.09-s001: Exiting on Dec 06, 2024 at 00:30:42 CST  (total: 00:00:00)

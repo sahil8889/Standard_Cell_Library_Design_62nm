@@ -1,0 +1,5 @@
+;;Sample .simrc file for use with CDL netlisting
+;;
+cdlSchematicViewList = '("auCdl" "schematic")
+cdlSchematicStopList = '("auCdl" "schematic")
+auCdlEnableNetlistInclusion = t

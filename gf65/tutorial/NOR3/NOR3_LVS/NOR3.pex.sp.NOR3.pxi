@@ -1,0 +1,16 @@
+* File: NOR3.pex.sp.NOR3.pxi
+* Created: Tue Dec  3 00:44:56 2024
+* 
+cc_1 GND! OUT 0.240419f
+cc_2 GND! A 0.16786f
+cc_3 GND! B 0.109489f
+cc_4 GND! C 0.114117f
+cc_5 OUT VDD! 0.0794023f
+cc_6 OUT A 0.0282623f
+cc_7 OUT B 0.078785f
+cc_8 OUT C 0.259061f
+cc_9 VDD! A 0.243701f
+cc_10 VDD! B 0.113737f
+cc_11 VDD! C 0.133855f
+cc_12 A B 0.100238f
+cc_13 B C 0.100851f

@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_LvsOutFile RUNDIR /home/eng/s/sxv240035/cad/gf65/tutorial/OAI21/OAI21_LVS
+lvs_LvsfVersion 2
+lvs_LvsInputSummary {0 0 0}
+lvs_LvsComparisonSummary {3 0 0 0}
+lvs_LvsOutFile LVS_REPORT OAI21.lvs.report
+lvs_LvsOutFile SOURCE_NETLIST /home/eng/s/sxv240035/cad/gf65/tutorial/OAI21/OAI21_LVS/OAI21.src.net
+lvs_LvsOutFile RULES_FILE /home/eng/s/sxv240035/cad/gf65/tutorial/OAI21/OAI21_LVS/_Calibre_LVS_rules_
+lvs_LvsRunTimes 1733449776 1733449776

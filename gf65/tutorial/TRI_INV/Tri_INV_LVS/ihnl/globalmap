@@ -1,0 +1,10 @@
+CADENCE IHNL11140
+$model
+tutorial/TRI_INV/schematic TRI_INV
+$endmodel
+$net
+gnd! gnd!
+vdd! vdd!
+$endnet
+$param
+$endparam

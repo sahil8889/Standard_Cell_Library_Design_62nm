@@ -1,0 +1,12 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1733447724 1733447729
+lvs_ExtOutFile RUNDIR /home/eng/s/sxv240035/cad/gf65/tutorial/AOI21/HSPICE
+lvs_ExtOutFile RULES_FILE /home/eng/s/sxv240035/cad/gf65/tutorial/AOI21/HSPICE/_Calibre_PEX_nom_rules_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoErcSummary {11 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST /home/eng/s/sxv240035/cad/gf65/tutorial/AOI21/HSPICE/svdb/AOI21.sp
+lvs_ExtOutFile EXTRACTION_REPORT AOI21.lvs.report.ext
+lvs_ExtOutFile ERC_DATABASE ./ERC_results.asc
+lvs_ExtOutFile ERC_SUMMARY ./ERC_results.rep

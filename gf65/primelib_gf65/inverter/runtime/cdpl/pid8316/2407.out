@@ -1,0 +1,103 @@
+Reading  /proj/cad/synopsys/synopsys_2021/primelib/T-2022.03-SP1/etc/sis.err...done
+
+                                  PrimeLib (R)
+
+           Version T-2022.03-SP1 for linux64 - Apr 12, 2022 13:01:04 
+
+                    Copyright (c) 2020 - 2022 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+PID : 2410
+User: sxv240035
+Dir : /home/eng/s/sxv240035/cad/gf65/primelib_gf65
+Host: engnx02a.utdallas.edu
+
+UT Dallas, Department of Engineering
+
+Command-line: /proj/cad/synopsys/synopsys_2021/primelib/T-2022.03-SP1/linux64/bin/primelib -server /home/eng/s/sxv240035/cad/gf65/primelib_gf65/INV/runtime/cdpl/pid8316/driver_8316.tcl
+The char directory is /home/eng/s/sxv240035/cad/gf65/primelib_gf65/INV
+Warning: Setting of obsolete parameter 'model_ecsm_cin' is ignored. (PAR-27)
+Warning: 2003.12 is no longer supported as a valid value for liberty_flavor. Setting it to 2007.03.
+Loading /home/eng/s/sxv240035/cad/gf65/primelib_gf65/INV/etc/cell.stat.gz
+Wed Oct 23 13:27:52 CDT 2024: Sourcing environment settings
+Warning: Operating condition 'op_cond' already exists, skipped.
+Wed Oct 23 13:27:52 CDT 2024: Environment set up done (0 seconds)
+Create and link tmpdir /var/tmp/pl.engnx02a.860278.2407 -> /var/tmp/primelib.engnx02a.utdallas.edu.860278.2410 
+[CDPL] Loading settings for stage: characterization.0
+The char directory is /home/eng/s/sxv240035/cad/gf65/primelib_gf65/INV
+Warning: 2003.12 is no longer supported as a valid value for liberty_flavor. Setting it to 2007.03.
+Loading /home/eng/s/sxv240035/cad/gf65/primelib_gf65/INV/etc/cell.stat.gz
+Wed Oct 23 13:27:52 CDT 2024: Sourcing environment settings
+Warning: Operating condition 'op_cond' already exists, skipped.
+Wed Oct 23 13:27:52 CDT 2024: Environment set up done (0 seconds)
+[CDPL] Done loading settings for stage: characterization.0
+Loading information for cell inverter
+work dir: '/var/tmp/primelib.engnx02a.860278.2410/inverter/delay__IN__lh__OUT__hl__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+moving /var/tmp/primelib.engnx02a.860278.2410/inverter/delay__IN__lh__OUT__hl__ACQ_1.sof.gz to /home/eng/s/sxv240035/cad/gf65/primelib_gf65/INV/results/inverter
+Simulation inverter::delay__IN__lh__OUT__hl__ACQ_1.sif completed successfully.
+----------------------
+__recordTaskStats__ inverter delay__IN__lh__OUT__hl__ACQ_1 0.11 0.01 5.83 0.73 1 7.47709798813 engnx02a.utdallas.edu 1729708072.89 1729708080.36 1
+Loading information for cell inverter
+work dir: '/var/tmp/primelib.engnx02a.860278.2410/inverter/delay__IN__hl__OUT__lh__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+moving /var/tmp/primelib.engnx02a.860278.2410/inverter/delay__IN__hl__OUT__lh__ACQ_1.sof.gz to /home/eng/s/sxv240035/cad/gf65/primelib_gf65/INV/results/inverter
+Simulation inverter::delay__IN__hl__OUT__lh__ACQ_1.sif completed successfully.
+----------------------
+__recordTaskStats__ inverter delay__IN__hl__OUT__lh__ACQ_1 0.05 0.01 6.0 0.7 1 6.73002505302 engnx02a.utdallas.edu 1729708080.36 1729708087.09 1
+Loading information for cell inverter
+work dir: '/var/tmp/primelib.engnx02a.860278.2410/inverter/leakage_power__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+moving /var/tmp/primelib.engnx02a.860278.2410/inverter/leakage_power__ACQ_1.sof.gz to /home/eng/s/sxv240035/cad/gf65/primelib_gf65/INV/results/inverter
+Simulation inverter::leakage_power__ACQ_1.sif completed successfully.
+Warning: ground supply has not been properly defined
+----------------------
+__recordTaskStats__ inverter leakage_power__ACQ_1 0.04 0.01 5.82 0.68 1 7.64689302444 engnx02a.utdallas.edu 1729708087.09 1729708094.74 1
+Loading information for cell inverter
+work dir: '/var/tmp/primelib.engnx02a.860278.2410/inverter/Cin__VSS__lh__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+moving /var/tmp/primelib.engnx02a.860278.2410/inverter/Cin__VSS__lh__ACQ_1.sof.gz to /home/eng/s/sxv240035/cad/gf65/primelib_gf65/INV/results/inverter
+Simulation inverter::Cin__VSS__lh__ACQ_1.sif completed successfully.
+----------------------
+__recordTaskStats__ inverter Cin__VSS__lh__ACQ_1 0.04 0.01 5.86 0.73 1 8.24014592171 engnx02a.utdallas.edu 1729708094.88 1729708103.12 1
+Loading information for cell inverter
+work dir: '/var/tmp/primelib.engnx02a.860278.2410/inverter/Cin__VSS__hl__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+moving /var/tmp/primelib.engnx02a.860278.2410/inverter/Cin__VSS__hl__ACQ_1.sof.gz to /home/eng/s/sxv240035/cad/gf65/primelib_gf65/INV/results/inverter
+Simulation inverter::Cin__VSS__hl__ACQ_1.sif completed successfully.
+----------------------
+__recordTaskStats__ inverter Cin__VSS__hl__ACQ_1 0.04 0.01 5.98 0.67 1 9.25063705444 engnx02a.utdallas.edu 1729708103.12 1729708112.37 1
+Loading information for cell inverter
+work dir: '/var/tmp/primelib.engnx02a.860278.2410/inverter/Cin__VDD__lh__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+moving /var/tmp/primelib.engnx02a.860278.2410/inverter/Cin__VDD__lh__ACQ_1.sof.gz to /home/eng/s/sxv240035/cad/gf65/primelib_gf65/INV/results/inverter
+Simulation inverter::Cin__VDD__lh__ACQ_1.sif completed successfully.
+----------------------
+__recordTaskStats__ inverter Cin__VDD__lh__ACQ_1 0.06 0.01 5.9 0.68 1 6.60800218582 engnx02a.utdallas.edu 1729708112.37 1729708118.98 1
+Loading information for cell inverter
+work dir: '/var/tmp/primelib.engnx02a.860278.2410/inverter/Cin__VDD__hl__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+moving /var/tmp/primelib.engnx02a.860278.2410/inverter/Cin__VDD__hl__ACQ_1.sof.gz to /home/eng/s/sxv240035/cad/gf65/primelib_gf65/INV/results/inverter
+Simulation inverter::Cin__VDD__hl__ACQ_1.sif completed successfully.
+----------------------
+__recordTaskStats__ inverter Cin__VDD__hl__ACQ_1 0.04 0.01 5.96 0.66 1 6.6110701561 engnx02a.utdallas.edu 1729708118.98 1729708125.59 1
+Warning: /var/tmp/worker.860278.W1.engnx02a.utdallas.edu.2410.log: No such file or directory
+   [CDPL] Shutting down worker
+Wed Oct 23 13:34:21 2024: Program time: 389.00 seconds | 6.48 minutes | 0.11 hours
+CDPL worker exited normally.
+Reset log file
+Maximum virtual memory size: 941.957 MB
+Shutting down modules

@@ -1,0 +1,19 @@
+### Custom WaveView session file (version O-2018.09-SP1 build Nov 21, ) ###
+### saved at 00:08:42 on Fri Oct 11 2024 ###
+wdf 0 "/home/eng/s/sxv240035/cad/spice/inv_hspice.tr0" load=used 
+scalar list
+waveview_begin 1  stack  offset=0 name_b=81 mntr_b=81 name_width=66 dm=diff:301:276:2:0:0:1:0:0:0:1:0:0e+00:0e+00:5e+01:5e+01:0:0:1.0249999984578e-09:6.00000023841858e-01:1.12306424963967e-09:5.99587706383318e-01:0:0:0e+00:0:0e+00 dm=diff:655:250:2:0:0:1:0:0:0:1:0:0e+00:0e+00:5e+01:5e+01:0:0:6.02500000078807e-09:6.00000023841858e-01:6.07819331391332e-09:5.99587706383318e-01:0:0:0e+00:0:0e+00 "name=waveview 1" 
+  panel_begin linear pidx=0 spath=name+file xlabel="TIME(sec)" ylabel="V" ymin=-7.11404073042606e-02 ymax=1.28738501975408e+00 
+    line src=wdf lidx=0 fidx=0 "delim=." sigtype=1 "name=v(in)" attr=4:4:1:0 autoset=true disp=show 
+    line src=wdf lidx=1 fidx=0 "delim=." sigtype=1 "name=v(out)" attr=5:6:1:0 autoset=true disp=show 
+  panel_end
+waveview_end
+waveview_begin 4  stack  offset=0 name_b=81 mntr_b=81 name_width=66 dm=diff:719:146:2:0:0:1:0:0:1:1:0:0e+00:0e+00:2e+01:8e+01:0:0:6.01000000060655e-09:2.40000009536743e-01:6.04000000282424e-09:9.60000038146973e-01:0:0:0e+00:0:0e+00 "name=waveview 4" 
+  panel_begin linear pidx=0 spath=name+file xlabel="TIME(sec)" ylabel="V" 
+    line src=wdf lidx=0 fidx=0 "delim=." sigtype=1 "name=v(in)" attr=0:0:1:0 autoset=true disp=show 
+  panel_end
+  panel_begin linear pidx=1 spath=name+file xlabel="TIME(sec)" ylabel="V" 
+    line src=wdf lidx=0 fidx=0 "delim=." sigtype=1 "name=v(out)" attr=1:1:1:0 autoset=true disp=show 
+  panel_end
+waveview_end
+browserOpened

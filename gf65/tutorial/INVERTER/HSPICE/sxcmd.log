@@ -1,0 +1,172 @@
+### Custom WaveView ADV log file, revision O-2018.09-SP1 (build Nov 21, ) ###
+### created at 17:26:38 on Thu Oct 24 2024 (Linux AMD64) ###
+### Host Name: engnx02a.utdallas.edu   User ID: sxv240035   PID: 26030   ###
+wv_start_log
+# (0) running in waveview only mode
+# (0) SW_SX_PERL_LIB defined
+# (0) SW_SX_TCL_LIB defined
+# (0) HOME defined
+wv_resize_window {Custom WaveView} 800 586
+wv_move_window {Custom WaveView} {} 40 69
+wv_resize_window {Custom WaveView} 800 400
+wv_select_window {Custom WaveView} 
+wv_move_window {Custom WaveView} {} 416 19
+wv_press_tool_button {Custom WaveView} {} {OpenWaveform0} 
+wv_move_window {FileDialog} {} 861 104
+wv_move_window {FileDialog} {} 861 106
+wv_select_dialog {FileDialog} 
+wv_move_scrollbar {FileDialog} {} {FileList.HScrollBar} {254}
+wv_select_list_item {FileDialog} {} {FileList} {inv_hspice.tr0} 21
+wv_press_button {FileDialog} {} {Ok} 
+wv_move_window {Custom WaveView} {} -10 19
+wv_resize_browser {Custom WaveView} {} {WV.Browser} 250 1170
+wv_resize_browser {Custom WaveView} {} {waveview 1:1} 2300 1144
+wv_resize_window {Custom WaveView} 2560 1313
+wv_select_tree_item {Custom WaveView} {} {hierview} {D0:inv_hspice.tr0(0)} {0} {+sep=@}
+wv_expand_tree_item {Custom WaveView} {} {hierview} {D0:inv_hspice.tr0(0)} {+sep=@}
+wv_select_tree_item {Custom WaveView} {} {hierview} {D0:inv_hspice.tr0(0)} {0} {+sep=@}
+wv_select_tree_item {Custom WaveView} {} {hierview} {D0:inv_hspice.tr0(0)@toplevel(0)} {0} {+sep=@}
+wv_select_list_item {Custom WaveView} {} {sigview} {v(in)} 3
+wv_dclick_list_item {Custom WaveView} {} {sigview} {v(in)} 3
+wv_select_list_item {Custom WaveView} {} {sigview} {v(out)} 4
+wv_dclick_list_item {Custom WaveView} {} {sigview} {v(out)} 4
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Measurement Tool} 
+wv_set_text {MeasurementTool} {} {AtValue} "20"
+wv_set_check {MeasurementTool} {} {IndepP2LockLevel} 1
+wv_set_text {MeasurementTool} {} {Lock2ndPointAt} "80"
+wv_press_button {MeasurementTool} {} {Ok} 
+wv_select_window {Custom WaveView} 
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS1.ANCHOR2
+wv_drag_item_to WV1 1207 628
+wv_move_wv_item WV1.MEAS1.ANCHOR2 1188 507
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS1.ANCHOR1
+wv_drag_item_to WV1 1208 443
+wv_move_wv_item WV1.MEAS1.ANCHOR1 1151 426
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS1
+wv_drag_item_to WV1 1284 824
+wv_move_wv_item WV1.MEAS1 1424 769
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS1.ANCHOR1
+wv_drag_item_to WV1 1242 969
+wv_move_wv_item WV1.MEAS1.ANCHOR1 1220 664
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS1.ANCHOR1
+wv_drag_item_to WV1 1243 970
+wv_move_wv_item WV1.MEAS1.ANCHOR1 1210 245
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL1:1 6.01391e-09 0.691603
+wv_drag_item_to WV1 1208 247
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS1
+wv_move_wv_item WV1.MEAS1 1477 807
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS1.ANCHOR1
+wv_drag_item_to WV1 1209 425
+wv_move_wv_item WV1.MEAS1.ANCHOR1 1210 114
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS1
+wv_drag_item_to WV1 1524 762
+wv_move_wv_item WV1.MEAS1 1329 296
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS1.ANCHOR1
+wv_drag_item_to WV1 1208 441
+wv_move_wv_item WV1.MEAS1.ANCHOR1 1210 139
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL1:1 6.03616e-09 0.975573
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS1
+wv_drag_item_to WV1 1379 299
+wv_move_wv_item WV1.MEAS1 1304 197
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS1
+wv_drag_item_to WV1 1327 213
+wv_move_wv_item WV1.MEAS1 432 129
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS1
+wv_move_wv_item WV1.MEAS1 516 158
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS1
+wv_drag_item_to WV1 570 193
+wv_move_wv_item WV1.MEAS1 524 805
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL2:1 2.38665e-09 0.628103
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS1
+wv_move_wv_item WV1.MEAS1 577 826
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS1
+wv_drag_item_to WV1 643 846
+wv_move_wv_item WV1.MEAS1 1375 712
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS1
+wv_move_wv_item WV1.MEAS1 1434 742
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS1
+wv_drag_item_to WV1 1482 755
+wv_move_wv_item WV1.MEAS1 1469 809
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS1
+wv_move_wv_item WV1.MEAS1 1504 828
+wv_press_tool_button {Custom WaveView} {} {OpenWaveformFile0} 
+wv_move_window {FileDialog} {} 1085 473
+wv_select_dialog {FileDialog} 
+wv_press_button {FileDialog} {} {Up} 
+wv_press_button {FileDialog} {} {Up} 
+wv_select_list_item {FileDialog} {} {FileList} {XOR2} 13
+wv_dclick_list_item {FileDialog} {} {FileList} {XOR2} 13
+wv_select_list_item {FileDialog} {} {FileList} {HSPICE} 2
+wv_dclick_list_item {FileDialog} {} {FileList} {HSPICE} 2
+wv_select_list_item {FileDialog} {} {FileList} {XOR2_hspice.tr0} 12
+wv_press_button {FileDialog} {} {Ok} 
+wv_press_tool_button {Custom WaveView} {} {NewWaveView0} 
+wv_select_tree_item {Custom WaveView} {} {hierview} {D1:XOR2_hspice.tr0(1)} {0} {+sep=@}
+wv_expand_tree_item {Custom WaveView} {} {hierview} {D1:XOR2_hspice.tr0(1)} {+sep=@}
+wv_select_tree_item {Custom WaveView} {} {hierview} {D1:XOR2_hspice.tr0(1)} {0} {+sep=@}
+wv_select_tree_item {Custom WaveView} {} {hierview} {D1:XOR2_hspice.tr0(1)@toplevel(0)} {0} {+sep=@}
+wv_select_list_item {Custom WaveView} {} {sigview} {v(a)} 4
+wv_dclick_list_item {Custom WaveView} {} {sigview} {v(a)} 4
+wv_select_list_item {Custom WaveView} {} {sigview} {v(b)} 5
+wv_dclick_list_item {Custom WaveView} {} {sigview} {v(b)} 5
+wv_select_list_item {Custom WaveView} {} {sigview} {v(out)} 6
+wv_dclick_list_item {Custom WaveView} {} {sigview} {v(out)} 6
+wv_select_waveview 2 {waveview 2}
+wv_select_toolbar_item {Custom WaveView} {waveview 2:2} {Measurement Tool} 
+wv_press_button {MeasurementTool} {} {Ok} 
+wv_select_window {Custom WaveView} 
+wv_select_waveview 2 {waveview 2}
+wv_select_wv_item WV2.MEAS1
+wv_drag_item_to WV2 1251 558
+wv_move_wv_item WV2.MEAS1 1262 259
+wv_select_waveview 2 {waveview 2}
+wv_select_wv_item WV2.MEAS1
+wv_move_wv_item WV2.MEAS1 1332 278
+wv_select_waveview 2 {waveview 2}
+wv_select_wv_item WV2.MEAS1
+wv_drag_item_to WV2 1372 300
+wv_move_wv_item WV2.MEAS1 460 227
+wv_select_waveview 2 {waveview 2}
+wv_select_wv_item WV2.MEAS1
+wv_move_wv_item WV2.MEAS1 533 257
+wv_select_waveview 2 {waveview 2}
+wv_select_wv_item WV2.MEAS1
+wv_drag_item_to WV2 613 286
+wv_move_wv_item WV2.MEAS1 1354 894
+wv_select_waveview 2 {waveview 2}
+wv_select_wv_item WV2.MEAS1
+wv_move_wv_item WV2.MEAS1 1391 915
+wv_select_waveview 2 {waveview 2}
+wv_select_wv_item WV2.MEAS1
+wv_drag_item_to WV2 1433 939
+wv_move_wv_item WV2.MEAS1 451 919
+wv_select_waveview 2 {waveview 2}
+wv_select_wv_item WV2.MEAS1
+wv_move_wv_item WV2.MEAS1 547 950
+wv_close_window {Custom WaveView} 
+wv_move_window {Confirmation} {} 1188 637
+wv_select_dialog {Confirmation} 
+#wv_press_button {Confirmation} {} {Ok} 
+#*WARNING* Can not remove '/home/eng/s/sxv240035/.cx_hostport/.cx_hostport_engnx02a.utdallas.edu_26030'.

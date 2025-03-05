@@ -1,0 +1,284 @@
+1731530798.759165: 27436-7fae70dbf0c0: cdpl_log.c:228: in cdpl_log_open(): info: @@start_of_log@@
+1731530798.759195: 27436-7fae70dbf0c0: cdpl_log.c:866: in cdpl_log_dump_sysinfo(): info: time: 2024/11/13 14:46:38 CST -0600
+1731530798.759200: 27436-7fae70dbf0c0: cdpl_log.c:868: in cdpl_log_dump_sysinfo(): info: version: T-2022.03 
+1731530798.759202: 27436-7fae70dbf0c0: cdpl_log.c:870: in cdpl_log_dump_sysinfo(): info: system: Linux 3.10.0-1160.119.1.el7.x86_64 #1 SMP Tue May 14 11:55:25 EDT 2024
+1731530798.759204: 27436-7fae70dbf0c0: cdpl_log.c:875: in cdpl_log_dump_sysinfo(): info: processor: x86_64 64-bits
+1731530798.759205: 27436-7fae70dbf0c0: cdpl_log.c:879: in cdpl_log_dump_sysinfo(): info: hostname: engnx02a.utdallas.edu
+1731530798.759207: 27436-7fae70dbf0c0: cdpl_log.c:230: in cdpl_log_open(): debug: path: /home/eng/s/sxv240035/cad/gf65/primelib_gf65/dff/runtime/cdpl/pid27436/master.engnx02a.utdallas.edu.27436.log
+1731530798.759210: 27436-7fae70dbf0c0: cdpl_log.c:231: in cdpl_log_open(): debug: dir: /home/eng/s/sxv240035/cad/gf65/primelib_gf65/dff/runtime/cdpl/pid27436
+1731530798.759217: 27436-7fae70dbf0c0: cdpl_log.c:758: in cdpl_log_set_filter(): info: filter level 1
+1731530798.759238: 27436-7fae70dbf0c0: cdpl_server.c:543: in cdpl_sv_init(): info: new server S480805494
+1731530798.759249: 27436-7fae70dbf0c0: cdpl_ipc.c:3030: in cdpl_ipc_init(): info: requesting IPv4 protocol
+1731530798.759685: 27436-7fae70dbf0c0: cdpl_ipc.c:800: in _selectaddrfamily(): info: selected IPv4 protocol
+1731530798.759967: 27436-7fae70dbf0c0: cdpl_server.c:657: in cdpl_sv_new_master(): info: new master M1
+1731530798.759983: 27436-7fae70dbf0c0: cdpl_server.c:5494: in cdpl_sv_ctl_master(): info: Setting worker heartbeat to 60 seconds
+1731530798.759985: 27436-7fae70dbf0c0: cdpl_server.c:5503: in cdpl_sv_ctl_master(): info: Setting worker heartbeat timeout to 3 heartbeats
+1731530798.759988: 27436-7fae70dbf0c0: cdpl_compat_master.c:2407: in cdplInitMaster(): info: bcast dir is `/dev/null'
+1731530798.760042: 27436-7fae70dbf0c0: cdpl_server.c:5394: in cdpl_sv_ctl_master(): info: farm worker timeout set to 36000
+1731530798.760044: 27436-7fae70dbf0c0: cdpl_server.c:5410: in cdpl_sv_ctl_master(): info: grid worker timeout set to 36000
+1731530798.760046: 27436-7fae70dbf0c0: cdpl_server.c:5438: in cdpl_sv_ctl_master(): info: farm submit command failure threshold set to 100
+1731530798.760085: 27436-7fae70dbf0c0: cdpl_farm.c:2268: in cdpl_farm_new_sh(): info: creating SH farm on localhost
+1731530798.760099: 27436-7fae70dbf0c0: cdpl_compat_master.c:207: in _set_farm_env(): info: exporting CDPL_LOGDIR as `/home/eng/s/sxv240035/cad/gf65/primelib_gf65/dff/runtime/cdpl/pid27436'
+1731530798.760103: 27436-7fae70dbf0c0: cdpl_compat_master.c:213: in _set_farm_env(): info: exporting CDPL_TMPDIR as `/var/tmp'
+1731530798.760105: 27436-7fae70dbf0c0: cdpl_compat_master.c:220: in _set_farm_env(): info: exporting CDPL_HOME as `/proj/cad/synopsys/synopsys_2021/primelib/T-2022.03-SP1/cdpl_runtime_linux64'
+1731530798.760108: 27436-7fae70dbf0c0: cdpl_compat_master.c:227: in _set_farm_env(): info: exporting SNPSLMD_LICENSE_FILE as `1700@engdmv.utdallas.edu'
+1731530798.760111: 27436-7fae70dbf0c0: cdpl_compat_master.c:247: in _set_farm_env(): info: exporting CDPL_OPTIONS as `[filter][nowlogs]'
+1731530798.760113: 27436-7fae70dbf0c0: cdpl_compat_master.c:254: in _set_farm_env(): info: exporting DISPLAY as `:1029'
+1731530798.760115: 27436-7fae70dbf0c0: cdpl_compat_master.c:262: in _set_farm_env(): info: exporting CDPL_HEARTBEAT as `60'
+1731530798.760118: 27436-7fae70dbf0c0: cdpl_compat_master.c:348: in _set_farm_env(): info: exporting SIS_MALIBU as `2'
+1731530798.760119: 27436-7fae70dbf0c0: cdpl_compat_master.c:348: in _set_farm_env(): info: exporting SIS_CDPL as `5'
+1731530798.802511: 27436-7fae70dbf0c0: cdpl_server.c:738: in cdpl_sv_new_job(): info: new job J1 in M1
+1731530798.802529: 27436-7fae70dbf0c0: cdpl_compat_master.c:1314: in _add_worker(): info: new worker type 100, min:1, max:1, cmd:`/home/eng/s/sxv240035/cad/gf65/primelib_gf65/dff/runtime/cdpl/pid27436/run_27436.sh'
+1731530798.802539: 27436-7fae70dbf0c0: cdpl_server.c:900: in cdpl_sv_new_bin_withfarm(): info: new bin B1 in J1
+1731530798.811410: 27436-7fae70dbf0c0: cdpl_server.c:3116: in cdpl_sv_start_job(): info: starting job J1
+1731530798.820123: 27436-7fae70dbf0c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T0 in B1 (prio -1)
+1731530798.820135: 27436-7fae70dbf0c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T0 label to "initialization__ACQ_7 of dff"
+1731530798.820238: 27436-7fae70dbf0c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T1 in B1 (prio -1)
+1731530798.820288: 27436-7fae58ac0700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W1 (as C1) in bin B1
+1731530798.820308: 27436-7fae582bf700: cdpl_farm.c:1899: in _schedule(): info: worker submit failure threshold set to 100
+1731530798.820319: 27436-7fae70dbf0c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T1 label to "setup_hbm__D__lh__CLK__hl__ACQ_1 of dff"
+1731530798.820326: 27436-7fae582bf700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/eng/s/sxv240035/cad/gf65/primelib_gf65/dff/runtime/cdpl/pid27436/run_27436.sh
+1731530798.821640: 27436-7fae70dbf0c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T2 in B1 (prio -1)
+1731530798.821654: 27436-7fae70dbf0c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T2 label to "initialization__ACQ_6 of dff"
+1731530798.822115: 27436-7fae70dbf0c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T3 in B1 (prio -1)
+1731530798.822119: 27436-7fae70dbf0c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T3 label to "setup_hbm__D__hl__CLK__hl__ACQ_1 of dff"
+1731530798.822193: 27436-7fae70dbf0c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T4 in B1 (prio -1)
+1731530798.822196: 27436-7fae70dbf0c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T4 label to "initialization__ACQ_4 of dff"
+1731530798.822251: 27436-7fae70dbf0c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T5 in B1 (prio 3)
+1731530798.822253: 27436-7fae70dbf0c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T5 label to "leakage_power__ACQ_1 of dff"
+1731530798.822293: 27436-7fae70dbf0c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T6 in B1 (prio 5)
+1731530798.822296: 27436-7fae70dbf0c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T6 label to "Cin__D__hl__ACQ_1 of dff"
+1731530798.822323: 27436-7fae70dbf0c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T7 in B1 (prio 5)
+1731530798.822326: 27436-7fae70dbf0c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T7 label to "Cin__D__lh__ACQ_1 of dff"
+1731530798.822359: 27436-7fae70dbf0c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T8 in B1 (prio 5)
+1731530798.822362: 27436-7fae70dbf0c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T8 label to "Cin__VSS__hl__ACQ_1 of dff"
+1731530798.822384: 27436-7fae70dbf0c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T9 in B1 (prio 5)
+1731530798.822387: 27436-7fae70dbf0c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T9 label to "Cin__VSS__lh__ACQ_1 of dff"
+1731530798.822419: 27436-7fae70dbf0c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T10 in B1 (prio -1)
+1731530798.822421: 27436-7fae70dbf0c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T10 label to "initialization__ACQ_5 of dff"
+1731530798.822455: 27436-7fae70dbf0c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T11 in B1 (prio -1)
+1731530798.822458: 27436-7fae70dbf0c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T11 label to "ncmpw_hbm__CLK__lh__CLK__hl__ACQ_1 of dff"
+1731530798.822490: 27436-7fae70dbf0c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T12 in B1 (prio -1)
+1731530798.822493: 27436-7fae70dbf0c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T12 label to "removal_hbm__R__hl__CLK__hl__ACQ_1 of dff"
+1731530798.822520: 27436-7fae70dbf0c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T13 in B1 (prio -1)
+1731530798.822525: 27436-7fae70dbf0c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T13 label to "recover_hbm__R__hl__CLK__hl__ACQ_1 of dff"
+1731530798.822549: 27436-7fae70dbf0c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T14 in B1 (prio -1)
+1731530798.822552: 27436-7fae70dbf0c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T14 label to "initialization__ACQ_1 of dff"
+1731530798.822573: 27436-7fae70dbf0c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T15 in B1 (prio -1)
+1731530798.822576: 27436-7fae70dbf0c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T15 label to "initialization__ACQ_2 of dff"
+1731530798.822623: 27436-7fae70dbf0c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T16 in B1 (prio -1)
+1731530798.822625: 27436-7fae70dbf0c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T16 label to "cmpw_hbm__CLK__hl__CLK__lh__ACQ_1 of dff"
+1731530798.822667: 27436-7fae70dbf0c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T17 in B1 (prio -1)
+1731530798.822670: 27436-7fae70dbf0c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T17 label to "cmpw_hbm__R__lh__R__hl__ACQ_1 of dff"
+1731530798.822697: 27436-7fae70dbf0c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T18 in B1 (prio -1)
+1731530798.822699: 27436-7fae70dbf0c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T18 label to "initialization__ACQ_3 of dff"
+1731530798.822739: 27436-7fae70dbf0c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T19 in B1 (prio 2)
+1731530798.822742: 27436-7fae70dbf0c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T19 label to "delay__CLK__hl__Q__hl__ACQ_1 of dff"
+1731530798.822773: 27436-7fae70dbf0c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T20 in B1 (prio 2)
+1731530798.822776: 27436-7fae70dbf0c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T20 label to "delay__CLK__hl__Q__lh__ACQ_1 of dff"
+1731530798.822805: 27436-7fae70dbf0c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T21 in B1 (prio -1)
+1731530798.822808: 27436-7fae70dbf0c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T21 label to "hold_hbm__D__lh__CLK__hl__ACQ_1 of dff"
+1731530798.822835: 27436-7fae70dbf0c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T22 in B1 (prio -1)
+1731530798.822838: 27436-7fae70dbf0c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T22 label to "hold_hbm__D__hl__CLK__hl__ACQ_1 of dff"
+1731530798.822866: 27436-7fae70dbf0c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T23 in B1 (prio 5)
+1731530798.822869: 27436-7fae70dbf0c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T23 label to "Cin__CLK__lh__ACQ_1 of dff"
+1731530798.822898: 27436-7fae70dbf0c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T24 in B1 (prio 5)
+1731530798.822901: 27436-7fae70dbf0c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T24 label to "Cin__VDD__hl__ACQ_1 of dff"
+1731530798.822919: 27436-7fae70dbf0c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T25 in B1 (prio 5)
+1731530798.822922: 27436-7fae70dbf0c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T25 label to "Cin__VDD__lh__ACQ_1 of dff"
+1731530798.822955: 27436-7fae70dbf0c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T26 in B1 (prio 2)
+1731530798.822957: 27436-7fae70dbf0c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T26 label to "delay__R__lh__Q__hl__ACQ_1 of dff"
+1731530798.822979: 27436-7fae70dbf0c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T27 in B1 (prio 5)
+1731530798.822982: 27436-7fae70dbf0c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T27 label to "Cin__R__hl__ACQ_1 of dff"
+1731530799.458903: 27436-7fae592c1700: cdpl_server_ipc.c:452: in _sv_on_hello(): info: W1 is `10.182.66.67:59586'
+1731530799.458915: 27436-7fae592c1700: cdpl_server_ipc.c:454: in _sv_on_hello(): info: W1 log file is /dev/null
+1731530799.458925: 27436-7fae592c1700: cdpl_server_ipc.c:481: in _sv_on_hello(): info: up to 1 alive workers in B1
+1731530799.458955: 27436-7fae58ac0700: cdpl_server_sched.c:955: in _assign(): info: assigning task T0 to worker W1
+1731530807.075919: 27436-7fae592c1700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T0
+1731530807.075962: 27436-7fae58ac0700: cdpl_server_sched.c:955: in _assign(): info: assigning task T2 to worker W1
+1731530808.850152: 27436-7fae70dbf0c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T28 in B1 (prio -1)
+1731530808.850170: 27436-7fae70dbf0c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T28 label to "initialization__ACQ_7 of dff"
+1731530808.850264: 27436-7fae70dbf0c0: cdpl_compat_master.c:5175: in cdplMasterLogWarning(): warning: [non-CDPL log entry] Task 1 (setup_hbm__D__lh__CLK__hl__ACQ_1 of dff) on W1 on engnx02a.utdallas.edu upstream dependency failed
+1731530808.850803: 27436-7fae70dbf0c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T29 in B1 (prio -1)
+1731530808.850807: 27436-7fae70dbf0c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T29 label to "setup_hbm__D__lh__CLK__hl__ACQ_1 of dff"
+1731530813.371795: 27436-7fae592c1700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T2
+1731530813.371851: 27436-7fae58ac0700: cdpl_server_sched.c:955: in _assign(): info: assigning task T4 to worker W1
+1731530818.865556: 27436-7fae70dbf0c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T30 in B1 (prio -1)
+1731530818.865584: 27436-7fae70dbf0c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T30 label to "initialization__ACQ_6 of dff"
+1731530818.865676: 27436-7fae70dbf0c0: cdpl_compat_master.c:5175: in cdplMasterLogWarning(): warning: [non-CDPL log entry] Task 3 (setup_hbm__D__hl__CLK__hl__ACQ_1 of dff) on W1 on engnx02a.utdallas.edu upstream dependency failed
+1731530818.866202: 27436-7fae70dbf0c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T31 in B1 (prio -1)
+1731530818.866207: 27436-7fae70dbf0c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T31 label to "setup_hbm__D__hl__CLK__hl__ACQ_1 of dff"
+1731530819.771249: 27436-7fae592c1700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T4
+1731530819.771306: 27436-7fae58ac0700: cdpl_server_sched.c:955: in _assign(): info: assigning task T10 to worker W1
+1731530822.890424: 27436-7fae70dbf0c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T32 in B1 (prio -1)
+1731530822.890447: 27436-7fae70dbf0c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T32 label to "initialization__ACQ_4 of dff"
+1731530822.890518: 27436-7fae70dbf0c0: cdpl_compat_master.c:5175: in cdplMasterLogWarning(): warning: [non-CDPL log entry] Task 5 (leakage_power__ACQ_1 of dff) on W1 on engnx02a.utdallas.edu upstream dependency failed
+1731530822.891035: 27436-7fae70dbf0c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T33 in B1 (prio 3)
+1731530822.891039: 27436-7fae70dbf0c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T33 label to "leakage_power__ACQ_1 of dff"
+1731530826.253518: 27436-7fae592c1700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T10
+1731530826.253566: 27436-7fae58ac0700: cdpl_server_sched.c:955: in _assign(): info: assigning task T12 to worker W1
+1731530832.810099: 27436-7fae592c1700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T12
+1731530832.810142: 27436-7fae58ac0700: cdpl_server_sched.c:955: in _assign(): info: assigning task T13 to worker W1
+1731530832.902088: 27436-7fae70dbf0c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T34 in B1 (prio -1)
+1731530832.902103: 27436-7fae70dbf0c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T34 label to "initialization__ACQ_5 of dff"
+1731530832.910372: 27436-7fae70dbf0c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T35 in B1 (prio -1)
+1731530832.910395: 27436-7fae70dbf0c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T35 label to "removal_hbm__R__hl__CLK__hl__ACQ_1 of dff"
+1731530832.910458: 27436-7fae70dbf0c0: cdpl_compat_master.c:5175: in cdplMasterLogWarning(): warning: [non-CDPL log entry] Task 11 (ncmpw_hbm__CLK__lh__CLK__hl__ACQ_1 of dff) on W1 on engnx02a.utdallas.edu upstream dependency failed
+1731530832.910907: 27436-7fae70dbf0c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T36 in B1 (prio -1)
+1731530832.910912: 27436-7fae70dbf0c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T36 label to "ncmpw_hbm__CLK__lh__CLK__hl__ACQ_1 of dff"
+1731530839.199118: 27436-7fae592c1700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T13
+1731530839.199413: 27436-7fae58ac0700: cdpl_server_sched.c:955: in _assign(): info: assigning task T14 to worker W1
+1731530842.923752: 27436-7fae70dbf0c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T37 in B1 (prio -1)
+1731530842.923776: 27436-7fae70dbf0c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T37 label to "recover_hbm__R__hl__CLK__hl__ACQ_1 of dff"
+1731530845.555666: 27436-7fae592c1700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T14
+1731530845.555723: 27436-7fae58ac0700: cdpl_server_sched.c:955: in _assign(): info: assigning task T15 to worker W1
+1731530851.919288: 27436-7fae592c1700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T15
+1731530851.919332: 27436-7fae58ac0700: cdpl_server_sched.c:955: in _assign(): info: assigning task T18 to worker W1
+1731530852.935788: 27436-7fae70dbf0c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T38 in B1 (prio -1)
+1731530852.935807: 27436-7fae70dbf0c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T38 label to "initialization__ACQ_1 of dff"
+1731530852.946285: 27436-7fae70dbf0c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T39 in B1 (prio -1)
+1731530852.946304: 27436-7fae70dbf0c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T39 label to "initialization__ACQ_2 of dff"
+1731530852.946404: 27436-7fae70dbf0c0: cdpl_compat_master.c:5175: in cdplMasterLogWarning(): warning: [non-CDPL log entry] Task 16 (cmpw_hbm__CLK__hl__CLK__lh__ACQ_1 of dff) upstream dependency failed
+1731530852.946886: 27436-7fae70dbf0c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T40 in B1 (prio -1)
+1731530852.946891: 27436-7fae70dbf0c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T40 label to "cmpw_hbm__CLK__hl__CLK__lh__ACQ_1 of dff"
+1731530852.946899: 27436-7fae70dbf0c0: cdpl_compat_master.c:5175: in cdplMasterLogWarning(): warning: [non-CDPL log entry] Task 17 (cmpw_hbm__R__lh__R__hl__ACQ_1 of dff) upstream dependency failed
+1731530852.947249: 27436-7fae70dbf0c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T41 in B1 (prio -1)
+1731530852.947253: 27436-7fae70dbf0c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T41 label to "cmpw_hbm__R__lh__R__hl__ACQ_1 of dff"
+1731530852.947269: 27436-7fae70dbf0c0: cdpl_compat_master.c:5175: in cdplMasterLogWarning(): warning: [non-CDPL log entry] Task 20 (delay__CLK__hl__Q__lh__ACQ_1 of dff) upstream dependency failed
+1731530852.947625: 27436-7fae70dbf0c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T42 in B1 (prio 2)
+1731530852.947629: 27436-7fae70dbf0c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T42 label to "delay__CLK__hl__Q__lh__ACQ_1 of dff"
+1731530852.947635: 27436-7fae70dbf0c0: cdpl_compat_master.c:5175: in cdplMasterLogWarning(): warning: [non-CDPL log entry] Task 22 (hold_hbm__D__hl__CLK__hl__ACQ_1 of dff) upstream dependency failed
+1731530852.947975: 27436-7fae70dbf0c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T43 in B1 (prio -1)
+1731530852.947979: 27436-7fae70dbf0c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T43 label to "hold_hbm__D__hl__CLK__hl__ACQ_1 of dff"
+1731530852.947989: 27436-7fae70dbf0c0: cdpl_compat_master.c:5175: in cdplMasterLogWarning(): warning: [non-CDPL log entry] Task 26 (delay__R__lh__Q__hl__ACQ_1 of dff) upstream dependency failed
+1731530852.948335: 27436-7fae70dbf0c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T44 in B1 (prio 2)
+1731530852.948339: 27436-7fae70dbf0c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T44 label to "delay__R__lh__Q__hl__ACQ_1 of dff"
+1731530858.296642: 27436-7fae592c1700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T18
+1731530858.296695: 27436-7fae58ac0700: cdpl_server_sched.c:955: in _assign(): info: assigning task T28 to worker W1
+1731530862.961088: 27436-7fae70dbf0c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T45 in B1 (prio -1)
+1731530862.961108: 27436-7fae70dbf0c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T45 label to "initialization__ACQ_3 of dff"
+1731530862.961193: 27436-7fae70dbf0c0: cdpl_compat_master.c:5175: in cdplMasterLogWarning(): warning: [non-CDPL log entry] Task 19 (delay__CLK__hl__Q__hl__ACQ_1 of dff) on W1 on engnx02a.utdallas.edu upstream dependency failed
+1731530862.961682: 27436-7fae70dbf0c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T46 in B1 (prio 2)
+1731530862.961688: 27436-7fae70dbf0c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T46 label to "delay__CLK__hl__Q__hl__ACQ_1 of dff"
+1731530862.961699: 27436-7fae70dbf0c0: cdpl_compat_master.c:5175: in cdplMasterLogWarning(): warning: [non-CDPL log entry] Task 21 (hold_hbm__D__lh__CLK__hl__ACQ_1 of dff) on W1 on engnx02a.utdallas.edu upstream dependency failed
+1731530862.962054: 27436-7fae70dbf0c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T47 in B1 (prio -1)
+1731530862.962058: 27436-7fae70dbf0c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T47 label to "hold_hbm__D__lh__CLK__hl__ACQ_1 of dff"
+1731530864.774089: 27436-7fae592c1700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T28
+1731530864.774136: 27436-7fae58ac0700: cdpl_server_sched.c:955: in _assign(): info: assigning task T30 to worker W1
+1731530871.225042: 27436-7fae592c1700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T30
+1731530871.225092: 27436-7fae58ac0700: cdpl_server_sched.c:955: in _assign(): info: assigning task T32 to worker W1
+1731530872.963348: 27436-7fae70dbf0c0: cdpl_compat_master.c:5175: in cdplMasterLogWarning(): warning: [non-CDPL log entry] Task 29 (setup_hbm__D__lh__CLK__hl__ACQ_1 of dff) on W1 on engnx02a.utdallas.edu upstream dependency failed
+1731530872.963734: 27436-7fae70dbf0c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T48 in B1 (prio -1)
+1731530872.963741: 27436-7fae70dbf0c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T48 label to "setup_hbm__D__lh__CLK__hl__ACQ_1 of dff"
+1731530872.963744: 27436-7fae70dbf0c0: cdpl_server.c:1362: in _sv_add_deps(): error: duplicate dependency T28 --> T48
+1731530872.963759: 27436-7fae70dbf0c0: cdpl_compat_master.c:5175: in cdplMasterLogWarning(): warning: [non-CDPL log entry] Task 31 (setup_hbm__D__hl__CLK__hl__ACQ_1 of dff) on W1 on engnx02a.utdallas.edu upstream dependency failed
+1731530872.964126: 27436-7fae70dbf0c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T49 in B1 (prio -1)
+1731530872.964130: 27436-7fae70dbf0c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T49 label to "setup_hbm__D__hl__CLK__hl__ACQ_1 of dff"
+1731530872.964132: 27436-7fae70dbf0c0: cdpl_server.c:1362: in _sv_add_deps(): error: duplicate dependency T30 --> T49
+1731530877.761189: 27436-7fae592c1700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T32
+1731530877.761221: 27436-7fae58ac0700: cdpl_server_sched.c:955: in _assign(): info: assigning task T34 to worker W1
+1731530882.966187: 27436-7fae70dbf0c0: cdpl_compat_master.c:5175: in cdplMasterLogWarning(): warning: [non-CDPL log entry] Task 33 (leakage_power__ACQ_1 of dff) on W1 on engnx02a.utdallas.edu upstream dependency failed
+1731530882.966782: 27436-7fae70dbf0c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T50 in B1 (prio 3)
+1731530882.966789: 27436-7fae70dbf0c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T50 label to "leakage_power__ACQ_1 of dff"
+1731530882.966792: 27436-7fae70dbf0c0: cdpl_server.c:1362: in _sv_add_deps(): error: duplicate dependency T32 --> T50
+1731530884.332137: 27436-7fae592c1700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T34
+1731530884.332183: 27436-7fae58ac0700: cdpl_server_sched.c:955: in _assign(): info: assigning task T35 to worker W1
+1731530890.780788: 27436-7fae592c1700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T35
+1731530890.780826: 27436-7fae58ac0700: cdpl_server_sched.c:955: in _assign(): info: assigning task T37 to worker W1
+1731530892.970207: 27436-7fae70dbf0c0: cdpl_compat_master.c:5175: in cdplMasterLogWarning(): warning: [non-CDPL log entry] Task 36 (ncmpw_hbm__CLK__lh__CLK__hl__ACQ_1 of dff) on W1 on engnx02a.utdallas.edu upstream dependency failed
+1731530892.970598: 27436-7fae70dbf0c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T51 in B1 (prio -1)
+1731530892.970605: 27436-7fae70dbf0c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T51 label to "ncmpw_hbm__CLK__lh__CLK__hl__ACQ_1 of dff"
+1731530892.970608: 27436-7fae70dbf0c0: cdpl_server.c:1362: in _sv_add_deps(): error: duplicate dependency T34 --> T51
+1731530897.221140: 27436-7fae592c1700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T37
+1731530897.221181: 27436-7fae58ac0700: cdpl_server_sched.c:955: in _assign(): info: assigning task T38 to worker W1
+1731530903.889871: 27436-7fae592c1700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T38
+1731530903.889911: 27436-7fae58ac0700: cdpl_server_sched.c:955: in _assign(): info: assigning task T39 to worker W1
+1731530910.699248: 27436-7fae592c1700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T39
+1731530910.699292: 27436-7fae58ac0700: cdpl_server_sched.c:955: in _assign(): info: assigning task T45 to worker W1
+1731530912.976013: 27436-7fae70dbf0c0: cdpl_compat_master.c:5175: in cdplMasterLogWarning(): warning: [non-CDPL log entry] Task 40 (cmpw_hbm__CLK__hl__CLK__lh__ACQ_1 of dff) on W1 on engnx02a.utdallas.edu upstream dependency failed
+1731530912.976568: 27436-7fae70dbf0c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T52 in B1 (prio -1)
+1731530912.976577: 27436-7fae70dbf0c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T52 label to "cmpw_hbm__CLK__hl__CLK__lh__ACQ_1 of dff"
+1731530912.976580: 27436-7fae70dbf0c0: cdpl_server.c:1362: in _sv_add_deps(): error: duplicate dependency T38 --> T52
+1731530912.976596: 27436-7fae70dbf0c0: cdpl_compat_master.c:5175: in cdplMasterLogWarning(): warning: [non-CDPL log entry] Task 41 (cmpw_hbm__R__lh__R__hl__ACQ_1 of dff) on W1 on engnx02a.utdallas.edu upstream dependency failed
+1731530912.977008: 27436-7fae70dbf0c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T53 in B1 (prio -1)
+1731530912.977013: 27436-7fae70dbf0c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T53 label to "cmpw_hbm__R__lh__R__hl__ACQ_1 of dff"
+1731530912.977015: 27436-7fae70dbf0c0: cdpl_server.c:1362: in _sv_add_deps(): error: duplicate dependency T39 --> T53
+1731530912.977022: 27436-7fae70dbf0c0: cdpl_compat_master.c:5175: in cdplMasterLogWarning(): warning: [non-CDPL log entry] Task 42 (delay__CLK__hl__Q__lh__ACQ_1 of dff) on W1 on engnx02a.utdallas.edu upstream dependency failed
+1731530912.977394: 27436-7fae70dbf0c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T54 in B1 (prio 2)
+1731530912.977398: 27436-7fae70dbf0c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T54 label to "delay__CLK__hl__Q__lh__ACQ_1 of dff"
+1731530912.977400: 27436-7fae70dbf0c0: cdpl_server.c:1362: in _sv_add_deps(): error: duplicate dependency T38 --> T54
+1731530912.977406: 27436-7fae70dbf0c0: cdpl_compat_master.c:5175: in cdplMasterLogWarning(): warning: [non-CDPL log entry] Task 43 (hold_hbm__D__hl__CLK__hl__ACQ_1 of dff) on W1 on engnx02a.utdallas.edu upstream dependency failed
+1731530912.977766: 27436-7fae70dbf0c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T55 in B1 (prio -1)
+1731530912.977772: 27436-7fae70dbf0c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T55 label to "hold_hbm__D__hl__CLK__hl__ACQ_1 of dff"
+1731530912.977774: 27436-7fae70dbf0c0: cdpl_server.c:1362: in _sv_add_deps(): error: duplicate dependency T38 --> T55
+1731530912.977781: 27436-7fae70dbf0c0: cdpl_compat_master.c:5175: in cdplMasterLogWarning(): warning: [non-CDPL log entry] Task 44 (delay__R__lh__Q__hl__ACQ_1 of dff) on W1 on engnx02a.utdallas.edu upstream dependency failed
+1731530912.978129: 27436-7fae70dbf0c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T56 in B1 (prio 2)
+1731530912.978132: 27436-7fae70dbf0c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T56 label to "delay__R__lh__Q__hl__ACQ_1 of dff"
+1731530912.978134: 27436-7fae70dbf0c0: cdpl_server.c:1362: in _sv_add_deps(): error: duplicate dependency T39 --> T56
+1731530917.300526: 27436-7fae592c1700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T45
+1731530917.300570: 27436-7fae58ac0700: cdpl_server_sched.c:955: in _assign(): info: assigning task T6 to worker W1
+1731530922.981034: 27436-7fae70dbf0c0: cdpl_compat_master.c:5175: in cdplMasterLogWarning(): warning: [non-CDPL log entry] Task 46 (delay__CLK__hl__Q__hl__ACQ_1 of dff) upstream dependency failed
+1731530922.981444: 27436-7fae70dbf0c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T57 in B1 (prio 2)
+1731530922.981451: 27436-7fae70dbf0c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T57 label to "delay__CLK__hl__Q__hl__ACQ_1 of dff"
+1731530922.981454: 27436-7fae70dbf0c0: cdpl_server.c:1379: in _sv_add_deps(): error: upstream dependency failure
+1731530922.981467: 27436-7fae70dbf0c0: cdpl_compat_master.c:5175: in cdplMasterLogWarning(): warning: [non-CDPL log entry] Task 47 (hold_hbm__D__lh__CLK__hl__ACQ_1 of dff) upstream dependency failed
+1731530922.981834: 27436-7fae70dbf0c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T58 in B1 (prio -1)
+1731530922.981838: 27436-7fae70dbf0c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T58 label to "hold_hbm__D__lh__CLK__hl__ACQ_1 of dff"
+1731530922.981840: 27436-7fae70dbf0c0: cdpl_server.c:1362: in _sv_add_deps(): error: duplicate dependency T45 --> T58
+1731530923.700230: 27436-7fae592c1700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T6
+1731530923.700277: 27436-7fae58ac0700: cdpl_server_sched.c:955: in _assign(): info: assigning task T7 to worker W1
+1731530930.223680: 27436-7fae592c1700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T7
+1731530930.223956: 27436-7fae58ac0700: cdpl_server_sched.c:955: in _assign(): info: assigning task T8 to worker W1
+1731530932.997132: 27436-7fae70dbf0c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T59 in B1 (prio 5)
+1731530932.997155: 27436-7fae70dbf0c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T59 label to "Cin__D__hl__ACQ_1 of dff"
+1731530933.007223: 27436-7fae70dbf0c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T60 in B1 (prio 5)
+1731530933.007242: 27436-7fae70dbf0c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T60 label to "Cin__D__lh__ACQ_1 of dff"
+1731530936.759965: 27436-7fae592c1700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T8
+1731530936.760035: 27436-7fae58ac0700: cdpl_server_sched.c:955: in _assign(): info: assigning task T9 to worker W1
+1731530942.020180: 27436-7fae70dbf0c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T61 in B1 (prio 5)
+1731530942.020201: 27436-7fae70dbf0c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T61 label to "Cin__VSS__hl__ACQ_1 of dff"
+1731530943.336336: 27436-7fae592c1700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T9
+1731530943.336391: 27436-7fae58ac0700: cdpl_server_sched.c:955: in _assign(): info: assigning task T23 to worker W1
+1731530950.013701: 27436-7fae592c1700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T23
+1731530950.013755: 27436-7fae58ac0700: cdpl_server_sched.c:955: in _assign(): info: assigning task T24 to worker W1
+1731530952.031622: 27436-7fae70dbf0c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T62 in B1 (prio 5)
+1731530952.031641: 27436-7fae70dbf0c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T62 label to "Cin__VSS__lh__ACQ_1 of dff"
+1731530952.041123: 27436-7fae70dbf0c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T63 in B1 (prio 5)
+1731530952.041146: 27436-7fae70dbf0c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T63 label to "Cin__CLK__lh__ACQ_1 of dff"
+1731530956.596473: 27436-7fae592c1700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T24
+1731530956.596535: 27436-7fae58ac0700: cdpl_server_sched.c:955: in _assign(): info: assigning task T25 to worker W1
+1731530959.798870: 27436-7fae592c1700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T25
+1731530959.798914: 27436-7fae58ac0700: cdpl_server_sched.c:955: in _assign(): info: assigning task T27 to worker W1
+1731530962.051588: 27436-7fae70dbf0c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T64 in B1 (prio 5)
+1731530962.051615: 27436-7fae70dbf0c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T64 label to "Cin__VDD__hl__ACQ_1 of dff"
+1731530962.060501: 27436-7fae70dbf0c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T65 in B1 (prio 5)
+1731530962.060524: 27436-7fae70dbf0c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T65 label to "Cin__VDD__lh__ACQ_1 of dff"
+1731530967.238313: 27436-7fae592c1700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T27
+1731530967.238364: 27436-7fae58ac0700: cdpl_server_sched.c:955: in _assign(): info: assigning task T59 to worker W1
+1731530972.069721: 27436-7fae70dbf0c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T66 in B1 (prio 5)
+1731530972.069743: 27436-7fae70dbf0c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T66 label to "Cin__R__hl__ACQ_1 of dff"
+1731530973.750780: 27436-7fae592c1700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T59
+1731530973.750835: 27436-7fae58ac0700: cdpl_server_sched.c:955: in _assign(): info: assigning task T60 to worker W1
+1731530980.274672: 27436-7fae592c1700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T60
+1731530980.274710: 27436-7fae58ac0700: cdpl_server_sched.c:955: in _assign(): info: assigning task T61 to worker W1
+1731530986.725036: 27436-7fae592c1700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T61
+1731530986.725093: 27436-7fae58ac0700: cdpl_server_sched.c:955: in _assign(): info: assigning task T62 to worker W1
+1731530993.227864: 27436-7fae592c1700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T62
+1731530993.227918: 27436-7fae58ac0700: cdpl_server_sched.c:955: in _assign(): info: assigning task T63 to worker W1
+1731530999.590921: 27436-7fae592c1700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T63
+1731530999.590988: 27436-7fae58ac0700: cdpl_server_sched.c:955: in _assign(): info: assigning task T64 to worker W1
+1731531006.010797: 27436-7fae592c1700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T64
+1731531006.010840: 27436-7fae58ac0700: cdpl_server_sched.c:955: in _assign(): info: assigning task T65 to worker W1
+1731531012.627037: 27436-7fae592c1700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T65
+1731531012.627091: 27436-7fae58ac0700: cdpl_server_sched.c:955: in _assign(): info: assigning task T66 to worker W1
+1731531019.113471: 27436-7fae592c1700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T66
+1731531351.781172: 27436-7fae70dbf0c0: cdpl_compat_master.c:5152: in cdplMasterLogInfo(): info: [non-CDPL log entry] Ending current CDPL job
+1731531351.781400: 27436-7fae70dbf0c0: cdpl_server.c:2890: in cdpl_sv_halt_job_errno(): info: stopping job J1
+1731531351.781465: 27436-7fae58ac0700: cdpl_server_sched.c:2711: in _sv_drop_worker(): info: down to 0 alive workers in B1
+1731531351.781501: 27436-7fae70dbf0c0: cdpl_server.c:2875: in cdpl_sv_halt_job_errno(): info: killing job J1
+1731531351.781508: 27436-7fae70dbf0c0: cdpl_server.c:288: in _sv_free_job(): info: freeing job J1
+1731531351.781594: 27436-7fae70dbf0c0: cdpl_farm.c:2395: in cdpl_farm_free(): info: freeing farm
+1731531351.781811: 27436-7fae70dbf0c0: cdpl_server.c:3011: in cdpl_sv_free(): info: freeing server S480805494
+1731531351.781816: 27436-7fae70dbf0c0: cdpl_server.c:2976: in cdpl_sv_kill_errno(): info: killing server
+1731531351.781853: 27436-7fae70dbf0c0: cdpl_server.c:328: in _sv_free_master(): info: freeing master M1
+1731531351.781928: 27436-7fae70dbf0c0: cdpl_log.c:371: in cdpl_log_close(): info: @@end_of_log@@

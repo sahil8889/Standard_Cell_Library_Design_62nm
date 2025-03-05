@@ -1,0 +1,12 @@
+$DATA1 SOURCE='HSPICE' VERSION='O-2018.09-2 linux64' PARAM_COUNT=0
+.TITLE '$example hspice setup file'
+ trise            tfall            tavg             tdiff           
+ delay            iavg             energy           edp1            
+ t1               t2               t3               t4              
+ i1               i2               energy1          energy2         
+ energysum        edp2             temper           alter#          
+  7.089e-11        1.952e-10        1.330e-10        1.243e-10      
+  1.952e-10       -7.161e-06       -8.594e-14        1.677e-23      
+    failed         1.242e-09          failed         6.644e-09      
+    failed           failed           failed           failed       
+    failed           failed          25.0000        1               

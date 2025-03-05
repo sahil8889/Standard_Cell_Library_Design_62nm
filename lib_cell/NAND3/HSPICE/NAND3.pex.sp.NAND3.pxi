@@ -1,0 +1,16 @@
+* File: NAND3.pex.sp.NAND3.pxi
+* Created: Fri Oct 18 19:06:57 2024
+* 
+cc_1 GND! OUT 0.102348f
+cc_2 GND! C 0.202344f
+cc_3 GND! B 0.0991027f
+cc_4 GND! A 0.110667f
+cc_5 OUT VDD! 0.356742f
+cc_6 OUT C 0.0375061f
+cc_7 OUT B 0.0822763f
+cc_8 OUT A 0.292776f
+cc_9 VDD! C 0.212778f
+cc_10 VDD! B 0.143321f
+cc_11 VDD! A 0.142843f
+cc_12 C B 0.107885f
+cc_13 B A 0.107299f

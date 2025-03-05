@@ -1,0 +1,17 @@
+
+********************************************************************************
+Product   : Virtuoso(R) DEF In 
+Program   : @(#)$CDS: defin version 6.1.7-64b 04/26/2017 04:16 (sjfhw319) $
+SubVersion: sub-version  IC6.1.7-64b.500.11 
+Started at: 06-Dec-2024  00:30:05
+User Name : sxv240035
+Host Name : engnx02a.utdallas.edu
+Directory : /home/eng/s/sxv240035/cad/gf65
+DB Version: 	20170426 (SJ)
+CADENCE Design Systems, Inc.
+********************************************************************************
+Running: defin -lib pnr -libPath /home/eng/s/sxv240035/cad/gf65/pnr/ -def "/home/eng/s/sxv240035/cad/gf65/innovus/matrix_vector_mult.def" -cell matrix_vector_mult -view layout -techRefs "tutorial"
+
+Elapsed Time: 0.7s
+
+defin translation completed (errors: 0, warnings: 0).

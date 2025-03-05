@@ -1,0 +1,96 @@
+1733456483.746255: 22134-7fae651590c0: cdpl_log.c:228: in cdpl_log_open(): info: @@start_of_log@@
+1733456483.746286: 22134-7fae651590c0: cdpl_log.c:866: in cdpl_log_dump_sysinfo(): info: time: 2024/12/05 21:41:23 CST -0600
+1733456483.746290: 22134-7fae651590c0: cdpl_log.c:868: in cdpl_log_dump_sysinfo(): info: version: T-2022.03 
+1733456483.746292: 22134-7fae651590c0: cdpl_log.c:870: in cdpl_log_dump_sysinfo(): info: system: Linux 3.10.0-1160.119.1.el7.x86_64 #1 SMP Tue May 14 11:55:25 EDT 2024
+1733456483.746293: 22134-7fae651590c0: cdpl_log.c:875: in cdpl_log_dump_sysinfo(): info: processor: x86_64 64-bits
+1733456483.746295: 22134-7fae651590c0: cdpl_log.c:879: in cdpl_log_dump_sysinfo(): info: hostname: engnx02a.utdallas.edu
+1733456483.746297: 22134-7fae651590c0: cdpl_log.c:230: in cdpl_log_open(): debug: path: /home/eng/s/sxv240035/cad/gf65/primelib_gf65/inverter/runtime/cdpl/pid22134/master.engnx02a.utdallas.edu.22134.log
+1733456483.746299: 22134-7fae651590c0: cdpl_log.c:231: in cdpl_log_open(): debug: dir: /home/eng/s/sxv240035/cad/gf65/primelib_gf65/inverter/runtime/cdpl/pid22134
+1733456483.746303: 22134-7fae651590c0: cdpl_log.c:758: in cdpl_log_set_filter(): info: filter level 1
+1733456483.746321: 22134-7fae651590c0: cdpl_server.c:543: in cdpl_sv_init(): info: new server S209424667
+1733456483.746330: 22134-7fae651590c0: cdpl_ipc.c:3030: in cdpl_ipc_init(): info: requesting IPv4 protocol
+1733456483.746909: 22134-7fae651590c0: cdpl_ipc.c:800: in _selectaddrfamily(): info: selected IPv4 protocol
+1733456483.747263: 22134-7fae651590c0: cdpl_server.c:657: in cdpl_sv_new_master(): info: new master M1
+1733456483.747278: 22134-7fae651590c0: cdpl_server.c:5494: in cdpl_sv_ctl_master(): info: Setting worker heartbeat to 60 seconds
+1733456483.747281: 22134-7fae651590c0: cdpl_server.c:5503: in cdpl_sv_ctl_master(): info: Setting worker heartbeat timeout to 3 heartbeats
+1733456483.747284: 22134-7fae651590c0: cdpl_compat_master.c:2407: in cdplInitMaster(): info: bcast dir is `/dev/null'
+1733456483.747338: 22134-7fae651590c0: cdpl_server.c:5394: in cdpl_sv_ctl_master(): info: farm worker timeout set to 36000
+1733456483.747340: 22134-7fae651590c0: cdpl_server.c:5410: in cdpl_sv_ctl_master(): info: grid worker timeout set to 36000
+1733456483.747342: 22134-7fae651590c0: cdpl_server.c:5438: in cdpl_sv_ctl_master(): info: farm submit command failure threshold set to 100
+1733456483.747373: 22134-7fae651590c0: cdpl_farm.c:2268: in cdpl_farm_new_sh(): info: creating SH farm on localhost
+1733456483.747384: 22134-7fae651590c0: cdpl_compat_master.c:207: in _set_farm_env(): info: exporting CDPL_LOGDIR as `/home/eng/s/sxv240035/cad/gf65/primelib_gf65/inverter/runtime/cdpl/pid22134'
+1733456483.747387: 22134-7fae651590c0: cdpl_compat_master.c:213: in _set_farm_env(): info: exporting CDPL_TMPDIR as `/var/tmp'
+1733456483.747389: 22134-7fae651590c0: cdpl_compat_master.c:220: in _set_farm_env(): info: exporting CDPL_HOME as `/proj/cad/synopsys/synopsys_2021/primelib/T-2022.03-SP1/cdpl_runtime_linux64'
+1733456483.747391: 22134-7fae651590c0: cdpl_compat_master.c:227: in _set_farm_env(): info: exporting SNPSLMD_LICENSE_FILE as `1700@engdmv.utdallas.edu'
+1733456483.747393: 22134-7fae651590c0: cdpl_compat_master.c:247: in _set_farm_env(): info: exporting CDPL_OPTIONS as `[filter][nowlogs]'
+1733456483.747395: 22134-7fae651590c0: cdpl_compat_master.c:254: in _set_farm_env(): info: exporting DISPLAY as `:1038'
+1733456483.747397: 22134-7fae651590c0: cdpl_compat_master.c:262: in _set_farm_env(): info: exporting CDPL_HEARTBEAT as `60'
+1733456483.747400: 22134-7fae651590c0: cdpl_compat_master.c:348: in _set_farm_env(): info: exporting SIS_MALIBU as `2'
+1733456483.747402: 22134-7fae651590c0: cdpl_compat_master.c:348: in _set_farm_env(): info: exporting SIS_CDPL as `5'
+1733456483.795977: 22134-7fae651590c0: cdpl_server.c:738: in cdpl_sv_new_job(): info: new job J1 in M1
+1733456483.795994: 22134-7fae651590c0: cdpl_compat_master.c:1314: in _add_worker(): info: new worker type 100, min:1, max:1, cmd:`/home/eng/s/sxv240035/cad/gf65/primelib_gf65/inverter/runtime/cdpl/pid22134/run_22134.sh'
+1733456483.796000: 22134-7fae651590c0: cdpl_server.c:900: in cdpl_sv_new_bin_withfarm(): info: new bin B1 in J1
+1733456483.802044: 22134-7fae651590c0: cdpl_server.c:3116: in cdpl_sv_start_job(): info: starting job J1
+1733456483.811568: 22134-7fae651590c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T0 in B1 (prio 3)
+1733456483.811578: 22134-7fae651590c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T0 label to "leakage_power__ACQ_1 of inverter"
+1733456483.811647: 22134-7fae651590c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T1 in B1 (prio 2)
+1733456483.811724: 22134-7fae4ce5b700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W1 (as C1) in bin B1
+1733456483.811747: 22134-7fae651590c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T1 label to "delay__IN__lh__OUT__hl__ACQ_1 of inverter"
+1733456483.811759: 22134-7fae4c65a700: cdpl_farm.c:1899: in _schedule(): info: worker submit failure threshold set to 100
+1733456483.811779: 22134-7fae4c65a700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/eng/s/sxv240035/cad/gf65/primelib_gf65/inverter/runtime/cdpl/pid22134/run_22134.sh
+1733456483.811783: 22134-7fae651590c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T2 in B1 (prio 2)
+1733456483.811787: 22134-7fae651590c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T2 label to "delay__IN__hl__OUT__lh__ACQ_1 of inverter"
+1733456483.814078: 22134-7fae651590c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T3 in B1 (prio 5)
+1733456483.814092: 22134-7fae651590c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T3 label to "Cin__VSS__lh__ACQ_1 of inverter"
+1733456483.814652: 22134-7fae651590c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T4 in B1 (prio 5)
+1733456483.814656: 22134-7fae651590c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T4 label to "Cin__VSS__hl__ACQ_1 of inverter"
+1733456483.814698: 22134-7fae651590c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T5 in B1 (prio 5)
+1733456483.814701: 22134-7fae651590c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T5 label to "Cin__VDD__lh__ACQ_1 of inverter"
+1733456483.814732: 22134-7fae651590c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T6 in B1 (prio 5)
+1733456483.814734: 22134-7fae651590c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T6 label to "Cin__VDD__hl__ACQ_1 of inverter"
+1733456484.453898: 22134-7fae4d65c700: cdpl_server_ipc.c:452: in _sv_on_hello(): info: W1 is `10.182.66.67:36074'
+1733456484.453912: 22134-7fae4d65c700: cdpl_server_ipc.c:454: in _sv_on_hello(): info: W1 log file is /dev/null
+1733456484.453920: 22134-7fae4d65c700: cdpl_server_ipc.c:481: in _sv_on_hello(): info: up to 1 alive workers in B1
+1733456484.453963: 22134-7fae4ce5b700: cdpl_server_sched.c:955: in _assign(): info: assigning task T1 to worker W1
+1733456491.836144: 22134-7fae4d65c700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T1
+1733456491.836184: 22134-7fae4ce5b700: cdpl_server_sched.c:955: in _assign(): info: assigning task T2 to worker W1
+1733456493.861247: 22134-7fae651590c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T7 in B1 (prio 2)
+1733456493.861264: 22134-7fae651590c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T7 label to "delay__IN__lh__OUT__hl__ACQ_1 of inverter"
+1733456498.506380: 22134-7fae4d65c700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T2
+1733456498.506431: 22134-7fae4ce5b700: cdpl_server_sched.c:955: in _assign(): info: assigning task T7 to worker W1
+1733456503.883161: 22134-7fae651590c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T8 in B1 (prio 2)
+1733456503.883179: 22134-7fae651590c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T8 label to "delay__IN__hl__OUT__lh__ACQ_1 of inverter"
+1733456505.332986: 22134-7fae4d65c700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T7
+1733456505.333035: 22134-7fae4ce5b700: cdpl_server_sched.c:955: in _assign(): info: assigning task T8 to worker W1
+1733456512.057288: 22134-7fae4d65c700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T8
+1733456512.057332: 22134-7fae4ce5b700: cdpl_server_sched.c:955: in _assign(): info: assigning task T0 to worker W1
+1733456518.581471: 22134-7fae4d65c700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T0
+1733456518.581783: 22134-7fae4ce5b700: cdpl_server_sched.c:955: in _assign(): info: assigning task T3 to worker W1
+1733456525.034247: 22134-7fae4d65c700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T3
+1733456525.034293: 22134-7fae4ce5b700: cdpl_server_sched.c:955: in _assign(): info: assigning task T4 to worker W1
+1733456531.551736: 22134-7fae4d65c700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T4
+1733456531.552045: 22134-7fae4ce5b700: cdpl_server_sched.c:955: in _assign(): info: assigning task T5 to worker W1
+1733456538.035785: 22134-7fae4d65c700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T5
+1733456538.035831: 22134-7fae4ce5b700: cdpl_server_sched.c:955: in _assign(): info: assigning task T6 to worker W1
+1733456544.644608: 22134-7fae4d65c700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T6
+1733456954.605464: 22134-7fae651590c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T9 in B1 (prio 3)
+1733456954.605477: 22134-7fae651590c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T9 label to "leakage_power__ACQ_1 of inverter"
+1733456954.605514: 22134-7fae4ce5b700: cdpl_server_sched.c:955: in _assign(): info: assigning task T9 to worker W1
+1733456954.605535: 22134-7fae651590c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T10 in B1 (prio 2)
+1733456954.605555: 22134-7fae651590c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T10 label to "delay__IN__lh__OUT__hl__ACQ_1 of inverter"
+1733456954.605580: 22134-7fae651590c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T11 in B1 (prio 2)
+1733456954.605582: 22134-7fae651590c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T11 label to "delay__IN__hl__OUT__lh__ACQ_1 of inverter"
+1733456954.605619: 22134-7fae651590c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T12 in B1 (prio 5)
+1733456954.605624: 22134-7fae651590c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T12 label to "Cin__VSS__lh__ACQ_1 of inverter"
+1733456954.605650: 22134-7fae651590c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T13 in B1 (prio 5)
+1733456954.605652: 22134-7fae651590c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T13 label to "Cin__VSS__hl__ACQ_1 of inverter"
+1733456954.605671: 22134-7fae651590c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T14 in B1 (prio 5)
+1733456954.605674: 22134-7fae651590c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T14 label to "Cin__VDD__lh__ACQ_1 of inverter"
+1733456954.605691: 22134-7fae651590c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T15 in B1 (prio 5)
+1733456954.605694: 22134-7fae651590c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T15 label to "Cin__VDD__hl__ACQ_1 of inverter"
+1733456961.304795: 22134-7fae4d65c700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T9
+1733456961.304856: 22134-7fae4ce5b700: cdpl_server_sched.c:955: in _assign(): info: assigning task T10 to worker W1
+1733456967.823857: 22134-7fae4d65c700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T10
+1733456967.823891: 22134-7fae4ce5b700: cdpl_server_sched.c:955: in _assign(): info: assigning task T11 to worker W1
+1733456974.364811: 22134-7fae4d65c700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T11
+1733456974.364854: 22134-7fae4ce5b700: cdpl_server_sched.c:955: in _assign(): info: assigning task T12 to worker W1

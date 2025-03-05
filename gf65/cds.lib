@@ -1,0 +1,88 @@
+INCLUDE $CDSHOME/share/cdssetup/dfII/cds.lib
+
+DEFINE cmos10lpe   /proj/cad/library/mosis/GF65_LPe/cmos10lpe_CDS_oa_dl064_11_20160415/cmos10lpe
+DEFINE esd10lpe    /proj/cad/library/mosis/GF65_LPe/cmos10lpe_CDS_oa_dl064_11_20160415/esd10lpe
+DEFINE ch65lpe_alt /proj/cad/library/mosis/GF65_LPe/EDA-CAD-65N-DK012_rev3/ch65lpe_alt_DK012_OA_Rev3/6_00_01_00_LB/ch65lpe_alt
+
+#
+# {txace7:/proj/cad/cadence/ic-6.15.140.lnx86/share/cdssetup/dfII} ll
+#-r-xr-xr-x+  1 scm019300 cadgroup   260 Dec 20  2012 cds.lib
+#dr-xr-xr-x+  4 scm019300 cadgroup     6 Dec 20  2012 ci
+#dr-xr-xr-x+  3 scm019300 cadgroup     3 Dec 20  2012 toolbars
+#dr-xr-xr-x+ 34 scm019300 cadgroup    34 Dec 20  2012 workspaces
+#dr-xr-xr-x+  2 scm019300 cadgroup     9 Dec 20  2012 bindkeys
+#-r-xr-xr-x+  1 scm019300 cadgroup 32769 Dec 20  2012 default.drf
+#dr-xr-xr-x+  3 scm019300 cadgroup     3 Dec 20  2012 Navigator
+#dr-xr-xr-x+  3 scm019300 cadgroup     3 Dec 20  2012 publisher
+#dr-xr-xr-x+  3 scm019300 cadgroup     3 Dec 20  2012 te
+#dr-xr-xr-x+  2 scm019300 cadgroup     3 Dec 20  2012 VLS-GXL
+#
+#{txace7:/proj/cad/cadence/ic-6.15.140.lnx86/share/cdssetup/dfII} more cds.lib
+#DEFINE cdsDefTechLib ../../../tools/dfII/etc/cdsDefTechLib
+#SOFTINCLUDE	      ../../../tools/dfII/etc/cdsDotLibs/composer/cds.lib  (SEE BELOW)
+#SOFTINCLUDE	      ../../../tools/dfII/etc/cdsDotLibs/spectre/cds.lib   (SEE BELOW)
+#SOFTINCLUDE	      ../../../tools/dfII/etc/cdsDotLibs/artist/cds.lib    (SEE BELOW)
+#
+#  
+# ---------------------------  "old" way to do "cds.lib"  ---------------------------------------
+#
+#{txace7:/proj/cad/library/mosis/GF/EDA-CAD-65N-DK011/chrt65lpe_V1500RF_DK011_IC61_Rev7/examples} more cds.lib
+#DEFINE analogLib $CDS/tools/dfII/etc/cdslib/artist/analogLib
+#DEFINE sbaLib    $CDS/tools/dfII/etc/cdslib/artist/sbaLib
+#DEFINE basic	  $CDS/tools/dfII/etc/cdslib/basic
+#DEFINE sample    $CDS/tools/dfII/samples/cdslib/sample
+#DEFINE US_8ths   $CDS/tools/dfII/etc/cdslib/sheets/US_8ths
+#
+#
+# --------------------------  "new" way to do "cds.lib"  ----------------------------------------- 
+#{txace7:/proj/cad/cadence/ic-6.15.140.lnx86/tools/dfII/etc/cdsDotLibs} ll artist/
+#-r-xr-xr-x+ 1 scm019300 cadgroup 123 Dec 20  2012 cds.lib
+#{txace7:/proj/cad/cadence/ic-6.15.140.lnx86/tools/dfII/etc/cdsDotLibs} ll composer/
+#-r-xr-xr-x+ 1 scm019300 cadgroup 109 Dec 20  2012 cds.lib
+#{txace7:/proj/cad/cadence/ic-6.15.140.lnx86/tools/dfII/etc/cdsDotLibs} ll spectre/
+#-r-xr-xr-x+ 1 scm019300 cadgroup 310 Dec 20  2012 cds.lib
+#{txace7:/proj/cad/cadence/ic-6.15.140.lnx86/tools/dfII/etc/cdsDotLibs} more spectre/cds.lib 
+#-- $Source: /cvsrep/group/cdsLibs/src/cdsLibs/cdslib.spectre,v $
+#-- $Author: p4admin $
+#-- $Revision: #1 $
+#-- $Date: 2012/09/18 $
+#-- $State: Exp $
+#DEFINE  rfLib  	 ../../../samples/artist/rfLib
+#DEFINE  rfExamples	 ../../../samples/artist/rfExamples
+#DEFINE  ahdlLib	 ../../../samples/artist/ahdlLib
+#
+#{txace7:/proj/cad/cadence/ic-6.15.140.lnx86/tools/dfII/etc/cdsDotLibs} more composer/cds.lib 
+#DEFINE  basic  	 ../../../etc/cdslib/basic
+#DEFINE  US_8ths	 ../../../etc/cdslib/sheets/US_8ths
+#
+#{txace7:/proj/cad/cadence/ic-6.15.140.lnx86/tools/dfII/etc/cdsDotLibs} more artist/cds.lib 
+#DEFINE  analogLib	 ../../../etc/cdslib/artist/analogLib
+#DEFINE  functional	 ../../../etc/cdslib/artist/functional
+#
+#
+#{txace7:/proj/cad/cadence/ic-6.15.140.lnx86/tools/dfII/etc} lgr cds
+#dr-xr-xr-x+  5 scm019300 cadgroup   5 Dec 20  2012 cdslib
+#dr-xr-xr-x+  2 scm019300 cadgroup   5 Dec 20  2012 cdsDefTechLib
+#dr-xr-xr-x+  5 scm019300 cadgroup   5 Dec 20  2012 cdsDotLibs
+# 
+#{txace7:/proj/cad/cadence/ic-6.15.140.lnx86/tools/dfII/etc} ll cdsDefTechLib
+#-r-xr-xr-x+  1 scm019300 cadgroup  1832 Dec 20  2012 cdsinfo.tag
+#-r-xr-xr-x+  1 scm019300 cadgroup   142 Dec 20  2012 .oalib
+#-r-xr-xr-x+  1 scm019300 cadgroup 13756 Dec 20  2012 tech.db
+#
+#
+# OR,  use the "old" CDS files in "./lib.defs"
+#{txace7:/proj/cad/library/mosis/GF65_LPe/cmos10lpe_CDS_oa_dl064_11_20160415/examples} more lib.defs
+#DEFINE analogLib $CDS/tools/dfII/etc/cdslib/artist/analogLib
+#DEFINE sbaLib    $CDS/tools/dfII/etc/cdslib/artist/sbaLib
+#DEFINE basic     $CDS/tools/dfII/etc/cdslib/basic
+#DEFINE sample    $CDS/tools/dfII/samples/cdslib/sample
+#DEFINE US_8ths   $CDS/tools/dfII/etc/cdslib/sheets/US_8ths
+#DEFINE cmos10lpe ./cmos10lpe
+#DEFINE esd10lpe  ./esd10lpe
+#
+#
+#
+DEFINE tutorial /home/eng/s/sxv240035/cad/gf65/tutorial
+DEFINE lib_cell /home/eng/s/sxv240035/cad/gf65/lib_cell
+DEFINE pnr /home/eng/s/sxv240035/cad/gf65/pnr

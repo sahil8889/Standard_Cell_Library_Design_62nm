@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_LvsOutFile RUNDIR /home/eng/s/sxv240035/cad/gf65/lib_cell/dff/LVS_dff
+lvs_LvsfVersion 2
+lvs_LvsInputSummary {0 0 0}
+lvs_LvsComparisonSummary {3 0 0 0}
+lvs_LvsOutFile LVS_REPORT dff.lvs.report
+lvs_LvsOutFile SOURCE_NETLIST /home/eng/s/sxv240035/cad/gf65/lib_cell/dff/LVS_dff/dff.src.net
+lvs_LvsOutFile RULES_FILE /home/eng/s/sxv240035/cad/gf65/lib_cell/dff/LVS_dff/_Calibre_LVS_rules_
+lvs_LvsRunTimes 1731611419 1731611419

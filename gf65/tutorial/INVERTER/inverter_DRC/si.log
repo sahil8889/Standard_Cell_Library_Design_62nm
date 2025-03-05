@@ -1,0 +1,36 @@
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.01s.
+
+*INFO* (icLic-302) License Virtuoso_Schematic_Editor_XL ("Schematics XL") was used to run Schematics L.
+
+*WARNING* LIB tutorial from File /home/011/n/ns/nss230004/cad/gf65/cds.lib Line 89 redefines
+LIB tutorial from the same file (defined earlier.)
+
+*WARNING* LIB tutorial from File /home/011/n/ns/nss230004/cad/gf65/cds.lib Line 89 redefines
+LIB tutorial from the same file (defined earlier.)
+
+Loading cmos10lpe Procedures for Cadence Version "6.1.7-64b"
+Loading Display Resources File  '/proj/cad/library/mosis/GF65_LPe/cmos10lpe_CDS_oa_dl064_11_20160415/cmos10lpe/display.drf'
+Loading context file pdk.cxt
+cmos10lpe setting techfile rules
+Inductor table created
+Loading esd10lpe/libInit.il ...
+	Loading esd10lpe/loadCxt.ile ... done!
+	Loading context 'esd10lpe' from library 'esd10lpe' ... done!
+	Loading context 'pdkUtils' from library 'esd10lpe' ... done!
+	Loading esd10lpe/libInitCktPro.il ... done!
+	Loading esd10lpe/libInitCustomExit.il ... done!
+Loaded esd10lpe/libInit.il successfully!
+	Loading esd10lpe/libInit.il ... Loading esd10lpe/libInit.il ...
+	Loading esd10lpe/libInitCktPro.il ... done!
+	Loading esd10lpe/libInitCustomExit.il ... done!
+Loaded esd10lpe/libInit.il successfully!
+Loading libInit.il for esd10lpe done!
+Enabling auCdlCDFPinCntrl and auCdlPrintEmptySUBCKT
+
+Running Artist Hierarchical Netlisting ...
+
+WARNING (OSSHNL-338): hnlMaxLineLength was set to 'nil. Resetting maximum line length value to 72
+characters.
+
+End netlisting Dec  3 02:13:38 2024
+

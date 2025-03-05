@@ -1,0 +1,12 @@
+* File: NAND2.pex.sp.NAND2.pxi
+* Created: Fri Oct 18 18:58:19 2024
+* 
+cc_1 GND! OUT 0.111427f
+cc_2 GND! B 0.170619f
+cc_3 GND! A 0.107638f
+cc_4 OUT VDD! 0.358618f
+cc_5 OUT B 0.0878404f
+cc_6 OUT A 0.313867f
+cc_7 VDD! B 0.165482f
+cc_8 VDD! A 0.146107f
+cc_9 B A 0.126128f

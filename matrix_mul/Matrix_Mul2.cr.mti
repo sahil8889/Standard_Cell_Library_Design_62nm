@@ -1,0 +1,8 @@
+/home/011/n/ns/nss230004/VLSI/Matrix_Mul/matrix_mul.v {1 {vlog -work work -stats=none /home/011/n/ns/nss230004/VLSI/Matrix_Mul/matrix_mul.v
+Model Technology ModelSim DE vlog 2022.1 Compiler 2022.01 Jan 29 2022
+-- Compiling module matrix_vector_mult
+
+Top level modules:
+	matrix_vector_mult
+
+} {} {}}

@@ -1,0 +1,11 @@
+----------------------------------------------------------------------
+PrimeLib version T-2022.03-SP1 (Malibu 2)
+Build date: Apr 12, 2022 13:01:04
+Path: /proj/cad/synopsys/synopsys_2021/primelib/T-2022.03-SP1/linux64/bin/primelib
+Host: engnx02a.utdallas.edu, User: sxv240035, PID: 22134 (PPID: 10639)
+CPU: 32 x 3693 MHz, AMD EPYC 7F32 8-Core Processor (2 socket, 16 core)
+Memory: 257 GB RAM (134.9 GB free), 4 GB Swap (4.1 GB free)
+System load average: 0.61, 0.58, 1.02 (20997 processes)
+Directory: /home/eng/s/sxv240035/cad/gf65/primelib_gf65
+Error:   Task 7 (delay__IN__lh__OUT__hl__ACQ_1 of inverter) failed on W1 (engnx02a.utdallas.edu): Simulation delay__IN__lh__OUT__hl__ACQ_1.sif for cell inverter failed: There are failed measures in ['Tout__OUT__hl', 'delay__IN__lh__OUT__hl'] (SMSC-95) (CDPL-12)
+Error:   Task 8 (delay__IN__hl__OUT__lh__ACQ_1 of inverter) failed on W1 (engnx02a.utdallas.edu): Simulation delay__IN__hl__OUT__lh__ACQ_1.sif for cell inverter failed: There are failed measures in ['Tout__OUT__lh', 'delay__IN__hl__OUT__lh'] (SMSC-95) (CDPL-12)

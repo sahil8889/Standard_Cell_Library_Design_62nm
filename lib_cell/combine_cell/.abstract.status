@@ -1,0 +1,6 @@
+cUiSetViewStatus {combine_cell} {layout} {1}
+cUiSetViewStatus {combine_cell} {logical} {0}
+cUiSetViewStatus {combine_cell} {abstract.pin} {49}
+cUiSetViewStatus {combine_cell} {abstract.ext} {49}
+cUiSetViewStatus {combine_cell} {abstract} {51}
+cUiSetViewStatus {combine_cell} {abstract.ver} {0}

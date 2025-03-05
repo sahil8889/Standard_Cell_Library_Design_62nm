@@ -1,0 +1,27 @@
+//
+//  Rule file generated on Fri Oct 18 22:03:00 CDT 2024
+//     by Calibre Interactive - DRC (v2013.2_18.13)
+//
+//      *** PLEASE DO NOT MODIFY THIS FILE ***
+//
+//
+
+LAYOUT PATH  "final_cell.calibre.db"
+LAYOUT PRIMARY "final_cell"
+LAYOUT SYSTEM GDSII
+
+DRC RESULTS DATABASE "final_cell.drc.results" ASCII 
+DRC MAXIMUM RESULTS 1000
+DRC MAXIMUM VERTEX 4096
+
+DRC CELL NAME NO
+DRC SUMMARY REPORT "final_cell.drc.summary" REPLACE HIER
+
+VIRTUAL CONNECT COLON NO
+VIRTUAL CONNECT REPORT NO
+
+DRC ICSTATION YES
+
+
+INCLUDE "/home/eng/s/sxv240035/cad/gf65/Calibre_DRC_rules"
+

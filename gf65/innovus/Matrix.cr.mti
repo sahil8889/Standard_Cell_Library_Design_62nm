@@ -1,0 +1,38 @@
+/home/eng/s/sxv240035/cad/matrix_mul/synthesis.v {1 {vlog -work work -stats=none /home/eng/s/sxv240035/cad/matrix_mul/synthesis.v
+Model Technology ModelSim DE vlog 2022.1 Compiler 2022.01 Jan 29 2022
+-- Compiling module inv
+-- Compiling module nand2
+-- Compiling module nand3
+-- Compiling module nand4
+-- Compiling module nor2
+-- Compiling module nor3
+-- Compiling module xor2
+-- Compiling module aoi12
+-- Compiling module aoi22
+-- Compiling module oai12
+-- Compiling module oai22
+-- Compiling module dff
+-- Compiling module matrix_vector_mult
+
+Top level modules:
+	inv
+	nand2
+	nand3
+	nand4
+	nor2
+	nor3
+	xor2
+	aoi12
+	aoi22
+	oai12
+	oai22
+	matrix_vector_mult
+
+} {} {}} /home/eng/s/sxv240035/cad/matrix_mul/tb_matrix_mul.v {1 {vlog -work work -stats=none /home/eng/s/sxv240035/cad/matrix_mul/tb_matrix_mul.v
+Model Technology ModelSim DE vlog 2022.1 Compiler 2022.01 Jan 29 2022
+-- Compiling module tb_matrix_vector_mult
+
+Top level modules:
+	tb_matrix_vector_mult
+
+} {} {}}

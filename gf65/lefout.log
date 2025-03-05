@@ -1,0 +1,19 @@
+
+********************************************************************************
+Product   : Virtuoso(R) LEF Out 
+Program   : @(#)$CDS: lefout version 6.1.7-64b 04/26/2017 04:19 (sjfhw317) $
+SubVersion: sub-version  IC6.1.7-64b.500.11 
+Started at: 06-Dec-2024  00:18:02
+User Name : sxv240035
+Host Name : engnx02a.utdallas.edu
+Directory : /home/eng/s/sxv240035/cad/gf65
+DB Version: 	20170426 (SJ)
+CADENCE Design Systems, Inc.
+********************************************************************************
+Running: lefout -lib tutorial -cells "AOI21 AOI22 DFF INVERTER MUX21 NAND2 NAND3 NAND4 NOR2 NOR3 OAI21 OAI22 TRI_INV XOR2 filler" -views "abstract" -lef /home/eng/s/sxv240035/cad/gf65/gf75.lef -ver 5.7
+WARNING: (OALEFDEF-50144): NONDEFAULTRULE virtuosoDefaultSetup: LAYER PC: invalid definition. This rule will be ignored. Ensure all layers in the valid routing layers constraint have a minWidth constraint defined and are metal or poly-routing material.
+WARNING: (OALEFDEF-50024): The layer 10182 was not found. The geometry was ignored. Verify that the technology data contains the correct layer definitions.
+
+Elapsed Time: 0.4s
+
+lefout translation completed (errors: 0, warnings: 2).

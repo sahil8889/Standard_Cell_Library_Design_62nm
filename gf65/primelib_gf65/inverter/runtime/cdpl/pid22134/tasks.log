@@ -1,0 +1,17 @@
+# Legend: N(newborn) R(running) F(failed) K(killed) C(complete)
+C leakage_power__ACQ_1 of inverter T0 W1
+F delay__IN__lh__OUT__hl__ACQ_1 of inverter T1 W1
+F delay__IN__hl__OUT__lh__ACQ_1 of inverter T2 W1
+C Cin__VSS__lh__ACQ_1 of inverter T3 W1
+C Cin__VSS__hl__ACQ_1 of inverter T4 W1
+C Cin__VDD__lh__ACQ_1 of inverter T5 W1
+C Cin__VDD__hl__ACQ_1 of inverter T6 W1
+F delay__IN__lh__OUT__hl__ACQ_1 of inverter T7 W1
+F delay__IN__hl__OUT__lh__ACQ_1 of inverter T8 W1
+C leakage_power__ACQ_1 of inverter T9 W1
+C delay__IN__lh__OUT__hl__ACQ_1 of inverter T10 W1
+C delay__IN__hl__OUT__lh__ACQ_1 of inverter T11 W1
+R Cin__VSS__lh__ACQ_1 of inverter T12 W1
+N Cin__VSS__hl__ACQ_1 of inverter
+N Cin__VDD__lh__ACQ_1 of inverter
+N Cin__VDD__hl__ACQ_1 of inverter

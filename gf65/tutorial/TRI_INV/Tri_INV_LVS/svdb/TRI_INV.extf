@@ -1,0 +1,12 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1733450011 1733450013
+lvs_ExtOutFile RUNDIR /home/eng/s/sxv240035/cad/gf65/tutorial/TRI_INV/Tri_INV_LVS
+lvs_ExtOutFile RULES_FILE /home/eng/s/sxv240035/cad/gf65/tutorial/TRI_INV/Tri_INV_LVS/_Calibre_LVS_rules_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoErcSummary {11 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST /home/eng/s/sxv240035/cad/gf65/tutorial/TRI_INV/Tri_INV_LVS/TRI_INV.sp
+lvs_ExtOutFile EXTRACTION_REPORT TRI_INV.lvs.report.ext
+lvs_ExtOutFile ERC_DATABASE TRI_INV.erc.results
+lvs_ExtOutFile ERC_SUMMARY TRI_INV.erc.summary

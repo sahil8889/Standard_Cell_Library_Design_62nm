@@ -1,0 +1,94 @@
+
+Cadence Innovus(TM) Implementation System.
+Copyright 2017 Cadence Design Systems, Inc. All rights reserved worldwide.
+
+Version:	v17.10-p006_1, built Wed May 31 11:06:15 PDT 2017
+Options:	
+Date:		Tue Dec  3 23:34:13 2024
+Host:		engnx03a.utdallas.edu (x86_64 w/Linux 3.10.0-1160.119.1.el7.x86_64) (8cores*32cpus*AMD EPYC 7F32 8-Core Processor 512KB)
+OS:		Red Hat Enterprise Linux Server release 7.9 (Maipo)
+
+License:
+		invs	Innovus Implementation System	17.1	checkout succeeded
+		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+Change the soft stacksize limit to 0.2%RAM (514 mbytes). Set global soft_stack_size_limit to change the value.
+
+**INFO:  MMMC transition support version v31-84 
+
+<CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+<CMD> suppressMessage ENCEXT-2799
+<CMD> getDrawView
+<CMD> loadWorkspace -name Physical
+<CMD> win
+<CMD> set init_gnd_net GND!
+<CMD> set init_lef_file ../gf62.lef
+<CMD> set init_design_settop 0
+<CMD> set init_verilog ../../matrix_mul/matrix_mul_syn.v
+<CMD> set init_pwr_net VDD!
+<CMD> init_design
+
+Loading LEF file ../gf62.lef ...
+WARNING (LEFPARS-2007): NAMESCASESENSITIVE statement is obsolete in version 5.6 and later.
+The LEF parser will ignore this statement.
+To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf62.lef at line 1.
+WARNING (LEFPARS-2077): A SPACING SAMENET section is defined but it is not legal in a LEF 5.7 version file.
+It will be ignored which will probably cause real DRC violations to be ignored, and may
+cause false DRC violations to occur.
+
+To avoid this warning, and correctly handle these DRC rules, you should modify your
+LEF to use the appropriate SAMENET keywords as described in the LEF/DEF 5.7
+manual under the SPACING statements in the LAYER (Routing) and LAYER (Cut)
+sections listed in the LEF Table of Contents. See file ../gf62.lef at line 114.
+WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+The LEF parser will ignore this statement.
+To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf62.lef at line 187.
+WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file ../gf62.lef at line 188.
+WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+The LEF parser will ignore this statement.
+To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf62.lef at line 189.
+WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+The LEF parser will ignore this statement.
+To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf62.lef at line 191.
+WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file ../gf62.lef at line 192.
+WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+The LEF parser will ignore this statement.
+To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf62.lef at line 193.
+WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+The LEF parser will ignore this statement.
+To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf62.lef at line 202.
+WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file ../gf62.lef at line 203.
+WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+The LEF parser will ignore this statement.
+To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf62.lef at line 204.
+WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+The LEF parser will ignore this statement.
+To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf62.lef at line 206.
+WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file ../gf62.lef at line 207.
+WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+The LEF parser will ignore this statement.
+To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf62.lef at line 208.
+WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+The LEF parser will ignore this statement.
+To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf62.lef at line 217.
+WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file ../gf62.lef at line 218.
+WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+The LEF parser will ignore this statement.
+To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf62.lef at line 219.
+WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+The LEF parser will ignore this statement.
+To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf62.lef at line 221.
+WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file ../gf62.lef at line 222.
+WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+The LEF parser will ignore this statement.
+To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf62.lef at line 223.
+Set DBUPerIGU to M2 pitch 260.
+
+viaInitial starts at Tue Dec  3 23:41:09 2024
+viaInitial ends at Tue Dec  3 23:41:09 2024
+*** End library_loading (cpu=0.00min, real=0.00min, mem=0.0M, fe_cpu=0.41min, fe_real=6.93min, fe_mem=507.9M) ***
+#% Begin Load netlist data ... (date=12/03 23:41:09, mem=471.9M)
+*** Begin netlist parsing (mem=507.9M) ***
+Created 0 new cells from 0 timing libraries.
+Reading netlist ...
+Backslashed names will retain backslash and a trailing blank character.
+**FATAL ERROR: [/icd/cm_t1nb_003/INNOVUS171/Rel/17.10/main/lnx86_64_opt/17.10-p006_1/fe/src/vl/vlVerilogMTLex.l:236:vlVerilogMT_yylex]: Include file 'header.v' not foundExiting due to previous fatal error.

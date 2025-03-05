@@ -1,0 +1,8 @@
+//OK 
+//NUMBER_OF_HEADER_LINES: 6
+//VERSION: 1
+//TOKEN_DELIMITER: "
+//TOKEN_SEPARATOR: " "
+//FORMAT: "time" "calibre version" "command line"
+"Sat Oct 19 23:51:32 2024 " "v2013.2_18.13" "-xrc -pdb -c -turbo 1 /home/eng/s/sxv240035/cad/gf65/lib_cell/NOR3/NOR3_LVS/_Calibre_PEX_nom_rules_"
+"Sat Oct 19 23:51:38 2024 " "v2013.2_18.13" "-xrc -fmt -c /home/eng/s/sxv240035/cad/gf65/lib_cell/NOR3/NOR3_LVS/_Calibre_PEX_nom_rules_"

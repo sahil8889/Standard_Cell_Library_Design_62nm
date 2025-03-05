@@ -1,0 +1,6 @@
+cUiSetViewStatus {Wave_view} {layout} {0}
+cUiSetViewStatus {Wave_view} {logical} {0}
+cUiSetViewStatus {Wave_view} {abstract.pin} {0}
+cUiSetViewStatus {Wave_view} {abstract.ext} {0}
+cUiSetViewStatus {Wave_view} {abstract} {0}
+cUiSetViewStatus {Wave_view} {abstract.ver} {0}

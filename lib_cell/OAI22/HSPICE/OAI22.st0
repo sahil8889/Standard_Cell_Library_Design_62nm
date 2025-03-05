@@ -1,0 +1,20 @@
+****** HSPICE -- O-2018.09-2 linux64 (Oct 18 2018) ******
+ Input File: OAI22.sp
+ lic:
+ lic: FLEXlm: SDK_11.6.9.6
+ lic: USER:   sxv240035            HOSTNAME: engnx02a.utdallas.edu
+ lic: HOSTID: "f40270b95d51"       PID:      8435
+ lic: Using FLEXlm license file:
+ lic: 1700@engdmv.utdallas.edu
+ lic: Checkout 1 hspice
+ lic: License/Maintenance for hspice will expire on 30-jun-2025/2023.12
+ lic: 1(in_use)/50(total) FLOATING license(s) on SERVER 1700@engdmv.utdallas.edu
+ lic:
+ init: begin read circuit files, cpu clock= 3.00E-02
+       option search = /proj/cad/synopsys/synopsys_2018/hspice_vO-2018.
+                         09-2/hspice/parts/ad
+       option runlvl
+ init: end read circuit files, cpu clock= 3.00E-02 peak memory=     300 mb
+ init: begin check errors, cpu clock= 3.00E-02
+>error          ***** hspice job aborted
+ lic: Release hspice token(s)

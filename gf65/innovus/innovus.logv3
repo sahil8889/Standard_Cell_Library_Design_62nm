@@ -1,0 +1,456 @@
+[12/04 12:47:29      0s] 
+[12/04 12:47:29      0s] Cadence Innovus(TM) Implementation System.
+[12/04 12:47:29      0s] Copyright 2017 Cadence Design Systems, Inc. All rights reserved worldwide.
+[12/04 12:47:29      0s] 
+[12/04 12:47:29      0s] Version:	v17.10-p006_1, built Wed May 31 11:06:15 PDT 2017
+[12/04 12:47:29      0s] Options:	
+[12/04 12:47:29      0s] Date:		Wed Dec  4 12:47:29 2024
+[12/04 12:47:29      0s] Host:		engnx03a.utdallas.edu (x86_64 w/Linux 3.10.0-1160.119.1.el7.x86_64) (8cores*32cpus*AMD EPYC 7F32 8-Core Processor 512KB)
+[12/04 12:47:29      0s] OS:		Red Hat Enterprise Linux Server release 7.9 (Maipo)
+[12/04 12:47:29      0s] 
+[12/04 12:47:29      0s] License:
+[12/04 12:47:30      0s] 		invs	Innovus Implementation System	17.1	checkout succeeded
+[12/04 12:47:30      0s] 		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+[12/04 12:47:37      7s] @(#)CDS: Innovus v17.10-p006_1 (64bit) 05/31/2017 11:06 (Linux 2.6.18-194.el5)
+[12/04 12:47:37      7s] @(#)CDS: NanoRoute 17.10-p006_1 NR170516-1601/17_10-UB (database version 2.30, 378.7.1) {superthreading v1.44}
+[12/04 12:47:37      7s] @(#)CDS: AAE 17.10-p003 (64bit) 05/31/2017 (Linux 2.6.18-194.el5)
+[12/04 12:47:37      7s] @(#)CDS: CTE 17.10-p002_1 () May 18 2017 07:46:32 ( )
+[12/04 12:47:37      7s] @(#)CDS: SYNTECH 17.10-p001_1 () May 17 2017 01:24:45 ( )
+[12/04 12:47:37      7s] @(#)CDS: CPE v17.10-p003
+[12/04 12:47:37      7s] @(#)CDS: IQRC/TQRC 16.1.1-s140 (64bit) Fri Mar 17 16:46:12 PDT 2017 (Linux 2.6.18-194.el5)
+[12/04 12:47:37      7s] @(#)CDS: OA 22.50-p063 Fri Feb  3 19:45:13 2017
+[12/04 12:47:37      7s] @(#)CDS: SGN 10.10-p124 (19-Aug-2014) (64 bit executable)
+[12/04 12:47:37      7s] @(#)CDS: RCDB 11.10
+[12/04 12:47:37      7s] --- Running on engnx03a.utdallas.edu (x86_64 w/Linux 3.10.0-1160.119.1.el7.x86_64) (8cores*32cpus*AMD EPYC 7F32 8-Core Processor 512KB) ---
+[12/04 12:47:37      7s] Create and set the environment variable TMPDIR to /usr/tmp/innovus_temp_14247_engnx03a.utdallas.edu_sxv240035_gR2ulA.
+
+[12/04 12:47:37      7s] Change the soft stacksize limit to 0.2%RAM (514 mbytes). Set global soft_stack_size_limit to change the value.
+[12/04 12:47:37      7s] 
+[12/04 12:47:37      7s] **INFO:  MMMC transition support version v31-84 
+[12/04 12:47:37      7s] 
+[12/04 12:47:37      7s] <CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+[12/04 12:47:37      7s] <CMD> suppressMessage ENCEXT-2799
+[12/04 12:47:38      7s] <CMD> getDrawView
+[12/04 12:47:38      7s] <CMD> loadWorkspace -name Physical
+[12/04 12:47:38      7s] <CMD> win
+[12/04 12:50:28     18s] <CMD> set init_gnd_net GND!
+[12/04 12:50:28     18s] <CMD> set init_lef_file gf62.lef
+[12/04 12:50:28     18s] <CMD> set init_design_settop 0
+[12/04 12:50:28     18s] <CMD> set init_verilog ../synthesis.v
+[12/04 12:50:28     18s] <CMD> set init_pwr_net VDD!
+[12/04 12:50:28     18s] <CMD> init_design
+[12/04 12:50:28     18s] 
+[12/04 12:50:28     18s] Loading LEF file gf62.lef ...
+[12/04 12:50:28     18s] WARNING (LEFPARS-2007): NAMESCASESENSITIVE statement is obsolete in version 5.6 and later.
+[12/04 12:50:28     18s] The LEF parser will ignore this statement.
+[12/04 12:50:28     18s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file gf62.lef at line 1.
+[12/04 12:50:28     18s] WARNING (LEFPARS-2077): A SPACING SAMENET section is defined but it is not legal in a LEF 5.7 version file.
+[12/04 12:50:28     18s] It will be ignored which will probably cause real DRC violations to be ignored, and may
+[12/04 12:50:28     18s] cause false DRC violations to occur.
+[12/04 12:50:28     18s] 
+[12/04 12:50:28     18s] To avoid this warning, and correctly handle these DRC rules, you should modify your
+[12/04 12:50:28     18s] LEF to use the appropriate SAMENET keywords as described in the LEF/DEF 5.7
+[12/04 12:50:28     18s] manual under the SPACING statements in the LAYER (Routing) and LAYER (Cut)
+[12/04 12:50:28     18s] sections listed in the LEF Table of Contents. See file gf62.lef at line 114.
+[12/04 12:50:28     18s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[12/04 12:50:28     18s] The LEF parser will ignore this statement.
+[12/04 12:50:28     18s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file gf62.lef at line 187.
+[12/04 12:50:28     18s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file gf62.lef at line 188.
+[12/04 12:50:28     18s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[12/04 12:50:28     18s] The LEF parser will ignore this statement.
+[12/04 12:50:28     18s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file gf62.lef at line 189.
+[12/04 12:50:28     18s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[12/04 12:50:28     18s] The LEF parser will ignore this statement.
+[12/04 12:50:28     18s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file gf62.lef at line 191.
+[12/04 12:50:28     18s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file gf62.lef at line 192.
+[12/04 12:50:28     18s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[12/04 12:50:28     18s] The LEF parser will ignore this statement.
+[12/04 12:50:28     18s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file gf62.lef at line 193.
+[12/04 12:50:28     18s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[12/04 12:50:28     18s] The LEF parser will ignore this statement.
+[12/04 12:50:28     18s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file gf62.lef at line 202.
+[12/04 12:50:28     18s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file gf62.lef at line 203.
+[12/04 12:50:28     18s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[12/04 12:50:28     18s] The LEF parser will ignore this statement.
+[12/04 12:50:28     18s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file gf62.lef at line 204.
+[12/04 12:50:28     18s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[12/04 12:50:28     18s] The LEF parser will ignore this statement.
+[12/04 12:50:28     18s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file gf62.lef at line 206.
+[12/04 12:50:28     18s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file gf62.lef at line 207.
+[12/04 12:50:28     18s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[12/04 12:50:28     18s] The LEF parser will ignore this statement.
+[12/04 12:50:28     18s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file gf62.lef at line 208.
+[12/04 12:50:28     18s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[12/04 12:50:28     18s] The LEF parser will ignore this statement.
+[12/04 12:50:28     18s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file gf62.lef at line 217.
+[12/04 12:50:28     18s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file gf62.lef at line 218.
+[12/04 12:50:28     18s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[12/04 12:50:28     18s] The LEF parser will ignore this statement.
+[12/04 12:50:28     18s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file gf62.lef at line 219.
+[12/04 12:50:28     18s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[12/04 12:50:28     18s] The LEF parser will ignore this statement.
+[12/04 12:50:28     18s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file gf62.lef at line 221.
+[12/04 12:50:28     18s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file gf62.lef at line 222.
+[12/04 12:50:28     18s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[12/04 12:50:28     18s] The LEF parser will ignore this statement.
+[12/04 12:50:28     18s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file gf62.lef at line 223.
+[12/04 12:50:28     18s] Set DBUPerIGU to M2 pitch 260.
+[12/04 12:50:28     18s] 
+[12/04 12:50:28     18s] viaInitial starts at Wed Dec  4 12:50:28 2024
+viaInitial ends at Wed Dec  4 12:50:28 2024
+*** End library_loading (cpu=0.00min, real=0.00min, mem=0.0M, fe_cpu=0.31min, fe_real=2.98min, fe_mem=533.2M) ***
+[12/04 12:50:28     18s] #% Begin Load netlist data ... (date=12/04 12:50:28, mem=499.2M)
+[12/04 12:50:28     18s] *** Begin netlist parsing (mem=533.2M) ***
+[12/04 12:50:28     18s] Created 0 new cells from 0 timing libraries.
+[12/04 12:50:28     18s] Reading netlist ...
+[12/04 12:50:28     18s] Backslashed names will retain backslash and a trailing blank character.
+[12/04 12:50:28     18s] Warning: fterm d of cell dff is not defined in lef file,
+[12/04 12:50:28     18s]          but D is defined in lef file and is used in this
+[12/04 12:50:28     18s]          case.  Please check lef file to make it consistent.
+[12/04 12:50:28     18s] **WARN: (IMPDB-2079):	fterm gclk of cell dff is not defined in LEF.
+[12/04 12:50:28     18s] **WARN: (IMPDB-2079):	fterm rnot of cell dff is not defined in LEF.
+[12/04 12:50:28     18s] Warning: fterm q of cell dff is not defined in lef file,
+[12/04 12:50:28     18s]          but Q is defined in lef file and is used in this
+[12/04 12:50:28     18s]          case.  Please check lef file to make it consistent.
+[12/04 12:50:28     18s] Reading verilog netlist '../synthesis.v'
+[12/04 12:50:28     18s] **ERROR: (IMPVL-209):	In Verilog file '../synthesis.v', check line 882 near the text ) for the issue: 'undefined instance port'.  Update the text accordingly.
+[12/04 12:50:28     18s] Type 'man IMPVL-209' for more detail.
+[12/04 12:50:28     18s] **ERROR: (IMPVL-355):	Port 'D' in the port connection list of instance '\result_1_reg[15] ' of module 'dff' is not defined.  Check and correct the port name, or define the port in the module definition.
+[12/04 12:50:28     18s] **ERROR: (IMPVL-209):	In Verilog file '../synthesis.v', check line 882 near the text ) for the issue: 'undefined instance port'.  Update the text accordingly.
+[12/04 12:50:28     18s] Type 'man IMPVL-209' for more detail.
+[12/04 12:50:28     18s] **ERROR: (IMPVL-355):	Port 'CLK' in the port connection list of instance '\result_1_reg[15] ' of module 'dff' is not defined.  Check and correct the port name, or define the port in the module definition.
+[12/04 12:50:28     18s] **ERROR: (IMPVL-209):	In Verilog file '../synthesis.v', check line 882 near the text ) for the issue: 'undefined instance port'.  Update the text accordingly.
+[12/04 12:50:28     18s] Type 'man IMPVL-209' for more detail.
+[12/04 12:50:28     18s] **ERROR: (IMPVL-355):	Port 'R' in the port connection list of instance '\result_1_reg[15] ' of module 'dff' is not defined.  Check and correct the port name, or define the port in the module definition.
+[12/04 12:50:28     18s] **ERROR: (IMPVL-209):	In Verilog file '../synthesis.v', check line 882 near the text ) for the issue: 'undefined instance port'.  Update the text accordingly.
+[12/04 12:50:28     18s] Type 'man IMPVL-209' for more detail.
+[12/04 12:50:28     18s] **ERROR: (IMPVL-355):	Port 'Q' in the port connection list of instance '\result_1_reg[15] ' of module 'dff' is not defined.  Check and correct the port name, or define the port in the module definition.
+[12/04 12:50:28     18s] **ERROR: (IMPVL-209):	In Verilog file '../synthesis.v', check line 883 near the text ) for the issue: 'undefined instance port'.  Update the text accordingly.
+[12/04 12:50:28     18s] Type 'man IMPVL-209' for more detail.
+[12/04 12:50:28     18s] **ERROR: (IMPVL-355):	Port 'D' in the port connection list of instance '\result_1_reg[14] ' of module 'dff' is not defined.  Check and correct the port name, or define the port in the module definition.
+[12/04 12:50:28     18s] **ERROR: (IMPVL-209):	In Verilog file '../synthesis.v', check line 883 near the text ) for the issue: 'undefined instance port'.  Update the text accordingly.
+[12/04 12:50:28     18s] Type 'man IMPVL-209' for more detail.
+[12/04 12:50:28     18s] **ERROR: (IMPVL-355):	Port 'CLK' in the port connection list of instance '\result_1_reg[14] ' of module 'dff' is not defined.  Check and correct the port name, or define the port in the module definition.
+[12/04 12:50:28     18s] **ERROR: (IMPVL-209):	In Verilog file '../synthesis.v', check line 883 near the text ) for the issue: 'undefined instance port'.  Update the text accordingly.
+[12/04 12:50:28     18s] Type 'man IMPVL-209' for more detail.
+[12/04 12:50:28     18s] **ERROR: (IMPVL-355):	Port 'R' in the port connection list of instance '\result_1_reg[14] ' of module 'dff' is not defined.  Check and correct the port name, or define the port in the module definition.
+[12/04 12:50:28     18s] **ERROR: (IMPVL-209):	In Verilog file '../synthesis.v', check line 883 near the text ) for the issue: 'undefined instance port'.  Update the text accordingly.
+[12/04 12:50:28     18s] Type 'man IMPVL-209' for more detail.
+[12/04 12:50:28     18s] **ERROR: (IMPVL-355):	Port 'Q' in the port connection list of instance '\result_1_reg[14] ' of module 'dff' is not defined.  Check and correct the port name, or define the port in the module definition.
+[12/04 12:50:28     18s] **ERROR: (IMPVL-209):	In Verilog file '../synthesis.v', check line 884 near the text ) for the issue: 'undefined instance port'.  Update the text accordingly.
+[12/04 12:50:28     18s] Type 'man IMPVL-209' for more detail.
+[12/04 12:50:28     18s] **ERROR: (IMPVL-355):	Port 'D' in the port connection list of instance '\result_1_reg[13] ' of module 'dff' is not defined.  Check and correct the port name, or define the port in the module definition.
+[12/04 12:50:28     18s] **ERROR: (IMPVL-209):	In Verilog file '../synthesis.v', check line 884 near the text ) for the issue: 'undefined instance port'.  Update the text accordingly.
+[12/04 12:50:28     18s] Type 'man IMPVL-209' for more detail.
+[12/04 12:50:28     18s] **ERROR: (IMPVL-355):	Port 'CLK' in the port connection list of instance '\result_1_reg[13] ' of module 'dff' is not defined.  Check and correct the port name, or define the port in the module definition.
+[12/04 12:50:28     18s] **ERROR: (IMPVL-209):	In Verilog file '../synthesis.v', check line 884 near the text ) for the issue: 'undefined instance port'.  Update the text accordingly.
+[12/04 12:50:28     18s] Type 'man IMPVL-209' for more detail.
+[12/04 12:50:28     18s] **ERROR: (IMPVL-355):	Port 'R' in the port connection list of instance '\result_1_reg[13] ' of module 'dff' is not defined.  Check and correct the port name, or define the port in the module definition.
+[12/04 12:50:28     18s] **ERROR: (IMPVL-209):	In Verilog file '../synthesis.v', check line 884 near the text ) for the issue: 'undefined instance port'.  Update the text accordingly.
+[12/04 12:50:28     18s] Type 'man IMPVL-209' for more detail.
+[12/04 12:50:28     18s] **ERROR: (IMPVL-355):	Port 'Q' in the port connection list of instance '\result_1_reg[13] ' of module 'dff' is not defined.  Check and correct the port name, or define the port in the module definition.
+[12/04 12:50:28     18s] **ERROR: (IMPVL-209):	In Verilog file '../synthesis.v', check line 885 near the text ) for the issue: 'undefined instance port'.  Update the text accordingly.
+[12/04 12:50:28     18s] Type 'man IMPVL-209' for more detail.
+[12/04 12:50:28     18s] **ERROR: (IMPVL-355):	Port 'D' in the port connection list of instance '\result_1_reg[12] ' of module 'dff' is not defined.  Check and correct the port name, or define the port in the module definition.
+[12/04 12:50:28     18s] **ERROR: (IMPVL-209):	In Verilog file '../synthesis.v', check line 885 near the text ) for the issue: 'undefined instance port'.  Update the text accordingly.
+[12/04 12:50:28     18s] Type 'man IMPVL-209' for more detail.
+[12/04 12:50:28     18s] **ERROR: (IMPVL-355):	Port 'CLK' in the port connection list of instance '\result_1_reg[12] ' of module 'dff' is not defined.  Check and correct the port name, or define the port in the module definition.
+[12/04 12:50:28     18s] **ERROR: (IMPVL-209):	In Verilog file '../synthesis.v', check line 885 near the text ) for the issue: 'undefined instance port'.  Update the text accordingly.
+[12/04 12:50:28     18s] Type 'man IMPVL-209' for more detail.
+[12/04 12:50:28     18s] **ERROR: (IMPVL-355):	Port 'R' in the port connection list of instance '\result_1_reg[12] ' of module 'dff' is not defined.  Check and correct the port name, or define the port in the module definition.
+[12/04 12:50:28     18s] **ERROR: (IMPVL-209):	In Verilog file '../synthesis.v', check line 885 near the text ) for the issue: 'undefined instance port'.  Update the text accordingly.
+[12/04 12:50:28     18s] Type 'man IMPVL-209' for more detail.
+[12/04 12:50:28     18s] **ERROR: (IMPVL-355):	Port 'Q' in the port connection list of instance '\result_1_reg[12] ' of module 'dff' is not defined.  Check and correct the port name, or define the port in the module definition.
+[12/04 12:50:28     18s] **ERROR: (IMPVL-209):	In Verilog file '../synthesis.v', check line 886 near the text ) for the issue: 'undefined instance port'.  Update the text accordingly.
+[12/04 12:50:28     18s] Type 'man IMPVL-209' for more detail.
+[12/04 12:50:28     18s] **ERROR: (IMPVL-355):	Port 'D' in the port connection list of instance '\result_1_reg[11] ' of module 'dff' is not defined.  Check and correct the port name, or define the port in the module definition.
+[12/04 12:50:28     18s] **ERROR: (IMPVL-209):	In Verilog file '../synthesis.v', check line 886 near the text ) for the issue: 'undefined instance port'.  Update the text accordingly.
+[12/04 12:50:28     18s] Type 'man IMPVL-209' for more detail.
+[12/04 12:50:28     18s] **ERROR: (IMPVL-355):	Port 'CLK' in the port connection list of instance '\result_1_reg[11] ' of module 'dff' is not defined.  Check and correct the port name, or define the port in the module definition.
+[12/04 12:50:28     18s] **ERROR: (IMPVL-209):	In Verilog file '../synthesis.v', check line 886 near the text ) for the issue: 'undefined instance port'.  Update the text accordingly.
+[12/04 12:50:28     18s] Type 'man IMPVL-209' for more detail.
+[12/04 12:50:28     18s] **ERROR: (IMPVL-355):	Port 'R' in the port connection list of instance '\result_1_reg[11] ' of module 'dff' is not defined.  Check and correct the port name, or define the port in the module definition.
+[12/04 12:50:28     18s] **ERROR: (IMPVL-209):	In Verilog file '../synthesis.v', check line 886 near the text ) for the issue: 'undefined instance port'.  Update the text accordingly.
+[12/04 12:50:28     18s] Type 'man IMPVL-209' for more detail.
+[12/04 12:50:28     18s] **ERROR: (IMPVL-355):	Port 'Q' in the port connection list of instance '\result_1_reg[11] ' of module 'dff' is not defined.  Check and correct the port name, or define the port in the module definition.
+[12/04 12:50:28     18s] **WARN: (EMS-27):	Message (IMPVL-209) has exceeded the current message display limit of 20.
+[12/04 12:50:28     18s] To increase the message display limit, refer to the product command reference manual.
+[12/04 12:50:28     18s] **WARN: (EMS-27):	Message (IMPVL-355) has exceeded the current message display limit of 20.
+[12/04 12:50:28     18s] To increase the message display limit, refer to the product command reference manual.
+[12/04 12:50:28     18s] Verilog file '../synthesis.v' has errors!  See above.
+[12/04 12:50:28     18s] 
+[12/04 12:50:28     18s] *** Memory Usage v#1 (Current mem = 536.199M, initial mem = 179.605M) ***
+[12/04 12:50:28     18s] #% End Load netlist data ... (date=12/04 12:50:28, total cpu=0:00:00.0, real=0:00:00.0, peak res=502.9M, current mem=502.9M)
+[12/04 12:50:35     19s] **ERROR: **ERROR: (IMPVL-902):	Failed to read netlist ../synthesis.v. See previous error messages for details.  Resolve the issues and reload the design.
+[12/04 12:50:35     19s] 
+[12/04 12:55:52     32s] <CMD> set init_gnd_net GND!
+[12/04 12:55:52     32s] <CMD> set init_lef_file gf62.lef
+[12/04 12:55:52     32s] <CMD> set init_design_settop 0
+[12/04 12:55:52     32s] <CMD> set init_verilog ../synthesis.v
+[12/04 12:55:52     32s] <CMD> set init_pwr_net VDD!
+[12/04 12:55:52     32s] <CMD> init_design
+[12/04 12:55:52     32s] report_message: '-start_cmd/-end_cmd' can not be nested. Interior calls do nothing. Ignore.
+[12/04 12:55:52     32s] 
+[12/04 12:55:52     32s] Loading LEF file gf62.lef ...
+[12/04 12:55:52     32s] WARNING (LEFPARS-2007): NAMESCASESENSITIVE statement is obsolete in version 5.6 and later.
+[12/04 12:55:52     32s] The LEF parser will ignore this statement.
+[12/04 12:55:52     32s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file gf62.lef at line 1.
+[12/04 12:55:52     32s] **WARN: (IMPLF-119):	LAYER 'M1' has been found in the database. Its content except ANTENNA* data will be ignored.
+[12/04 12:55:52     32s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[12/04 12:55:52     32s] Type 'man IMPLF-119' for more detail.
+[12/04 12:55:52     32s] **WARN: (IMPLF-119):	LAYER 'V1' has been found in the database. Its content except ANTENNA* data will be ignored.
+[12/04 12:55:52     32s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[12/04 12:55:52     32s] Type 'man IMPLF-119' for more detail.
+[12/04 12:55:52     32s] **WARN: (IMPLF-119):	LAYER 'M2' has been found in the database. Its content except ANTENNA* data will be ignored.
+[12/04 12:55:52     32s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[12/04 12:55:52     32s] Type 'man IMPLF-119' for more detail.
+[12/04 12:55:52     32s] **WARN: (IMPLF-119):	LAYER 'V2' has been found in the database. Its content except ANTENNA* data will be ignored.
+[12/04 12:55:52     32s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[12/04 12:55:52     32s] Type 'man IMPLF-119' for more detail.
+[12/04 12:55:52     32s] **WARN: (IMPLF-119):	LAYER 'M3' has been found in the database. Its content except ANTENNA* data will be ignored.
+[12/04 12:55:52     32s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[12/04 12:55:52     32s] Type 'man IMPLF-119' for more detail.
+[12/04 12:55:52     32s] **WARN: (IMPLF-119):	LAYER 'V3' has been found in the database. Its content except ANTENNA* data will be ignored.
+[12/04 12:55:52     32s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[12/04 12:55:52     32s] Type 'man IMPLF-119' for more detail.
+[12/04 12:55:52     32s] **WARN: (IMPLF-119):	LAYER 'M4' has been found in the database. Its content except ANTENNA* data will be ignored.
+[12/04 12:55:52     32s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[12/04 12:55:52     32s] Type 'man IMPLF-119' for more detail.
+[12/04 12:55:52     32s] **WARN: (IMPLF-119):	LAYER 'V4' has been found in the database. Its content except ANTENNA* data will be ignored.
+[12/04 12:55:52     32s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[12/04 12:55:52     32s] Type 'man IMPLF-119' for more detail.
+[12/04 12:55:52     32s] **WARN: (IMPLF-119):	LAYER 'M5' has been found in the database. Its content except ANTENNA* data will be ignored.
+[12/04 12:55:52     32s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[12/04 12:55:52     32s] Type 'man IMPLF-119' for more detail.
+[12/04 12:55:52     32s] **WARN: (IMPLF-119):	LAYER 'V5' has been found in the database. Its content except ANTENNA* data will be ignored.
+[12/04 12:55:52     32s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[12/04 12:55:52     32s] Type 'man IMPLF-119' for more detail.
+[12/04 12:55:52     32s] **WARN: (IMPLF-119):	LAYER 'M6' has been found in the database. Its content except ANTENNA* data will be ignored.
+[12/04 12:55:52     32s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[12/04 12:55:52     32s] Type 'man IMPLF-119' for more detail.
+[12/04 12:55:52     32s] **WARN: (IMPLF-119):	LAYER 'OVERLAP' has been found in the database. Its content except ANTENNA* data will be ignored.
+[12/04 12:55:52     32s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[12/04 12:55:52     32s] Type 'man IMPLF-119' for more detail.
+[12/04 12:55:52     32s] WARNING (LEFPARS-2077): A SPACING SAMENET section is defined but it is not legal in a LEF 5.7 version file.
+[12/04 12:55:52     32s] It will be ignored which will probably cause real DRC violations to be ignored, and may
+[12/04 12:55:52     32s] cause false DRC violations to occur.
+[12/04 12:55:52     32s] 
+[12/04 12:55:52     32s] To avoid this warning, and correctly handle these DRC rules, you should modify your
+[12/04 12:55:52     32s] LEF to use the appropriate SAMENET keywords as described in the LEF/DEF 5.7
+[12/04 12:55:52     32s] manual under the SPACING statements in the LAYER (Routing) and LAYER (Cut)
+[12/04 12:55:52     32s] sections listed in the LEF Table of Contents. See file gf62.lef at line 114.
+[12/04 12:55:52     32s] **ERROR: (IMPLF-223):	The LEF via 'via5' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+[12/04 12:55:52     32s] Type 'man IMPLF-223' for more detail.
+[12/04 12:55:52     32s] **ERROR: (IMPLF-223):	The LEF via 'via4' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+[12/04 12:55:52     32s] Type 'man IMPLF-223' for more detail.
+[12/04 12:55:52     32s] **ERROR: (IMPLF-223):	The LEF via 'via3' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+[12/04 12:55:52     32s] Type 'man IMPLF-223' for more detail.
+[12/04 12:55:52     32s] **ERROR: (IMPLF-223):	The LEF via 'via2' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+[12/04 12:55:52     32s] Type 'man IMPLF-223' for more detail.
+[12/04 12:55:52     32s] **ERROR: (IMPLF-223):	The LEF via 'via1' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+[12/04 12:55:52     32s] Type 'man IMPLF-223' for more detail.
+[12/04 12:55:52     32s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[12/04 12:55:52     32s] The LEF parser will ignore this statement.
+[12/04 12:55:52     32s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file gf62.lef at line 187.
+[12/04 12:55:52     32s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file gf62.lef at line 188.
+[12/04 12:55:52     32s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[12/04 12:55:52     32s] The LEF parser will ignore this statement.
+[12/04 12:55:52     32s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file gf62.lef at line 189.
+[12/04 12:55:52     32s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[12/04 12:55:52     32s] The LEF parser will ignore this statement.
+[12/04 12:55:52     32s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file gf62.lef at line 191.
+[12/04 12:55:52     32s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file gf62.lef at line 192.
+[12/04 12:55:52     32s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[12/04 12:55:52     32s] The LEF parser will ignore this statement.
+[12/04 12:55:52     32s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file gf62.lef at line 193.
+[12/04 12:55:52     32s] **WARN: (IMPLF-151):	The viaRule 'via1Array' has been defined, the content will be skipped.
+[12/04 12:55:52     32s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[12/04 12:55:52     32s] The LEF parser will ignore this statement.
+[12/04 12:55:52     32s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file gf62.lef at line 202.
+[12/04 12:55:52     32s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file gf62.lef at line 203.
+[12/04 12:55:52     32s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[12/04 12:55:52     32s] The LEF parser will ignore this statement.
+[12/04 12:55:52     32s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file gf62.lef at line 204.
+[12/04 12:55:52     32s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[12/04 12:55:52     32s] The LEF parser will ignore this statement.
+[12/04 12:55:52     32s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file gf62.lef at line 206.
+[12/04 12:55:52     32s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file gf62.lef at line 207.
+[12/04 12:55:52     32s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[12/04 12:55:52     32s] The LEF parser will ignore this statement.
+[12/04 12:55:52     32s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file gf62.lef at line 208.
+[12/04 12:55:52     32s] **WARN: (IMPLF-151):	The viaRule 'via2Array' has been defined, the content will be skipped.
+[12/04 12:55:52     32s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[12/04 12:55:52     32s] The LEF parser will ignore this statement.
+[12/04 12:55:52     32s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file gf62.lef at line 217.
+[12/04 12:55:52     32s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file gf62.lef at line 218.
+[12/04 12:55:52     32s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[12/04 12:55:52     32s] The LEF parser will ignore this statement.
+[12/04 12:55:52     32s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file gf62.lef at line 219.
+[12/04 12:55:52     32s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[12/04 12:55:52     32s] The LEF parser will ignore this statement.
+[12/04 12:55:52     32s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file gf62.lef at line 221.
+[12/04 12:55:52     32s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file gf62.lef at line 222.
+[12/04 12:55:52     32s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[12/04 12:55:52     32s] The LEF parser will ignore this statement.
+[12/04 12:55:52     32s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file gf62.lef at line 223.
+[12/04 12:55:52     32s] **WARN: (IMPLF-151):	The viaRule 'via3Array' has been defined, the content will be skipped.
+[12/04 12:55:52     32s] **WARN: (IMPLF-151):	The viaRule 'via4Array' has been defined, the content will be skipped.
+[12/04 12:55:52     32s] **WARN: (IMPLF-151):	The viaRule 'via5Array' has been defined, the content will be skipped.
+[12/04 12:55:52     32s] **WARN: (IMPLF-58):	MACRO 'AOI21' has been found in the database. Its content except DENSITY and PIN ANTENNA* data will be ignored.
+[12/04 12:55:52     32s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[12/04 12:55:52     32s] Type 'man IMPLF-58' for more detail.
+[12/04 12:55:52     32s] **WARN: (IMPLF-58):	MACRO 'AOI22' has been found in the database. Its content except DENSITY and PIN ANTENNA* data will be ignored.
+[12/04 12:55:52     32s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[12/04 12:55:52     32s] Type 'man IMPLF-58' for more detail.
+[12/04 12:55:52     32s] **WARN: (IMPLF-58):	MACRO 'Filler' has been found in the database. Its content except DENSITY and PIN ANTENNA* data will be ignored.
+[12/04 12:55:52     32s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[12/04 12:55:52     32s] Type 'man IMPLF-58' for more detail.
+[12/04 12:55:52     32s] **WARN: (IMPLF-58):	MACRO 'MUX21' has been found in the database. Its content except DENSITY and PIN ANTENNA* data will be ignored.
+[12/04 12:55:52     32s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[12/04 12:55:52     32s] Type 'man IMPLF-58' for more detail.
+[12/04 12:55:52     32s] **WARN: (IMPLF-58):	MACRO 'Merged_Cell' has been found in the database. Its content except DENSITY and PIN ANTENNA* data will be ignored.
+[12/04 12:55:52     32s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[12/04 12:55:52     32s] Type 'man IMPLF-58' for more detail.
+[12/04 12:55:52     32s] **WARN: (IMPLF-58):	MACRO 'NAND2' has been found in the database. Its content except DENSITY and PIN ANTENNA* data will be ignored.
+[12/04 12:55:52     32s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[12/04 12:55:52     32s] Type 'man IMPLF-58' for more detail.
+[12/04 12:55:52     32s] **WARN: (IMPLF-58):	MACRO 'NAND3' has been found in the database. Its content except DENSITY and PIN ANTENNA* data will be ignored.
+[12/04 12:55:52     32s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[12/04 12:55:52     32s] Type 'man IMPLF-58' for more detail.
+[12/04 12:55:52     32s] **WARN: (IMPLF-58):	MACRO 'NAND4' has been found in the database. Its content except DENSITY and PIN ANTENNA* data will be ignored.
+[12/04 12:55:52     32s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[12/04 12:55:52     32s] Type 'man IMPLF-58' for more detail.
+[12/04 12:55:52     32s] **WARN: (IMPLF-58):	MACRO 'NOR2' has been found in the database. Its content except DENSITY and PIN ANTENNA* data will be ignored.
+[12/04 12:55:52     32s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[12/04 12:55:52     32s] Type 'man IMPLF-58' for more detail.
+[12/04 12:55:52     32s] **WARN: (IMPLF-58):	MACRO 'NOR3' has been found in the database. Its content except DENSITY and PIN ANTENNA* data will be ignored.
+[12/04 12:55:52     32s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[12/04 12:55:52     32s] Type 'man IMPLF-58' for more detail.
+[12/04 12:55:52     32s] **WARN: (IMPLF-58):	MACRO 'OAI21' has been found in the database. Its content except DENSITY and PIN ANTENNA* data will be ignored.
+[12/04 12:55:52     32s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[12/04 12:55:52     32s] Type 'man IMPLF-58' for more detail.
+[12/04 12:55:52     32s] **WARN: (IMPLF-58):	MACRO 'OAI22' has been found in the database. Its content except DENSITY and PIN ANTENNA* data will be ignored.
+[12/04 12:55:52     32s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[12/04 12:55:52     32s] Type 'man IMPLF-58' for more detail.
+[12/04 12:55:52     32s] **WARN: (IMPLF-58):	MACRO 'Tri_INV' has been found in the database. Its content except DENSITY and PIN ANTENNA* data will be ignored.
+[12/04 12:55:52     32s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[12/04 12:55:52     32s] Type 'man IMPLF-58' for more detail.
+[12/04 12:55:52     32s] **WARN: (IMPLF-58):	MACRO 'XOR2' has been found in the database. Its content except DENSITY and PIN ANTENNA* data will be ignored.
+[12/04 12:55:52     32s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[12/04 12:55:52     32s] Type 'man IMPLF-58' for more detail.
+[12/04 12:55:52     32s] **WARN: (IMPLF-58):	MACRO 'dff' has been found in the database. Its content except DENSITY and PIN ANTENNA* data will be ignored.
+[12/04 12:55:52     32s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[12/04 12:55:52     32s] Type 'man IMPLF-58' for more detail.
+[12/04 12:55:52     32s] **WARN: (IMPLF-58):	MACRO 'inverter' has been found in the database. Its content except DENSITY and PIN ANTENNA* data will be ignored.
+[12/04 12:55:52     32s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[12/04 12:55:52     32s] Type 'man IMPLF-58' for more detail.
+[12/04 12:55:52     32s] **WARN: (IMPLF-61):	16 duplicated MACRO definitions have been found in the LEF file(s). Their content except DENSITY and PIN ANTENNA* data have been ignored.
+[12/04 12:55:52     32s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[12/04 12:55:52     32s] Type 'man IMPLF-61' for more detail.
+[12/04 12:55:52     32s] *** End library_loading (cpu=0.00min, real=0.00min, mem=0.0M, fe_cpu=0.55min, fe_real=8.38min, fe_mem=537.2M) ***
+[12/04 12:55:52     32s] #% Begin Load netlist data ... (date=12/04 12:55:52, mem=506.2M)
+[12/04 12:55:52     32s] *** Begin netlist parsing (mem=537.2M) ***
+[12/04 12:55:52     32s] Created 0 new cells from 0 timing libraries.
+[12/04 12:55:52     32s] Reading netlist ...
+[12/04 12:55:52     32s] Backslashed names will retain backslash and a trailing blank character.
+[12/04 12:55:52     32s] Warning: fterm d of cell dff is not defined in lef file,
+[12/04 12:55:52     32s]          but D is defined in lef file and is used in this
+[12/04 12:55:52     32s]          case.  Please check lef file to make it consistent.
+[12/04 12:55:52     32s] Warning: fterm clk of cell dff is not defined in lef file,
+[12/04 12:55:52     32s]          but CLK is defined in lef file and is used in this
+[12/04 12:55:52     32s]          case.  Please check lef file to make it consistent.
+[12/04 12:55:52     32s] Warning: fterm r of cell dff is not defined in lef file,
+[12/04 12:55:52     32s]          but R is defined in lef file and is used in this
+[12/04 12:55:52     32s]          case.  Please check lef file to make it consistent.
+[12/04 12:55:52     32s] Warning: fterm q of cell dff is not defined in lef file,
+[12/04 12:55:52     32s]          but Q is defined in lef file and is used in this
+[12/04 12:55:52     32s]          case.  Please check lef file to make it consistent.
+[12/04 12:55:52     32s] Reading verilog netlist '../synthesis.v'
+[12/04 12:55:52     32s] **ERROR: (IMPVL-209):	In Verilog file '../synthesis.v', check line 882 near the text ) for the issue: 'undefined instance port'.  Update the text accordingly.
+[12/04 12:55:52     32s] Type 'man IMPVL-209' for more detail.
+[12/04 12:55:52     32s] **ERROR: (IMPVL-355):	Port 'D' in the port connection list of instance '\result_1_reg[15] ' of module 'dff' is not defined.  Check and correct the port name, or define the port in the module definition.
+[12/04 12:55:52     32s] **ERROR: (IMPVL-209):	In Verilog file '../synthesis.v', check line 882 near the text ) for the issue: 'undefined instance port'.  Update the text accordingly.
+[12/04 12:55:52     32s] Type 'man IMPVL-209' for more detail.
+[12/04 12:55:52     32s] **ERROR: (IMPVL-355):	Port 'CLK' in the port connection list of instance '\result_1_reg[15] ' of module 'dff' is not defined.  Check and correct the port name, or define the port in the module definition.
+[12/04 12:55:52     32s] **ERROR: (IMPVL-209):	In Verilog file '../synthesis.v', check line 882 near the text ) for the issue: 'undefined instance port'.  Update the text accordingly.
+[12/04 12:55:52     32s] Type 'man IMPVL-209' for more detail.
+[12/04 12:55:52     32s] **ERROR: (IMPVL-355):	Port 'R' in the port connection list of instance '\result_1_reg[15] ' of module 'dff' is not defined.  Check and correct the port name, or define the port in the module definition.
+[12/04 12:55:52     32s] **ERROR: (IMPVL-209):	In Verilog file '../synthesis.v', check line 882 near the text ) for the issue: 'undefined instance port'.  Update the text accordingly.
+[12/04 12:55:52     32s] Type 'man IMPVL-209' for more detail.
+[12/04 12:55:52     32s] **ERROR: (IMPVL-355):	Port 'Q' in the port connection list of instance '\result_1_reg[15] ' of module 'dff' is not defined.  Check and correct the port name, or define the port in the module definition.
+[12/04 12:55:52     32s] **ERROR: (IMPVL-209):	In Verilog file '../synthesis.v', check line 883 near the text ) for the issue: 'undefined instance port'.  Update the text accordingly.
+[12/04 12:55:52     32s] Type 'man IMPVL-209' for more detail.
+[12/04 12:55:52     32s] **ERROR: (IMPVL-355):	Port 'D' in the port connection list of instance '\result_1_reg[14] ' of module 'dff' is not defined.  Check and correct the port name, or define the port in the module definition.
+[12/04 12:55:52     32s] **ERROR: (IMPVL-209):	In Verilog file '../synthesis.v', check line 883 near the text ) for the issue: 'undefined instance port'.  Update the text accordingly.
+[12/04 12:55:52     32s] Type 'man IMPVL-209' for more detail.
+[12/04 12:55:52     32s] **ERROR: (IMPVL-355):	Port 'CLK' in the port connection list of instance '\result_1_reg[14] ' of module 'dff' is not defined.  Check and correct the port name, or define the port in the module definition.
+[12/04 12:55:52     32s] **ERROR: (IMPVL-209):	In Verilog file '../synthesis.v', check line 883 near the text ) for the issue: 'undefined instance port'.  Update the text accordingly.
+[12/04 12:55:52     32s] Type 'man IMPVL-209' for more detail.
+[12/04 12:55:52     32s] **ERROR: (IMPVL-355):	Port 'R' in the port connection list of instance '\result_1_reg[14] ' of module 'dff' is not defined.  Check and correct the port name, or define the port in the module definition.
+[12/04 12:55:52     32s] **ERROR: (IMPVL-209):	In Verilog file '../synthesis.v', check line 883 near the text ) for the issue: 'undefined instance port'.  Update the text accordingly.
+[12/04 12:55:52     32s] Type 'man IMPVL-209' for more detail.
+[12/04 12:55:52     32s] **ERROR: (IMPVL-355):	Port 'Q' in the port connection list of instance '\result_1_reg[14] ' of module 'dff' is not defined.  Check and correct the port name, or define the port in the module definition.
+[12/04 12:55:52     32s] **ERROR: (IMPVL-209):	In Verilog file '../synthesis.v', check line 884 near the text ) for the issue: 'undefined instance port'.  Update the text accordingly.
+[12/04 12:55:52     32s] Type 'man IMPVL-209' for more detail.
+[12/04 12:55:52     32s] **ERROR: (IMPVL-355):	Port 'D' in the port connection list of instance '\result_1_reg[13] ' of module 'dff' is not defined.  Check and correct the port name, or define the port in the module definition.
+[12/04 12:55:52     32s] **ERROR: (IMPVL-209):	In Verilog file '../synthesis.v', check line 884 near the text ) for the issue: 'undefined instance port'.  Update the text accordingly.
+[12/04 12:55:52     32s] Type 'man IMPVL-209' for more detail.
+[12/04 12:55:52     32s] **ERROR: (IMPVL-355):	Port 'CLK' in the port connection list of instance '\result_1_reg[13] ' of module 'dff' is not defined.  Check and correct the port name, or define the port in the module definition.
+[12/04 12:55:52     32s] **ERROR: (IMPVL-209):	In Verilog file '../synthesis.v', check line 884 near the text ) for the issue: 'undefined instance port'.  Update the text accordingly.
+[12/04 12:55:52     32s] Type 'man IMPVL-209' for more detail.
+[12/04 12:55:52     32s] **ERROR: (IMPVL-355):	Port 'R' in the port connection list of instance '\result_1_reg[13] ' of module 'dff' is not defined.  Check and correct the port name, or define the port in the module definition.
+[12/04 12:55:52     32s] **ERROR: (IMPVL-209):	In Verilog file '../synthesis.v', check line 884 near the text ) for the issue: 'undefined instance port'.  Update the text accordingly.
+[12/04 12:55:52     32s] Type 'man IMPVL-209' for more detail.
+[12/04 12:55:52     32s] **ERROR: (IMPVL-355):	Port 'Q' in the port connection list of instance '\result_1_reg[13] ' of module 'dff' is not defined.  Check and correct the port name, or define the port in the module definition.
+[12/04 12:55:52     32s] **ERROR: (IMPVL-209):	In Verilog file '../synthesis.v', check line 885 near the text ) for the issue: 'undefined instance port'.  Update the text accordingly.
+[12/04 12:55:52     32s] Type 'man IMPVL-209' for more detail.
+[12/04 12:55:52     32s] **ERROR: (IMPVL-355):	Port 'D' in the port connection list of instance '\result_1_reg[12] ' of module 'dff' is not defined.  Check and correct the port name, or define the port in the module definition.
+[12/04 12:55:52     32s] **ERROR: (IMPVL-209):	In Verilog file '../synthesis.v', check line 885 near the text ) for the issue: 'undefined instance port'.  Update the text accordingly.
+[12/04 12:55:52     32s] Type 'man IMPVL-209' for more detail.
+[12/04 12:55:52     32s] **ERROR: (IMPVL-355):	Port 'CLK' in the port connection list of instance '\result_1_reg[12] ' of module 'dff' is not defined.  Check and correct the port name, or define the port in the module definition.
+[12/04 12:55:52     32s] **ERROR: (IMPVL-209):	In Verilog file '../synthesis.v', check line 885 near the text ) for the issue: 'undefined instance port'.  Update the text accordingly.
+[12/04 12:55:52     32s] Type 'man IMPVL-209' for more detail.
+[12/04 12:55:52     32s] **ERROR: (IMPVL-355):	Port 'R' in the port connection list of instance '\result_1_reg[12] ' of module 'dff' is not defined.  Check and correct the port name, or define the port in the module definition.
+[12/04 12:55:52     32s] **ERROR: (IMPVL-209):	In Verilog file '../synthesis.v', check line 885 near the text ) for the issue: 'undefined instance port'.  Update the text accordingly.
+[12/04 12:55:52     32s] Type 'man IMPVL-209' for more detail.
+[12/04 12:55:52     32s] **ERROR: (IMPVL-355):	Port 'Q' in the port connection list of instance '\result_1_reg[12] ' of module 'dff' is not defined.  Check and correct the port name, or define the port in the module definition.
+[12/04 12:55:52     32s] **ERROR: (IMPVL-209):	In Verilog file '../synthesis.v', check line 886 near the text ) for the issue: 'undefined instance port'.  Update the text accordingly.
+[12/04 12:55:52     32s] Type 'man IMPVL-209' for more detail.
+[12/04 12:55:52     32s] **ERROR: (IMPVL-355):	Port 'D' in the port connection list of instance '\result_1_reg[11] ' of module 'dff' is not defined.  Check and correct the port name, or define the port in the module definition.
+[12/04 12:55:52     32s] **ERROR: (IMPVL-209):	In Verilog file '../synthesis.v', check line 886 near the text ) for the issue: 'undefined instance port'.  Update the text accordingly.
+[12/04 12:55:52     32s] Type 'man IMPVL-209' for more detail.
+[12/04 12:55:52     32s] **ERROR: (IMPVL-355):	Port 'CLK' in the port connection list of instance '\result_1_reg[11] ' of module 'dff' is not defined.  Check and correct the port name, or define the port in the module definition.
+[12/04 12:55:52     32s] **ERROR: (IMPVL-209):	In Verilog file '../synthesis.v', check line 886 near the text ) for the issue: 'undefined instance port'.  Update the text accordingly.
+[12/04 12:55:52     32s] Type 'man IMPVL-209' for more detail.
+[12/04 12:55:52     32s] **ERROR: (IMPVL-355):	Port 'R' in the port connection list of instance '\result_1_reg[11] ' of module 'dff' is not defined.  Check and correct the port name, or define the port in the module definition.
+[12/04 12:55:52     32s] **ERROR: (IMPVL-209):	In Verilog file '../synthesis.v', check line 886 near the text ) for the issue: 'undefined instance port'.  Update the text accordingly.
+[12/04 12:55:52     32s] Type 'man IMPVL-209' for more detail.
+[12/04 12:55:52     32s] **ERROR: (IMPVL-355):	Port 'Q' in the port connection list of instance '\result_1_reg[11] ' of module 'dff' is not defined.  Check and correct the port name, or define the port in the module definition.
+[12/04 12:55:52     32s] **WARN: (EMS-27):	Message (IMPVL-209) has exceeded the current message display limit of 20.
+[12/04 12:55:52     32s] To increase the message display limit, refer to the product command reference manual.
+[12/04 12:55:52     32s] **WARN: (EMS-27):	Message (IMPVL-355) has exceeded the current message display limit of 20.
+[12/04 12:55:52     32s] To increase the message display limit, refer to the product command reference manual.
+[12/04 12:55:52     32s] Verilog file '../synthesis.v' has errors!  See above.
+[12/04 12:55:52     32s] 
+[12/04 12:55:52     32s] *** Memory Usage v#1 (Current mem = 537.207M, initial mem = 179.605M) ***
+[12/04 12:55:52     32s] #% End Load netlist data ... (date=12/04 12:55:52, total cpu=0:00:00.0, real=0:00:00.0, peak res=506.2M, current mem=505.0M)
+[12/04 12:55:55     33s] **ERROR: **ERROR: (IMPVL-902):	Failed to read netlist ../synthesis.v. See previous error messages for details.  Resolve the issues and reload the design.
+[12/04 12:55:55     33s] 
+[12/04 12:58:09     38s] 
+[12/04 12:58:09     38s] *** Memory Usage v#1 (Current mem = 537.207M, initial mem = 179.605M) ***
+[12/04 12:58:09     38s] 
+[12/04 12:58:09     38s] *** Summary of all messages that are not suppressed in this session:
+[12/04 12:58:09     38s] Severity  ID               Count  Summary                                  
+[12/04 12:58:09     38s] WARNING   IMPLF-151            5  The viaRule '%s' has been defined, the c...
+[12/04 12:58:09     38s] WARNING   IMPLF-58            16  MACRO '%s' has been found in the databas...
+[12/04 12:58:09     38s] WARNING   IMPLF-61             1  %d duplicated MACRO definitions have bee...
+[12/04 12:58:09     38s] ERROR     IMPLF-223            5  The LEF via '%s' has been defined and fo...
+[12/04 12:58:09     38s] WARNING   IMPLF-119           12  LAYER '%s' has been found in the databas...
+[12/04 12:58:09     38s] ERROR     IMPSYT-6729          2  %s                                       
+[12/04 12:58:09     38s] ERROR     IMPVL-902            2  Failed to read netlist %s. See previous ...
+[12/04 12:58:09     38s] ERROR     IMPVL-209          384  In Verilog file '%s', check line %d near...
+[12/04 12:58:09     38s] ERROR     IMPVL-355          384  Port '%s' in the port connection list of...
+[12/04 12:58:09     38s] WARNING   IMPDB-2079           2  fterm %s of cell %s is not defined in LE...
+[12/04 12:58:09     38s] *** Message Summary: 36 warning(s), 777 error(s)
+[12/04 12:58:09     38s] 
+[12/04 12:58:09     38s] --- Ending "Innovus" (totcpu=0:00:38.3, real=0:10:40, mem=537.2M) ---

@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_LvsOutFile RUNDIR /home/011/n/ns/nss230004/cad/gf65/tutorial/inverter/inverter_DRC
+lvs_LvsfVersion 2
+lvs_LvsInputSummary {0 0 0}
+lvs_LvsComparisonSummary {3 0 0 0}
+lvs_LvsOutFile LVS_REPORT inverter.lvs.report
+lvs_LvsOutFile SOURCE_NETLIST /home/011/n/ns/nss230004/cad/gf65/tutorial/inverter/inverter_DRC/inverter.src.net
+lvs_LvsOutFile RULES_FILE /home/011/n/ns/nss230004/cad/gf65/tutorial/inverter/inverter_DRC/_Calibre_PEX_nom_rules_
+lvs_LvsRunTimes 1733213627 1733213627

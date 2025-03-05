@@ -1,0 +1,12 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1733447991 1733447992
+lvs_ExtOutFile RUNDIR /home/eng/s/sxv240035/cad/gf65/tutorial/DFF/LVS_dff
+lvs_ExtOutFile RULES_FILE /home/eng/s/sxv240035/cad/gf65/tutorial/DFF/LVS_dff/_Calibre_LVS_rules_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoErcSummary {11 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST /home/eng/s/sxv240035/cad/gf65/tutorial/DFF/LVS_dff/DFF.sp
+lvs_ExtOutFile EXTRACTION_REPORT DFF.lvs.report.ext
+lvs_ExtOutFile ERC_DATABASE DFF.erc.results
+lvs_ExtOutFile ERC_SUMMARY DFF.erc.summary

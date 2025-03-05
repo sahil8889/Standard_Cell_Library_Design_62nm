@@ -1,0 +1,32 @@
+* File: /home/eng/s/sxv240035/cad/gf65/inv_LVS/inv.pex.sp
+* Created: Thu Oct 10 13:03:02 2024
+* Program "Calibre xRC"
+* Version "v2013.2_18.13"
+* 
+.include "/home/eng/s/sxv240035/cad/gf65/inv_LVS/inv.pex.sp.pex"
+.subckt inv  GND! OUT VDD! IN
+* 
+* IN	IN
+* VDD!	VDD!
+* OUT	OUT
+* GND!	GND!
+XD0_noxref N_GND!_D0_noxref_pos N_VDD!_D0_noxref_neg DIODENWX  AREA=2.56922e-12
++ PERIM=7.066e-06
+XMMN0 N_OUT_MMN0_d N_IN_MMN0_g N_GND!_MMN0_s N_GND!_D0_noxref_pos NFET L=6.5e-08
++ W=1.7e-06 AD=3.451e-13 AS=3.944e-13 PD=3.806e-06 PS=3.864e-06 NRD=0.0817647
++ NRS=0.08 M=1 NF=1 CNR_SWITCH=1 PCCRIT=0 PAR=1 PTWELL=0 SA=2.32e-07 SB=2.03e-07
++ SD=0 PANW1=6.175e-15 PANW2=3.25e-15 PANW3=3.25e-15 PANW4=3.25e-15
++ PANW5=3.25e-15 PANW6=6.5e-15 PANW7=1.3e-14 PANW8=1.3e-14 PANW9=2.6e-14
++ PANW10=3.2825e-14
+XMMP N_OUT_MMP_d N_IN_MMP_g N_VDD!_MMP_s N_VDD!_D0_noxref_neg PFET L=6.5e-08
++ W=1.8e-06 AD=3.888e-13 AS=3.942e-13 PD=4.032e-06 PS=4.038e-06 NRD=0.0783333
++ NRS=0.0755556 M=1 NF=1 CNR_SWITCH=1 PCCRIT=0 PAR=1 PTWELL=1 SA=2.19e-07
++ SB=2.16e-07 SD=0 PANW1=9.1e-15 PANW2=3.25e-15 PANW3=3.25e-15 PANW4=3.565e-14
++ PANW5=8.785e-14 PANW6=1.26815e-13 PANW7=2.6e-14 PANW8=2.6e-14 PANW9=5.2e-14
++ PANW10=7.54e-14
+*
+.include "/home/eng/s/sxv240035/cad/gf65/inv_LVS/inv.pex.sp.INV.pxi"
+*
+.ends
+*
+*

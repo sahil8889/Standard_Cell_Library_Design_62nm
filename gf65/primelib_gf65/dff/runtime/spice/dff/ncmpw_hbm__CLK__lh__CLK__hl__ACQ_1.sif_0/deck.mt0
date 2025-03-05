@@ -1,0 +1,5 @@
+$DATA1 SOURCE='HSPICE' VERSION='O-2018.09-2 linux64' PARAM_COUNT=2
+$OPTION MEASFORM=1
+.TITLE '.title ncmpw_hbm__clk__lh__clk__hl__acq_1'
+index ncmpw tin_hbm__clk__lh_trig tin_hbm__clk__lh_targ tout_hbm__q__lh_trig tout_hbm__q__lh_targ tout_hbm__q__lh_value delay_hbm__clk__hl__q__lh_trig delay_hbm__clk__hl__q__lh_targ delay_hbm__clk__hl__q__lh_value fallback_hbm__q__lh_trig fallback_hbm__q__lh_targ fallback_hbm__q__lh_value ncmpw_hbm__clk__lh__clk__hl_trig ncmpw_hbm__clk__lh__clk__hl_targ ncmpw_hbm__clk__lh__clk__hl_value sis_fallback1 sis_fallback1_check sis_fallback1_opt sis_passlist sis_result_hbm_1 sis_result_hbm_2 temper alter#
+1    failed    failed    failed    failed    failed    failed    failed    failed    failed    failed    failed    failed    failed    failed    failed    failed    failed    failed    failed    failed    failed    0. 1

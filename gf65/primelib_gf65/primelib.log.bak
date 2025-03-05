@@ -1,0 +1,92 @@
+----------------------------------------------------------------------
+PrimeLib version T-2022.03-SP1 (Malibu 2)
+Build date: Apr 12, 2022 13:01:04
+Path: /proj/cad/synopsys/synopsys_2021/primelib/T-2022.03-SP1/linux64/bin/primelib
+Host: engnx02a.utdallas.edu, User: sxv240035, PID: 21441 (PPID: 7098)
+CPU: 32 x 3693 MHz, AMD EPYC 7F32 8-Core Processor (2 socket, 16 core)
+Memory: 257 GB RAM (138.6 GB free), 4 GB Swap (4.1 GB free)
+System load average: 3.03, 2.76, 1.93 (20701 processes)
+Directory: /home/eng/s/sxv240035/cad/gf65/primelib_gf65
+Malibu mode 2 activated
+Thu Dec  5 22:35:39 2024: Establishing connection to license server
+Thu Dec  5 22:35:40 2024: Testing server connection using feature PrimeLib_CHAR
+Thu Dec  5 22:35:40 2024: License server connection established
+Thu Dec  5 22:35:40 2024: Checked out license FEATURE PrimeLib_CHAR v2023.12 on PORT 1700@engdmv.utdallas.edu
+Command-line: /proj/cad/synopsys/synopsys_2021/primelib/T-2022.03-SP1/linux64/bin/primelib
+The char directory is /home/eng/s/sxv240035/cad/gf65/primelib_gf65/Tri_INV
+Warning: Setting of obsolete parameter 'model_ecsm_cin' is ignored. (PAR-27)
+Warning: 2003.12 is no longer supported as a valid value for liberty_flavor. Setting it to 2007.03.
+Loading /home/eng/s/sxv240035/cad/gf65/primelib_gf65/Tri_INV/etc/cell.stat.gz
+===================================================
+Thu Dec 05 22:35:59 CST 2024: Begin configure stage
+Optimizing dispatch of 1 cells for efficiency
+Reading instance file for cell Tri_INV
+Warning: Port VSS in cell Tri_INV has no associated function
+Warning: Port VDD in cell Tri_INV has no associated function
+Generating timing tests.
+Generating power tests.
+Generating template at Thu Dec  5 22:35:59 2024 
+Done generating template at Thu Dec  5 22:35:59 2024
+Generate Templates: Maximum virtual memory size: 761.461 MB
+Cell Tri_INV configured for characterization.
+Thu Dec 05 22:35:59 CST 2024: Done configure stage (Elapsed: 0 seconds | 0.00 hours  Memory: 761.46MB)
+======================================================================================================
+======================================================
+Thu Dec 05 22:36:03 CST 2024: Begin characterize stage
+Simulator used is hspice HSPICE O-2018.09-2
+Simulator command is /proj/cad/synopsys/synopsys_2018/hspice_vO-2018.09-2/hspice/bin/hspice
+[CDPL] Initialized with 1 standalone slot
+[CDPL] Master initialized (0 seconds)
+Start generating characterization tasks
+Thu Dec  5 22:36:04 2024: Checked out license FEATURE PrimeLib_CORE v2023.12(1) on PORT 1700@engdmv.utdallas.edu
+Thu Dec  5 22:36:04 2024: Elapsed time of checked out license: 0.00 seconds | 0.00 minutes
+Thu Dec  5 22:36:04 2024: Checked out license FEATURE PrimeLib_SIM_CORE v2023.12(1) on PORT 1700@engdmv.utdallas.edu
+Thu Dec  5 22:36:04 2024: Elapsed time of checked out license: 0.00 seconds | 0.00 minutes
+Library has standard-cells
+Tri_INV: generated 15 tasks (15 total)
+Using 1 standalone slots
+[CDPL] Tasks: 0/15, (0.0%, 0 Cached, 0 Failed); Active Workers: 0, Pending Workers: 1, Elapsed: 0m00s
+[CDPL] Tasks: 1/15, (6.7%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 0m10s
+[CDPL] Tasks: 2/15, (13.3%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 0m20s
+[CDPL] Tasks: 4/15, (26.7%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 0m30s
+[CDPL] Tasks: 5/15, (33.3%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 0m40s
+[CDPL] Tasks: 7/15, (46.7%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 0m50s
+[CDPL] Tasks: 8/15, (53.3%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 1m00s
+[CDPL] Tasks: 10/15, (66.7%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 1m10s
+[CDPL] Tasks: 11/15, (73.3%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 1m20s
+[CDPL] Tasks: 13/15, (86.7%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 1m30s
+[CDPL] Tasks: 14/15, (93.3%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 1m40s
+[CDPL] Tasks: 15/15, (100.0%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 1m50s
+Long task: Tri_INV::zen__EN__lh__OUT__lzh__ACQ_1 10.00 seconds
+[CDPL] Summary: 
+  All tasks finished successfully.
+Thu Dec  5 22:38:04 2024: Released license FEATURE PrimeLib_CORE(all)
+Thu Dec  5 22:38:04 2024: Released license FEATURE PrimeLib_SIM_CORE(all)
+Peak worker count: 1
+Thu Dec 05 22:38:04 CST 2024: Done characterize stage (Elapsed: 121 seconds | 0.03 hours  Memory: 1049.50MB)
+============================================================================================================
+===============================================
+Thu Dec 05 22:38:12 CST 2024: Begin model stage
+Creating new libraries.
+Warning: ground supply has not been properly defined
+info: order {ntin nvolt} ntin {1.0 2.0 3.0 4.0 5.0}
+info: order {ntin nvolt} ntin {1.0 2.0 3.0 4.0 5.0} nvolt {1.0 2.0}
+=================================================
+Thu Dec 05 22:38:12 CST 2024: Begin write library
+Creating Liberty file "/home/eng/s/sxv240035/cad/gf65/primelib_gf65/Tri_INV/models/liberty/cells/Tri_INV_op_cond.lib".
+Thu Dec 05 22:38:12 CST 2024: Done write library (Elapsed: 0 seconds | 0.00 hours  Memory: 1053.05MB)
+=====================================================================================================
+Merging cell level models...
+===============================================
+Thu Dec 05 22:38:12 CST 2024: Begin merge stage
+Merging 1 cell models in /home/eng/s/sxv240035/cad/gf65/primelib_gf65/Tri_INV/models/liberty/cells
+Merged Liberty model created /home/eng/s/sxv240035/cad/gf65/primelib_gf65/Tri_INV/models/liberty/liberty_op_cond.lib.
+Thu Dec 05 22:38:12 CST 2024: Done merge stage (Elapsed: 0 seconds | 0.00 hours  Memory: 1053.79MB)
+===================================================================================================
+Thu Dec 05 22:38:12 CST 2024: Done model stage (Elapsed: 0 seconds | 0.00 hours  Memory: 1053.79MB)
+===================================================================================================
+Shutting down modules
+[CDPL] Shutting down CDPL master.
+Thu Dec  5 22:38:16 2024: Released license FEATURE PrimeLib_CHAR
+Thu Dec  5 22:38:16 2024: Program time: 157.00 seconds | 2.62 minutes | 0.04 hours
+Maximum virtual memory size: 1053.77 MB

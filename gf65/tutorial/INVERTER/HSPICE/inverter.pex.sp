@@ -1,0 +1,30 @@
+* File: /home/eng/s/sxv240035/cad/gf65/tutorial/INVERTER/HSPICE/inverter.pex.sp
+* Created: Thu Dec  5 19:32:11 2024
+* Program "Calibre xRC"
+* Version "v2013.2_18.13"
+* 
+.include "/home/eng/s/sxv240035/cad/gf65/tutorial/INVERTER/HSPICE/inverter.pex.sp.pex"
+.subckt INVERTER  GND! OUT VDD! IN
+* 
+* IN	IN
+* VDD!	VDD!
+* OUT	OUT
+* GND!	GND!
+XD0_noxref N_GND!_D0_noxref_pos N_VDD!_D0_noxref_neg DIODENWX  AREA=8.02108e-12
++ PERIM=1.133e-05
+XMMN0 N_OUT_MMN0_d N_IN_MMN0_g N_GND!_MMN0_s N_GND!_D0_noxref_pos NFET L=6.2e-08
++ W=5.2e-07 AD=1.3832e-13 AS=1.4144e-13 PD=1.572e-06 PS=1.584e-06 NRD=0.205769
++ NRS=0.261538 M=1 NF=1 CNR_SWITCH=0 PCCRIT=0 PAR=1 PTWELL=0 SA=2.72e-07
++ SB=2.66e-07 SD=0 PANW1=0 PANW2=0 PANW3=0 PANW4=0 PANW5=0 PANW6=0
++ PANW7=1.1036e-14 PANW8=1.24e-14 PANW9=8.804e-15 PANW10=0
+XMMP0 N_OUT_MMP0_d N_IN_MMP0_g N_VDD!_MMP0_s N_VDD!_D0_noxref_neg PFET L=6.2e-08
++ W=7.2e-07 AD=1.9152e-13 AS=1.9584e-13 PD=1.972e-06 PS=1.984e-06 NRD=0.148611
++ NRS=0.188889 M=1 NF=1 CNR_SWITCH=0 PCCRIT=0 PAR=1 PTWELL=1 SA=2.72e-07
++ SB=2.66e-07 SD=0 PANW1=0 PANW2=0 PANW3=0 PANW4=5.58e-16 PANW5=3.1e-15
++ PANW6=6.2e-15 PANW7=1.24e-14 PANW8=1.24e-14 PANW9=6.3262e-14 PANW10=5.3608e-14
+*
+.include "/home/eng/s/sxv240035/cad/gf65/tutorial/INVERTER/HSPICE/inverter.pex.sp.INVERTER.pxi"
+*
+.ends
+*
+*

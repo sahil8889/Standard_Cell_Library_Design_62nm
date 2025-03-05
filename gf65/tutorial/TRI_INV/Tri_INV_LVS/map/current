@@ -1,0 +1,15 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "TRI_INV"
+  repList "auCdl schematic"
+  stopList "auCdl"
+  globalList "gnd! vdd!"
+  hierDelim "."
+  netlistDir "/home/eng/s/sxv240035/cad/gf65/tutorial/TRI_INV/Tri_INV_LVS"
+ )
+( model
+( "tutorial/TRI_INV/schematic" "TRI_INV" )
+ )
+( "TRI_INV" "ihnl/cds0/map" )
+ )

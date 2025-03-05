@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      sxv240035
+HostName                       engnx02a.utdallas.edu
+ProcessIdentifier              7808
+ProcessCreationTime_UTC        1733419193
+ProcessCreationTime_Readable   Thu Dec  5 11:19:53 2024 CST
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /home/eng/s/sxv240035/cad/gf65/pnr/matrix_vector_mult/layout/layout.oa.cdslck
+TimeEditLocked                 Thu Dec  5 11:20:09 2024 CST

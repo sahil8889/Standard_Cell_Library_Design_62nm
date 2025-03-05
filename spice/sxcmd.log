@@ -1,0 +1,949 @@
+### Custom WaveView ADV log file, revision O-2018.09-SP1 (build Nov 21, ) ###
+### created at 23:41:49 on Thu Oct 10 2024 (Linux AMD64) ###
+### Host Name: engnx01a.utdallas.edu   User ID: sxv240035   PID: 18489   ###
+wv_start_log
+# (0) running in waveview only mode
+# (0) SW_SX_PERL_LIB defined
+# (0) SW_SX_TCL_LIB defined
+# (0) HOME defined
+wv_move_window {Custom WaveView} {} 85 114
+wv_select_window {Custom WaveView} 
+wv_move_window {Custom WaveView} {} 116 19
+wv_select_tab {Custom WaveView} {} {RBMenu} {Bar.Tools}
+wv_select_tab {Custom WaveView} {} {RBMenu} {Bar.File}
+wv_select_tab {Custom WaveView} {} {RBMenu} {Bar.Configuration}
+wv_select_tab {Custom WaveView} {} {RBMenu} {Bar.File}
+wv_press_tool_button {Custom WaveView} {} {OpenWaveform0} 
+wv_move_window {FileDialog} {} 10 38
+wv_move_window {FileDialog} {} 371 53
+wv_select_dialog {FileDialog} 
+wv_select_list_item {FileDialog} {} {FileList} {inv_hspice.tr0} 12
+wv_set_check {FileDialog} {} {ConnectSplitFiles} 0
+wv_press_button {FileDialog} {} {convert.opt} 
+wv_move_window {FileDialog} {} 371 28
+wv_press_button {FileDialog} {} {range.opt} 
+wv_move_window {FileDialog} {} 371 26
+wv_press_button {FileDialog} {} {Ok} 
+wv_expand_tree_item {Custom WaveView} {} {hierview} {D0:inv_hspice.tr0(0)} {+sep=@}
+wv_select_tree_item {Custom WaveView} {} {hierview} {D0:inv_hspice.tr0(0)@toplevel(0)} {0} {+sep=@}
+wv_select_list_item {Custom WaveView} {} {sigview} {v(out)} 4
+wv_select_list_item {Custom WaveView} {} {sigview} {v(out)} 4
+wv_dclick_list_item {Custom WaveView} {} {sigview} {v(out)} 4
+wv_select_list_item {Custom WaveView} {} {sigview} {v(in)} 3
+wv_dclick_list_item {Custom WaveView} {} {sigview} {v(in)} 3
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Group Panels} 
+wv_select_window {Custom WaveView} 
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Panel Selection} 
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Panel Selection} 
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Panel Selection} 
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Panel Selection} 
+wv_press_tool_button {Custom WaveView} {} {NewWaveView0} 
+wv_press_tool_button {Custom WaveView} {} {NewWaveView0} 
+wv_press_tool_button {Custom WaveView} {waveview 2:2} {Waveview.CloseBtn} 
+wv_select_dialog {Confirmation} 
+wv_press_button {Confirmation} {} {Ok} 
+wv_press_tool_button {Custom WaveView} {waveview 3:3} {Waveview.CloseBtn} 
+wv_select_dialog {Confirmation} 
+wv_press_button {Confirmation} {} {Ok} 
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL2:1.LINE1
+wv_drag_item_to WV1 44 177
+wv_select_line WV1.PANEL2:1.LINE1
+wv_drag_enter WV1
+wv_drag_to WV1 44 177
+wv_drag_to WV1 44 174
+wv_drag_to WV1 45 165
+wv_drop_on WV1
+wv_drag_item_to WV1 44 177
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Measurement Tool} 
+wv_move_window {MeasurementTool} {} 187 156
+wv_select_dialog {MeasurementTool} 
+wv_select_tree_item {MeasurementTool} {} {TypeList} {General.Difference} {0} {+sep=.}
+wv_set_check {MeasurementTool} {} {LockedLevel} 1
+wv_set_text {MeasurementTool} {} {AtValue} "50.00"
+wv_move_window {MeasurementTool} {} 187 154
+wv_move_window {MeasurementTool} {} 186 150
+wv_move_window {MeasurementTool} {} 185 146
+wv_move_window {MeasurementTool} {} 184 143
+wv_move_window {MeasurementTool} {} 183 140
+wv_move_window {MeasurementTool} {} 183 138
+wv_move_window {MeasurementTool} {} 182 137
+wv_move_window {MeasurementTool} {} 181 136
+wv_move_window {MeasurementTool} {} 176 131
+wv_move_window {MeasurementTool} {} 171 128
+wv_move_window {MeasurementTool} {} 166 124
+wv_move_window {MeasurementTool} {} 164 123
+wv_move_window {MeasurementTool} {} 163 122
+wv_move_window {MeasurementTool} {} 162 122
+wv_move_window {MeasurementTool} {} 162 120
+wv_move_window {MeasurementTool} {} 161 120
+wv_move_window {MeasurementTool} {} 160 120
+wv_move_window {MeasurementTool} {} 158 118
+wv_move_window {MeasurementTool} {} 157 118
+wv_move_window {MeasurementTool} {} 156 116
+wv_move_window {MeasurementTool} {} 154 108
+wv_move_window {MeasurementTool} {} 154 101
+wv_move_window {MeasurementTool} {} 155 90
+wv_move_window {MeasurementTool} {} 155 84
+wv_move_window {MeasurementTool} {} 156 80
+wv_move_window {MeasurementTool} {} 156 75
+wv_move_window {MeasurementTool} {} 157 70
+wv_move_window {MeasurementTool} {} 158 68
+wv_move_window {MeasurementTool} {} 162 60
+wv_move_window {MeasurementTool} {} 164 52
+wv_move_window {MeasurementTool} {} 168 45
+wv_move_window {MeasurementTool} {} 168 43
+wv_move_window {MeasurementTool} {} 173 34
+wv_move_window {MeasurementTool} {} 174 31
+wv_move_window {MeasurementTool} {} 178 22
+wv_move_window {MeasurementTool} {} 182 19
+wv_move_window {MeasurementTool} {} 183 19
+wv_move_window {MeasurementTool} {} 185 19
+wv_move_window {MeasurementTool} {} 186 19
+wv_move_window {MeasurementTool} {} 194 19
+wv_move_window {MeasurementTool} {} 195 19
+wv_move_window {MeasurementTool} {} 196 19
+wv_move_window {MeasurementTool} {} 198 19
+wv_move_window {MeasurementTool} {} 197 19
+wv_move_window {MeasurementTool} {} 196 19
+wv_move_window {MeasurementTool} {} 195 19
+wv_move_window {MeasurementTool} {} 194 19
+wv_move_window {MeasurementTool} {} 193 19
+wv_move_window {MeasurementTool} {} 188 19
+wv_move_window {MeasurementTool} {} 181 19
+wv_move_window {MeasurementTool} {} 176 19
+wv_move_window {MeasurementTool} {} 171 19
+wv_move_window {MeasurementTool} {} 167 19
+wv_move_window {MeasurementTool} {} 164 19
+wv_move_window {MeasurementTool} {} 162 19
+wv_move_window {MeasurementTool} {} 160 19
+wv_move_window {MeasurementTool} {} 157 19
+wv_move_window {MeasurementTool} {} 156 19
+wv_move_window {MeasurementTool} {} 155 19
+wv_move_window {MeasurementTool} {} 154 19
+wv_move_window {MeasurementTool} {} 153 19
+wv_move_window {MeasurementTool} {} 150 19
+wv_move_window {MeasurementTool} {} 148 19
+wv_move_window {MeasurementTool} {} 147 19
+wv_move_window {MeasurementTool} {} 146 19
+wv_move_window {MeasurementTool} {} 145 19
+wv_move_window {MeasurementTool} {} 144 19
+wv_move_window {MeasurementTool} {} 143 19
+wv_move_window {MeasurementTool} {} 144 19
+wv_move_window {MeasurementTool} {} 145 19
+wv_move_window {MeasurementTool} {} 148 19
+wv_move_window {MeasurementTool} {} 152 19
+wv_move_window {MeasurementTool} {} 154 19
+wv_move_window {MeasurementTool} {} 155 19
+wv_move_window {MeasurementTool} {} 156 19
+wv_move_window {MeasurementTool} {} 158 19
+wv_move_window {MeasurementTool} {} 160 19
+wv_move_window {MeasurementTool} {} 161 19
+wv_move_window {MeasurementTool} {} 166 19
+wv_move_window {MeasurementTool} {} 168 19
+wv_move_window {MeasurementTool} {} 174 19
+wv_move_window {MeasurementTool} {} 178 19
+wv_move_window {MeasurementTool} {} 183 19
+wv_move_window {MeasurementTool} {} 188 19
+wv_move_window {MeasurementTool} {} 191 19
+wv_move_window {MeasurementTool} {} 192 19
+wv_move_window {MeasurementTool} {} 195 19
+wv_move_window {MeasurementTool} {} 203 19
+wv_move_window {MeasurementTool} {} 204 19
+wv_move_window {MeasurementTool} {} 207 19
+wv_move_window {MeasurementTool} {} 208 19
+wv_move_window {MeasurementTool} {} 209 19
+wv_move_window {MeasurementTool} {} 210 19
+wv_move_window {MeasurementTool} {} 212 19
+wv_move_window {MeasurementTool} {} 209 19
+wv_move_window {MeasurementTool} {} 208 19
+wv_move_window {MeasurementTool} {} 206 19
+wv_move_window {MeasurementTool} {} 199 19
+wv_move_window {MeasurementTool} {} 193 42
+wv_move_window {MeasurementTool} {} 188 53
+wv_move_window {MeasurementTool} {} 186 61
+wv_move_window {MeasurementTool} {} 181 77
+wv_move_window {MeasurementTool} {} 180 83
+wv_move_window {MeasurementTool} {} 174 99
+wv_move_window {MeasurementTool} {} 170 113
+wv_move_window {MeasurementTool} {} 170 115
+wv_move_window {MeasurementTool} {} 170 114
+wv_move_window {MeasurementTool} {} 174 104
+wv_move_window {MeasurementTool} {} 178 98
+wv_move_window {MeasurementTool} {} 186 77
+wv_move_window {MeasurementTool} {} 198 54
+wv_move_window {MeasurementTool} {} 201 45
+wv_move_window {MeasurementTool} {} 210 27
+wv_move_window {MeasurementTool} {} 214 20
+wv_move_window {MeasurementTool} {} 218 19
+wv_move_window {MeasurementTool} {} 220 19
+wv_move_window {MeasurementTool} {} 222 19
+wv_move_window {MeasurementTool} {} 224 19
+wv_move_window {MeasurementTool} {} 226 19
+wv_move_window {MeasurementTool} {} 230 19
+wv_move_window {MeasurementTool} {} 234 19
+wv_move_window {MeasurementTool} {} 237 19
+wv_move_window {MeasurementTool} {} 238 19
+wv_move_window {MeasurementTool} {} 239 19
+wv_move_window {MeasurementTool} {} 238 19
+wv_move_window {MeasurementTool} {} 234 19
+wv_move_window {MeasurementTool} {} 232 19
+wv_move_window {MeasurementTool} {} 230 19
+wv_move_window {MeasurementTool} {} 227 19
+wv_move_window {MeasurementTool} {} 226 19
+wv_move_window {MeasurementTool} {} 225 19
+wv_move_window {MeasurementTool} {} 224 19
+wv_move_window {MeasurementTool} {} 223 19
+wv_move_window {MeasurementTool} {} 222 19
+wv_move_window {MeasurementTool} {} 221 19
+wv_move_window {MeasurementTool} {} 218 19
+wv_move_window {MeasurementTool} {} 216 19
+wv_move_window {MeasurementTool} {} 214 19
+wv_move_window {MeasurementTool} {} 210 19
+wv_move_window {MeasurementTool} {} 208 19
+wv_move_window {MeasurementTool} {} 207 19
+wv_move_window {MeasurementTool} {} 206 19
+wv_move_window {MeasurementTool} {} 204 19
+wv_move_window {MeasurementTool} {} 203 19
+wv_move_window {MeasurementTool} {} 200 19
+wv_move_window {MeasurementTool} {} 198 19
+wv_move_window {MeasurementTool} {} 196 37
+wv_move_window {MeasurementTool} {} 194 40
+wv_move_window {MeasurementTool} {} 192 45
+wv_move_window {MeasurementTool} {} 189 49
+wv_move_window {MeasurementTool} {} 188 52
+wv_move_window {MeasurementTool} {} 186 55
+wv_move_window {MeasurementTool} {} 181 67
+wv_move_window {MeasurementTool} {} 178 73
+wv_move_window {MeasurementTool} {} 178 75
+wv_move_window {MeasurementTool} {} 176 82
+wv_move_window {MeasurementTool} {} 170 97
+wv_move_window {MeasurementTool} {} 166 109
+wv_move_window {MeasurementTool} {} 162 119
+wv_move_window {MeasurementTool} {} 160 123
+wv_move_window {MeasurementTool} {} 159 127
+wv_move_window {MeasurementTool} {} 157 131
+wv_move_window {MeasurementTool} {} 156 132
+wv_move_window {MeasurementTool} {} 156 133
+wv_move_window {MeasurementTool} {} 156 134
+wv_move_window {MeasurementTool} {} 156 135
+wv_move_window {MeasurementTool} {} 155 135
+wv_move_window {MeasurementTool} {} 154 133
+wv_move_window {MeasurementTool} {} 154 132
+wv_move_window {MeasurementTool} {} 154 131
+wv_move_window {MeasurementTool} {} 152 129
+wv_move_window {MeasurementTool} {} 152 128
+wv_move_window {MeasurementTool} {} 153 123
+wv_move_window {MeasurementTool} {} 154 120
+wv_move_window {MeasurementTool} {} 154 116
+wv_move_window {MeasurementTool} {} 155 114
+wv_move_window {MeasurementTool} {} 155 113
+wv_move_window {MeasurementTool} {} 156 112
+wv_move_window {MeasurementTool} {} 156 111
+wv_move_window {MeasurementTool} {} 156 110
+wv_move_window {MeasurementTool} {} 156 109
+wv_move_window {MeasurementTool} {} 156 107
+wv_move_window {MeasurementTool} {} 159 105
+wv_move_window {MeasurementTool} {} 161 100
+wv_move_window {MeasurementTool} {} 162 99
+wv_move_window {MeasurementTool} {} 164 93
+wv_move_window {MeasurementTool} {} 168 84
+wv_move_window {MeasurementTool} {} 169 79
+wv_move_window {MeasurementTool} {} 171 74
+wv_move_window {MeasurementTool} {} 174 68
+wv_move_window {MeasurementTool} {} 175 66
+wv_move_window {MeasurementTool} {} 177 61
+wv_move_window {MeasurementTool} {} 178 57
+wv_move_window {MeasurementTool} {} 181 54
+wv_move_window {MeasurementTool} {} 182 52
+wv_move_window {MeasurementTool} {} 182 51
+wv_move_window {MeasurementTool} {} 182 50
+wv_move_window {MeasurementTool} {} 183 49
+wv_move_window {MeasurementTool} {} 184 49
+wv_move_window {MeasurementTool} {} 184 46
+wv_move_window {MeasurementTool} {} 185 46
+wv_move_window {MeasurementTool} {} 187 44
+wv_move_window {MeasurementTool} {} 187 43
+wv_move_window {MeasurementTool} {} 188 41
+wv_move_window {MeasurementTool} {} 188 40
+wv_move_window {MeasurementTool} {} 188 39
+wv_move_window {MeasurementTool} {} 188 38
+wv_move_window {MeasurementTool} {} 189 38
+wv_move_window {MeasurementTool} {} 190 37
+wv_move_window {MeasurementTool} {} 192 32
+wv_move_window {MeasurementTool} {} 195 29
+wv_move_window {MeasurementTool} {} 197 26
+wv_move_window {MeasurementTool} {} 199 23
+wv_move_window {MeasurementTool} {} 201 19
+wv_move_window {MeasurementTool} {} 202 19
+wv_move_window {MeasurementTool} {} 204 19
+wv_move_window {MeasurementTool} {} 205 19
+wv_move_window {MeasurementTool} {} 207 19
+wv_move_window {MeasurementTool} {} 209 19
+wv_move_window {MeasurementTool} {} 210 19
+wv_move_window {MeasurementTool} {} 212 19
+wv_move_window {MeasurementTool} {} 213 19
+wv_move_window {MeasurementTool} {} 214 19
+wv_move_window {MeasurementTool} {} 211 19
+wv_move_window {MeasurementTool} {} 209 39
+wv_move_window {MeasurementTool} {} 208 45
+wv_move_window {MeasurementTool} {} 203 61
+wv_move_window {MeasurementTool} {} 202 67
+wv_move_window {MeasurementTool} {} 201 72
+wv_move_window {MeasurementTool} {} 200 75
+wv_move_window {MeasurementTool} {} 199 80
+wv_move_window {MeasurementTool} {} 196 85
+wv_move_window {MeasurementTool} {} 196 87
+wv_move_window {MeasurementTool} {} 194 91
+wv_move_window {MeasurementTool} {} 194 93
+wv_move_window {MeasurementTool} {} 194 94
+wv_move_window {MeasurementTool} {} 194 98
+wv_move_window {MeasurementTool} {} 194 99
+wv_move_window {MeasurementTool} {} 194 100
+wv_move_window {MeasurementTool} {} 194 99
+wv_move_window {MeasurementTool} {} 194 92
+wv_move_window {MeasurementTool} {} 197 83
+wv_move_window {MeasurementTool} {} 200 75
+wv_move_window {MeasurementTool} {} 202 68
+wv_move_window {MeasurementTool} {} 202 67
+wv_move_window {MeasurementTool} {} 204 61
+wv_move_window {MeasurementTool} {} 204 59
+wv_move_window {MeasurementTool} {} 206 57
+wv_move_window {MeasurementTool} {} 207 55
+wv_move_window {MeasurementTool} {} 209 49
+wv_move_window {MeasurementTool} {} 211 43
+wv_move_window {MeasurementTool} {} 212 41
+wv_move_window {MeasurementTool} {} 213 37
+wv_move_window {MeasurementTool} {} 213 36
+wv_move_window {MeasurementTool} {} 213 35
+wv_move_window {MeasurementTool} {} 214 35
+wv_move_window {MeasurementTool} {} 214 34
+wv_move_window {MeasurementTool} {} 214 33
+wv_press_button {MeasurementTool} {} {Ok} 
+wv_select_window {Custom WaveView} 
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS1
+wv_move_wv_item WV1.MEAS1 425 185
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL1:1 6.06036e-09 0.547426
+wv_ctrl_wheel_up WV1.PANEL1:1 6.03622e-09 0.534907
+wv_ctrl_wheel_up WV1.PANEL1:1 6.03622e-09 0.534907
+wv_ctrl_wheel_up WV1.PANEL1:1 6.03622e-09 0.534907
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL1:1 1.01408e-09 0.49536
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS1.ANCHOR1
+wv_drag_item_to WV1 379 164
+wv_move_wv_item WV1.MEAS1.ANCHOR1 377 199
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL1:1 6.03622e-09 0.49536
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL1:1 6.03622e-09 0.49536
+wv_ctrl_wheel_down WV1.PANEL1:1 4.00805e-09 0.49536
+wv_ctrl_wheel_down WV1.PANEL1:1 4.00805e-09 0.49536
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL1:1 6.08451e-09 0.26251
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Measurement Tool} 
+wv_press_button {MeasurementTool} {} {Ok} 
+wv_select_window {Custom WaveView} 
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.MEAS1
+wv_select_waveview 1 {waveview 1}
+wv_select_menu_item {Custom WaveView} {waveview 1:1} {MeterPopMenu.Delete Measurement} 
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL1:1 1.11066e-09 0.600518
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL1:1 1.03823e-09 0.600518
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Measurement Tool} 
+wv_press_button {MeasurementTool} {} {Ok} 
+wv_select_window {Custom WaveView} 
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS1
+wv_move_wv_item WV1.MEAS1 412 177
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.MEAS2
+wv_select_waveview 1 {waveview 1}
+wv_select_menu_item {Custom WaveView} {waveview 1:1} {MeterPopMenu.Delete Measurement} 
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.MEAS1
+wv_select_waveview 1 {waveview 1}
+wv_select_menu_item {Custom WaveView} {waveview 1:1} {MeterPopMenu.Delete Measurement} 
+wv_ctrl_wheel_down WV1.PANEL1:1 4.03219e-09 0.577984
+wv_ctrl_wheel_down WV1.PANEL1:1 4.03219e-09 0.577984
+wv_select_list_item {Custom WaveView} {} {sigview} {v(0)} 2
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Measurement Tool} 
+wv_press_button {MeasurementTool} {} {Ok} 
+wv_select_window {Custom WaveView} 
+wv_move_window {Custom WaveView} {} -10 19
+wv_resize_browser {Custom WaveView} {} {WV.Browser} 250 513
+wv_resize_browser {Custom WaveView} {} {waveview 1:1} 1020 487
+wv_resize_window {Custom WaveView} 1280 656
+wv_select_list_item {Custom WaveView} {} {sigview} {v(in)} 3
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL1:1.LINE2
+wv_drag_item_to WV1 43 41
+wv_drag_enter WV1
+wv_drag_to WV1 43 41
+wv_drop_on WV1
+wv_drag_item_to WV1 43 41
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL1:1.LINE2
+wv_drag_item_to WV1 55 47
+wv_drag_enter WV1
+wv_drag_to WV1 55 47
+wv_drop_on WV1
+wv_drag_item_to WV1 55 47
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.PANEL1:1.LINE2
+wv_select_waveview 1 {waveview 1}
+wv_select_menu_item {Custom WaveView} {waveview 1:1} {SignalPopMenu.Delete} 
+wv_select_list_item {Custom WaveView} {} {sigview} {v(in)} 3
+wv_dclick_list_item {Custom WaveView} {} {sigview} {v(in)} 3
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.PANEL2:1.LINE1
+wv_select_waveview 1 {waveview 1}
+wv_select_menu_item {Custom WaveView} {waveview 1:1} {SignalPopMenu.Delete} 
+wv_select_list_item {Custom WaveView} {} {sigview} {v(in)} 3
+wv_dclick_list_item {Custom WaveView} {} {sigview} {v(in)} 3
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.PANEL2:1.LINE1
+wv_select_waveview 1 {waveview 1}
+wv_select_menu_item {Custom WaveView} {waveview 1:1} {SignalPopMenu.Delete} 
+wv_select_list_item {Custom WaveView} {} {sigview} {v(in)} 3
+wv_dclick_list_item {Custom WaveView} {} {sigview} {v(in)} 3
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.MEAS1
+wv_select_waveview 1 {waveview 1}
+wv_select_menu_item {Custom WaveView} {waveview 1:1} {MeterPopMenu.Delete Measurement} 
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Measurement Tool} 
+wv_move_window {MeasurementTool} {} 251 156
+wv_select_dialog {MeasurementTool} 
+wv_set_text {MeasurementTool} {} {AtValue} "90"
+wv_press_button {MeasurementTool} {} {Ok} 
+wv_select_window {Custom WaveView} 
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Measurement Tool} 
+wv_move_window {MeasurementTool} {} 251 156
+wv_select_dialog {MeasurementTool} 
+wv_set_text {MeasurementTool} {} {AtValue} "10"
+wv_press_button {MeasurementTool} {} {Ok} 
+wv_select_window {Custom WaveView} 
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS2.ANCHOR2
+wv_move_wv_item WV1.MEAS2.ANCHOR2 566 405
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS1
+wv_drag_item_to WV1 614 329
+wv_move_wv_item WV1.MEAS1 602 136
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS1
+wv_drag_item_to WV1 614 169
+wv_move_wv_item WV1.MEAS1 591 247
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS1.ANCHOR2
+wv_drag_item_to WV1 571 247
+wv_move_wv_item WV1.MEAS1.ANCHOR2 611 160
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.MEAS1
+wv_select_waveview 1 {waveview 1}
+wv_select_menu_item {Custom WaveView} {waveview 1:1} {MeterPopMenu.Delete All Measurements} 
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Measurement Tool} 
+wv_move_window {MeasurementTool} {} 251 156
+wv_select_dialog {MeasurementTool} 
+wv_set_check {MeasurementTool} {} {IndepP2LockLevel} 1
+wv_set_text {MeasurementTool} {} {Lock2ndPointAt} "90"
+wv_press_button {MeasurementTool} {} {Ok} 
+wv_select_window {Custom WaveView} 
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS1.ANCHOR1
+wv_drag_item_to WV1 211 191
+wv_move_wv_item WV1.MEAS1.ANCHOR1 571 59
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS1.ANCHOR2
+wv_drag_item_to WV1 570 251
+wv_move_wv_item WV1.MEAS1.ANCHOR2 567 367
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS1
+wv_drag_item_to WV1 603 330
+wv_move_wv_item WV1.MEAS1 567 355
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.MEAS1
+wv_select_waveview 1 {waveview 1}
+wv_select_menu_item {Custom WaveView} {waveview 1:1} {MeterPopMenu.Delete All Measurements} 
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Measurement Tool} 
+wv_select_dialog {MeasurementTool} 
+wv_set_text {MeasurementTool} {} {AtValue} "20"
+wv_set_text {MeasurementTool} {} {Lock2ndPointAt} "80"
+wv_press_button {MeasurementTool} {} {Ok} 
+wv_select_window {Custom WaveView} 
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS1.ANCHOR2
+wv_drag_item_to WV1 567 264
+wv_move_wv_item WV1.MEAS1.ANCHOR2 563 65
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS1.ANCHOR1
+wv_drag_item_to WV1 212 179
+wv_move_wv_item WV1.MEAS1.ANCHOR1 551 181
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS1.ANCHOR2
+wv_drag_item_to WV1 573 73
+wv_move_wv_item WV1.MEAS1.ANCHOR2 567 267
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS1.ANCHOR1
+wv_drag_item_to WV1 575 183
+wv_move_wv_item WV1.MEAS1.ANCHOR1 567 382
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.MEAS1
+wv_select_waveview 1 {waveview 1}
+wv_select_menu_item {Custom WaveView} {waveview 1:1} {MeterPopMenu.Delete Measurement} 
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL2:1.LINE1
+wv_drag_item_to WV1 38 226
+wv_select_line WV1.PANEL2:1.LINE1
+wv_drag_enter WV1
+wv_drag_to WV1 38 219
+wv_drag_to WV1 38 211
+wv_drop_on WV1
+wv_drag_item_to WV1 38 226
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL1:1.LEGEND
+wv_select_panel WV1.PANEL1:1.LEGEND
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL1:1 3.81756e-09 0.861782
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL1:1.LEGEND
+wv_select_panel WV1.PANEL1:1.LEGEND
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Measurement Tool} 
+wv_move_window {MeasurementTool} {} 251 156
+wv_select_dialog {MeasurementTool} 
+wv_set_text {MeasurementTool} {} {AtValue} "50"
+wv_set_check {MeasurementTool} {} {IndepP2LockLevel} 0
+wv_set_text {MeasurementTool} {} {AtValue} "50"
+wv_press_button {MeasurementTool} {} {Ok} 
+wv_select_window {Custom WaveView} 
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Measurement Tool} 
+wv_move_window {MeasurementTool} {} 251 156
+wv_select_dialog {MeasurementTool} 
+wv_set_check {MeasurementTool} {} {IndepP2LockLevel} 1
+wv_set_check {MeasurementTool} {} {LockedLevel} 0
+wv_set_text {MeasurementTool} {} {Lock2ndPointAt} "50"
+wv_press_button {MeasurementTool} {} {Ok} 
+wv_select_window {Custom WaveView} 
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS2.ANCHOR1
+wv_drag_item_to WV1 389 53
+wv_move_wv_item WV1.MEAS2.ANCHOR1 424 133
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.MEAS1
+wv_select_waveview 1 {waveview 1}
+wv_select_menu_item {Custom WaveView} {waveview 1:1} {MeterPopMenu.Delete Measurement} 
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.MEAS1
+wv_select_waveview 1 {waveview 1}
+wv_select_menu_item {Custom WaveView} {waveview 1:1} {MeterPopMenu.Delete All Measurements} 
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Measurement Tool} 
+wv_move_window {MeasurementTool} {} 251 156
+wv_select_dialog {MeasurementTool} 
+wv_set_check {MeasurementTool} {} {IndepP2LockLevel} 0
+wv_set_check {MeasurementTool} {} {LockedLevel} 1
+wv_press_button {MeasurementTool} {} {Ok} 
+wv_select_window {Custom WaveView} 
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS1
+wv_drag_item_to WV1 567 228
+wv_move_wv_item WV1.MEAS1 258 233
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL1:1 1.01254e-09 0.603015
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS1.ANCHOR1
+wv_move_wv_item WV1.MEAS1.ANCHOR1 209 229
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS1
+wv_move_wv_item WV1.MEAS1 309 263
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS1
+wv_move_wv_item WV1.MEAS1 368 295
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL1:1 2.39453e-09 0.494061
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS1
+wv_drag_item_to WV1 405 316
+wv_move_wv_item WV1.MEAS1 283 234
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS1
+wv_move_wv_item WV1.MEAS1 328 247
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS1
+wv_drag_item_to WV1 357 279
+wv_move_wv_item WV1.MEAS1 272 231
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL1:1 1.09464e-10 0.807305
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL1:1.LEGEND
+wv_select_panel WV1.PANEL1:1.LEGEND
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL1:1.LEGEND
+wv_select_panel WV1.PANEL1:1.LEGEND
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.MEAS1
+wv_select_waveview 1 {waveview 1}
+wv_select_menu_item {Custom WaveView} {waveview 1:1} {MeterPopMenu.Delete All Measurements} 
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Measurement Tool} 
+wv_move_window {MeasurementTool} {} 251 156
+wv_select_dialog {MeasurementTool} 
+wv_set_check {MeasurementTool} {} {IndepP2LockLevel} 1
+wv_press_button {MeasurementTool} {} {Ok} 
+wv_select_window {Custom WaveView} 
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS1
+wv_drag_item_to WV1 568 227
+wv_move_wv_item WV1.MEAS1 209 228
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS1
+wv_drag_item_to WV1 246 257
+wv_move_wv_item WV1.MEAS1 281 250
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Measurement Tool} 
+wv_set_check {MeasurementTool} {} {LockedLevel} 0
+wv_set_text {MeasurementTool} {} {Lock2ndPointAt} "50"
+wv_press_button {MeasurementTool} {} {Ok} 
+wv_select_window {Custom WaveView} 
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS2
+wv_drag_item_to WV1 566 215
+wv_move_wv_item WV1.MEAS2 277 157
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.MEAS2
+wv_select_waveview 1 {waveview 1}
+wv_select_menu_item {Custom WaveView} {waveview 1:1} {MeterPopMenu.Delete Measurement} 
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Measurement Tool} 
+wv_move_window {MeasurementTool} {} 251 156
+wv_select_dialog {MeasurementTool} 
+wv_set_check {MeasurementTool} {} {IndepP2LockLevel} 0
+wv_set_check {MeasurementTool} {} {LockedLevel} 1
+wv_press_button {MeasurementTool} {} {Ok} 
+wv_select_window {Custom WaveView} 
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS2
+wv_drag_item_to WV1 571 226
+wv_move_wv_item WV1.MEAS2 193 293
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS2
+wv_drag_item_to WV1 246 321
+wv_move_wv_item WV1.MEAS2 280 307
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL1:1.LINE1
+wv_drag_item_to WV1 40 33
+wv_select_line WV1.PANEL1:1.LINE1
+wv_drag_enter WV1
+wv_drag_to WV1 40 33
+wv_drop_on WV1
+wv_drag_item_to WV1 40 33
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL1:1.LINE2
+wv_drag_item_to WV1 45 43
+wv_select_line WV1.PANEL1:1.LINE2
+wv_drag_enter WV1
+wv_drag_to WV1 45 38
+wv_drop_on WV1
+wv_drag_item_to WV1 45 43
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL1:1.LEGEND
+wv_drag_item_to WV1 41 29
+wv_drag_enter WV1
+wv_drag_to WV1 41 33
+wv_drop_on WV1
+wv_drag_item_to WV1 41 33
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL1:1.LEGEND
+wv_select_panel WV1.PANEL1:1.LEGEND
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL1:1.LEGEND
+wv_select_panel WV1.PANEL1:1.LEGEND
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL1:1.LEGEND
+wv_select_panel WV1.PANEL1:1.LEGEND
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL1:1.LEGEND
+wv_select_panel WV1.PANEL1:1.LEGEND
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL1:1.LEGEND
+wv_select_panel WV1.PANEL1:1.LEGEND
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL1:1.LEGEND
+wv_select_panel WV1.PANEL1:1.LEGEND
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL1:1.LINE1
+wv_select_line WV1.PANEL1:1.LINE1
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.PANEL1:1.LINE1
+wv_select_waveview 1 {waveview 1}
+wv_select_menu_item {Custom WaveView} {waveview 1:1} {SignalPopMenu.Delete} 
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS1
+wv_move_wv_item WV1.MEAS1 280 231
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.MEAS2
+wv_select_waveview 1 {waveview 1}
+wv_select_menu_item {Custom WaveView} {waveview 1:1} {MeterPopMenu.Delete All Measurements} 
+wv_select_list_item {Custom WaveView} {} {sigview} {v(out)} 4
+wv_dclick_list_item {Custom WaveView} {} {sigview} {v(out)} 4
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL2:1.LINE1
+wv_drag_item_to WV1 37 230
+wv_select_line WV1.PANEL2:1.LINE1
+wv_drag_enter WV1
+wv_drag_to WV1 37 230
+wv_drag_to WV1 37 220
+wv_drag_to WV1 37 214
+wv_drop_on WV1
+wv_drag_item_to WV1 37 230
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL1:1 2.33979e-09 0.817519
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL1:1 2.7366e-09 0.929878
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL1:1.LEGEND
+wv_select_panel WV1.PANEL1:1.LEGEND
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL1:1.LEGEND
+wv_select_panel WV1.PANEL1:1.LEGEND
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Measurement Tool} 
+wv_move_window {MeasurementTool} {} 251 156
+wv_select_dialog {MeasurementTool} 
+wv_close_dialog {MeasurementTool} 
+wv_select_window {Custom WaveView} 
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Measurement Tool} 
+wv_move_window {MeasurementTool} {} 251 156
+wv_select_dialog {MeasurementTool} 
+wv_set_text {MeasurementTool} {} {AtValue} "50"
+wv_press_button {MeasurementTool} {} {Ok} 
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS1
+wv_drag_item_to WV1 561 225
+wv_move_wv_item WV1.MEAS1 249 237
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS1
+wv_move_wv_item WV1.MEAS1 315 271
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS1.ANCHOR1
+wv_drag_item_to WV1 210 229
+wv_move_wv_item WV1.MEAS1.ANCHOR1 210 229
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS1.ANCHOR1
+wv_drag_item_to WV1 209 227
+wv_move_wv_item WV1.MEAS1.ANCHOR1 208 227
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.MEAS1
+wv_select_waveview 1 {waveview 1}
+wv_select_menu_item {Custom WaveView} {waveview 1:1} {MeterPopMenu.Delete Measurement} 
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Measurement Tool} 
+wv_move_window {MeasurementTool} {} 251 156
+wv_select_dialog {MeasurementTool} 
+wv_press_button {MeasurementTool} {} {Ok} 
+wv_select_window {Custom WaveView} 
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS1
+wv_drag_item_to WV1 571 225
+wv_move_wv_item WV1.MEAS1 565 229
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS1
+wv_drag_item_to WV1 626 261
+wv_move_wv_item WV1.MEAS1 622 263
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Measurement Tool} 
+wv_move_window {MeasurementTool} {} 251 156
+wv_select_dialog {MeasurementTool} 
+wv_press_button {MeasurementTool} {} {Ok} 
+wv_select_window {Custom WaveView} 
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS2
+wv_drag_item_to WV1 635 233
+wv_move_wv_item WV1.MEAS2 415 315
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS1.ANCHOR1
+wv_drag_item_to WV1 566 229
+wv_move_wv_item WV1.MEAS1.ANCHOR1 223 233
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS2
+wv_move_wv_item WV1.MEAS2 497 350
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS2
+wv_drag_item_to WV1 561 360
+wv_move_wv_item WV1.MEAS2 478 320
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.MEAS2
+wv_select_waveview 1 {waveview 1}
+wv_select_menu_item {Custom WaveView} {waveview 1:1} {MeterPopMenu.Delete Measurement} 
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS1.ANCHOR1
+wv_drag_item_to WV1 211 226
+wv_move_wv_item WV1.MEAS1.ANCHOR1 530 227
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS1
+wv_drag_item_to WV1 679 281
+wv_move_wv_item WV1.MEAS1 286 259
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS1.ANCHOR1
+wv_drag_item_to WV1 211 229
+wv_move_wv_item WV1.MEAS1.ANCHOR1 200 229
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS1.ANCHOR1
+wv_drag_item_to WV1 202 226
+wv_move_wv_item WV1.MEAS1.ANCHOR1 214 225
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS1
+wv_move_wv_item WV1.MEAS1 357 296
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS1
+wv_drag_item_to WV1 403 309
+wv_move_wv_item WV1.MEAS1 253 251
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS1
+wv_move_wv_item WV1.MEAS1 301 276
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS1.ANCHOR1
+wv_drag_item_to WV1 206 228
+wv_move_wv_item WV1.MEAS1.ANCHOR1 201 228
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Measurement Tool} 
+wv_press_button {MeasurementTool} {} {Ok} 
+wv_select_window {Custom WaveView} 
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS2
+wv_drag_item_to WV1 566 225
+wv_move_wv_item WV1.MEAS2 566 225
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS2
+wv_drag_item_to WV1 644 259
+wv_move_wv_item WV1.MEAS2 655 250
+wv_select_tab {Custom WaveView} {} {RBMenu} {Bar.File}
+wv_press_tool_button {Custom WaveView} {} {SaveSession0} 
+wv_move_window {FileDialog} {} 10 38
+wv_resize_window {FileDialog} 332 425
+wv_move_window {FileDialog} {} 464 141
+wv_select_dialog {FileDialog} 
+wv_resize_window {FileDialog} 390 576
+wv_set_text {FileDialog} {} {FileName} "hspice_result"
+wv_press_button {FileDialog} {} {Ok} 
+wv_select_window {Custom WaveView} 
+wv_select_tab {Custom WaveView} {} {RBMenu} {Bar.Waveform}
+wv_press_tool_button {Custom WaveView} {} {NewWaveView0} 
+wv_select_list_item {Custom WaveView} {} {sigview} {v(in)} 3
+wv_dclick_list_item {Custom WaveView} {} {sigview} {v(in)} 3
+wv_select_list_item {Custom WaveView} {} {sigview} {v(out)} 4
+wv_dclick_list_item {Custom WaveView} {} {sigview} {v(out)} 4
+wv_select_waveview 2 {waveview 4}
+wv_select_toolbar_item {Custom WaveView} {waveview 4:2} {Measurement Tool} 
+wv_set_check {MeasurementTool} {} {IndepP2LockLevel} 1
+wv_set_text {MeasurementTool} {} {AtValue} "20"
+wv_set_text {MeasurementTool} {} {Lock2ndPointAt} "80"
+wv_press_button {MeasurementTool} {} {Ok} 
+wv_select_waveview 2 {waveview 4}
+wv_select_wv_item WV2.MEAS1.ANCHOR2
+wv_drag_item_to WV2 573 266
+wv_move_wv_item WV2.MEAS1.ANCHOR2 574 99
+wv_select_waveview 2 {waveview 4}
+wv_select_wv_item WV2.MEAS1
+wv_drag_item_to WV2 647 332
+wv_move_wv_item WV2.MEAS1 675 185
+wv_select_waveview 2 {waveview 4}
+wv_select_wv_item WV2.MEAS1
+wv_move_wv_item WV2.MEAS1 729 201
+wv_select_waveview 2 {waveview 4}
+wv_select_wv_item WV2.MEAS1
+wv_drag_item_to WV2 783 222
+wv_move_wv_item WV2.MEAS1 653 109
+wv_select_waveview 2 {waveview 4}
+wv_select_wv_item WV2.MEAS1
+wv_move_wv_item WV2.MEAS1 719 146
+wv_select_tab {Custom WaveView} {} {RBMenu} {Bar.File}
+wv_press_tool_button {Custom WaveView} {} {SaveSession0} 
+wv_move_window {FileDialog} {} 10 38
+wv_select_dialog {FileDialog} 
+wv_set_text {FileDialog} {} {FileName} "hspice_result_2"
+wv_press_button {FileDialog} {} {Ok} 
+wv_select_window {Custom WaveView} 
+wv_select_tab {Custom WaveView} {} {RBMenu} {Bar.Waveform}
+wv_press_tool_button {Custom WaveView} {} {Print0} 
+wv_move_window {PrintSetup} {} 380 74
+wv_select_dialog {PrintSetup} 
+wv_set_check {PrintSetup} {} {PrintToFile} 1
+wv_set_check {PrintSetup} {} {PrintToFile} 0
+wv_press_button {PrintSetup} {} {Change} 
+wv_move_window {SelectAWaveview} {} 491 225
+wv_select_dialog {SelectAWaveview} 
+wv_select_list_item {SelectAWaveview} {} {WaveviewList} {waveview 1} 0
+wv_press_button {SelectAWaveview} {} {Ok} 
+wv_select_dialog {PrintSetup} 
+wv_close_dialog {PrintSetup} 
+wv_select_window {Custom WaveView} 
+wv_press_tool_button {Custom WaveView} {} {DumpScreen0} 
+wv_move_window {SaveScreenDump} {} 426 268
+wv_select_dialog {SaveScreenDump} 
+wv_press_button {SaveScreenDump} {} {SaveToFileBrowse} 
+wv_select_dialog {FileDialog} 
+wv_resize_window {FileDialog} 390 576
+wv_set_text {FileDialog} {} {FileName} "hspice_1"
+wv_press_button {FileDialog} {} {Ok} 
+wv_select_dialog {SaveScreenDump} 
+wv_press_button {SaveScreenDump} {} {Save} 
+wv_select_tab {Custom WaveView} {} {WVTab} {waveview 1:1}
+wv_press_tool_button {Custom WaveView} {} {DumpScreen0} 
+wv_move_window {SaveScreenDump} {} 426 268
+wv_select_dialog {SaveScreenDump} 
+wv_set_text {SaveScreenDump} {} {SaveToFile} "/home/eng/s/sxv240035/cad/spice/hspice_.png"
+wv_press_button {SaveScreenDump} {} {SaveToFileBrowse} 
+wv_move_window {FileDialog} {} 464 180
+wv_select_dialog {FileDialog} 
+wv_resize_window {FileDialog} 390 576
+wv_set_text {FileDialog} {} {FileName} "hspice_2"
+wv_press_button {FileDialog} {} {Ok} 
+wv_select_dialog {SaveScreenDump} 
+wv_press_button {SaveScreenDump} {} {Save} 
+wv_select_tab {Custom WaveView} {} {RBMenu} {Bar.Tools}
+wv_select_tab {Custom WaveView} {} {RBMenu} {Bar.Configuration}
+wv_press_tool_button {Custom WaveView} {} {WVPreferences} 
+wv_move_window {Preference Settings} {} 146 42
+wv_move_window {Preference Settings} {} 155 43
+wv_select_dialog {Preference Settings} 
+wv_set_radion {Preference Settings} {} {CanvasBackground:White} 
+wv_press_button {Preference Settings} {} {Preference.OK} 
+wv_select_tab {Custom WaveView} {} {WVTab} {waveview 4:2}
+wv_select_tab {Custom WaveView} {} {WVTab} {waveview 1:1}
+wv_select_window {Custom WaveView} 
+wv_press_tool_button {Custom WaveView} {} {DumpScreen0} 
+wv_move_window {SaveScreenDump} {} 426 268
+wv_select_dialog {SaveScreenDump} 
+wv_set_text {SaveScreenDump} {} {SaveToFile} "/home/eng/s/sxv240035/cad/spice/hspice_1.png"
+wv_press_button {SaveScreenDump} {} {Save} 
+wv_select_tab {Custom WaveView} {} {WVTab} {waveview 4:2}
+wv_press_tool_button {Custom WaveView} {} {DumpScreen0} 
+wv_move_window {SaveScreenDump} {} 426 268
+wv_select_dialog {SaveScreenDump} 
+wv_set_text {SaveScreenDump} {} {SaveToFile} "/home/eng/s/sxv240035/cad/spice/hspice_2.png"
+wv_press_button {SaveScreenDump} {} {Save} 
+wv_close_window {Custom WaveView} 
+wv_select_dialog {Confirmation} 
+#wv_press_button {Confirmation} {} {Ok} 
+#*WARNING* Can not remove '/home/eng/s/sxv240035/.cx_hostport/.cx_hostport_engnx01a.utdallas.edu_18489'.

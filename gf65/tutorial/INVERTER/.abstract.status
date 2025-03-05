@@ -1,0 +1,6 @@
+cUiSetViewStatus {INVERTER} {layout} {1}
+cUiSetViewStatus {INVERTER} {logical} {0}
+cUiSetViewStatus {INVERTER} {abstract.pin} {17}
+cUiSetViewStatus {INVERTER} {abstract.ext} {17}
+cUiSetViewStatus {INVERTER} {abstract} {19}
+cUiSetViewStatus {INVERTER} {abstract.ver} {0}

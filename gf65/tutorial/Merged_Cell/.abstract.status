@@ -1,0 +1,6 @@
+cUiSetViewStatus {Merged_Cell} {layout} {1}
+cUiSetViewStatus {Merged_Cell} {logical} {0}
+cUiSetViewStatus {Merged_Cell} {abstract.pin} {17}
+cUiSetViewStatus {Merged_Cell} {abstract.ext} {17}
+cUiSetViewStatus {Merged_Cell} {abstract} {19}
+cUiSetViewStatus {Merged_Cell} {abstract.ver} {0}

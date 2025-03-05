@@ -1,0 +1,34 @@
+### Custom WaveView session file (version O-2018.09-SP1 build Nov 21, ) ###
+### saved at 13:59:47 on Wed Nov 13 2024 ###
+wdf 0 "/home/eng/s/sxv240035/cad/gf65/lib_cell/dff/HSPICE/dff_hspice2.tr0" load=used 
+wdf 1 "/home/eng/s/sxv240035/cad/gf65/lib_cell/dff/HSPICE/dff_hspice1.tr0" load=used 
+scalar list
+waveview_begin 6  stack  offset=0 name_b=81 mntr_b=81 name_width=66 dm=diff:157:212:2:0:0:1:0:0:1:1:0:0e+00:0e+00:5e+01:5e+01:1:1:4.83300000090602e-09:6.00000023841858e-01:5.23300000244356e-09:6.00000023841858e-01:0:0:0e+00:0:0e+00 dm=diff:455:207:2:0:0:1:0:0:1:1:0:0e+00:0e+00:5e+01:5e+01:0:2:5.97500000001104e-09:6.00000023841858e-01:6.25921010350391e-09:5.99483396625146e-01:0:0:0e+00:0:0e+00 dm=diff:496:111:2:0:0:1:0:0:1:1:0:0e+00:0e+00:5e+01:5e+01:0:1:5.02500000214302e-09:6.00000023841858e-01:5.23300000244356e-09:6.00000023841858e-01:0:0:0e+00:0:0e+00 "name=waveview 6" 
+  panel_begin linear pidx=0 spath=name+file xlabel="TIME(sec)" ylabel="V" 
+    line src=wdf lidx=0 fidx=0 "delim=." sigtype=1 "name=v(clk)" attr=0:0:1:0 autoset=true disp=show swphead=true swpline=true 
+  panel_end
+  panel_begin linear pidx=1 spath=name+file xlabel="TIME(sec)" ylabel="V" 
+    line src=wdf lidx=0 fidx=0 "delim=." sigtype=1 "name=v(d)" attr=1:1:1:0 autoset=true disp=show swphead=true swpline=true 
+  panel_end
+  panel_begin linear pidx=2 spath=name+file xlabel="TIME(sec)" ylabel="V" 
+    line src=wdf lidx=0 fidx=0 "delim=." sigtype=1 "name=v(q)" attr=4:0:1:0 autoset=true disp=show swphead=true swpline=true 
+  panel_end
+  panel_begin linear pidx=3 spath=name+file xlabel="TIME(sec)" ylabel="V" 
+    line src=wdf lidx=0 fidx=0 "delim=." sigtype=1 "name=v(r)" attr=5:0:1:0 autoset=true disp=show swphead=true swpline=true 
+  panel_end
+waveview_end
+waveview_begin 8  stack  offset=0 name_b=81 mntr_b=81 name_width=66 dm=diff:447:188:2:0:0:1:0:0:1:1:0:0e+00:0e+00:5e+01:5e+01:0:2:5.97500000017598e-09:6.00000023841858e-01:6.18242042563661e-09:5.99101254716516e-01:0:0:0e+00:0:0e+00 dm=diff:415:89:2:0:0:1:0:0:1:1:0:0e+00:0e+00:5e+01:5e+01:0:1:5.02500000221046e-09:6.00000023841858e-01:5.23299999727367e-09:6.00000023841858e-01:0:0:0e+00:0:0e+00 dm=diff:157:192:2:0:0:1:0:0:1:1:0:0e+00:0e+00:5e+01:5e+01:1:1:4.8329999972779e-09:6.00000023841858e-01:5.23299999727367e-09:6.00000023841858e-01:0:0:0e+00:0:0e+00 "name=waveview 8" 
+  panel_begin linear pidx=0 spath=name+file xlabel="TIME(sec)" ylabel="V" 
+    line src=wdf lidx=0 fidx=1 "delim=." sigtype=1 "name=v(clk)" attr=0:0:1:0 autoset=true disp=show swphead=true swpline=true 
+  panel_end
+  panel_begin linear pidx=1 spath=name+file xlabel="TIME(sec)" ylabel="V" 
+    line src=wdf lidx=0 fidx=1 "delim=." sigtype=1 "name=v(d)" attr=1:0:1:0 autoset=true disp=show swphead=true swpline=true 
+  panel_end
+  panel_begin linear pidx=2 spath=name+file xlabel="TIME(sec)" ylabel="V" 
+    line src=wdf lidx=0 fidx=1 "delim=." sigtype=1 "name=v(q)" attr=2:0:1:0 autoset=true disp=show swphead=true swpline=true 
+  panel_end
+  panel_begin linear pidx=3 spath=name+file xlabel="TIME(sec)" ylabel="V" 
+    line src=wdf lidx=0 fidx=1 "delim=." sigtype=1 "name=v(r)" attr=3:0:1:0 autoset=true disp=show swphead=true swpline=true 
+  panel_end
+waveview_end
+browserOpened

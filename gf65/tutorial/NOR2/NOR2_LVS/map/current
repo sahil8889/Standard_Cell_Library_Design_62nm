@@ -1,0 +1,15 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "NOR2"
+  repList "auCdl schematic"
+  stopList "auCdl"
+  globalList "vdd! gnd!"
+  hierDelim "."
+  netlistDir "/home/eng/s/sxv240035/cad/gf65/tutorial/NOR2/NOR2_LVS"
+ )
+( model
+( "tutorial/NOR2/schematic" "NOR2" )
+ )
+( "NOR2" "ihnl/cds0/map" )
+ )

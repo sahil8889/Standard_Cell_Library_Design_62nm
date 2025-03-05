@@ -1,0 +1,12 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1733450237 1733450242
+lvs_ExtOutFile RUNDIR /home/eng/s/sxv240035/cad/gf65/tutorial/XOR2/HSPICE
+lvs_ExtOutFile RULES_FILE /home/eng/s/sxv240035/cad/gf65/tutorial/XOR2/HSPICE/_Calibre_PEX_nom_rules_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoErcSummary {11 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST /home/eng/s/sxv240035/cad/gf65/tutorial/XOR2/HSPICE/svdb/XOR2.sp
+lvs_ExtOutFile EXTRACTION_REPORT XOR2.lvs.report.ext
+lvs_ExtOutFile ERC_DATABASE ./ERC_results.asc
+lvs_ExtOutFile ERC_SUMMARY ./ERC_results.rep

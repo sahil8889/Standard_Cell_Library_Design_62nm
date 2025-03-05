@@ -1,0 +1,6 @@
+cUiSetViewStatus {Tri_INV} {layout} {1}
+cUiSetViewStatus {Tri_INV} {logical} {0}
+cUiSetViewStatus {Tri_INV} {abstract.pin} {17}
+cUiSetViewStatus {Tri_INV} {abstract.ext} {17}
+cUiSetViewStatus {Tri_INV} {abstract} {19}
+cUiSetViewStatus {Tri_INV} {abstract.ver} {0}

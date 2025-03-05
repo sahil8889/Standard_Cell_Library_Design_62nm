@@ -1,0 +1,12 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1733447819 1733447821
+lvs_ExtOutFile RUNDIR /home/eng/s/sxv240035/cad/gf65/tutorial/AOI22/AIO22_LVS
+lvs_ExtOutFile RULES_FILE /home/eng/s/sxv240035/cad/gf65/tutorial/AOI22/AIO22_LVS/_Calibre_LVS_rules_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoErcSummary {11 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST /home/eng/s/sxv240035/cad/gf65/tutorial/AOI22/AIO22_LVS/AOI22.sp
+lvs_ExtOutFile EXTRACTION_REPORT AOI22.lvs.report.ext
+lvs_ExtOutFile ERC_DATABASE AOI22.erc.results
+lvs_ExtOutFile ERC_SUMMARY AOI22.erc.summary
